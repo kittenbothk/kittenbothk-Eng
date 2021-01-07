@@ -1,11 +1,11 @@
-﻿各種功能配件
+﻿Functional Modules
 ====================
 
-支援Microbit之各種配件介紹及詳細資訊
+Information and tutorials related to Micro:bit compatible modules.
 
 .. toctree::
     :maxdepth: 1
-    :caption: Powerbrick魔塊
+    :caption: Powerbrick Modules
 
     PWmodules/index
 
@@ -32,19 +32,19 @@
 
 .. toctree::
     :maxdepth: 1
-    :caption: WifiBrick與IoT方案
+    :caption: IoT Solutions & Wifibrick
 
     Wifibrick/index
 
 .. toctree::
     :maxdepth: 1
-    :caption: AI鏡頭KOI
+    :caption: AI Camer KOI
 
     AI Cam/index
 
 .. toctree::
     :maxdepth: 1
-    :caption: 流光溢彩屏
+    :caption: RGB LED Screens
     :glob:
 
     ../accessories/LEDMatrix/index

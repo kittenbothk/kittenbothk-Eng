@@ -1,7 +1,7 @@
-Meowbit喵比特
+Meowbit
 =================
 
-Meowbit介紹及詳細資訊
+Information about Meowbit and related tutorials.
 
 .. toctree::
     :maxdepth: 1

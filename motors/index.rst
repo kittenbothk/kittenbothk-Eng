@@ -1,6 +1,6 @@
-各款電機與舵機
+Actuators
 ================
-Kittenbot各款電機與舵機的資料。
+Information about actuators including motors and servos.
 
 .. toctree::
     :maxdepth: 1

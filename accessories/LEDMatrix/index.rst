@@ -1,7 +1,7 @@
-流光溢彩屏
+RGB LED Screens
 ===========
 
-流光溢彩屏各項資料/教程
+Information and tutorials related to RGB LED Screens.
 
 .. toctree::
     :maxdepth: 1

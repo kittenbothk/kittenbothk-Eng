@@ -1,7 +1,7 @@
-Microbit擴展板
-====================
+Microbit Expansion Boards
+==========================
 
-支援Microbit之擴展板資訊
+Information about Micro:bit compatible Expansion Boards.
 
 .. toctree::
     :maxdepth: 1

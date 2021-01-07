@@ -1,7 +1,7 @@
-MakeCode編程平台教學
+MakeCode Tutorial
 ====================
 
-MakeCode編程平台的教學。
+Tutorials on how to use the MakeCode platform by Microsoft.
 
 .. toctree::
     :maxdepth: 2

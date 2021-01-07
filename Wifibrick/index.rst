@@ -1,7 +1,7 @@
-﻿Wifibrick與IoT方案
-====================
+﻿IoT Solutions and Wifibrick
+========================
 
-要用micro:bit製作IoT方案,需要用上wifi模組把訊息來回傳送到IoT平台。Kittenbot為此研發出Wifibrick,讓各喵粉輕鬆穿梭各IoT平台。
+Developing IoT applications with the Micro:bit is impossible without a WiFi module, therefore Kittenbot developed Wifibrick, an easy to use module allowing your Micro:bit to access IoT platforms.
 
 .. toctree::
     :maxdepth: 1

@@ -1,34 +1,35 @@
 ﻿Kittenbot HK Sharing Hub
 ==========================================
-歡迎來到Kittenbot HK的Coding & STEM Sharing Hub，這裡可以找到Kittenbot 的編程與STEM產品學習資訊﹑使用秘訣﹑應用分享及購買方法等… 讓”貓粉”能夠集中在這裏找到最新的”貓訊”
+
+Welcome to the Coding & STEM Sharing Hub of Kittenbot HK, here you will find all the knowledge and information related to Kittenbot's products, including product details, specifications, use case sharing and coding tutorials.
 
 .. toctree::
     :maxdepth: 1
-    :caption: BBC micro:bit第二代
+    :caption: BBC micro:bit V2
 
     microbitv2/intro.md
 
 .. toctree::
     :maxdepth: 2
-    :caption: KittenBlock介紹與使用方法
+    :caption: KittenBlock Introduction and Tutorial
 
     KittenBlock/index
 
 .. toctree::
     :maxdepth: 2
-    :caption: KittenCode介紹與使用方法
+    :caption: KittenCode Introduction and Tutorial
 
     KittenCode/index
 
 .. toctree::
     :maxdepth: 2
-    :caption: MakeCode介紹與使用方法
+    :caption: MakeCode Introduction and Tutorial
 
     Makecode/index
 
 .. toctree::
     :maxdepth: 2
-    :caption: IoT方案與Wifibrick
+    :caption: IoT Solutions & Wifibrick
 
     Wifibrick/index
 
@@ -40,24 +41,24 @@
 
 .. toctree::
     :maxdepth: 2
-    :caption: Micro:bit擴展板說明及入門教程
+    :caption: Micro:bit Expansion Boards and Tutorials
     
     Microbit_eboard/index
 
 .. toctree::
     :maxdepth: 2
-    :caption: 各種功能配件
+    :caption: Functional Modules
 
     functional_module/index
 
 .. toctree::
     :maxdepth: 2
-    :caption: 各款電機與舵機
+    :caption: Actuators
 
     motors/index
 
 .. toctree::
     :maxdepth: 2
-    :caption: 教育套件
+    :caption: Educational Kit Sets
 
     Kits/index

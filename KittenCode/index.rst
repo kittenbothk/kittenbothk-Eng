@@ -1,9 +1,9 @@
-KittenCode大全
+KittenCode
 =========================
 
-KittenCode是KittenBot開發的Python編程平台，它是專為中學生學習編程而設計的。
+KittenCode is a Python IDE developed by KittenBot to facilitate coding education for secondary school students.
 
-KittenCode不但支援一般的Python編程，它更支援對KittenBot旗下產品進行Python編程。
+KittenCode not only supports normal Python programming, it also supports programming on KittenBot's products based using MicroPython.
 
 .. toctree::
     :maxdepth: 1

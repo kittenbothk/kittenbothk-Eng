@@ -1,7 +1,7 @@
-教育套件
+Educational Kit Sets
 ==========================================
 
-各款Kittenbot套件產品的介紹和支援。
+Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
@@ -17,38 +17,38 @@
 
 .. toctree::
     :maxdepth: 2
-    :caption: Meowbit發明家套件
+    :caption: Meowbit Creator Kit
 
     meowbit_creator/index
 
 .. toctree::
     :maxdepth: 2
-    :caption: 電路科學實驗教學套件
+    :caption: Circuitry Experiments Kit
 
     paper_circuitry/index
 
 .. toctree::
     :maxdepth: 2
-    :caption: Robotbit 大班教學套件
+    :caption: Robotbit Classroom Kit
 
     classroom/index
 
 .. toctree::
     :maxdepth: 2
-    :caption: SumoBot 12合1套件
+    :caption: SumoBot 12-in-1
 
     12in1/index
 
 
 .. toctree::
     :maxdepth: 2
-    :caption: 四驅麥輪車套件
+    :caption: Mecanum Wheels Robot Kit
 
     mecanum/index
 
 .. toctree::
     :maxdepth: 2
-    :caption: MR STEMer Kart Lite套件
+    :caption: MR STEMer Kart Lite Kit
 
     robotbit_kart/index
 

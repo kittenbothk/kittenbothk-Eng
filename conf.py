@@ -67,7 +67,7 @@ extensions = [
     'sphinx.ext.autosectionlabel',  # 异页跳转
     # [My Subtitle][]
     # [My Subtitle]: <path/to/md:title>
-
+    'recommonmark'
     # 'sphinxcontrib.httpdomain',
     # "sphinx_rtd_theme"
 ]

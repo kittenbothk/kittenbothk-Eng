@@ -1,120 +1,121 @@
-# 流光溢彩屏之靜態效果教程
+# RGB LED Screen - Static Effects Tutorial
 
-本教程將會教大家使用neomatrix插件對溢彩屏進行編程，顯示靜態的文字或圖案。
+This tutorial is about programming the RGB LED Screen to display static text or icons.
 
-## 接線
+## Wiring
 
-0832溢彩屏需要配合robotbit使用，請按照下圖將屏幕與robotbit接線。
+RGB LED Screen is used with the Robotbit, please refer to the following figures. 
 
-### 1. 將彩屏與轉接板連接。
+### 1. Connect the screen to the adapter.
 
 ![](./LEDMatrixT1/matrixtoadapter.jpg)
 
-### 2. 將轉接板連接到robotbit。
+### 2. Connect the adapter to Robotbit。
 
 ![](./LEDMatrixT3/adaptertorobotbit.png)
 
-### 3. 長時間使用請使用USB供電。
+### 3. For prolonged use, connect a USB power.
 
-USB供電時，不需要使用Robotbit供電，請將5V電源線拔走。
+As power is delivered via USB, you don't have to use the 5V pin on the adapter.
 
 ![](./LEDMatrix/usb.jpg)
 
-### 4. 完整接線示範
+### 4. Demonstration of wiring
 
 ![](./LEDMatrix/usbpower.jpg)
 
-## Makecode編程教學（只限離線版makecode）
+## Makecode Coding Tutorial (Only for Offline Version of MakeCode)
 
 ![](./images/mcbanner.png)
 
-假如我們想顯示文字或圖形，使用neopixel實在太麻煩了，有見及此kittenbot推出了neomatrix插件，容許圖像化的圖案編輯。
+It is troublesome to display text or images using NeoPixel, therefore Kittenbot has developed NeoMatrix to make it easy for users.
 
-#### (注意，本插件只支援離線版makecode)
+#### (This plugin is only supported in offline MakeCode)
 
-KittenBot官方離線版Makecode下載：https://www.kittenbot.cn/software
+Download Kittenbot's MakeCode：https://www.kittenbot.cn/software
  
-### 1.加載neomatrix插件
+### 1. Load NeoMatrix Extension
 
-neomatrix插件: https://github.com/KittenBot/pxt-neomatrix
+NeoMatrix Extension: https://github.com/KittenBot/pxt-neomatrix
 
 ![](./LEDMatrixT1/2.png) 
 
 ![](./LEDMatrixT2/ext.png) 
 
-#### neomatrix積木塊:
+#### NeoMatrix blocks:
 
 ![](./LEDMatrixT2/blocks.png)
 
-    注意：現階段溢彩屏並不兼容powerbrick！請使用robotbit！
-    PowerBrick只支援套件中的全彩點陣屏。
+    Warning! This is incompatible with Powerbrick extension, only use Robotbit.
+    Powerbrick only supports the included RGB module.
 
-### 2.點擊NeoMatrix Editor進入編輯器
+### 2. Enter NeoMatrix Editor
 
 ![](./LEDMatrixT2/edit.png)
 
-首先選擇溢光屏類型（16x16/8x32）
+Choose type of screen.（16x16/8x32）
 
 ![](./LEDMatrixT2/editor1.png)
 
-我們亦可以在文字欄輸入文字，按Render生成圖案。
+Enter text in the Text Content Box, and then click Render Text.
 
 ![](./LEDMatrix/hello.png)
 
-可以在黑色像素格上點擊，畫出你想要的圖案。（單擊填色，雙擊清除）
+Draw by filling the squares. (Click to color, double click to clear.)
 
 ![](./LEDMatrixT2/editor2.png)
 
-我們可以按Add Frame增加一幀。
+Add another frame by clicking Add Frame.
 
 ![](./LEDMatrixT2/editor3.png)
 
-我們亦可以按Open Image直接生成圖案。
+Auto-generate pattern by clicking Open Image.
 
 ![](./LEDMatrix/bianjiqi4.png)
 
 ![](./LEDMatrix/glasses.png)
 
-我們需要製作2幀圖案，完成後在Output欄中點擊Matrix Panel，生成積木。
+Finish your frames then click Matrix Panel in Output column to generate the blocks.
 
 ![](./LEDMatrixT2/editor4.png)
 
-返回makecode主介面後我們可以看到NeoMatrix中新增了一塊叫Show Frame的積木。
+Return to MakeCode Editor, a block called Show Frame will appear.
 
 ![](./LEDMatrixT2/editor5.png)
 
-### 3.編寫程式
+### 3. Coding
 
-每半秒，彩屏上的圖案就會跳一次。
+Toggle between frames every 500ms.
 
-![](./LEDMatrixT2/image4144.png)
+![](./LEDMatrixT2/code1.png)
 
-    用PowerBrick套件中的全彩點陣屏請使用PowerBrick積木。
+    Use the PowerBrick block if you are using the RGB module in PowerBrick.
 
-[參考程式下載](https://bit.ly/LEDMatrixT2_01Hex)
+[Sample Code Download](https://bit.ly/LEDMatrixT2_01Hex)
 
-[參考程式網址](https://makecode.microbit.org/_02iY5iJkJfy2)
+[Sample Code Link](https://makecode.microbit.org/_02iY5iJkJfy2)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
-問：為什麼我點亮燈板的時候，燈板未能顯示我定下的顏色，燈板只點亮了紅色？
+Q: Why is red the only colour lit up when I try to use different colours?
 
-答：電源不足夠。
+A: There is not enough power.
 
-解決方法：將robotbit的電源打開，或者在供電轉接板加插外部USB電源。
+Solution: Reduce brightness or turn on the power on the Robotbit, or connect to a USB power.
 
-## 注意事項
-- 請勿接駁電壓高於5V的電源。
-- 長時間使用請接駁USB外部電源。
-- 要點亮大量LED的時候請將亮度減低。
-- 本產品只適合14歲以上的兒童獨立使用，8-14歲兒童請在成年人的陪同下使用。
-- 使用前請參考Kittenbot官方資料，不要隨便接駁電路，請勿外接大電流電機舵機。
-- 請勿在金屬表面或導電性物料上使用，以免短路。
-- 請勿在有水或潮濕的地方使用，以免短路。
-- 請勿用手觸碰燈板外露的電線。
+## Precautions
+
+- Do not connect a power supply with a voltage higher than 5V.
+- Connect to a USB power supply when for prolonged use.
+- Lower the brighness when a lot of LEDs are lit.
+- This product is suitable for users aged over 14, children aged 8-14 need to be under the supervision of an adult when using this product.
+- Please refer to Kittenbot's official guidelines before using, wiring must follow the guidelines, do not use a high power servo or motor when using this product.
+- To avoid short circuiting, do not put this product on conductive surfaces such as metal.
+- To avoid short circuiting, do not put this product in water.
+- Do not touch the exposed wires with bare hands.

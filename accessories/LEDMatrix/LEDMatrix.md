@@ -1,62 +1,61 @@
-# 流光溢彩屏介紹
+# RGB LED Screen
 
-0832流光溢彩屏 (HKBM8008A) / 1616流光溢彩屏 (HKBM8009A)
+08x32RGB LED Screen (HKBM8008A) / 16x16RGB LED Screen (HKBM8009A)
 
-## 產品簡介
+## Product Description
 
-這是一塊全彩RGB軟屏，它的特點在於容易攜帶與靈活性高。只要使用官方的拓展就能夠進行編程。
+This is a soft screen with RGB LEDs, it is easily portable and fexible. Graphical programming is possible with our official extension.
 
 ![](./LEDMatrix/zhanshi_2.png)
 
 ![](./LEDMatrix/rshiyitu_2.png)
 
-## 產品特色
+## Product Feautures
 
-- 圖像化介面編程
-- 支援模組式串聯
-- 支援外部供電
-- 輕便小巧
-- 柔軟可屈
+- Graphical Programming Interface
+- Modularity, supports daisy chaining of multiple screens
+- Can be powered externally
+- Lightweight
+- Flexibility
 
-## 產品資料
+## Product Information
  
-__8x32柔性屏(HKBM8008A)__
+__8x32 RGB LED Screen(HKBM8008A)__
 
-- 長x闊x高：320mm x 80mm x2mm
-- 重量：55g
-- 物料：軟銅板
-- 256顆全彩LED
+- Dimensions：320mm x 80mm x2mm
+- Weight：55g
+- Material：Soft copper
+- 256 RGB LEDs
 
-__16x16柔性屏(HKBM8009A)__
+__16x16 RGB LED Screen(HKBM8009A)__
 
-- 長x闊x高：160mm x 160mm x2mm
-- 重量：55g
-- 物料：軟銅板
-- 256顆全彩LED
+- Dimensions：160mm x 160mm x2mm
+- Weight：55g
+- Material：Soft copper
+- 256 RGB LEDs
 
-## 產品內容：
+## Contents：
 
-### 1x燈板(16x16或32x8)
+### 1xRGB LED Screen(16x16 or 32x8)
 
 ![](./LEDMatrix/zhanshi_1.png)
 
-### 1x供電轉接板
+### 1xAdapter
 
-每一塊彩屏都附有一個供電轉接板，它是彩屏與Robotbit之間的介面，將彩屏的接口轉為杜邦線，並附有5V USB供電接口。
-在長時間使用時可以取代robotbit的18650鋰電池；提供比較穩定的電源，避免損毀robotbit。
+Each LED screen comes with an adapter. The adpater helps you connect the screen with the Robotbit by providing dupont cables and a 5V USB power input. For prolonged usage, the power connector can replace the 18650 Li-ion battery on the robotbit, sustaining a stable power supply without damaging the Robotbit.
 
 ![](./LEDMatrix/f.jpg)
 
-## 產品展示
+## Product Showcase
 
 ![](./LEDMatrix/show2.png)
 
-## 技術參數 
+## Specifications 
 
-- 電壓：5V
-- 電流：1A、長時間使用建議使用USB供電
-- 功率: 0.3W
-- 材料：軟銅板
-- 亮度分級：256級
-- 流明：120
+- Voltage：5V
+- Current：1A, USB power is recommended for prolonged use
+- Wattage: 0.3W
+- Material：Soft copper
+- Brightness gradient：256
+- Lumen：120
 

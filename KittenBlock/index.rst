@@ -1,4 +1,4 @@
-Kittenblock大全
+Kittenblock
 =========================
 
 Kittenblock is a coding platform designed for kids and teenagers, not only does it support programming for the Canvas and microcontrollers such as Micro:bit and Arduino, it also supports programming for Kittenbot's products such as AI Camera KOI. Programs can be uploaded to the hardware to run without connecting to the computer, or you can connect the hardware to the computer for more interesting interactions.

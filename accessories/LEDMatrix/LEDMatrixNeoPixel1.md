@@ -1,202 +1,204 @@
-# 流光溢彩屏之Neopixel教程
+# RGB LED Screen - Neopixel Tutorial
 
-本教程將會教大家使用neopixel插件對溢彩屏進行編程。
+This tutorial is about programming the RGB LED Screen using the Neopixel extension.
 
-大家將會學習如何點亮燈板包括：全屏單色點亮、全屏彩虹點亮、範圍點亮、流水效果等。
+Effects such as lighting up the whole screen with single or multiple colours, lighting up just a range or marquee effects.
 
-## 接線
+## Wiring
 
-0832溢彩屏需要配合robotbit使用，請按照下圖將屏幕與robotbit接線。
+RGB LED Screen is used with the Robotbit, please refer to the following figures. 
 
-### 1. 將彩屏與轉接板連接。
+### 1. Connect the screen to the adapter.
 
 ![](./LEDMatrixT1/matrixtoadapter.jpg)
 
-### 2. 將轉接板連接到robotbit。
+### 2. Connect the adapter to Robotbit。
 
 ![](./LEDMatrixT3/adaptertorobotbit.png)
 
-### 3. 長時間使用請使用USB供電。
+### 3. For prolonged use, connect a USB power.
 
-於轉接板加插USB電源即可。不需要使用Robotbit供電，請將5V電源線拔走。
+As power is delivered via USB, you don't have to use the 5V pin on the adapter.
 
 ![](./LEDMatrix/usb.jpg)
 
-### 4. 完整接線示範
+### 4. Demonstration of wiring
 
 ![](./LEDMatrix/usbpower.jpg)
 
-### LED排位：
+### LED arrangement：
 
-由於彩屏是用蛇形路線將LED燈帶排列成長方形，每顆燈都可以獨立使用，LED排列請參考下圖。
+The LEDs on the screen are wired in a zig zag pattern in to a rectangle, please refer to the following figures.
 
-#### 8x32彩屏
+#### 8x32 screen
 
 ![](./LEDMatrixT1/0832.png)
 
 ![](./LEDMatrixT1/0832pixels.png)
 
-#### 16x16彩屏
+#### 16x16 screen
 
 ![](./LEDMatrixT1/1616.png)
 
 ![](./LEDMatrixT1/1616pixels.png)
 
-## Makecode編程教學
+## Makecode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-#### 加載robotbit擴展。
+#### Load the Robotbit extension.
 
 ![](./LEDMatrixT1/2.png) 
 
 ![](./LEDMatrixT1/1.png) 
 
-#### neopixel積木塊:
+#### Neopixel blocks:
 
 ![](./LEDMatrixT1/3.png) 
 
-### 初始化溢彩屏
+### LED Screen Initialization:
 
 ![](./LEDMatrixT1/code1.png)
 
-    由於8*32和16*16均有256顆LED，我們初始一條256顆燈的燈條。
+    Since there are 256 LEDs on the screen, we initialize a light strip with 256 LEDs.
 
-### 全屏單色點亮
+### Lighting up the whole screen.
 
-我們可以將整個屏幕以單一顏色點亮。
+We can light up the screen with a single colour.
 
 ![](./LEDMatrixT1/code2.png)
 
-    我們可以選擇多款預設顏色。
+    You can select a colour from the presets.
     
 ![](./LEDMatrixT1/allred.jpg)
 
-[參考程式下載](https://bit.ly/LEDMatrixT1_01Hex)
+[Sample Code Download](https://bit.ly/LEDMatrixT1_01Hex)
 
-[參考程式網址](https://makecode.microbit.org/_XDpRDjarw5cH)
+[Sample Code Link](https://makecode.microbit.org/_XDpRDjarw5cH)
 
-### 彩虹色點亮
+### Rainbow Effect
 
-我們可以將整個屏幕以彩虹色點亮。
+We can apply a rainbow effect to the screen.
 
 ![](./LEDMatrixT1/code3.png)
 
-    彩虹效果使用的是HSL格式（色相，飽和度，亮度）
-    彩色的電流比較大，在高亮度的情況下需要外接USB電源。
-    流動充電器電流可能不夠，所以這裡外接了手機充電器。
+    Rainbow effect uses the HSL format.
+    Showing multiple colours require more power, you may need to connect the external power.
     
 ![](./LEDMatrixT1/rainbow.jpg)
 
-[參考程式下載](https://bit.ly/LEDMatrixT1_02Hex)
+[Sample Code Download](https://bit.ly/LEDMatrixT1_02Hex)
 
-[參考程式網址](https://makecode.microbit.org/_Kj80s46jqCju)
+[Sample Code Link](https://makecode.microbit.org/_Kj80s46jqCju)
 
-### 亮度調節
+### Adjusting brightness
 
-為了眼睛健康建議大家調低亮度。
+It is recommended to lower the brightness to reduce the current and to avoid damage to our eyes.
 
 ![](./LEDMatrixT1/code4.png)
     
-    亮度數值範圍由0-255
-    在較低亮度的情況下電流需求較低，所以即使彩虹色也不需外接電源。
+    The brightness value ranges from 0 to 255.
+    Since the current is reduced, there is no need for external power.
 
 ![](./LEDMatrixT1/brightness.jpg)
 
-[參考程式下載](https://bit.ly/LEDMatrixT1_03Hex)
+[Sample Code Download](https://bit.ly/LEDMatrixT1_03Hex)
 
-[參考程式網址](https://makecode.microbit.org/_2diVmMKc4ThV)
+[Sample Code Link](https://makecode.microbit.org/_2diVmMKc4ThV)
     
-### 單一顆燈點亮
+### Lighting up a single LED
 
-我們可以單獨控制每顆燈。
+Each LED can be individualy controlled.
 
 ![](./LEDMatrixT1/code5.png)
 
-    設置後需要運行刷新顯示才會點燈。
+    The effect only shows after using show.
     
 ![](./LEDMatrixT1/pixel.jpg)
 
-[參考程式下載](https://bit.ly/LEDMatrixT1_04Hex)
+[Sample Code Download](https://bit.ly/LEDMatrixT1_04Hex)
 
-[參考程式網址](https://makecode.microbit.org/_AsPV8k5RqTbR)
+[Sample Code Link](https://makecode.microbit.org/_AsPV8k5RqTbR)
   
-### 流水效果
+### Marquee effect
    
-流水效果可以將圖元移動，有移動和迴圈兩種模式選擇。
+Pixels can move when we use a marquee effect, there are two modes in Marquee, shift or rotate.
 
-注意效果要使用刷新才會顯示。
+    Effects are only shown after refreshing.
+
+### Shift mode
 
 ![](./LEDMatrixT1/code6.png)
 
 ![](./LEDMatrixT1/ledmove.gif)
 
-[參考程式下載](https://bit.ly/LEDMatrixT1_05Hex)
+    In shift mode, the animation ends after the pixel reaches the end.
 
-[參考程式網址](https://makecode.microbit.org/_J0hJf2AmrUsY)
+[Sample Code Download](https://bit.ly/LEDMatrixT1_05Hex)
+
+[Sample Code Link](https://makecode.microbit.org/_J0hJf2AmrUsY)
   
-#### 或者
+#### Rotate mode
 
 ![](./LEDMatrixT1/code7.png)
 
 ![](./LEDMatrixT1/ledloop.gif)
 
-[參考程式下載](https://bit.ly/LEDMatrixT1_06Hex)
+    In rotate mode, the animation restarts after the pixel reaches the end.
 
-[參考程式網址](https://makecode.microbit.org/_RACcp4VzPD21)
+[Sample Code Download](https://bit.ly/LEDMatrixT1_06Hex)
 
-    移動和迴圈的分別在於移動模式達至盡頭會消失，迴圈模式達至盡頭後仍然會重複。
+[Sample Code Link](https://makecode.microbit.org/_RACcp4VzPD21)
     
-### 範圍點亮
+### Selecting a range
 
-我們可以選擇某一部分的圖元進行個別點亮。
+We can control a range of LEDs.
 
 ![](./LEDMatrixT1/code9.png)
 
-    這裡由圖元10開始選擇4顆圖元，等於燈板上的10、11、12和13圖元。
-
+    Selecting 4 LEDs starting from pixel 10. (10, 11, 12 ,13)
+    
 ![](./LEDMatrixT1/ledrange.jpg)
 
-[參考程式下載](https://bit.ly/LEDMatrixT1_07Hex)
+[Sample Code Download](https://bit.ly/LEDMatrixT1_07Hex)
 
-[參考程式網址](https://makecode.microbit.org/_FTRb2M4hm2Ke)
+[Sample Code Link](https://makecode.microbit.org/_FTRb2M4hm2Ke)
 
-### 自訂顏色
+### Customizing Colour
 
-除了預設的顏色之外，我們亦可以透過RGB和HSL來自訂顏色。
+We can customize colours using RGB or HSV format.
 
 ![](./LEDMatrixT1/code8.png)
-
-    在Google搜尋RGB Color Picker可以方便地獲取顏色的數值。
     
 ![](./LEDMatrixT1/rgbhsl.gif)
 
-[參考程式下載](https://bit.ly/LEDMatrixT1_08Hex) 
+[Sample Code Download](https://bit.ly/LEDMatrixT1_08Hex) 
 
-[參考程式網址](https://makecode.microbit.org/_KirTzVa9JX6q)
+[Sample Code Link](https://makecode.microbit.org/_KirTzVa9JX6q)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
-問：為什麼我點亮燈板的時候，燈板未能顯示我定下的顏色，燈板只點亮了紅色？
+Q: Why is red the only colour lit up when I try to use different colours?
 
-答：電源不足夠。
+A: There is not enough power.
 
-解決方法：將robotbit的電源打開，或者在供電轉接板加插外部電源（支援USB）。
+Solution: Reduce brightness or turn on the power on the Robotbit, or connect to a USB power.
 
-## 注意事項
-- 請勿接駁電壓高於5V的電源。
-- 長時間使用請接駁USB外部電源。
-- 要點亮大量LED的時候請將亮度減低。
-- 本產品只適合14歲以上的兒童獨立使用，8-14歲兒童請在成年人的陪同下使用。
-- 使用前請參考Kittenbot官方資料，不要隨便接駁電路，請勿外接大電流電機舵機。
-- 請勿在金屬表面或導電性物料上使用，以免短路。
-- 請勿在有水或潮濕的地方使用，以免短路。
-- 請勿用手觸碰燈板外露的電線。
+## Precautions
+
+- Do not connect a power supply with a voltage higher than 5V.
+- Connect to a USB power supply when for prolonged use.
+- Lower the brighness when a lot of LEDs are lit.
+- This product is suitable for users aged over 14, children aged 8-14 need to be under the supervision of an adult when using this product.
+- Please refer to Kittenbot's official guidelines before using, wiring must follow the guidelines, do not use a high power servo or motor when using this product.
+- To avoid short circuiting, do not put this product on conductive surfaces such as metal.
+- To avoid short circuiting, do not put this product in water.
+- Do not touch the exposed wires with bare hands.
 
 

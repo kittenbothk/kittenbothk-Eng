@@ -1,182 +1,181 @@
-# 1616溢彩屏之動態效果教程
+# 16x16 RGB LED Screen - Dynamic Effects Tutorial 
 
-先前教程提及過，neomatrix的流水走字效果並不支援16x16的燈板。
+As of currently, NeoMatrix does not support animations for 16x16 RGB LED Screens.
 
-本節教程將會教大家手動編寫16x16的流水效果。
+This tutorial is about **MANUALLY** programming the RGB LED Screen to display animated text or icons.
 
-## 接線
+## Wiring
 
-0832溢彩屏需要配合robotbit使用，請按照下圖將屏幕與robotbit接線。
+RGB LED Screen is used with the Robotbit, please refer to the following figures. 
 
-### 1. 將彩屏與轉接板連接。
+### 1. Connect the screen to the adapter.
 
 ![](./LEDMatrixT1/matrixtoadapter.jpg)
 
-### 2. 將轉接板連接到robotbit。
+### 2. Connect the adapter to Robotbit。
 
 ![](./LEDMatrixT3/adaptertorobotbit.png)
 
-### 3. 長時間使用請使用USB供電。
+### 3. For prolonged use, connect a USB power.
 
-USB供電時，不需要使用Robotbit供電，請將5V電源線拔走。
+As power is delivered via USB, you don't have to use the 5V pin on the adapter.
 
 ![](./LEDMatrix/usb.jpg)
 
-### 4. 完整接線示範
+### 4. Demonstration of wiring
 
 ![](./LEDMatrix/usbpower.jpg)
 
-## 流光溢彩屏進階Makecode編程
+
+## Advanced MakeCode Tutorial
 
 ![](./images/mcbanner.png)
 
-1. 本節教程將會用到robotbit插件，請將插件加載於makecode。
+1. Load the Robotbit extension.
 
 ![](./LEDMatrixT1/2.png) 
 
 ![](./LEDMatrixT1/1.png) 
 
-2. 本節教程亦會用到neomatrix的編輯器。
+2. Open NeoMatrix Editor in your browser
 
-    ### [neomatrix編輯器](https://kittenbot.github.io/pxt-neomatrix/index.html)
+    ### [NeoMatrix Editor](https://kittenbot.github.io/pxt-neomatrix/index.html)
     
 
 
-    請勿加載neomatrix插件！否則將會出現錯誤！
-    只需要在瀏覽器打開編輯器即可。
+    Do not load the NeoMatrix extension.
 
-### 單幀流水動畫
 
-#### 編程教學
+### Animation with single frame
 
-請先將燈板設置為矩陣。
+#### Coding tutorial
 
-    有關矩陣的詳細教學可以參考《流光溢彩屏neopixel矩陣教程》。
+Initialize the screen as a matrix.
+
+    Refer to the following link for tutorial on RGB LED Screen and Matrices.
     
-[流光溢彩屏neopixel矩陣教程](./LEDMatrixT3.md)
+[RGB LED Screen and Matrices](./LEDMatrixT3.md)
 
 ![](./LEDMatrixT4/code1.png)
 
-    注意：這裡我們設置變數strip改為rgb，這有助我們之後的操作。
+    Setting the variable name to rgb aids our operations later on.
 
-接下來我們要添加一個函式。
+Add a function.
 
 ![](./LEDMatrixT4/function1.png)
 
 ![](./LEDMatrixT4/function3.png)
 
-現階段我們只需要將以下積木添加至我們剛剛做的函式和無限重複積木塊裏。
+For now, the function just need to contain these blocks.
 
 ![](./LEDMatrixT4/code2.png)
 
-接下來我們轉到neomatrix的編輯器。
-在編輯器繪畫我們想要的圖畫。
+Switch to NeoMatrix Editor and create your pattern.
 
-完成之後我們要在Input中按Makecode JS。
+Select MakeCode JS Code. 
 
 ![](./LEDMatrixT4/editor1.png)
 
-生成Javascript編碼之後我們將rgb.clear()至到rgb.show()之內的程式複製。
+Copy the JavaScript code from rgb.clear() to rgb.show().
 
 ![](./LEDMatrixT4/editor2.png)
         
-在makecode之中我們需要按JavaScript切換至JavaScript模式。
+Switch to JavaScript mode in MakeCode.
 
 ![](./LEDMatrixT4/editor3.png)
 
-現在我們找出我們剛才做的函式。
+Navigate to the function we created.
 
-然後將剛才複製的程式在strip.clear()和basic.pause()中間貼上。
+Paste our code between strip.clear() and basic.pause().
 
 ![](./LEDMatrixT4/js2.png)
 
-之後我們需要手動檢查Y的數值以修正X。假如Y的數值為雙數，我們要用矩陣闊度與X相減。
+Manually check the value of Y. If Y is an even number, minus X from the width of matrix.
 
 ![](./LEDMatrixT4/js1.png)
 
-    電腦由0開始計算，所以我們需要用15來修正X。
-    用PowerBrick套件中的全彩點陣屏的話不需要更改。
+    Computer count from 0, so 15 is the width of the matrix.
+    The RGB Module is Powerbrick is wired differently and does not require this modification.
 
-修正所有數值之後就可以進行下一步。
+Modify all values.
 
-在變數欄中增加2項變數，用來控制燈板動畫。
+Add 2 variables for controlling the animation.
 
 ![](./LEDMatrixT4/editor4.png)
 
-    注意：因為X的方向會左右相反，我們必須2項變數，1項為順序(position)，另1項為倒序(reversepos)。
-    這教程是想控制圖畫的左右移動，如欲做到上下移動，請參考本教程自行修改程式。
+    Since the direction of X changes each row, we need 2 variables to control the direction, 1 to represent forwards and 1 to represent backwards.
+    This tutorial is about horizontal movement, for vertical movement please refer to the logic given and modify your code accordingly.
 
-完成後我們在程式增加以下積木。
+Add the following blocks.
 
 ![](./LEDMatrixT4/code3.png)
 
-我們切換至JavaScript模式，手動檢查Y的數值。假如Y為單數，我們在X加上position +，否則我們加上reversepos +。
+Switch into JavaScript mode and check Y. If Y is an odd number, add position+ to X, else add reversepos+ to X.
 
 ![](./LEDMatrixT4/js3.png)
 
-修正所有數值之後就大功告成了！
+Change all values and it is done.
 
 ![](./LEDMatrixT4/1frame.gif)
 
-[參考程式](https://bit.ly/LEDMatrixT4_01Hex)
+[Sample Code Download](https://bit.ly/LEDMatrixT4_01Hex)
 
-[參考程式網址](https://makecode.microbit.org/_dtwYPt8zvXEp)
+[Sample Code Link](https://makecode.microbit.org/_dtwYPt8zvXEp)
 
-### 雙幀流水動畫
+### Animation with multiple frames
 
-上文教了大家創作地單一幅幀數的動畫，有了這個基礎，我們製作多幀動畫時就較容易上手。
+#### Coding Tutorial
 
-#### 編程教學
+Using the code from above, create the second frame in NeoMatrix Editor.
 
-我們會沿用上部分已完成的程式。我們先到neomatrix編輯器生成第二幅圖畫。
+Paste the JavaScript code after the code for 1st frame and change X with the same logic.
 
-生成之後將JavaScript程式碼貼在第一幀後。 按照上部分手動更改X的數值。
-
-為第二幀圖畫增添一個抵銷(offset)。Y為單數的時候要-15，否則+15。
+Add an offset to X for the 2nd frame. -15 when Y is odd, +15 if otherwise.
 
 ![](./LEDMatrixT4/js4.png)
 
-    增加了offset，第二幀圖畫會在彩屏外的範圍出現，隨著位置的轉變，圖畫會走入彩屏範圍裏。
-    抵銷的數值為燈板闊度並因幀數調節，這裡添加了一幀，所以我們加減15(15x1=15)。
+    With the offset, the 2nd frame appears outside of the matrix, as the position changes, the frame moves into the RGB Screen.
+    The offset is calculated by multiplying the number of frames by the width of matrix. Since 1 frame is added, the offset is 15(15x1=15).
 
-切換至積木模式，更改動畫重置的臨界點。
+Switch back to blocks editor, change the point of where the animation resets.
 
 ![](./LEDMatrixT4/code4.png)
 
 
-    臨界點數值和重置位置可能因應圖畫而轉變。
-    這裡設置臨界點為24，重置點為-8，代表動畫重置前移動32格(2幀圖畫的總闊度)。
-    假如你想較早重置，您可以將臨界點調低，反之亦然。
-    一般而言，重置點都會設在0以下，這可以避免動畫突然重置到畫面上。
+    The reset point and restarting position may change for your pattern.
+    Here, the reset point is set to 24, the restarting position is set to -8. Which means the animation moves 32 pixels before resetting(the total width of the 2 frames).
+    Lowering the reset point results in an earlier end to the animation, and vice versa.
+    Restarting position is usually set to below 0, this is just to create the effect that the frame is moving into the matrix.
 
-大功告成！
+And it is done.
 
 ![](./LEDMatrixT4/2frame.gif)
 
-[參考程式](https://bit.ly/LEDMatrixT4_02Hex)
+[Sample Code Download](https://bit.ly/LEDMatrixT4_02Hex)
 
-[參考程式網址](https://makecode.microbit.org/_AxqhpeafJ8jv)
+[Sample Code Link](https://makecode.microbit.org/_AxqhpeafJ8jv)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
-問：為什麼我點亮燈板的時候，燈板未能顯示我定下的顏色，燈板只點亮了紅色？
+Q: Why is red the only colour lit up when I try to use different colours?
 
-答：電源不足夠。
+A: There is not enough power.
 
-解決方法：將robotbit的電源打開，或者在供電轉接板加插外部USB電源。
+Solution: Reduce brightness or turn on the power on the Robotbit, or connect to a USB power.
 
-## 注意事項
-- 請勿接駁電壓高於5V的電源。
-- 長時間使用請接駁USB外部電源。
-- 要點亮大量LED的時候請將亮度減低。
-- 本產品只適合14歲以上的兒童獨立使用，8-14歲兒童請在成年人的陪同下使用。
-- 使用前請參考Kittenbot官方資料，不要隨便接駁電路，請勿外接大電流電機舵機。
-- 請勿在金屬表面或導電性物料上使用，以免短路。
-- 請勿在有水或潮濕的地方使用，以免短路。
-- 請勿用手觸碰燈板外露的電線。    
+## Precautions
+
+- Do not connect a power supply with a voltage higher than 5V.
+- Connect to a USB power supply when for prolonged use.
+- Lower the brighness when a lot of LEDs are lit.
+- This product is suitable for users aged over 14, children aged 8-14 need to be under the supervision of an adult when using this product.
+- Please refer to Kittenbot's official guidelines before using, wiring must follow the guidelines, do not use a high power servo or motor when using this product.
+- To avoid short circuiting, do not put this product on conductive surfaces such as metal.
+- To avoid short circuiting, do not put this product in water.
+- Do not touch the exposed wires with bare hands.

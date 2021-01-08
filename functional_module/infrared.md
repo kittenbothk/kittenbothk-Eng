@@ -4,7 +4,7 @@
 
 This is an infra red tracker sensor, it can detect when an object is close, it returns an analog value.
 
-The range of return value is 0-1023, a higher value means the object is closer to the sensor.
+The range of the return value is 0-1023, a higher value means the object is closer to the sensor.
 
 ## Specifications
 

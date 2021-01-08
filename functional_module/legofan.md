@@ -1,12 +1,12 @@
-# 樂高風扇模組
+# Lego Fan Module
 
-這是一個兼容樂高孔的風扇模組。
+This is an electric fan compatible with Lego building bricks.
 
 ![](./images/fan2.png)
 
-## 接線教學
+## Wiring Diagram
 
-風扇模組和電機一樣，將風扇連接在Robotbit或者Armourbit的電機接口就可以了。
+Connect the fan module to the motor pins on the Robotbit or Armourbit.
 
 ![](./images/fan1.jpg)
 
@@ -14,76 +14,76 @@
 
 ![](./images/fan_wire1.png)
 
-    沒有嚴格正負極之分，插的方向只會影響電機轉動方向。
+    Reversing the connection is ok but the rotate direction will be changed too.
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./PWmodules/images/mcbanner.png)
 
 ![](../meowbit/images/acbanner.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used with Microbit and Meowbit.
 
 ### ArmourBit
 
 ---
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Load Powerbrick extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [How to load extension?](../Makecode/powerBrickMC)
 
-### 電機積木塊:
+### Motor blocks:
 
 ![](../motors/images/motorblocks.png)
 
-## 電機編程
+## Controlling the motor:
 
 ![](../motors/images/motor.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM11_01Hex)
+[Sample Code Download](https://bit.ly/PowerbrickM11_01Hex)
 
-[參考程式網址](https://makecode.microbit.org/_RYHivyayYL4q)
+[Sample Code Link](https://makecode.microbit.org/_RYHivyayYL4q)
 
 ### Robotbit
 
 ---
 
-### 加載robotbit插件：https://github.com/KittenBot/pxt-robotbit
+### Load Robotbit extension: https://github.com/KittenBot/pxt-robotbit
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [How to load extension?](../Makecode/powerBrickMC)
 
-### 電機積木塊:
+### Motor blocks:
 
 ![](../motors/images/2kmotorblocks_rb.png)
 
-### 電機編程
+### Controlling the motor
 
 ![](../motors/images/2kmotorcode_rb.png)
 
-[參考程式網址](https://makecode.microbit.org/_33HMywgx9H97q)
+[Sample Code Link](https://makecode.microbit.org/_33HMywgx9H97q)
 
 ### Meowbit:
 
-### 加載robotbit插件：https://github.com/KittenBot/meow-robotbit
+### Load Robotbit expansion: https://github.com/KittenBot/meow-robotbit
 
-### 電機積木塊:
+### Motor Blocks:
 
 ![](../motors/images/motorblocks.png)
 
-## 電機編程
+## Controlling the motor
 
 ![](../motors/images/2kmotorcode_meow.png)
 
-[參考程式網址](https://makecode.com/_2z0C8v6XAC5y)
+[Sample Code Link](https://makecode.com/_2z0C8v6XAC5y)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](../motors/images/kbbanner.png)
 
@@ -92,17 +92,17 @@
 
 ---
 
-### 加載PowerBrick插件
+### Load Powerbrick Extension
 
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+Select Powerbrick from the hardware column.
 
 ![](../motors/kbimages/addextension.png)
 
-### 電機積木塊
+### Motor blocks
 
 ![](../motors/kbimages/kbmotorblocks.png)
 
-### 電機編程
+### Controlling the motor
 
 ![](../motors/kbimages/kbmotor.png)
 
@@ -110,20 +110,22 @@
 
 ---
 
-### 加載Robotbit插件
+### Load Robotbit Extension
 
-在左上角小貓logo旁邊的硬件欄選擇Microbit，加載Microbit與Robotbit插件。
+Select Micro:bit from the hardware column.
 
 ![](../motors/images/addRB.png)
 
-### 電機積木塊
+### Motor blocks
 
 ![](../motors/images/rbmotorblocks.png)
 
-### 電機編程
+### Controlling the motor
 
 ![](../motors/images/rbmotorcode.png)
 
+## FAQ
 
+1：Why is there no reaction when I click the blocks?
 
-
+Make sure you have connected the Micro:bit correctly and flash the firmware again.

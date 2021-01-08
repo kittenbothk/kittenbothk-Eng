@@ -1,49 +1,49 @@
-# RGB彩燈模組
+# RGB LED Module
 
 ![](./images/RGB1.png)
 
-這是一隻彩燈模組。
+This is a single RGB LED. 
 
-## 產品參數
+## Specification
 
-- 工作電壓：3V~5V
-- 類型：數位模組
-- 接口：杜邦線
+- Voltage: 3V~5V
+- Type: Digital Module
+- Interface: 3 Pin Dupont Cable
 
-## 接線教學
+## Wiring Diagram
 
 ![](./images/RGB_wire.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./PWmodules/images/mcbanner.png)
 
 ![](../meowbit/images/acbanner.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used with Microbit and Meowbit.
 
-#### 彩燈編程
+#### Controlling the LED
 
 ### Microbit:
 
 ![](./images/rgb_code.png)
 
-[參考程式網址](https://makecode.microbit.org/_Tq7Y963gW1fA)
+[Sample Code Link](https://makecode.microbit.org/_Tq7Y963gW1fA)
 
 ### Meowbit:
 
 ![](./images/rgb_codeMeow.png)
 
-[參考程式網址](https://makecode.com/_C13AgeUHz0M3)
+[Sample Coding Link](https://makecode.com/_C13AgeUHz0M3)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./PWmodules/images/kbbanner.png)
 
-### 加載Robotbit插件
+### Load the Robotbot extension
 
 ![](./images/addRB.png)
 
-#### 彩燈編程
+#### Controlling the LED
 
 ![](./images/rgb_code2.png)

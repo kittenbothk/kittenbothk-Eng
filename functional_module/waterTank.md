@@ -1,121 +1,145 @@
-# All in 1水箱連水泵組合
+# All in 1 Water Pump
 
-All in 1水箱連水泵組合 (HKBM8015A)
+All in 1 Water Pump (HKBM8015A)
 
 ![](./PWmodules/images/image--010.png)
 
-內置浸入式水泵一體化水箱，簡潔方便；水箱頂蓋和底部兼容樂高顆粒件，適合用作智能灌溉、自動洗手機等。
+This is a submersible pump and water tank combo, it is suitable for smart irrigation or hand washer projects.
 
-## 產品參數
+## Specifications
 
-- 工作電壓：3.3V~6V
-- 尺寸：86.5X86.5X98mm
-- 額定電流：120mA(3.3V)
-- 流量：80L/h
-- 最大揚程：0.35M
-- 重量：140g
-- 膠管長度：60cm
-- 接口：紅黑線
+- Voltage: 3.3V~6V
+- Dimensions: 86.5X86.5X98mm
+- Current: 120mA(3.3V)
+- Max flow rate: 80L/h
+- Hydraulic head: 0.35M
+- Weight: 140g
+- Tube lengrh: 60cm
+- Interface: 2Pin Dupont Cable
 
-## 接線方法
+## Wiring Diagram
 
-將電機的紅黑線連接至Armourbit底部的電機接口。
+Connect the pump module to the motor pins on the Robotbit or Armourbit.
 
-![](./PWmodules/images/pumpCon.jpg)
+![](./images/fan1.jpg)
 
-    沒有嚴格正負極之分，插的方向只會影響電機轉動方向。
+![](../motors/images/2kmotorConRB1.jpg)
 
-## MakeCode編程教學
+![](./images/fan_wire1.png)
+
+    Reversing the connection is ok.
+
+## MakeCode Coding Tutorial
 
 ![](./PWmodules/images/mcbanner.png)
 
 ![](../meowbit/images/acbanner.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used with Microbit and Meowbit.
 
 ### ArmourBit
 
 ---
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Load Powerbrick extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [How to load extension?](../Makecode/powerBrickMC)
 
-### 電機積木塊:
+### Motor blocks:
 
 ![](../motors/images/motorblocks.png)
 
-## 電機編程
+## Controlling the motor:
 
 ![](../motors/images/motor.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM11_01Hex)
+[Sample Code Download](https://bit.ly/PowerbrickM11_01Hex)
 
-[參考程式網址](https://makecode.microbit.org/_RYHivyayYL4q)
+[Sample Code Link](https://makecode.microbit.org/_RYHivyayYL4q)
 
 ### Robotbit
 
 ---
 
-### 加載robotbit插件：https://github.com/KittenBot/pxt-robotbit
+### Load Robotbit extension: https://github.com/KittenBot/pxt-robotbit
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [How to load extension?](../Makecode/powerBrickMC)
 
-### 電機積木塊:
+### Motor blocks:
 
 ![](../motors/images/2kmotorblocks_rb.png)
 
-### 電機編程
+### Controlling the motor
 
 ![](../motors/images/2kmotorcode_rb.png)
 
-[參考程式網址](https://makecode.microbit.org/_33HMywgx9H97q)
+[Sample Code Link](https://makecode.microbit.org/_33HMywgx9H97q)
 
-## Meowbit:
+### Meowbit:
 
-### 加載robotbit插件：https://github.com/KittenBot/meow-robotbit
+### Load Robotbit expansion: https://github.com/KittenBot/meow-robotbit
 
-### [詳細方法](../Makecode/powerBrickMC)
-
-### 電機積木塊:
+### Motor Blocks:
 
 ![](../motors/images/motorblocks.png)
 
-## 電機編程
+## Controlling the motor
 
 ![](../motors/images/2kmotorcode_meow.png)
 
-[參考程式網址](https://makecode.com/_2z0C8v6XAC5y)
+[Sample Code Link](https://makecode.com/_2z0C8v6XAC5y)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
-## KittenBlock編程教學
 
-![](./PWmodules/images/kbbanner.png)
+## KittenBlock Coding Tutorial
 
-### 加載PowerBrick插件
+![](../motors/images/kbbanner.png)
 
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
 
-![](./PWmodules/images/addextension.png)
+### Armourbit
 
-### 電機積木塊
+---
 
-![](./PWmodules/kbimages/kbmotorblocks.png)
+### Load Powerbrick Extension
 
-### 電機編程
+Select Powerbrick from the hardware column.
 
-![](./PWmodules/kbimages/kbpumpcode.png)
+![](../motors/kbimages/addextension.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM11_01sb3)
+### Motor blocks
+
+![](../motors/kbimages/kbmotorblocks.png)
+
+### Controlling the motor
+
+![](../motors/kbimages/kbmotor.png)
+
+### Robotbit
+
+---
+
+### Load Robotbit Extension
+
+Select Micro:bit from the hardware column.
+
+![](../motors/images/addRB.png)
+
+### Motor blocks
+
+![](../motors/images/rbmotorblocks.png)
+
+### Controlling the motor
+
+![](../motors/images/rbmotorcode.png)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1：Why is there no reaction when I click the blocks?
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure you have connected the Micro:bit correctly and flash the firmware again.
 

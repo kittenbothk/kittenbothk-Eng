@@ -1,53 +1,55 @@
-# Kittenbot 原廠3pin按鍵
+# Button Module
 
-Kittenbot 原廠3pin按鍵紅色(HKBM8006A)
+Button Module Red(HKBM8006A)
 
-Kittenbot 原廠3pin按鍵藍色(HKBM8006B)
+Button Module Blue(HKBM8006B)
 
 ![](./images/button_1.png)
 
-這是一隻按鍵模組。
+This is a button, it is a digital moduele.
 
-## 產品參數
+## Specifications
 
-- 工作電壓：3V~5V
-- 接口：杜邦線
-- 反饋數字：未按下返回1，按下返回0
+- Voltage: 3V~5V
+- Interface: Dupont Cable
+- Return Value: Returns 0 when pressed, 1 when unpressed
 
-## 接線教學
+## Wiring Diagram
 
 ![](./images/button_wire.png)
 
-## MakeCode編程教學
+    This is a digital module, any pin in P1~P15 would work.
+
+## MakeCode Coding Tutorial
 
 ![](./PWmodules/images/mcbanner.png)
 
 ![](../meowbit/images/acbanner.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used with Microbit and Meowbit.
 
-#### 讀取按鍵編程
+#### Reading the button value:
 
 ### Microbit:
 
 ![](./images/button_code.png)
 
-[參考程式網址](https://makecode.microbit.org/_RLdA6wC7i1Vd)
+[Sample Code](https://makecode.microbit.org/_RLdA6wC7i1Vd)
 
 ### Meowbit:
 
 ![](./images/button_codeMeow.png)
 
-[參考程式網址](https://makecode.com/_8uvcymfjfav0)
+[Sample Code](https://makecode.com/_8uvcymfjfav0)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./PWmodules/images/kbbanner.png)
 
-### 加載Robotbit插件
+### Load Robotbit Extension
 
 ![](./images/addRB.png)
 
-#### 讀取按鍵編程
+#### Reading the button value:
 
 ![](./images/button_code2.png)

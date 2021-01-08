@@ -4,7 +4,7 @@
 
 This module can detect fire, it returns an analog value.
 
-The range of return value is 0-1023, a higher value means the sensor is closer to fire.
+The range of the return value is 0-1023, a higher value means the sensor is closer to fire.
 
 ## Specification
 

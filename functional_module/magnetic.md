@@ -1,40 +1,40 @@
-# 磁場感應器模組
+# Magnetic Sensor
 
 ![](./images/magnet2.png)
 
-這是一隻可以感應磁場的模組，它返回的數值是數位形式。
+This sensor can detect magnetic field, it returns a digital value,
 
-數值範圍由0-1，沒有探測到磁石時返回1，探測到磁石時返回0。
+Returns 0 when a magnetic field is detected, otherwise returns 1.
 
-## 產品參數
+## Specifications
 
-- 工作電壓：3.3V~5V
-- 類型：數位模組
-- 接口：3Pin防反插
+- Voltage: 3.3V~5V
+- Type: Digital Module
+- Interface: 3Pin PH2.0
 
-## 接線教學
+## Wiring Diagram
 
 ### Robotbit Shield
 
-將磁場感應器模組連接到Robotbit Shield的3PIN接口。
+Connect the sensor to Robotbit Shield's 3Pin port.
 
 ![](./images/magnet_wire2.png)
 
 ### Robotbit
 
-將磁場感應器模組連接到Robotbit的針線和3V接口。
+Connect the sensor to Robotbit's pin and 3V pin.
 
 ![](./images/magnet_wire1.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./PWmodules/images/mcbanner.png)
 
 ![](../meowbit/images/acbanner.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used with Microbit and Meowbit.
 
-#### 讀取磁場數值編程
+#### Reading the sensor value
 
 ### Microbit:
 
@@ -44,20 +44,20 @@
 
 ![](./images/digitRead_codeMeow.png)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./PWmodules/images/kbbanner.png)
 
-### 加載Robotbit插件
+### Load Robotbit Extension
 
 ![](./images/addRB.png)
 
-#### 讀取磁場數值編程
+#### Reading the sensor value
 
 ![](./images/magnet_codekb.png)
 
-## Mu Editor編程教學
+## Mu Editor Coing Tutorial
 
-#### 讀取磁場數值編程
+#### Reading the sensor value
 
 ![](./images/magnet_codemu.png)

@@ -1,34 +1,34 @@
-# 聲音感應模組
+# Sound Sensor
 
 ![](./images/sound1.png)
 
-這是一隻聲音感應模組，它可以檢測聲音強弱，它返回的數值是類比形式。
+This is a sound sensor that measures the loudness of sound in the environment and returns an analog value.
 
-數值範圍由0-1023，數值越大代表聲音越強。
+The range of the return value is 0-1023, a higher value means the sound is louder.
 
-## 產品參數
+## Specification
 
-- 工作電壓：3.3V~5V
-- 類型：類比模組
-- 接口：3Pin托邦線
+- Voltage: 3V~5V
+- Type: Analog Module
+- Interface: 3 Pin Dupont Cable
 
-## 接線教學
+## Wiring Diagram
 
-    由於這是類比模組，所以只能使用robotbit的PIN0-2。（使用PIN0的話需要拔除蜂鳴器跳線帽）
+    This is an analog module, it can only use P0-P2.(Remove the buzzer jumper when P0 is in use.)
     
-將聲音感應模組連接到Robotbit的針線和3V接口。
+Connect the sensor to Robotbit's pin and 3V pin.
 
-![](./images/sound_wire.png)
+![](./images/slider_wire.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./PWmodules/images/mcbanner.png)
 
 ![](../meowbit/images/acbanner.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used with Microbit and Meowbit.
 
-#### 讀取聲音強弱編程
+#### Reading the loudness
 
 ### Microbit:
 
@@ -38,20 +38,20 @@
 
 ![](./images/poten_codeMeow.png)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./PWmodules/images/kbbanner.png)
 
-### 加載Robotbit插件
+### Load the Robotbit extension
 
 ![](./images/addRB.png)
 
-#### 讀取聲音強弱編程
+#### Reading the loudness
 
 ![](./images/poten_codekb.png)
 
-## Mu Editor編程教學
+## Mu Editor Coding Tutorial
 
-#### 讀取聲音強弱編程
+#### Reading the loudness
 
 ![](./images/poten_codemu.png)

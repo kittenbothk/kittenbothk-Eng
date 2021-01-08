@@ -1,56 +1,56 @@
-# FM收音機模組
+# FM Radio Module
 
-這是一隻收音機模組，它可以接收FM電台訊號。
+This is an FM Radio Module, it can receive FM radio signal.
 
-它使用標準的3.5mm插頭，可以使用3.5mm的耳機或揚聲器作輸出。
+Uses the standard 3.5mm audio jack, audio can be output to speakers or earphones.
 
-## 產品參數
+## Specifications
 
-- 工作電壓：2.5V~5V
-- 類型：i2c模組
-- 接口：4pin杜邦線
-- 有效頻率：76MHz~108MHz
-- 天線接口：3.5mm
-- 輸出接口：3.5mm
+- Voltage: 2.5V~5V
+- Type: i2c module
+- Interface: 4pin Dupont Cable
+- Effective Frequency: 76MHz~108MHz
+- Antenna jack: 3.5mm
+- Output jacl: 3.5mm
 
-## 接線教學
+## Wiring Diagram
 
-將FM收音機模組連接到Robotbit的i2c接口。
+Connect the Radio to the i2c pins of the robotbit.
 
-    SCL接SCL，SDA接SDA。
+    SCL to SCL, SDA to SDA.
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./PWmodules/images/mcbanner.png)
 
 ![](../meowbit/images/acbanner.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used with Microbit and Meowbit.
 
-### 加載收音機插件：https://github.com/kittenbothk/pxt-KittenRadio
+### Load the FM Radio extension: https://github.com/kittenbothk/pxt-KittenRadio
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [How to load extension](../Makecode/powerBrickMC)
 
-### 收音機積木塊：
+### FM Radio Blocks:
 
 ![](./images/radioblocks1.png)
 
 ![](./images/radioblocks2.png)
 
-#### Microbit收音機編程：
+#### Microbit FM Radio Coding
 
 ![](./images/radiocode1.png)
 
-[參考程式網址](https://makecode.microbit.org/_RpcJfTX8oTXk)
+[Sample Code Link](https://makecode.microbit.org/_RpcJfTX8oTXk)
 
-#### Meowbit收音機編程：
+#### Meowbit FM Radio Coding:
 
 ![](./images/radiocode3.png)
 
-[參考程式網址](https://makecode.com/_Utjb0sMwbW3r)
+[Sample Code Link](https://makecode.com/_Utjb0sMwbW3r)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)

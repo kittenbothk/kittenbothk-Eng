@@ -1,65 +1,65 @@
-# 五路巡線模組
+# 5 Way Line Follow Module
 
-五路巡線模組
+5 Way Line Follow Module
 
 
 
-這是一隻巡線模組，它有五顆巡線感應器，它返回的數值是類比形式。
+This is a line follow module, it has 5 IR sensors and returns an analog value.
 
-感應器收到的光度越少（遇上黑線），返回的數值就會越低。
+The darker the reading is(black line), the lower the return value.
 
-## 產品參數
+## Specifications
 
-- 工作電壓：3V-5V
-- 感應器間距：11mm
-- 固定孔直徑：5mm
-- 感應距離：1cm-5cm
-- 接口：杜邦線
+- Voltage：3V-5V
+- Distance between Sensors：11mm
+- Mounting Hole Diameter：5mm
+- Effective Distance：1cm-5cm
+- Interface：Dupont Cable
 
-## 接線教學
+## Wiring Diagram
 
-五路巡線模組可以接3v或5v電源。
+5 Way Line Follow Module can be connected to 3.3V or 5V power.
 
-    由於這是類比模組，所以只能使用robotbit的PIN0-2。（使用PIN0的話需要拔除蜂鳴器跳線帽）
+    This is an analog module, it can only use P0-P2.(Remove the buzzer jumper when P0 is in use.)
 
 ![](./images/line_wire.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./PWmodules/images/mcbanner.png)
 
 ![](../meowbit/images/acbanner.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used with Microbit and Meowbit.
 
-#### 巡線感應器編程
+#### Line Follower Sensor Coding
 
-    巡線感應器返回的數值可能會因環境而改變，例如感應器高度、巡線膠紙的顏色和物料等。
-    建議在使用前測試和調較一下觸發巡線的數值。
+    The sensors return value may change in different environments, such as height of sensors and color or material of tape。
+    It is recommended to calibrate values before using the module.
 
 ### Microbit:
 
 ![](./images/line_code.png)
 
-[參考程式網址](https://makecode.microbit.org/_c7rXpLY791Cw)
+[Sample Code Link](https://makecode.microbit.org/_c7rXpLY791Cw)
 
 ### Meowbit:
 
 ![](./images/line_codeMeow.png)
 
-[參考程式網址](https://makecode.com/_2pw59JbHhVfV)
+[Sample Code Link](https://makecode.com/_2pw59JbHhVfV)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./PWmodules/images/kbbanner.png)
 
-### 加載Robotbit插件
+### Load Robotbit Extension
 
 ![](./images/addRB.png)
 
-#### 巡線感應器編程
+#### Line Follow Sensor Coding
 
-    巡線感應器返回的數值可能會因環境而改變，例如感應器高度、巡線膠紙的顏色和物料等。
-    建議在使用前測試和調較一下觸發巡線的數值。
+    The sensors return value may change in different environments, such as height of sensors and color or material of tape。
+    It is recommended to calibrate values before using the module.
 
 ![](./images/line_code2.png)

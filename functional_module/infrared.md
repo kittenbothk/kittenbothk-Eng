@@ -1,41 +1,41 @@
-# 紅外線感應模組
+# Infra Red Tracker Sensor
 
 ![](./images/infrared1.png)
 
-這是一隻紅外線感應模組，它可以檢測黑線，它返回的數值是類比形式。
+This is an infra red tracker sensor, it can detect when an object is close, it returns an analog value.
 
-數值範圍由0-1023，數值越大代表越黑。
+The range of return value is 0-1023, a higher value means the object is closer to the sensor.
 
-## 產品參數
+## Specifications
 
-- 工作電壓：3.3V~5V
-- 類型：類比模組
-- 接口：3Pin托邦線
-- 檢測距離：10-60mm
+- Voltage: 3.3V~5V
+- Type: Analog Module
+- Interface: 3Pin Dupont Cable
+- Detection Distance: 10-60mm
 
-## 接線教學
+## Wiring Diagram
 
-    紅外線避障感應器是類比輸入類模組，只可使用P1、P8、P13、P14這4個引腳。
+    This is an analog module, it can only use P0-P2.(Remove the buzzer jumper when P0 is in use.)
     
-將紅外線感應模組連接到Robotbit的針線和3V接口。
+Connect the sensor to Robotbit's pin and 3V pin.
 
 ![](./images/infrared_wire.png)
 
-## 調較靈敏度
+## Adjust Sensitivity
 
-感應的靈敏度可以透過電位器調較，請使用螺絲批轉動電位器。(向左調高，向右調低)
+The sensor's sensitivity can be adjusted via this potentialmeter. Use a screwdriver to turn.(Turn left to increase, turn right to decrease)
 
 ![](./images/infrared2.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial 
 
 ![](./PWmodules/images/mcbanner.png)
 
 ![](../meowbit/images/acbanner.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used with Microbit and Meowbit.
 
-#### 讀取紅外線數值編程
+#### Read the IR sensor value
 
 ### Microbit:
 
@@ -45,20 +45,20 @@
 
 ![](./images/poten_codeMeow.png)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial 
 
 ![](./PWmodules/images/kbbanner.png)
 
-### 加載Robotbit插件
+### Load the Robotbit extension
 
 ![](./images/addRB.png)
 
-#### 讀取紅外線數值編程
+#### Read the IR sensor value
 
 ![](./images/poten_codekb.png)
 
-## Mu Editor編程教學
+## Mu Editor Coding Tutorial 
 
-#### 讀取紅外線數值編程
+#### Read the IR sensor value
 
 ![](./images/poten_codemu.png)

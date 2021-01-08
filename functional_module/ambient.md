@@ -1,42 +1,42 @@
-# 光度感應器模組
+# Ambient Light Sensor
 
 ![](./images/light2.png)
 
-這是一隻可以感應環境光度的模組，它返回的數值是類比形式。
+This is an ambient light sensor, it returns an analog value.
 
-數值範圍由0-1023，數值越大代表環境光度越高。
+The range of return value is 0-1023, a higher value means a higher brightness reading.
 
-## 產品參數
+## Specification
 
-- 工作電壓：3.3V~5V
-- 類型：類比模組
-- 接口：3Pin防反插
+- Voltage: 3.3V~5V
+- Type: Analog Sensor
+- Interface: 3Pin PH2.0
 
-## 接線教學
+## Wiring Diagram
 
-    由於這是類比模組，所以只能使用robotbit的PIN0-2。（使用PIN0的話需要拔除蜂鳴器跳線帽）
+    This is an analog module, it can only use P0-P2.(Remove the buzzer jumper when P0 is in use.)
 
 ### Robotbit Shield
 
-將光度感應器連接到Robotbit Shield的3PIN接口。
+Connect the sensor to Robotbit Shield's 3Pin port.
 
 ![](./images/light_wire2.png)
 
 ### Robotbit
 
-將光度感應器連接到Robotbit的針線和3V接口。
+Connect the sensor to Robotbit's pin and 3V pin.
 
 ![](./images/light_wire1.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./PWmodules/images/mcbanner.png)
 
 ![](../meowbit/images/acbanner.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used with Microbit and Meowbit.
 
-#### 讀取環境光度數值編程
+#### Reading the ambient light level
 
 ### Microbit:
 
@@ -46,20 +46,20 @@
 
 ![](./images/poten_codeMeow.png)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./PWmodules/images/kbbanner.png)
 
-### 加載Robotbit插件
+### Load Robotbit Extension
 
 ![](./images/addRB.png)
 
-#### 讀取環境光度數值編程
+#### Reading the ambient light level
 
 ![](./images/poten_codekb.png)
 
-## Mu Editor編程教學
+## Mu Editor Coding Tutorial
 
-#### 讀取環境光度數值編程
+#### Reading the ambient light level
 
 ![](./images/poten_codemu.png)

@@ -1,97 +1,98 @@
-# 流光溢彩屏之Neopixel串聯教程
+# RGB LED Screen Daisy Chaining
 
-本節教程將會介紹流光溢彩屏支援多塊燈板的串聯操作，令屏幕的大小倍增。
+The LED Screens can be chained together to create a larger screen.
 
-## 流光溢彩屏串聯
+## Daisy Chaining
 
-### 串聯接線
+### Wiring
 
-串聯情況下，請將燈板1的dout（公頭）與燈板2的din（乸頭）連接。
+Connect the dout(male)of screen 1 to the din(female) of screen 2
 
 ![](./LEDMatrixT3/123.jpg)
 
-    一般不建議連接2塊形狀不同的燈板，因為計算會比較複雜。
+    It is not recommended to connect 2 screens of different types as the calculations may become difficult.
     
-### 串聯情況的編程
+### Coding Tutorial
 
-#### 此節教程將會運用neopixel插件，請將插件加載。
+#### Load the NeoPixel extension.
 
-串聯情況下，我們必須在初始燈板的時候將數值設為LED燈的總數。
+Initialize the screen with the total number of LEDs(256x2=512).
 
-我們可以用圖元0-255和256-511分別控制2塊燈板。
+Pixels 0-255 and 256-511 control screen 1 and screen 2 respectively.
 
 ![](./LEDMatrixT3/code2.png)
 
 ![](./LEDMatrixT3/daisymatrix.jpg)
 
-[參考程式下載](https://bit.ly/LEDMatrixT3_06Hex)
+[Sample Code Download](https://bit.ly/LEDMatrixT3_06Hex)
 
-[參考程式網址](https://makecode.microbit.org/_W6eTxHa4cEj5)
+[Sample Code Link](https://makecode.microbit.org/_W6eTxHa4cEj5)
 
-### 串聯與矩陣的編程
+### Daisy Chaining and Matrices
 
-串聯燈板可以與矩陣同時操作。我們設置矩陣的時候可以先將闊度設為1塊燈板的闊。
-我們用了2塊16x16的燈板，所以我們構成了一個16x32的矩陣。
+Daisy Chaining can be used alongside matrices. We initialize a matrix with the width of 1 screen.
+
+Using 2 16x16 screens, a 16x32 matrix can be created.
 
 ![](./LEDMatrixT3/text4180.png)
 
-在這裡我們分別點亮 2塊彩屏的頭 2顆LED燈。
+Lighting up the first 2 LEDs of each screen.
 
 ![](./LEDMatrixT3/code3.png)
 
-    Y=0和Y=16分別代表2塊燈板的第一行。        
-    在旋轉為0或2的時候，第二塊燈板會往Y軸伸展。旋轉為1的時候，則會往X軸伸展。
+    Y=0 and Y=16 refer to the first rows of each screen.       
+    When rotation is 0 or 2, the 2nd screen extends the Y axis. When rotation is 1, the 2nd screen extends the X axis.
 
 ![](./LEDMatrixT3/daisychain.jpg)
 
-[參考程式下載](https://bit.ly/LEDMatrixT3_07Hex)
+[Sample Code Download](https://bit.ly/LEDMatrixT3_07Hex)
 
-[參考程式網址](https://makecode.microbit.org/_ipJh3qVgdbtr)
+[Sample Code Link](https://makecode.microbit.org/_ipJh3qVgdbtr)
 
 
 
-## 串聯情況之下的流水走字效果
+## Daisy Chaining and Animations
 
-串聯情況下要做到流水走字的話需要參考《1616溢彩屏動態效果教程》。
+Please reference "16x16 RGB LED Screen - Dynamic Effects Tutorial" for details on how to create animations.
 
-[1616溢彩屏動態效果教程](./LEDMatrixNeoMatrix3.md)
+[16x16 RGB LED Screen - Dynamic Effects Tutorial](./LEDMatrixNeoMatrix3.md)
 
-編程邏輯和本教程類似，我們只需要使用Y來控制第二塊彩屏的動畫，
+The logic is similar to this tutorial, we just change Y to control the 2nd screen.
 
-例如：我們在Y加上16來操控第二塊彩屏的動畫。
+Example: We add 16 to Y to control the animation on the 2nd screen.
 
 ![](./LEDMatrixT3/offsetY.png)
 
-假如你想做多幀動畫的話你可能要將幀的次序調節才能夠無縫連接。
+The order of frames may require changing if there are multiple frames.
 
-[參考程式](https://bit.ly/LEDMatrixT4_03Hex)
+    Example: When playing an animation with 2 frames on a daisy chain with 2 screens, the order of frames in screen 1 is frame 1-> frame 2. but the order of frames in screen 2 is frame 2-> frame 1.
 
-[參考程式網址](https://makecode.microbit.org/_8Xy2mWWLoDtg)
+[Sample Code Download](https://bit.ly/LEDMatrixT4_03Hex)
 
+[Sample Code Link](https://makecode.microbit.org/_8Xy2mWWLoDtg)
 
-    例如：在2塊燈板的串聯之下要播放2幀動畫，燈板1的幀次序為幀1->幀2，但燈板2的幀次序會變成幀2>幀1。
+## Extension Version and Updates
 
-## 插件版本與更新
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
-
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
-問：為什麼我點亮燈板的時候，燈板未能顯示我定下的顏色，燈板只點亮了紅色？
+Q: Why is red the only colour lit up when I try to use different colours?
 
-答：電源不足夠。
+A: There is not enough power.
 
-解決方法：將robotbit的電源打開，或者在供電轉接板加插外部USB電源）。
+Solution: Reduce brightness or turn on the power on the Robotbit, or connect to a USB power.
 
-## 注意事項
-- 請勿接駁電壓高於5V的電源。
-- 長時間使用請接駁USB外部電源。
-- 要點亮大量LED的時候請將亮度減低。
-- 本產品只適合14歲以上的兒童獨立使用，8-14歲兒童請在成年人的陪同下使用。
-- 使用前請參考Kittenbot官方資料，不要隨便接駁電路，請勿外接大電流電機舵機。
-- 請勿在金屬表面或導電性物料上使用，以免短路。
-- 請勿在有水或潮濕的地方使用，以免短路。
-- 請勿用手觸碰燈板外露的電線。
+## Precautions
+
+- Do not connect a power supply with a voltage higher than 5V.
+- Connect to a USB power supply when for prolonged use.
+- Lower the brighness when a lot of LEDs are lit.
+- This product is suitable for users aged over 14, children aged 8-14 need to be under the supervision of an adult when using this product.
+- Please refer to Kittenbot's official guidelines before using, wiring must follow the guidelines, do not use a high power servo or motor when using this product.
+- To avoid short circuiting, do not put this product on conductive surfaces such as metal.
+- To avoid short circuiting, do not put this product in water.
+- Do not touch the exposed wires with bare hands.
 

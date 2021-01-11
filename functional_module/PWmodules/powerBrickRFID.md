@@ -1,149 +1,144 @@
-# RFID魔塊
+# RFID Reader Module
 
-RFID魔塊 (HKBM8012L) + RFID卡片 (HKBM8012M)
+RFID Reader Module (HKBM8012L) + RFID Card (HKBM8012M)
 
 ![](./images/10_04.png)
 
 ![](./images/10_05.png)
 
-這是一個RFID魔塊，可以對套件附有的RFID卡或者空白RFID卡進行讀寫。
+This is an RFID module that can read or write RFID cards.
 
-附有的RFID卡有1K內存，有16個分區，每個分區有3個區塊可以寫入資料。
+The included RDID card has 1K memory, it has 16 sections with 3 blocks each.
 
 ![](./images/IMG_2583.GIF)
 
-## 詳細介紹
+## Details
 
 ![](./images/10_03.png)
 
-## 產品參數
+## Specifications
 
-- 支援電壓：3V-5V
-- 尺寸：56mm X 56mm X 16mm
-- 接口：4pin防反插接口
-- 感應距離：大約3cm
+- Voltage: 3V-5V
+- Dimensions: 56mm X 56mm X 16mm
+- Connector: 4Pin PH2.0
+- Sensing Distance: Approximately 3cm
 
-## 使用注意事項
+## Precautions
 
-- RFID請勿在有強力磁場的環境下使用
-- RFID卡與魔塊之間不能有金屬阻擋，否則無法進行讀寫。
-- RFID卡寫入大量數據的速度比較慢，請靜待一下，等數據成功寫入再拿去RFID卡。
-- 八達通卡身份證之類的卡因為資料被加密所以不能進行寫入數據，只可以讀取UID號碼（每張卡也有獨有的ID）。
+- Do not use the module in an environment with strong magnetic fields.
+- Any metal between the reader and the card will cause it to fail to write or read.
+- It may take sometime when writing a large amount of data into the RFID Card, please wait until the light goes off.
+- Cards like Octopus Cards or ID Cards have encrypted data, the reader can only read the UUID of these cards.
 
-## 接線方法
+## Connecting the module
 
 ### Armourbit
 
 ---
 
-將RFID魔塊用4pin排線連接至Armourbit的I2C接口。
+Connect the Music Module to the I2C port of Armourbit with a 4Pin cable.
 
 ![](./images/rfid_wire.png)
 
 ### Robotbit
 
 --- 
-將RFID魔塊連接至Robotbit的I2C接口。
+Connect the Music Module to the I2C port of Robotbit.
 
-    藍色線（A）請接到SCL，綠色線（B）請接到SDA。
+    Blue(A)->SCL, Green(B)->SDA
 
 ![](./images/rfid_wire1.png)
 
-
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Powerbrick Extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
-### RFID魔塊積木塊
+### RFID Module Blocks
 
 ![](./images/rfidblocks.png)
 
-### RFID卡片寫入
+### Writing data onto RFID Card
 
 ![](./images/rfidwrite.png)
 
-[參考程式網址](https://makecode.microbit.org/_XdP0Pye1rFA0)
+[Sample Code Link](https://makecode.microbit.org/_XdP0Pye1rFA0)
 
-### RFID卡片讀取
+### Reading Data from RFID card
 
 ![](./images/rfidread.png)
 
-[參考程式網址](https://makecode.microbit.org/_TEz6D45qgDaa)
+[Sample Code Link](https://makecode.microbit.org/_TEz6D45qgDaa)
 
-### RFID讀取UUID
+### Reading the UUID
 
-每張卡的UUID也不同，請自行抄下你自己卡片的UUID。
+Every RFID card has an unique ID.
 
 ![](./images/uidread.png)
 
-[參考程式網址](https://makecode.microbit.org/_a6wiKdUqWaXL)
+[Sample Code Link](https://makecode.microbit.org/_a6wiKdUqWaXL)
 
-### UUID身份辨別
+### Identification with UUID
 
-我們可以用UUID作身份辨別。
+We can use UUID to identify indicviduals.
 
 ![](./images/uididentify.png)
 
-    這裡請使用您卡片的UUID。
+[Sample Code Link](https://makecode.microbit.org/_c4rcrE76Tc6Y)
 
-[參考程式網址](https://makecode.microbit.org/_c4rcrE76Tc6Y)
-
-### Makecode教學短片
+### Makecode Tutorial Video
 
 [![](./images/rfidtut.png)](https://www.youtube.com/watch?v=r1B6l7xK7So)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./images/kbbanner.png)
 
-### 加載PowerBrick插件
+### Load Powerbrick Extension
 
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+Select Powerbrick from the hardware column.
 
 ![](./kbimages/addextension.png)
 
-### RFID積木塊
+### RFID Module Blocks
 
 ![](./kbimages/kbrfidblocks.png)
 
-### RFID卡片寫入
+### Writing data onto RFID Card
 
 ![](./kbimages/rfidwrite.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM8_01sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM8_01sb3)
 
-### RFID卡片讀取
+### Reading Data from RFID card
 
 ![](./kbimages/rfidread.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM8_02sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM8_02sb3)
 
-### RFID讀取UUID
+### Reading the UUID
 
 ![](./kbimages/uidread.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM8_03sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM8_03sb3)
 
-### UUID身份辨別
+### Identification with UUID
 
 ![](./kbimages/uididentify.png)
-
-    這裡請使用您卡片的UUID。
     
-[參考程式下載](https://bit.ly/PowerbrickM8_04sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM8_04sb3)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1：Why is there no reaction when I click the blocks?
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure you have connected the Micro:bit correctly and flash the firmware again.

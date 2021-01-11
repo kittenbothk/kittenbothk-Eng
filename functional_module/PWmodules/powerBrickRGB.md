@@ -1,132 +1,130 @@
-# 全彩點陣魔塊
+# RGB LED Matrix
 
-全彩點陣魔塊 (HKBM8012J)
+RGB LED Matrix (HKBM8012J)
 
 ![](./images/11_04.png)
 
+This is a 8x8 RGB LED Matrix, each LED can be controlled individually. Supports daisy chaining to create larger screens, making the display even more appealing.
 
-這是一塊8x8的全彩點陣屏，可以單獨控制任意一點的顏色或者整個屏幕的顏色。支持多塊點陣屏串聯，组成16x16或者8x32等點陣屏，令顯示效果更加豐富。
-
-
-## 詳細介紹
+## Details
 
 ![](./images/11_03.png)
 
-## 產品參數
+## Specifications
 
-- 支援電壓：3V-5V
-- 尺寸：56mm X 24mm X 16mm
-- 接口：4pin防反插接口
-- 像素：8x8全彩
+- Voltage: 3V-5V
+- Dimensions: 56mm X 56mm X 16mm
+- Connector: 4Pin PH2.0
+- Resolution: 8x8 RGB
 
-## 使用注意事項
+## Precautions
 
-- 點陣屏上有兩個接口，輸入和輸出，單獨使用，請使用輸入接口與Armourbit連接。
-- 點陣屏進行串聯需要將第一塊點陣屏的輸出與下一塊的輸入接口連接。
-- 用電池盒時最多支援串聯4塊點陣屏。如需接更多，需外接電源，或者降低點陣亮度，以此減少電流。
-- 長時間使用彩色點陣屏請注意散熱。
+- There are 2 ports on the module, one for input and one for output. Connect the input port to the Armourbit.
+- When connecting more than 1 modules, connect the output port of the first module to the input of the second module.
+- The battery box supports up to 4 modules in daisy chain. Connect an external power supply or lower the brightness if more is needed.
+- Beware of cooling when using the module for long periods of time.
 
-## 接線方法
+## Connecting the module
 
-將點陣魔塊用4pin排線連接至Armourbit。
+Connect the RGB Module to Armourbit with a 4Pin cable.
 
 ![](./images/rgb_wire.png)
 
 ![](./images/11_25.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Powerbrick Extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
-### 點陣魔塊積木塊
+### RGB Matrix Blocks
 
 ![](./images/rgbblocks1.png)
 
 ![](./images/rgbblocks2.png)
 
-### 單色點亮
+### Lighting up with a single color
 
 ![](./images/rgbsingle.png)
 
-[參考程式網址](https://makecode.microbit.org/_dgdfa73fb6jr)
+[Sample Code Link](https://makecode.microbit.org/_dgdfa73fb6jr)
 
-### 彩虹色點亮
+### Lighting up with a rainbow color
 
 ![](./images/rgbrainbow.png)
 
-[參考程式網址](https://makecode.microbit.org/_VDtaD6AVjfdd)
+[Sample Code Link](https://makecode.microbit.org/_VDtaD6AVjfdd)
 
-### 單顆燈點亮
+### Lighting up a pixel
 
 ![](./images/rgbpixel.png)
 
-[參考程式網址](https://makecode.microbit.org/_iv6MHWEkDMjr)
+[Sample Code Link](https://makecode.microbit.org/_iv6MHWEkDMjr)
 
-### 圖案點亮示範
+### Showing a pattern
 
 ![](./images/rgbpyramid.png)
 
-[參考程式網址](https://makecode.microbit.org/_2cF73496m8p1)
+[Sample Code Link](https://makecode.microbit.org/_2cF73496m8p1)
 
-### Makecode教學短片
+### Makecode Tutorial Video
 
 [![](./images/rgbtut.png)](https://www.youtube.com/watch?v=Pmg6Gvg29jo)
 
 
-## 串聯與圖像化編輯器教學
+## Tutorial for daisy chaining and graphical editor
 
-透過串聯連結多個點陣屏。
+Daisy chaining creates a bigger screen.
 
-### 串聯接線：
+### Daisy Chaining
 
-請將點陣屏A的out與點陣屏B的in連接。
+Connect the out of matrix A to the in of matrix B.
 
 ![](./images/rgbchain.jpg)
 
-串聯情況下支援圖像化編輯器，詳情請參考流光溢彩屏教學。
+NeoMatrix Graphical editor is supporting for daisy chaining.
 
-[按此前往](....//../accessories/LEDMatrix/LEDMatrixDaisyChain.md)
+[NeoMatrix Tutorial](../../../accessories/LEDMatrix/LEDMatrixDaisyChain.md)
 
-#### 串聯效果演示
+#### Daisy Chaining Showcase
 
 ![](./images/11_23.png)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./images/kbbanner.png)
 
-### 加載PowerBrick插件
+### Load Powerbrick Extension
 
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+Select Powerbrick from the hardware column.
 
 ![](./kbimages/addextension.png)
 
-### 點陣魔塊積木塊
+### RGB Matrix Blocks
 
 ![](./kbimages/rgbblocks.png)
 
-### 逐顆點亮
+### Lighting up pixels
 
 ![](./kbimages/kbrgb.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM9_01sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM9_01sb3)
 
-由於顯示色彩只支援RGB，假如你有一組HSV顏色，你必需要將其轉換至RGB格式。
+The module uses RGB color, you can convert HSV to RGB using this block.
 
 ![](./kbimages/HSVTORGB.png)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1：Why is there no reaction when I click the blocks?
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure you have connected the Micro:bit correctly and flash the firmware again.

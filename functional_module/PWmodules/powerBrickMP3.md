@@ -1,117 +1,117 @@
-# MP3魔塊
+# MP3 Music Module
 
-MP3魔塊 (HKBM8012E)
+MP3 Music Module (HKBM8012E)
 
 ![](./images/12_03.png)
 
-這是一塊MP3魔塊，內建小喇叭和microSD卡插槽，可以播放SD卡裏的mp3檔案。上面還自帶按鍵，包括播放、上一首和下一首。配合Armourbit使用，可以用程式播放SD卡的指定歌曲等。
+This is a music module with a speaker and a microSD card slot, it is able to play MP3 files. It can be used as an MP3 player with the built-in buttons, or be used with an Armourbit.
 
 
-## 詳細介紹
+## Details
 
 ![](./images/12_02.png)
 
-## 產品參數
+## Specifications
 
-- 支援電壓：3V-5V
-- 尺寸：56mm X 24mm X 16mm
-- 接口：4pin防反插接口
-- 内存卡支持：microSD卡，最大支持32G,FAT32格式
-- 支援音頻格式：MP3、WAV
-- 自帶按鍵：播放、上一首、下一首
-- 音頻上載：將microSD卡插入電腦，將檔案拖曳到卡上即可
+- Voltage: 3V-5V
+- Dimensions: 56mm X 24mm X 16mm
+- Connector: 4Pin PH2.0
+- Flash Card: microSD card, up to 32G, supports FAT32
+- File Formates: MP3, WAV
+- Buttons: Play, Previous, Next
+- Uploading: Put the files onto the microSD card with a computer.
 
-## 使用注意事项
+## Precautions
 
-- PowerBrick套件並沒有附送microSD卡，請自行購買。
-- MP3魔塊一定要有內存卡，且内存卡中存有可播放的音頻，才可以播放音樂。
-- 安裝microSD卡時請注意，聽到「卡嚓」一聲才代表安裝好。
-- 取出microSD卡時請不要直接用力拔，按一按microSD卡即會彈出。
+- PowerBrick Kit set does not come with an SD Card.
+- Music can only be played if there are music files on the SD Card.
+- When installing the SD Card, push it into the slot until there is a click.
+- Do not pull out the SD Card directly, the SD Card can be removed by pushing the SD Card to unlock it.
 
-## 接線方法
+## Connecting the module
 
-將MP3魔塊用4pin排線連接至Armourbit。
+Connect the Music Module to Armourbit with a 4Pin cable.
 
 ![](./images/mp3_wire.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Powerbrick Extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
-### MP3魔塊積木塊
+### MP3 Module Blocks
 
 ![](./images/mp3blocks.png)
 
-### 音頻播放
+### Playing an MP3 file
 
 ![](./images/mp3.png)
 
-[參考程式網址](https://makecode.microbit.org/_1zuJ9JUkK3WT)
+[Sample Code Link](https://makecode.microbit.org/_1zuJ9JUkK3WT)
 
-### 指定序號播放音頻
+### Choosing an MP3 file with a number
 
 ![](./images/mp3id.png)
 
-[參考程式網址](https://makecode.microbit.org/_PqF5VqYgp6Yu)
+[Sample Code Link](https://makecode.microbit.org/_PqF5VqYgp6Yu)
 
-### 指定名稱播放音頻
+### Choosing an MP3 file with a name
 
 ![](./images/mp3name.png)
 
-    名稱只支援英文和數字，長度不能長於8位。
+    File name can only contain alphabets and numerics, length cannot exceed 8 letters.
 
-[參考程式網址](https://makecode.microbit.org/_2uChE8PtC8fT)
+[Sample Code Link](https://makecode.microbit.org/_2uChE8PtC8fT)
 
-### Makecode教學短片
+### Makecode Tutorial Video
 
 [![](./images/mp3tut.png)](https://www.youtube.com/watch?v=h2XQ463V5CE)
 
-## KittenBlock編程教學
+## Extension Version and Updates
+
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
+
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
+
+## KittenBlock Coding Tutorial
 
 ![](./images/kbbanner.png)
 
-## 插件版本與更新
+### Load Powerbrick Extension
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
-
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
-
-### 加載PowerBrick插件
-
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+Select Powerbrick from the hardware column.
 
 ![](./kbimages/addextension.png)
 
-### MP3積木塊
+### MP3 Module Blocks
 
 ![](./kbimages/kbmp3blocks.png)
 
-### 音頻播放
+### Playing an MP3 file
 
 ![](./kbimages/mp3play.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM10_01sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM10_01sb3)
 
-### 指定序號播放音頻
+### Choosing an MP3 file with a number
 
 ![](./kbimages/mp3playbyid.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM10_02sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM10_02sb3)
 
-### 指定名稱播放音頻
+### Choosing an MP3 file with a name
 
 ![](./kbimages/mp3playbyname.png)
 
-    名稱只支援英文和數字，長度不能長於8位。
+    File name can only contain alphabets and numerics, length cannot exceed 8 letters.
 
-[參考程式下載](https://bit.ly/PowerbrickM10_03sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM10_03sb3)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1：Why is there no reaction when I click the blocks?
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure you have connected the Micro:bit correctly and flash the firmware again.

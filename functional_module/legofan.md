@@ -30,7 +30,7 @@ Connect the fan module to the motor pins on the Robotbit or Armourbit.
 
 ### Load Powerbrick extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [How to load extension?](../Makecode/powerBrickMC)
+### [Loading Extensions](../Makecode/powerBrickMC)
 
 ### Motor blocks:
 
@@ -50,7 +50,7 @@ Connect the fan module to the motor pins on the Robotbit or Armourbit.
 
 ### Load Robotbit extension: https://github.com/KittenBot/pxt-robotbit
 
-### [How to load extension?](../Makecode/powerBrickMC)
+### [Loading Extensions](../Makecode/powerBrickMC)
 
 ### Motor blocks:
 

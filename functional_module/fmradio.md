@@ -29,7 +29,7 @@ Connect the Radio to the i2c pins of the robotbit.
 
 ### Load the FM Radio extension: https://github.com/kittenbothk/pxt-KittenRadio
 
-### [How to load extension](../Makecode/powerBrickMC)
+### [Loading Extensions](../Makecode/powerBrickMC)
 
 ### FM Radio Blocks:
 

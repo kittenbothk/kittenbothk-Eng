@@ -1,87 +1,86 @@
-# 雙路IR巡線魔塊
+# IR Line Trace Module
 
-雙路IR巡線魔塊 (HKBM8012B)
+IR Line Trace Module (HKBM8012B)
 
 ![](./images/07_03.png)
 
-這是一個紅外線巡線魔塊，它有組兩路尋線感應器，偵察到黑線後魔塊背面的LED會熄滅，觸發尋線事件。
+This is an infra red line tracing module, it has 2 line tracing sensors.
+
+The LEDs on the back turn off when a black line is detected.
 
 ![](./images/IMG_2570.GIF)
 
-## 詳細介紹
+## Details
 
 ![](./images/07_01.png)
 
-## 產品參數
+## Specification
 
-- 支援電壓：3V-5V
-- 尺寸：56mm X 24mm X 25mm
-- 接口：4pin防反插接口
+- Voltage: 3V-5V
+- Dimensions: 56mm X 24mm X 16mm
+- Connector: 4Pin PH2.0
 
-## 注意事項
+## Precautions
 
-- 巡線魔塊需要盡量貼近地面。
-- 枱面或地板必須為不反光的表面。
+- The module should be as close to the ground as possible.
+- The ground or table must have a non-reflective surface.
 
-## 接線方法
+## Connecting the module
 
-將巡線魔塊用4pin排線連接至Armourbit。
+Connect the Line Trace Module to Armourbit with a 4Pin cable.
 
 ![](./images/linefollow_wire.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Powerbrick Extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
-### 巡線魔塊積木塊:
+### Line Trace Module Blocks
 
 ![](./images/linefollowblocks.png)
 
-### 黑線檢測
-
-我們在枱面貼上黑色膠紙，用巡線魔塊檢測，當感應器A或B檢測到膠紙的時候就會分別顯示笑臉或哭臉，假如沒有偵測到線條就會顯示心形。
+### Tracing black lines
 
 ![](./images/linefollow.png)
 
-[參考程式網址](https://makecode.microbit.org/_3tj8kdf8jhft)
+[Sample Code Link](https://makecode.microbit.org/_3tj8kdf8jhft)
 
-### Makecode教學短片
+### Makecode Tutorial Video
 
 [![](./images/irtut.png)](https://www.youtube.com/watch?v=BT1TUlmbMm8)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./images/kbbanner.png)
 
-### 加載PowerBrick插件
+### Load Powerbrick Extension
 
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+Select Powerbrick from the hardware column.
 
 ![](./kbimages/addextension.png)
 
-### 巡線積木塊
+### Line Trace Module Blocks
 
 ![](./kbimages/kblinetraceblocks.png)
 
-### 黑線檢測
+### Tracing black lines
 
 ![](./kbimages/kblinetrace.png)
 
-[參考程式下載](https://bit.ly/PowberbrickM5_01sb3)
-
+[Sample Code Download](https://bit.ly/PowberbrickM5_01sb3)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1：Why is there no reaction when I click the blocks?
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure you have connected the Micro:bit correctly and flash the firmware again.

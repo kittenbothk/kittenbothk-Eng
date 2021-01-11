@@ -1,101 +1,104 @@
-# 超聲波聲音魔塊
+# Ultrasound and Sound Module
 
-超聲波聲音魔塊 (HKBM8012K)
+Ultrasound and Sound Module (HKBM8012K)
 
 ![](./images/06_04.png)
 
-這魔塊包含了超聲波感應器和咪高峰。它可以用超聲波來測量與物件的距離，咪高峰可以探測環境聲音的強弱。
+This module combines ultrasound sensor and a microphone into the same module. 
+
+The ultrasound sensor is used to measure the distance of objects, the microphone is used to measure the loudness.
 
 
 ![](./images/IMG_2577.GIF)
 
 ![](./images/IMG_2576.GIF)
 
-## 詳細介紹
+## Details
 
 ![](./images/06_01.png)
 
-## 產品參數
+## Specifications
 
-- 支援電壓：3V-5V
-- 尺寸：56mm X 24mm X 24mm
-- 接口：4PIN防反接排線
-- 超聲波探測距離：4cm-200cm（推薦範圍）
-- 聲音模擬數值範圍：0-1023
+- Voltage: 3V-5V
+- Dimensions: 56mm X 24mm X 16mm
+- Connector: 4Pin PH2.0
+- Ultrasound Detection Range: 4cm-200cm(Recommended)
+- Analog Return Value Range: 0-1023
 
-## 使用注意事項
+## Precautions
 
-- 超聲波距離測量要求物件表面比較平整，平面盡量與超聲波魔塊垂直。超聲波的發射是一個扇形，所以要注意測量距離之間是否有其他障礙物遮擋。
-- 咪高峰只能檢測環境聲音的強度，並非分貝值，測量分貝值需要比較專業的儀器。咪高峰只是檢測瞬時聲音的強弱數值。
+- Ultrasound works better on items with smooth surfaces, the smooth surface should be perpendicular to the module.
+- Ultrasound emits signal in the shape of an arc, makesure there is no obstacle in the signal range.
+- The microphone only detects whether a sound is loud or not, it can't measure decibels. Measuring decibels require professional equipment.
 
-## 接線方法
+## Connecting the module
 
-將超聲波聲音魔塊用4pin排線連接至Armourbit。
+Connect the Ultrasound Module to Armourbit with a 4Pin cable.
 
 ![](./images/ultrasound_wire.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Powerbrick Extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
-### 超聲波聲音魔塊積木塊:
+### Ultrasound Module Blocks:
 
 ![](./images/ultrasoundblocks.png)
 
-### 距離檢測編程
+### Measuring distance
 
 ![](./images/distance.png)
 
-[參考程式網址](https://makecode.microbit.org/_VUTJ1xDtzVfR)
+[Sample Code Link](https://makecode.microbit.org/_VUTJ1xDtzVfR)
 
-### 環境聲音檢測編程
+### Measuring ambient noise
 
 ![](./images/soundlevel.png)
 
-[參考程式網址](https://makecode.microbit.org/_RKL0iE4iP63i)
+[Sample Code Link](https://makecode.microbit.org/_RKL0iE4iP63i)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-KOI插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
-### Makecode教學短片
+### Makecode Tutorial Video
 
 [![](./kbimages/ultrasoundtut.png)](https://www.youtube.com/watch?v=Jwj449zjnYE)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./images/kbbanner.png)
 
-### 加載PowerBrick插件
+### Load Powerbrick Extension
 
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+Select Powerbrick from the hardware column.
 
 ![](./kbimages/addextension.png)
 
-### 巡線積木塊
+### Ultrasound Module Blocks:
 
 ![](./kbimages/kbultrasoundblocks.png)
 
-### 距離檢測編程
+### Measuring distance
 
 ![](./kbimages/kbultrasounddist.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM4_01sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM4_01sb3)
 
-### 環境聲音檢測編程
+### Measuring ambient noise
 
 ![](./kbimages/kbultrasoundlevel.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM4_02sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM4_02sb3)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1：Why is there no reaction when I click the blocks?
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure you have connected the Micro:bit correctly and flash the firmware again.

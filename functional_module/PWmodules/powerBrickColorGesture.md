@@ -1,10 +1,10 @@
-# 顏色手勢感應魔塊 
+# Color & Gesture Module
 
-顏色手勢感應魔塊 (HKBM8012F)
+Color & Gesture Module (HKBM8012F)
 
 ![](./images/09_06.png)
 
-這是一塊多功能的魔塊，它的主要功能是識別顏色和識別手勢。
+This is a multifunctional module, the main features are Color detection abd Gesture detection.
 
 ![](./images/IMG_2572.GIF)
 
@@ -12,161 +12,159 @@
 
 ![](./images/IMG_2574.GIF)
 
-它有4種模式：
+This module has 4 modes: 
 
-1. 在顏色辨識模式下，4顆LED會常亮，檢測顏色的色環角度。它還可以檢測環境光度。
-1. 在手勢辨識模式下，手的移動方向會觸發對應方向的LED閃動。
-1. 在距離檢測模式下，最遠範圍為大約3cm。距離越近，LED越亮。
-1. 在LED模式下，可以控制4顆LED的亮度。
+1. In Color Mode, the 4 LEDs light up. It can detect color or ambient light level.
+1. In Gesture Mode, the LEDs light up corresponding to the direction of movement.
+1. In Proximity Mode, it can detect objects with a 3cm range. The LEDs brightness are determined by the proximity of the object.
+1. In LED Mode, the 4 LEDs can be controlled.
 
-## 詳細介紹
+## Details
 
 ![](./images/09_05.png)
 
-## 產品參數
+## Specifications
 
-- 支援電壓：3V-5V
-- 尺寸：56mm X 24mm X 16mm
-- 接口：4pin防反插接口
-- 顏色識別檢測返回值：0－360
-- 手勢識別模式下，可識別上下左右四個方向，分別返回1、2、3、4。偵測不到手勢則返回0。
-- 距離檢測模式下，最大檢測距離為3cm左右，返回值為0-255，越靠近數值越大。
-- 亮度檢測返回值：0-255
+- Voltage: 3V-5V
+- Dimensions: 56mm X 24mm X 16mm
+- Connector: 4Pin PH2.0
+- Color Mode Return Value: 0-360
+- Gesture Mode Return Value: 0-4, corresponding to None, Up, Right, Down, Left
+- Proximity Mode Return Value: 0-255, with a range of approximately 3cm
+- Brightness Return Value: 0-255
 
-## 使用注意事項
+## Precautions
 
-- 這魔塊只能連接到I2C接口，其他接口無效。
-- 使用前要先設置模式，否則默認為距離模式。
-- 手勢模式下，你可能需要熟習一下手移動的方向、距離和速度才掌握到觸發技巧。
-- 顏色辨認會返回HSV角度數值，並非RGB數值。
-- 顏色辨認的距離為大約1cm時的效果最為理想。
-- 在LED模式之下才可以控制LED的亮度。
+- This module must be connected to I2C port.
+- The module defaults to Proximity Mode if mode has not been set.
+- For gesture detection, practice maybe needed to get the correct distance and speed for successful detection.
+- For color detection, the return value is a Hue value from HSV format.
+- Color detection has the best effects when the object is about 1cm away.
+- The LEDs can only be controlled in the LED Mode.
 
-## 接線方法
+## Connecting the module
 
 ### Armourbit
 
 ---
 
-將顏色手勢魔塊用4pin排線連接至Armourbit的I2C接口。
+Connect the module to the I2C Port of Armourbit using a 4Pin Cable.
 
 ![](./images/color_wire.png)
 
 ### Robotbit
 
 --- 
-將顏色手勢魔塊連接至Robotbit的I2C接口。
+Connect the module to the I2C Port of Robotbit.
 
-    藍色線（A）請接到SCL，綠色線（B）請接到SDA。
+    Blue(A)->SCL, Green(B)->SDA
 
 ![](./images/gesture_wire1.png)
 
-
-
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Powerbrick Extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
-### 顏色手勢魔塊積木塊:
+### Color Gesture Module Blocks
 
 ![](./images/colorgestureblocks1.png)
 
 ![](./images/colorgestureblocks2.png)
 
-### 顏色檢測
+### Detecting Color
 
 ![](./images/color.png)
 
-[參考程式網址](https://makecode.microbit.org/_LLbfYx40CEdX)
+[Sample Code Link](https://makecode.microbit.org/_LLbfYx40CEdX)
 
-HSV色環可以參考下圖：
+HSV Color Wheel:
 
 ![](./images/hsv.jpg)
 
-### 亮度檢測
+### Detecting Ambient Brightness
 
 ![](./images/colorbrightness.png)
 
-[參考程式網址](https://makecode.microbit.org/_LTt5ugP2f00K)
+[Sample Code Link](https://makecode.microbit.org/_LTt5ugP2f00K)
 
-### 距離檢測
+### Detecting Proximity
 
 ![](./images/colordist.png)
 
-[參考程式網址](https://makecode.microbit.org/_RhKfYUJwu0AK)
+[Sample Code Link](https://makecode.microbit.org/_RhKfYUJwu0AK)
 
-### 手勢檢測
+### Detecting Gesture
 
 ![](./images/gesture.png)
 
-[參考程式網址](https://makecode.microbit.org/_4eiKzMXot5Vy)
+[Sample Code Link](https://makecode.microbit.org/_4eiKzMXot5Vy)
 
-### LED控制
+### Controlling LEDs
 
 ![](./images/led.png)
 
-[參考程式網址](https://makecode.microbit.org/_c5s6sFH3mgXY)
+[Sample Code Link](https://makecode.microbit.org/_c5s6sFH3mgXY)
 
-### Makecode教學短片
+### Makecode Tutorial Video
 
 [![](./images/gesturetut.png)](https://www.youtube.com/watch?v=7WrkDYMc2f0)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./images/kbbanner.png)
 
-### 加載PowerBrick插件
+### Load Powerbrick Extension
 
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+Select Powerbrick from the hardware column.
 
 ![](./kbimages/addextension.png)
 
-### 顏色手勢魔塊積木塊
+### Color Gesture Module Blocks
 
 ![](./kbimages/kbcolorgestureblocks.png)
 
-### 顏色檢測
+### Detecting Color
 
 ![](./kbimages/kbcolor.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM7_01sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM7_01sb3)
 
-### 亮度檢測
+### Detecting Ambient Brightness
 
 ![](./kbimages/kbbrightness.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM7_02sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM7_02sb3)
 
-### 距離檢測
+### Detecting Proximity
 
 ![](./kbimages/kbcolordist.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM7_03sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM7_03sb3)
 
-### 手勢檢測
+### Detecting Gesture
 
 ![](./kbimages/kbgesture.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM7_04sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM7_04sb3)
 
-### LED控制
+### Controlling LEDs
 
 ![](./kbimages/kbled.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM7_05sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM7_05sb3)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1：Why is there no reaction when I click the blocks?
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure you have connected the Micro:bit correctly and flash the firmware again.

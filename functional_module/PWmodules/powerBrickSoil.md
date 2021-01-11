@@ -1,76 +1,76 @@
-# 土壤濕度魔塊
+# Soil Moisture Sensor
 
-土壤濕度魔塊 (HKBM8012H)
+Soil Moisture Sensor (HKBM8012H)
 
 ![](./images/03.png)
 
-這是一塊土壤濕度魔塊，它可以測量土壤的濕度，泥土越乾燥數值越大。
+This is a soil moisture sensor that detects the moisture level in soil, the reading is high when the soil is dry.
 
 ![](./images/IMG_2580.GIF)
 
 ![](./images/IMG_2579.GIF)
 
-## 使用注意事項：
+## Precautions
 
-- 若長期不使用魔塊，請妥善放置乾燥地方保管，防止潮濕被氧化。
-- 魔塊上有最大限位線，請勿過度插入土壤或者水中，避免損壞電路。
+- If the sensor is not in use for a long time, please store in a dry container to prevent oxidation due to moisture.
+- A warning line is printed on the module, do not insert the sensor deeper than this line as this may cause damage to the circuitry.
 
-## 接線方法
+## Connecting the module
 
-將溫度濕度魔塊用4pin排線連接至Armourbit，然後用3pin排線將魔塊連接至溫度濕度魔塊。
+Connect the Environment Module to Armourbit with a 4Pin cable first, then connect the sensor to the module with a 3Pin cable.
 
 ![](./images/soil_wire.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Powerbrick Extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
-### 土壤濕度魔塊積木塊:
+### Environment Module Blocks:
 
 ![](./images/environmentblocks.png)
 
-### 土壤濕度探測編程
+### Detecting soil moisture
 
 ![](./images/soil.png)
 
-[參考程式網址](https://makecode.microbit.org/_i33W9gCyueDr)
+[Sample Code Link](https://makecode.microbit.org/_i33W9gCyueDr)
 
-## 插件版本與更新
-
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
-
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
-
-### Makecode教學短片
+### Makecode Tutorial Video
 
 [![](./images/envtut.png)](https://www.youtube.com/watch?v=ilXSpFd86DQ)
 
-## KittenBlock編程教學
+## Extension Version and Updates
+
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
+
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
+
+## KittenBlock Coding Tutorial
 
 ![](./images/kbbanner.png)
 
-### 加載PowerBrick插件
+### Load Powerbrick Extension
 
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+Select Powerbrick from the hardware column.
 
 ![](./kbimages/addextension.png)
 
-### 環境積木塊
+### Environment Module Blocks
 
 ![](./kbimages/kbenvblocks.png)
 
-### 土壤濕度探測
+### Detecting Soil Moisture
 
 ![](./kbimages/kbsoil.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM3-01sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM3-01sb3)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1：Why is there no reaction when I click the blocks?
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure you have connected the Micro:bit correctly and flash the firmware again.

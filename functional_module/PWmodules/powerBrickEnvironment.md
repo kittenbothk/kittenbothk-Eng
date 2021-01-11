@@ -1,96 +1,96 @@
-# 溫度濕度魔塊
+# Environment Temperature and Humidity Module
 
-溫度濕度魔塊 (HKBM8012D)
+Environment Temperature and Humidity Module (HKBM8012D)
 
 ![](./images/05_05.png)
 
-此模塊用於探測環境的溫度和濕度。附有3pin防反插接口，可以加插雨滴或土壤魔塊。
+This module is used to get the temperature and humidity of the nearby environment. It can be used with the Soil Moisture or Water Level Sensors.
 
-## 詳細介紹
+## Details
 
 ![](./images/05_04.png)
 
-## 產品參數
+## Specifications
 
-- 支援電壓：3V-5V
-- 尺寸：56mm X 24mm X 19mm
-- 接口：4pin防反插接口；3PIN防反插接口。
-- 溫度測量範圍：0-50°C，精準度±2°C
-- 濕度測量範圍：20-90%RH，精準度±5%RH
-- 模擬數值測量範圍(雨滴或土壤魔塊)：0-1023
+- Voltage: 3V-5V
+- Dimensions: 56mm X 24mm X 19mm
+- Connector: 4Pin PH2.0, 3Pin PH2.0
+- Temperature Range: 0-50°C, Accuracy ±2°C
+- Humidity Range: 20-90%RH, Accuracy ±5%RH
+- Sensor Value Return Range: 0-1023
 
-## 使用注意事項
+## Precautions
 
-- 這魔塊不能放入水中，放入水中會導致短路。
+- This module cannot be placed underwater, doing so would cause a short circuitry.
 
-## 接線方法
+## Connecting the module
 
-將溫度濕度魔塊用4pin排線連接至Armourbit。
+Connect the Environment Module to Armourbit with a 4Pin cable.
 
 ![](./images/env_wire.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Powerbrick Extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
-### 溫度濕度魔塊積木塊:
+### Environment Module Blocks:
 
 ![](./images/environmentblocks.png)
 
-### 溫度測量編程
+### Reading the temperature
 
 ![](./images/temp.png)
 
-[參考程式網址](https://makecode.microbit.org/_7iaJkbDr3H0J)
+[Sample Code Link](https://makecode.microbit.org/_7iaJkbDr3H0J)
 
-### 相對濕度測量編程
+### Reading the relative humidity
 
 ![](./images/RH.png)
 
-[參考程式網址](https://makecode.microbit.org/_iwp6isU4hLRR)
+[Sample Code Link](https://makecode.microbit.org/_iwp6isU4hLRR)
 
-### Makecode教學短片
+### Makecode Tutorial Video
 
 [![](./images/envtut.png)](https://www.youtube.com/watch?v=ilXSpFd86DQ)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./images/kbbanner.png)
 
-### 加載PowerBrick插件
+### Load Powerbrick Extension
 
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+Select Powerbrick from the hardware column.
 
 ![](./kbimages/addextension.png)
 
-### 環境積木塊
+### Environment Module Blocks
 
 ![](./kbimages/kbenvblocks.png)
 
-### 溫度測量編程
+### Reading the temperature
 
 ![](./kbimages/kbtemp.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM1_01sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM1_01sb3)
 
-### 相對濕度測量編程
+### Reading the relative humidity
 
 ![](./kbimages/kbhumid.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM1_02sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM1_02sb3)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1：Why is there no reaction when I click the blocks?
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure you have connected the Micro:bit correctly and flash the firmware again.

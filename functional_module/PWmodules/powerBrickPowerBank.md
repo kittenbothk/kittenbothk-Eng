@@ -1,56 +1,60 @@
-# 電池盒
+# Battery Box
 
-電池盒 (HKBM8012A)
+Battery Box (HKBM8012A)
 
 ![](./images/04_02.png)
 
-這是PowerBrick的電源魔塊，用於Armourbit的供電，為Microbit與電機、舵機和各種魔塊進行供電电。使用3pin防反插排線連接，附帶Micro USB充電口，帶短路過流保護電路。另外也可透過USB提供5V電源，為其他主板（例如robotbit，AI鏡頭KOI）。需要使用18650鋰電池。
+This is the Battery Box for PowerBrick, it is used to supply power for the Armourbit and its modules, motors and servos. 
 
-## 使用注意事項
+It has capacity for 1 18650 Li-ion battery and uses a 3Pin PH2.0 connector for output. Comes with built-in Micro USB port with short circuit protection for charging.
 
-- 電池盒首先安裝好電池，才按下電源按键。
-- 安装電池需要注意正負極，根據電池盒的標籤進行安裝。
-- 18650電池首次使用前，請把電池盒的絕緣塑料隔片拿走。
-- 長期不使用的話請把電池取出，保管在合適的地方。
-- 請勿用金屬物件去短路電池接口。
-- 電池盒盡量避免過充過放，充電時請確保有人看管。
-- 電池盒如果過流或短路時，保護電路會啟動，並斷開電源。需要自行查找問題，才重啟電源。
+Also comes with a USB Type A output port to power other modules such as Robotbit, KOI AI Camera.
 
-## 詳細介紹
+## Precautions
+
+- Install the battery before turning on the power.
+- Beware of the polarity when installing the battery, refer to the polarity labelled on the battery compartment.
+- Remove the insulation wrapping of the 18660 Li-ion battery before using.
+- Take out the battery when not in use for a long time. Keep it in a suitable place.
+- Do not short the battery connectors with a metal object.
+- Avoid over charing or discharging of the battery, charging should only be done under supervision.
+- In case of over current or short circuit, the protection circuit would activate and switch off the power. Troubleshoot and fix the problem before restarting.
+
+## Details
 
 ![](./images/04_01.png)
 
-## 供電方式
+## Using the Connectors
 
-### Armourbit專用供電方式
+### Powering the Armourbit
 
 ![](./images/04_03.png)
 
-### 5V USB供電方式
+### Powering USB devices
 
 ![](./images/04_04.png)
 
-### 18650電池安裝演示
+### Installing the 18650 Li-ion Battery
 
-1. 注意電池正負極
-2. 按下電池啟動
-3. 按下電源按鍵
+1. Check the polarity
+2. Press the battery reset switch
+3. Press the power button
 
 ![](./images/IMG_2563.gif)
 
-### 電池盒接線短片
+### Power Supply Connection
 
 [![](./images/batteryconnect.png)](https://www.youtube.com/watch?v=HRJeHkAbnio)
 
-### 為電池盒充電演示
+### Charging the Battery Box
 
-**外部5V電源**（如手機5V充電器或者電腦USB口）可以給電池盒充電。
+The Battery Box can be charged with a **5V Power Supply** (5V Phone Chargers or PC USB Ports)
 
 ![](./images/IMG_2564.gif)
 
-### 電池盒給其它5V電路板供電演示
+### Powering other USB Devices
 
-可以給其他5V電路板供電，例如KOI智能鏡頭，Arduino等。
+The USB Port can power devices like Arduino, KOI AI Camera.
 
 ![](./kbimages/koi.jpg)
 

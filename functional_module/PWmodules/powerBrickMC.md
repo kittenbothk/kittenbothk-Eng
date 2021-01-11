@@ -1,43 +1,43 @@
-# KittenBot魔塊與MakeCode
+# Loading Extensions on MakeCode
 
 ![](./images/RE25mkU.png)
 
-## 快速開始
+## Quick Start
 
-PowerBrick首推的編程平台是微軟Makecode。
+The recommended programming platform for PowerBrick is Microsoft MakeCode.
 
-MakeCode有兩種版本，兩個版本的功能和用法是一樣的。
+MakeCode is available in Online and Offline versions.
 
-MakeCode在線版: https://makecode.microbit.org/
+MakeCode Online: https://makecode.microbit.org/
 
-MakeCode離線版: https://www.kittenbot.cn/software
+MakeCode Offline: https://www.kittenbot.cn/software
 
-## PowerBrick在MakeCode上編程
+## PowerBrick Coding on MakeCode
 
 ![](./images/mcbanner.png)
 
-首先進入MakeCode，建立新專案。
+Navigate to MakeCode's homepage and start a new project.
 
 ![](./images/02_01.png)
 
-### 加載Powerbrick插件
+### Load PowerBrick Extension
 
-編程之前我們需要先載入PowerBrick的插件。
+Click "Extensions" under Settings, or open the "Advanced" tab in the blocks column.
 
 ![](./images/editor1.png)
 
-複製以下地址，在搜尋欄貼上並搜尋。
+Copy and paste the following link onto the search bar.
 
 ### https://github.com/KittenBot/pxt-powerbrick
 
 ![](./images/02_02.png)
 
-點擊加載，加載成功後會新增PowerBrick的積木塊。
+Click the extension to load.
 
 ![](./images/02_03.png)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)

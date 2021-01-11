@@ -1,80 +1,82 @@
-# AB按鍵模組
+# AB Bumpers Module
 
-AB按鍵模組 (HKBM8012C)
+AB Bumpers Modules (HKBM8012C)
 
 ![](./images/08_03.png)
 
-這是一塊按鍵模組，可以檢測按鍵是否按下。當按鍵被按下，模組背後應對的LED會亮燈。另外按鍵上亦可插上樂高十字軸。
+This is a button module, it detects whether the buttons are pressed.
+
+When the buttons are pressed, the corresponding LED on the back would light up. The buttons are compatible with LEGO Technic axis.
 
 ![](./images/IMG_2569.GIF)
 
-## 詳細介紹
+## Details
 
 ![](./images/08_01.png)
 
-## 產品參數
+## Specifications
 
-- 支援電壓：3V-5V
-- 尺寸：56mm X 24mm X 25mm
-- 接口：4pin防反插接口
-- 類型：數字傳感器，按下按鍵，觸發事件
+- Voltage; 3V-5V
+- Dimensions: 56mm X 24mm X 25mm
+- Connector: 4Pin PH2.0
+- Type: Digital Module
 
-## 接線方法
+## Connecting the module
 
-將按鍵模組用4pin排線連接至Armourbit。
+Connect the module to the Armourbit using a 4Pin Cable.
 
 ![](./images/bumper_wire.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Powerbrick Extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
-### AB按鍵模組積木塊:
+### AB Button Module Blocks
 
 ![](./images/bumperblocks.png)
 
-### 按鍵檢測
+### Buttons Detection
 
 ![](./images/bumper.png)
 
-[參考程式網址](https://makecode.microbit.org/_9k42wKXeaP6j)
+[Sample Code Link](https://makecode.microbit.org/_9k42wKXeaP6j)
 
-### Makecode教學短片
+### Makecode Tutorial Video
 
 [![](./images/bumpertut.png)](https://youtu.be/BT1TUlmbMm8?t=370)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./images/kbbanner.png)
 
-### 加載PowerBrick插件
+### Load Powerbrick Extension
 
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+Select Powerbrick from the hardware column.
 
 ![](./kbimages/addextension.png)
 
-### AB按鍵模組積木塊
+### AB Button Module Blocks
 
 ![](./kbimages/kbbumpersblock.png)
 
-### 按鍵檢測
+### Buttons Detection
 
 ![](./kbimages/kbbumpers.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM6_01sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM6_01sb3)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1：Why is there no reaction when I click the blocks?
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure you have connected the Micro:bit correctly and flash the firmware again.

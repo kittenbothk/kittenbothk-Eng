@@ -1,76 +1,76 @@
-# 雨滴水位感應器
+# Water Level Sensor
 
-雨滴水位感應器 (HKBM8012G)
+Water Level Sensor (HKBM8012G)
 
 ![](./images/03drop.png)
 
-這是一塊雨滴水位感應器它可以測量水位高低和是否有雨滴，水位越高數值越大。
+This is a water level sensor which can detect the presence of water and the water level. The reading is high when the water level is high.
 
 ![](./images/IMG_2581.GIF)
 
 ![](./images/IMG_2578.GIF)
 
-## 使用注意事項：
+## Precautions
 
-- 若長期不使用感應器，請妥善放置乾燥地方保管，防止潮濕被氧化。
-- 感應器上有最大限位線，請勿過度插入土壤或者水中，避免損壞電路。
+- If the sensor is not in use for a long time, please store in a dry container to prevent oxidation due to moisture.
+- A warning line is printed on the module, do not insert the sensor deeper than this line as this may cause damage to the circuitry.
 
-## 接線方法
+## Connecting the module
 
-將溫度濕度感應器用4pin排線連接至Armourbit，然後用3pin排線將感應器連接至溫度濕度感應器。
+Connect the Environment Module to Armourbit with a 4Pin cable first, then connect the sensor to the module with a 3Pin cable.
 
 ![](./images/water_wire.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Powerbrick Extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
-### 雨滴水位感應器積木塊:
+### Environment Module Blocks:
 
 ![](./images/environmentblocks.png)
 
-### 水位探測編程
+### Detecting water level
 
 ![](./images/water.png)
 
-[參考程式網址](https://makecode.microbit.org/_h4Ebo11zUhTr)
+[Sample Code Link](https://makecode.microbit.org/_h4Ebo11zUhTr)
 
-### MakeCode教學短片
+### MakeCode Tutorial Video
 
 [![](./images/envtut.png)](https://www.youtube.com/watch?v=ilXSpFd86DQ)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./images/kbbanner.png)
 
-### 加載PowerBrick插件
+### Load Powerbrick Extension
 
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+Select Powerbrick from the hardware column.
 
 ![](./kbimages/addextension.png)
 
-### 環境積木塊
+### Environment Module Blocks
 
 ![](./kbimages/kbenvblocks.png)
 
-### 水位探測編程
+### Detecting water level
 
 ![](./kbimages/kbwaterlevel.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM2_01sb3)
+[Sample Code Download](https://bit.ly/PowerbrickM2_01sb3)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1：Why is there no reaction when I click the blocks?
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure you have connected the Micro:bit correctly and flash the firmware again.

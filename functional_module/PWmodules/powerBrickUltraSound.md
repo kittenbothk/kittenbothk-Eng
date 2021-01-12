@@ -28,8 +28,8 @@ The ultrasound sensor is used to measure the distance of objects, the microphone
 ## Precautions
 
 - Ultrasound works better on items with smooth surfaces, the smooth surface should be perpendicular to the module.
-- Ultrasound emits signal in the shape of an arc, makesure there is no obstacle in the signal range.
-- The microphone only detects whether a sound is loud or not, it can't measure decibels. Measuring decibels require professional equipment.
+- Ultrasound emits signal in the shape of an arc, make sure there is no obstacle in the signal range.
+- The microphone only determines loudness of a sound, it can't measure decibels. Measuring decibels require professional equipment.
 
 ## Connecting the module
 

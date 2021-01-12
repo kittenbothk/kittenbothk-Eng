@@ -4,7 +4,7 @@ Color & Gesture Module (HKBM8012F)
 
 ![](./images/09_06.png)
 
-This is a multifunctional module, the main features are Color detection abd Gesture detection.
+This is a multifunctional module, the main features are Color detection and Gesture detection.
 
 ![](./images/IMG_2572.GIF)
 
@@ -28,7 +28,7 @@ This module has 4 modes:
 - Voltage: 3V-5V
 - Dimensions: 56mm X 24mm X 16mm
 - Connector: 4Pin PH2.0
-- Color Mode Return Value: 0-360
+- Color Mode Return Value: 0-360, corresponding to hue
 - Gesture Mode Return Value: 0-4, corresponding to None, Up, Right, Down, Left
 - Proximity Mode Return Value: 0-255, with a range of approximately 3cm
 - Brightness Return Value: 0-255

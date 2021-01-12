@@ -24,7 +24,7 @@ Developers at Kittenbot hopes to provide a way to expand the usability of Micro:
 
 ## Specification
 
-- Voltage:3.3V(No 5V output)
+- Voltage: 3.3V(No 5V output)
 - Dimensions: 61mm X 61mm X 23mm
 - Interface: PH2.0 4PIN Ports , follows the GVAB pinout
 - DC Motor Driver: Voltage<5V, current<1A, compatible with Kittenbot's motors

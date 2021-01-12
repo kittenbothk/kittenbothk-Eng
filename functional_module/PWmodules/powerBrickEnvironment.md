@@ -21,7 +21,7 @@ This module is used to get the temperature and humidity of the nearby environmen
 
 ## Precautions
 
-- This module cannot be placed underwater, doing so would cause a short circuitry.
+- This module cannot be placed underwater, doing so would cause a short circuit.
 
 ## Connecting the module
 

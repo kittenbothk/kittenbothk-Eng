@@ -58,7 +58,7 @@ Connect the RGB Module to Armourbit with a 4Pin cable.
 
 [Sample Code Link](https://makecode.microbit.org/_VDtaD6AVjfdd)
 
-### Lighting up a pixel
+### Lighting up individual pixels
 
 ![](./images/rgbpixel.png)
 
@@ -81,11 +81,11 @@ Daisy chaining creates a bigger screen.
 
 ### Daisy Chaining
 
-Connect the out of matrix A to the in of matrix B.
+Connect the "OUT" of matrix A to the "IN" of matrix B.
 
 ![](./images/rgbchain.jpg)
 
-NeoMatrix Graphical editor is supporting for daisy chaining.
+NeoMatrix Graphical editor is supported for daisy chaining.
 
 [NeoMatrix Tutorial](../../../accessories/LEDMatrix/LEDMatrixDaisyChain.md)
 
@@ -113,7 +113,7 @@ Select Powerbrick from the hardware column.
 
 ![](./kbimages/rgbblocks.png)
 
-### Lighting up pixels
+### Lighting up individual pixels
 
 ![](./kbimages/kbrgb.png)
 

@@ -6,15 +6,15 @@ Battery Box (HKBM8012A)
 
 This is the Battery Box for PowerBrick, it is used to supply power for the Armourbit and its modules, motors and servos. 
 
-It has capacity for 1 18650 Li-ion battery and uses a 3Pin PH2.0 connector for output. Comes with built-in Micro USB port with short circuit protection for charging.
+It has capacity for 1 18650 Li-ion battery and uses a 3Pin PH2.0 connector for output. Comes with a built-in Micro USB port with short circuit protection for charging.
 
 Also comes with a USB Type A output port to power other modules such as Robotbit, KOI AI Camera.
 
 ## Precautions
 
 - Install the battery before turning on the power.
-- Beware of the polarity when installing the battery, refer to the polarity labelled on the battery compartment.
-- Remove the insulation wrapping of the 18660 Li-ion battery before using.
+- Beware of the polarity when installing the battery, refer to the polarity labelled inside the battery compartment.
+- Remove the insulation wrapping of the 18650 Li-ion battery before using.
 - Take out the battery when not in use for a long time. Keep it in a suitable place.
 - Do not short the battery connectors with a metal object.
 - Avoid over charing or discharging of the battery, charging should only be done under supervision.

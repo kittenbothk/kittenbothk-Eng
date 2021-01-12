@@ -26,7 +26,7 @@ This is a music module with a speaker and a microSD card slot, it is able to pla
 - PowerBrick Kit set does not come with an SD Card.
 - Music can only be played if there are music files on the SD Card.
 - When installing the SD Card, push it into the slot until there is a click.
-- Do not pull out the SD Card directly, the SD Card can be removed by pushing the SD Card to unlock it.
+- To remove the SD Card, gently push the SD Card, the SD Card will be unlocked and can be taken out. Do not pull the SD Card from the slot without unlocking first.
 
 ## Connecting the module
 

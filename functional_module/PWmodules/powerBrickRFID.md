@@ -36,14 +36,14 @@ The included RDID card has 1K memory, it has 16 sections with 3 blocks each.
 
 ---
 
-Connect the Music Module to the I2C port of Armourbit with a 4Pin cable.
+Connect the RFID Module to the I2C port of Armourbit with a 4Pin cable.
 
 ![](./images/rfid_wire.png)
 
 ### Robotbit
 
 --- 
-Connect the Music Module to the I2C port of Robotbit.
+Connect the RFID Module to the I2C port of Robotbit.
 
     Blue(A)->SCL, Green(B)->SDA
 

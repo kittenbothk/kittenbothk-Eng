@@ -49,9 +49,9 @@ The functions of the 4 pins are as follows:
 
  ![](./introimage/wifi-23-1.png)
 
-Tx = Transmit(*tx*) Data
+Tx = Transmit(*Tx*) Data
 
-Rx = Receive(*rx*) Data
+Rx = Receive(*Rx*) Data
 
 ## Connecting the module
 

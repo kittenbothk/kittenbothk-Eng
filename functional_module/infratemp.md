@@ -25,7 +25,7 @@ Connect the temperature sensor to the i2c port.
 
 ### Powerbrick extension：https://github.com/KittenBot/pxt-powerbrick
 
-### [How to load extension:](../Makecode/powerBrickMC)
+### [Loading Extensions:](../Makecode/powerBrickMC)
 
 ### Temperature sensor blocks
 

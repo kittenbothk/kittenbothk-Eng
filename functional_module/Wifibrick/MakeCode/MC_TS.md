@@ -30,9 +30,7 @@ Robotbit: **https://github.com/KittenBot/pxt-robotbit**
 
 Powerbrick: **https://github.com/KittenBot/pxt-powerbrick**
 
-## Loading Extensions
-
- ![](./iotimage/iot-38.png)
+ [Loading Extensions](../../../../Makecode/powerBrickMC)
 
 ### 1. Connecting to the Internet
 
@@ -64,7 +62,7 @@ The figure above used the block for Robotbit, if you are using an Armourbit, jus
    
 Before moving on, it is recommended that you run this program once to ensure the module can connect to the Wifi network.
 
-[Sample Code Download](https://bit.ly/WifibrickConnectionMC)
+[Sample Code Link](https://makecode.microbit.org/_Jq53m3M7YHWT)
 
 [**Demo Video**](https://youtu.be/v6yIrGqzqO4)
 
@@ -80,7 +78,7 @@ Connecting to IoT platforms are done with these blocks.
 
 Add the following code to your program to connect to the IoT Platform.
 
-Input mqtt.thingspeak.com in the host field. For ClientID, just input whatever you want.
+Input **mqtt.thingspeak.com** in the host field. For ClientID, just input whatever you want.
 
 ![](./iotimage/iot-41.png)
 
@@ -138,7 +136,7 @@ After these 3 steps, our program is complete.
 
  ![](./iotimage/iot-45-01.png)
 
-[Sample Code Download](https://bit.ly/35THP6O)
+[3.1.1 Sample Code Link](https://makecode.microbit.org/_7VoDz8XvCDo0)
 
     You need to input your own network and channel details before using the sample code.
 
@@ -170,13 +168,13 @@ Attention 2: Free accounts can only publish once every 15 seconds.
 
 ------
 
-By slightly modifying our program, it can automatically upload data.
+By slightly modifying our program, it can now automatically upload data.
 
 ![](./iotimage/iot-48-1.png)
 
 Since our free accounts can only publish once every 15 seconds, we put a 15 second pause before sending data again.
 
-[Sample Code Download](https://drive.google.com/open?id=1Almi0u8mXMtOl9ECdqK7Sn6txz4NKTP8)
+[3.2.2 Sample Code Link](https://makecode.microbit.org/_ism56L9k8g9h)
 
     You need to input your own network and channel details before using the sample code.
 
@@ -208,7 +206,7 @@ We also need this block to subscribe to our channels.
 
  ![](./iotimage/iot-51-1.png)
 
-Create the following program:
+Build the following program:
 
  ![](./iotimage/iot-52-1.png)
 
@@ -238,9 +236,9 @@ When data is sent to the channel, that data will be displayed on the Micro:bit.
 
  ![](./iotimage/iot-54-1.png)
 
-[3.2A Sample Code Download](https://drive.google.com/open?id=1SzOjCk96ki9xFxoxEKJGWMbf8-p3Dx0m)
+[3.2A Sample Code Link](https://makecode.microbit.org/_a310rxagkEyp)
 
-[3.2B Sample Code Download](https://drive.google.com/open?id=1ga04jVOFTbh-9taz_nepZAlsc4JWu0Uf)
+[3.2B Sample Code Link](https://makecode.microbit.org/_AUWFqKYWE7ow)
 
     The 2 programs are similar, 3.2B repeats displaying the data for 3 times while 3.2A just displays the data once.
 

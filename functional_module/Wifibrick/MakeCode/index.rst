@@ -2,7 +2,6 @@
 ====================
 
 Each IoT platform may have slight differences in coding, let's take a look at them.
-各個IoT平台的編程方式會稍有不同, 一起來看看吧!
 
 .. toctree::
     :maxdepth: 1

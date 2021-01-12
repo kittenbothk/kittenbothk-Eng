@@ -11,13 +11,13 @@ Welcome to the Coding & STEM Sharing Hub of Kittenbot HK, here you will find all
 
 .. toctree::
     :maxdepth: 2
-    :caption: KittenBlock Introduction and Tutorial
+    :caption: KittenBlock
 
     KittenBlock/index
 
 .. toctree::
     :maxdepth: 2
-    :caption: KittenCode Introduction and Tutorial
+    :caption: KittenCode
 
     KittenCode/index
 

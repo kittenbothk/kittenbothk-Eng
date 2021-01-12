@@ -1,7 +1,7 @@
 ﻿IoT Platform Introductions
 ====================
 
-There are both free and paid IoT platforms, here are some introductions to platforms suitable for beginners.
+There are both free and paid IoT platforms, here are introductions to some platforms suitable for beginners.
 
 .. toctree::
     :maxdepth: 1

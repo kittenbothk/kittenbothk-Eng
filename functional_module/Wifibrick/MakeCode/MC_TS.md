@@ -110,7 +110,7 @@ e.g. **channels/1058604/publish/NNCQRVPVJ7ZATI1F**
 
 If you have forgotten how to find these details, please refer to:
 
-[ThingSpeak](../IoTplatform/Thinkspeak)
+[ThingSpeak Introduction](../IoTplatform/Thinkspeak)
 
 ##### STEP 3
 

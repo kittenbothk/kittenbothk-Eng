@@ -12,9 +12,9 @@ The program can be divided into 3 parts:
 
 1. Connecting to the Internet.
 
-2. Connect to the IoT Platform.
+2. Connecting to the IoT Platform.
 
-3. Main program(Publish/Subscribe)
+3. Main program.(Publish/Subscribe)
 
 - Robotbit was used when creating this tutorial, for Armourbit users, please refer to the instructions to modify the program.
 

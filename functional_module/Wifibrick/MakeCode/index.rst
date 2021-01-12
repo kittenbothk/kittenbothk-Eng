@@ -1,6 +1,7 @@
-﻿針對不同平台的MakeCode編程
+﻿MakeCode Coding for Wifibrick
 ====================
 
+Each IoT platform may have slight differences in coding, let's take a look at them.
 各個IoT平台的編程方式會稍有不同, 一起來看看吧!
 
 .. toctree::

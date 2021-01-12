@@ -23,8 +23,6 @@ Connect the temperature sensor to the i2c port.
 
 ![](./PWmodules/images/mcbanner.png)
 
-![](../meowbit/images/acbanner.png)
-
 ### Powerbrick extension：https://github.com/KittenBot/pxt-powerbrick
 
 ### [How to load extension:](../Makecode/powerBrickMC)

@@ -1,7 +1,7 @@
-﻿IoT平台介紹
+﻿IoT Platform Introductions
 ====================
 
-IoT 平台有免費或付費的選擇, Kittenbot 為大家介紹新手玩家的選擇
+There are both free and paid IoT platforms, here are some introductions to platforms suitable for beginners.
 
 .. toctree::
     :maxdepth: 1
@@ -12,7 +12,7 @@ IoT 平台有免費或付費的選擇, Kittenbot 為大家介紹新手玩家的�
 
 .. toctree::
     :maxdepth: 1
-    :caption: MakerCloud創客雲:
+    :caption: MakerCloud:
 
     https://learn.makercloud.io/zh_TW/latest/
     

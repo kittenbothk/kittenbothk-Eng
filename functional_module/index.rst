@@ -32,7 +32,7 @@ Information and tutorials related to Micro:bit compatible modules.
 
 .. toctree::
     :maxdepth: 1
-    :caption: IoT Solutions & Wifibrick
+    :caption: Wifibrick & IoT Solutions
 
     Wifibrick/index
 

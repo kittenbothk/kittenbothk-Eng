@@ -1,149 +1,114 @@
-# Wifibrick 介紹與使用
+# Wifibrick
 
 Wifibrick (HKBM8012O)
 
-## 簡介
+## Introduction
 
-Wifibrick 是Kittenbot Powerbrick 延伸的一款功能魔塊; 顧名思義, Wifibrick 提供了一個渠道, 把micro:bit 作為核心的系統, 通過wifi 連接到各IoT 平台, 如國外的Thinkspeak, 本地的Makercloud 或中國移動的OneNet。
+Wifibrick is an expansion module for Kittenbot's Powerbrick.
+
+As the name suggests, this module provides a method for Micro:bit to connect to the internet, allowing it to connect to various IoT platforms such as ThingSpeak, MakerCloud or OneNet.
 
  ![](./introimage/wifi-01-1.png)
 
-
-
-它的外型跟Powerbrick 中的溫濕度方塊是同一個模樣; 但Wifibrick 上多了一個logo
+Appearance-wise, it is largely identical to the Temperature and Humidity Module, with the exception of a logo printed on the Wifibrick.
 
  ![](./introimage/wifi-02.png)
 
+## Specifications	
 
-
-## 規格	
-
-工作電壓:  3.3 - 5V  
-
-工件電流:  ~65mA
-
-尺寸: 56 (L) x 25 (W) x 20 (H)
-
-接線位置: PH2.0, 4 pin防反接排線
+- Voltage: 3.3-5V  
+- Current: ~65mA
+- Dimensions: 56 (L) x 25 (W) x 20 (H)
+- Connector: 4Pin PH2.0
+- Supports STA/AP/STA+AP
+- Supports Smart Config
 
  ![](./introimage/wifi-05-1.png)
 
-支持 STA / AP / STA+AP 模式; 支持Smart Config 功能
+## Special Features	
 
+- Micro:bit compatible Wifi modules are rare in the market, therefore Kittenbot has developed the firmware and MakeCode extension.
 
+- With a built-in indicator LED, connection status can be read.
 
-## 特點	
-
-- 巿面上較少能直接配合micro:bit 使用的3.3V Wifi 模塊, 由Kittenbot 自家開發固件及makecode 編程積木, 方便易用。
-
-- 內置紅﹑藍﹑綠指示燈, 連線狀態一目了然。
-
-- 單插頭防反設計, 接線簡單減少失誤。
+- The PH2.0 Cable prevents incorrect connection.
 
      ![](./introimage/wifi-04-1.png)
 
-- 2則及背面帶有能配對樂高科技系列的插孔, 更易融合到模型中。
+- Lego Pin connectors are installed into the sides and the back of the module, making it very easy to integrate into different models.
 
      ![](./introimage/wifi-09-1.png)
 
+## Pin out Explaination
 
-
-## 接腳解讀
-
-在Wifibrick 背面, 會看4支針腳的標示, 分別為 G﹑V﹑ A﹑ B, 
+On the back of the WifiBrick, the pin out is labelled as G, V, A, B.
 
  ![](./introimage/wifi-22-1.png)
 
-對應針腳功能如下:
+The functions of the 4 pins are as follows:
 
  ![](./introimage/wifi-23-1.png)
 
-Tx = 發送數據 Transmit(*tx*) Data 的簡寫
+Tx = Transmit(*tx*) Data
 
-Rx = 接收数據 Receive(*rx*) Data 的簡寫
+Rx = Receive(*rx*) Data
 
-
-
-## 接線方法
+## Connecting the module
 
  ![](./introimage/wifi-06-1.png)
 
+There are numerous ways to connect the Wifibrick to a Micro:bit, it is recommended to use Kittenbot's expansion boards.
 
-
-把wifibrick 連接到micro:bit 的方法很多, 建議配合Kittenbot 的擴展板 / breakout board 一拼使用。
-
-詳細見下文:
-
-
+Details are as follows:
 
 ### Armourbit
 
-Armourbit 是Powerbrick 套件中的micro:bit擴展盒。只要把micro:bit 插進去, 就能通過armourbit 4則及背面的port 位, 把wifibrick 或 sensor 等配件連接到micro:bit 的pin 位。
+Armourbit is an expansion box designed for Micro:bit. Wifibrick can be connected to Armourbit using a 4Pin cable.
 
  ![](./introimage/wifi-07-1.png)
 
-[Armourbit 詳細介紹](https://kittenbothk.readthedocs.io/en/latest/Microbit%20eboard/Armourbit.html)
+[Armourbit Details](../PWmodules/Armourbit)
 
-
-
-採用2端都是ph2.0 4pin 的接線
+The 2 ends of the cable are both PH2.0.
 
  ![](./introimage/wifi-08-1.png)
 
-利用接線, 可把Wifibrick 接到Port 1 (需關閉buzzer), Port 2, Port 3 或 Port 4 也可。
+Connect Wifibrick to the Port 1(Requires turning off the buzzer) to Port 4 of the Armourbit using the cable.
 
-下圖示範用上了Port 2, 對應的就是micro:bit 的p1 及 p12
+In this figure, Port 2 is used, this corresponds to P1 and P12 of the Micro:bit.
 
-#### ![](./introimage/wifi-13-1.png)
+![](./introimage/wifi-13-1.png)
 
-下圖解有助稍後了解在編程中的設定
+Wiring Details:
 
- ![](./introimage/wifi-12-1.png)
-
-
+![](./introimage/wifi-12-1.png)
 
 ### Robotbit
 
-Robotbit 是Kittenbot 一款長青的擴展板, 兼容自家大部份外置模組, 包括Wifibrick
+Robotbit is a popular Micro:bit expansion board by Kittenbot, it supports a wide variety of modules including Wifibrick.
 
-[Robotbit 詳細介紹](https://kittenbothk.readthedocs.io/en/latest/Microbit%20eboard/Robotbitfull.html#)
+[Robotbit Details](../../Microbit_eboard/Robotbit/Robotbitfull)
 
-採用ph2.0 4pin 轉杜邦線; 利用杜邦端, 分別接到Robotbit 的G, V, P1, P2 (P12也可)
+Using a PH2.0 to Dupont Cable, connect the Dupont pins to G, V and 2 signal pins on the Robotbit.
 
  ![](./introimage/wifi-16-1.png)
 
-
-
-接線示意圖
+In this figure, Pin 1 and Pin 2 is used.
 
  ![](./introimage/wifi-20-1.png)
 
  ![](./introimage/wifi-19-1.png)
 
-
-
-下圖解有助稍後了解在編程中的設定
+Wiring Details:
 
  ![](./introimage/wifi-18-1.png)
 
-
-
-
-
 ### IoBit
 
-IoBit 接Wifibrick 的方法跟上述接Robotbit 的方法大同小異, 都是選定Rx, Tx 接到那支pin 就可以了。
+IoBit is a basic Micro:bit extension board by Kittenbot, Wifibrick is supported on this board.
 
-下圖是接到IoBit 的G, V, P1, P2
+The connection method is identical to Robotbit. Using a PH2.0 to Dupont Cable, connect the Dupont pins to G, V and 2 signal pins on the IoBit.
+
+In this figure, Pin 1 and Pin 2 is used.
 
  ![](./introimage/wifi-21-1.png)
-
-
-
-
-
-
-
-
-
-

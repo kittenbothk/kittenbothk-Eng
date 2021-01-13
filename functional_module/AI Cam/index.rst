@@ -1,8 +1,8 @@
-﻿AI鏡頭KOI
+﻿AI Camera KOI
 =======
-﻿AI鏡頭KOI
+AI Camera KOI
 
-這裡集合了KOI AI鏡頭的各種資料，包括KOI硬件介紹，編程教學和更新教學。
+All information about AI Camera KOI is documented here, including hardware information, coding tutorials and firmware updates.
 
 .. toctree::
     :maxdepth: 2

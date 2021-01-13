@@ -1,4 +1,4 @@
-Makecode上KOI各種功能編程指引
+KOI Coding with MakeCode
 ====================
 
 

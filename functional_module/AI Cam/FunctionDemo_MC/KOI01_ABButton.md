@@ -1,54 +1,55 @@
-# **A與B鍵應用**
+# **A and B Buttons**
 
-KOI上自帶兩個AB側按鍵與一個Reset按鍵。
+KOI has 2 built in programmable buttons called A and B.
 
- ![](KOI01/01-1.png)
+ ![](KOI01/13-1.png)
 
-## 編寫A,B按鍵程式
+## Using A and B Buttons
 
 ![](../../PWmodules/images/mcbanner.png)
 
-### 加載KOI插件：https://github.com/KittenBot/pxt-koi
+### Load KOI Extension: https://github.com/KittenBot/pxt-koi
 
-### [詳細方法](../../../Makecode/powerBrickMC)
+### [Loading Extensions](../../../Makecode/powerBrickMC)
 
-按鍵積木塊：
+Button Blocks:
 
  ![](KOI01/02-1.png)
 
-btn1和btn2分別指的是按鍵A與按鍵B的按鍵狀態。
+btnA and btnB refer to Button A and B respectively.
 
-當按鍵按下時，狀態為1，否則為0。通過判斷btnA或者btnB的變數是否為0時，就可判斷按鍵是否按下。
+When the button is being pressed, it returns a value of 1. When it is not being pressed, it returns a value of 0.
 
-完整參考程式：
+### Sample Program:
 
 ![](KOI01/03-2.png)
 
-## 程式運行流程
+## Program Flow
 
-把程式下載到Microbit上, 當按下KOI的按鍵A，Microbit點陣顯示笑臉，且蜂鳴器播放一個短曲 power up; 當按下KOI 的按鍵B，Microbit點陣顯示張嘴的表情，且蜂鳴器播放一個短曲 ba ding。
+Download the program to Micro:bit.
 
+Pressing button A on the KOI causes Micro:bit to show a smiley face, pressing button B on the KOI causes Micro:bit to show a surprised face.
 
-## 參考程式
+## Sample Code
 
-[KOI AB 按鍵應用HEX (插件0.5.7)](https://makecode.microbit.org/_cjVL49CmfWKJ)
+[KOI AB Buttons (Ext0.5.7)](https://makecode.microbit.org/_cjVL49CmfWKJ)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
-### 1: 為什麼我打開電源，按KOI的按鍵A或者按鍵B，怎麼沒反應？
+### 1: There is no reaction after pressing the buttons on the KOI.
 
-·    答：打開電源後, KOI 及microbit 同時起動; 相對上, Microbit 所需的起動時間比KOI魔塊短, 引致 Microbit的初始化程式（串口指令中, 控制載入Yolo模型）已經跑完了，KOI還沒完全起動, 最後會在螢幕中呈現報錯資訊。
+·    A: This is because KOI has a longer boot time than Micro:bit. When the power is turned on, Micro:bit has already ran the code for KOI initialization before KOI is ready.
 
-·    解決辦法：打開電源後，重新按下Microbit背後的Reset按鍵，讓Microbit重新開始運行（秘訣就是讓KOI魔塊先完全運行起來，再讓Microbit 跑初始化程式）
+·    Solution: Reset your Micro:bit after KOI has been turned on. (The trick is to let KOI power on completely before initialization.)
 
-### 2: KOI鯉魚魔塊我直接3V電源可以嗎？
+### 2: Does KOI work with 3V input?
 
-·    答：不行，必須要接5V！
+·    A: No, KOI only works with 5V.
 
 

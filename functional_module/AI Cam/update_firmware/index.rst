@@ -1,9 +1,9 @@
-**KOI固件更新**
+**KOI Firmware Update**
 ==============
 
-Kittenbot不定時會推出固件更新，改進KOI AI鏡頭的功能。
+Kittenbot's development team releases new firmware for KOI periodically to improve KOI's functions.
 
-這裡匯集了KOI更新的資料。
+Users can follow these instructions to update your KOI to the latest firmware.
 
 .. toctree::
     :maxdepth: 2

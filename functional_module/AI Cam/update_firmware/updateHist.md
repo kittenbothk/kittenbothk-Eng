@@ -1,72 +1,72 @@
-# **KOI固件版本一覽**
+# **KOI Update History**
 
-這裡集合了KOI最新與過往的固件檔案。
+The latest and legacy firmware files can be downloaded here.
 
-## 最新固件(版本v1.12.0)
+## Latest Firmware(Version: v1.12.0)
 
-固件版本: v1.12.0
+Firmware Version: v1.12.0
 
-固件日期：23/11/2020
+Release date: 23/11/2020
 
-[下載地址](https://bit.ly/KOIFW1120)
+[Firmware Download](https://bit.ly/KOIFW1120)
 
-固件更新摘要：
+Update Notes:
 
-1. 改善文字變語音穩定性
-2. 人臉辨識功能改善
-3. 語音辨識功能改善
-4. 用戶界面改善
+1. Improve Text-to-Speech stability
+2. Face Recognition Improvements
+3. Speech Recognition Improvements
+4. UI Improvements
 
-開機畫面：
+Greeting Screen:
 
 ![](./images/25081.jpg)
 
-版本提示：
+Version: 
 
 ![](./images/1_12_0.jpg)
 
-## 版本v1.9.5
+## Version: v1.9.5
 
-固件版本: v1.9.5
+Version: v1.9.5
 
-固件日期：16/09/2020
+Release date: 16/09/2020
 
-[下載地址](http://bit.ly/KOIFW195)
+[Download Link](http://bit.ly/KOIFW195)
 
-固件更新摘要：
+Update Notes:
 
-1. IOT功能更新
-2. 語音辨識功能更新
-3. 機器學習模型數目由20增加到40
+1. IOT Update
+2. Voice Recognition Update
+3. Increasing tag size from 20 to 40
 
-開機畫面：
+Greeting Screen:
 
 ![](./images/25081.jpg)
 
-版本提示：
+Version:
 
 ![](./images/195_1.jpg)
 
-## 固件版本0.43
+## Version: 0.43
 
-固件版本: 0.43
+Version: 0.43
 
-固件日期：16/09/2020以前
+Relase Date: Before 16/09/2020
 
-[下載地址](http://bit.ly/KOIFW043)
+[Download Link](http://bit.ly/KOIFW043)
 
-固件更新摘要：
+Update Notes:
 
-1. KOI出廠時原廠固件
+1. Factory Firmware
 
-版本提示：
+Version
 
 ![](./images/043.jpg)
 
-## 如何檢查KOI現時版本
+## Checking the firmware version
 
-KOI開機時也會顯示。
+Version is shown when booting up.
 
-只需要打開Kittenblock，連接KOI，連接成功時畫面就會彈出訊息提示KOI固件版本。
+Connect to KOI on Kittenblock will cause a pop up showing the firmware version.
 
 ![](./images/kb8.png)

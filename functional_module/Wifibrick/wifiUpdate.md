@@ -52,7 +52,7 @@ Select Upgrade Firmware from the menu.
 
 ![](./introimage/update5.png)
 
-Select the right file accoring to the instruction.
+Select the right file according to the instructions.
 
 ![](./introimage/update6.png)
 

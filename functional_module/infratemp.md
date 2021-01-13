@@ -53,4 +53,4 @@ Connect the temperature sensor to the i2c port.
 
 There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../Makecode/makecode_extensionUpdate)

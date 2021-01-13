@@ -1,68 +1,62 @@
-# **KOI固件更新教學**
+# **Updating KOI Firmware**
 
-開發團隊會不定時為KOI推出更新固件，以改進KOI AI鏡頭的功能。
+Kittenbot's development team releases new firmware for KOI periodically to improve KOI's functions.
 
-用家可到這裏查看最新的固件版本, 以下為更新KOI 固件的方法。
+Users can follow these instructions to update your KOI to the latest firmware.
 
-(建議在更新固件前, 前先把現版本的固件也保存下來, 若在更新固件後遇到不良情況, 可回復到前一版本的固件)
+## **Update Method**
 
-
-
-## **重刷固件方法**
-
-將KOI插入電腦的USB接口。
+Connect KOI to a computer using a USB cable.
 
 ![](./images/usb.jpg)
 
-更新固件需要預備2樣檔案，**刷件程式**和**固件檔案**, 點擊以下連結下截。
+You will need **firmware flashing tool** and a **firmware file** to update firmware. Download them using the provided link.
 
-[下載刷件程式](https://dl.sipeed.com/MAIX/tools/kflash_gui/kflash_gui_v1.6.5)
+[Flashing tool](https://dl.sipeed.com/MAIX/tools/kflash_gui/kflash_gui_v1.6.5)
 
-[固件檔案下載](./updateHist.md)
+[Firmware Download](./updateHist.md)
 
-
-
-**1. 按照電腦的作業系統下載刷件程式。**
+**1. Download the version appropiate to your operating system.**
 
 ![](./images/1.png)
 
-**2. 將檔案解壓縮。**
+**2. Unzip the file.**
 
 ![](./images/2.png)
 
-**3. 打開kflash_gui.exe。**
+**3. Find and open kflash_gui.exe**
 
 ![](./images/3.png)
 
-**4. 請允許運行。**
+**4. Please allow the program to run if this message appeared.**
 
 ![](./images/4.png)
 
-**5. 打開固件檔案。**
+**5. Select the firmware file.**
 
 ![](./images/5.png)
 
-**6. 在Board選擇Sipeed Maixduino。**
+**6. From Board, select Sipeed Maixduino。**
 
 ![](./images/6.png)
 
-**7. 在Port選擇連接KOI的接口。**
+**7. Select the port that KOI is connected to.**
 
 ![](./images/7.png)
 
-**8. 其他設定可以使用預設值，按下載。**
+**8. Leave other settings as default and Download.**
 
 ![](./images/8.png)
 
-**9. 耐心等待下載完成。**
+**9. Wait for the update to complete.**
 
 ![](./images/9.png)
 
-**10. 下載完成！**
+**10. Flashing done.**
 
 ![](./images/10.png)
 
-**11. 然後按Reset重啟KOI。**
+**11. Reset KOI to check if update is successful.**
 
 ![](./images/reset.jpg)
 

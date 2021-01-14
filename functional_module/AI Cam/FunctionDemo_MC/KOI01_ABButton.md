@@ -12,7 +12,7 @@ KOI has 2 built in programmable buttons called A and B.
 
 ### [Loading Extensions](../../../Makecode/powerBrickMC)
 
-Button Blocks:
+Blocks for buttons:
 
  ![](KOI01/02-1.png)
 
@@ -32,7 +32,7 @@ Pressing button A on the KOI causes Micro:bit to show a smiley face, pressing bu
 
 ## Sample Code
 
-[KOI AB Buttons (Ext0.5.7)](https://makecode.microbit.org/_cjVL49CmfWKJ)
+[KOI AB Buttons (Extension0.5.7)](https://makecode.microbit.org/_cjVL49CmfWKJ)
 
 ## Extension Version and Updates
 
@@ -51,5 +51,3 @@ There may be updates to extensions periodically, please refer to the following l
 ### 2: Does KOI work with 3V input?
 
 ·    A: No, KOI only works with 5V.
-
-

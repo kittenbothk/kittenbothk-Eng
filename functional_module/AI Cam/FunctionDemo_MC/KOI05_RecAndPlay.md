@@ -1,80 +1,68 @@
-# **錄音與播放**
+# **Recording and Playback**
 
-KOI上自帶收音咪和喇叭，可以實現錄音與播放的功能。同時錄音功能作為語音辨識的前置準備操作，喇叭播放作為語音合成的輸出。
+With the built-in microphone and speaker, simple recording and playback is possible.
 
-啟動錄音功能，KOI會錄製3秒的聲音（運行記憶體不足原故, 錄音時間不能延長），將聲音存儲為wav格式保存在記憶體卡上。
+KOI can record a 3 second audio clip and saves the file as a wav format.
 
- ![](KOI05/01.png)
-
-### 裝上micro SD卡
+### Install an SD Card
 
  ![](KOI05/02-1.png)
 
-使用錄音功能必須保證在開機前把記憶體卡插好，KOI支援16G或以下的記憶卡。
+    The pictures are stored onto an SD card, without an SD card, these operations would fail.
 
-
-
-## 编寫錄音與播放程式
+## Recording and playback
 
 ![](../../PWmodules/images/mcbanner.png)
 
-### 加載KOI插件：https://github.com/KittenBot/pxt-koi
+### Load KOI Extension: https://github.com/KittenBot/pxt-koi
 
-### [詳細方法](../../../Makecode/powerBrickMC)
+### [Loading Extensions](../../../Makecode/powerBrickMC)
 
-錄音與播放積木塊：
+Blocks for recording and playback:
 
  ![](KOI05/04.png)
 
-
-
-完整參考程式：
+### Sample Program:
 
   ![](KOI05/03-1.png)
 
+## Program Flow
 
+Download the program to Micro:bit.
 
-## 程式運行流程
+1. Press button A on the Micro:bit, KOI will record what you say.
+2. Press button B on the Micro:bit, KOI will playback the audio file.
 
-把程式下載到Microbit, 
+## Sample Code
 
-1. 按下Microbit的按鍵A，對著收音咪進行說話錄音。錄製完畢後，喇叭會播放剛才錄製的音訊。
-2. 當按下Microbit的按鍵B，喇叭播放對應的音訊。
+[Recording and playback (Extension0.5.7)](https://makecode.microbit.org/_irkWewakW2Fo)
 
+## Extension Version and Updates
 
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-## 參考程式
-
-[KOI錄音與播放Hex (插件0.5.7)](https://makecode.microbit.org/_irkWewakW2Fo)
-
-
-## 插件版本與更新
-
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
-
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
-### 1: 為什麼我打開電源，按Microbit的A按鍵，怎麼沒反應？
+### 1: There is no reaction after pressing the buttons on the Micro:bit.
 
-​       ·    答：打開電源後, KOI 及microbit 同時起動; 相對上, Microbit 所需的起動時間比KOI魔塊短, 引致 Microbit 的初始化程式已經跑完了，KOI還沒完全起動。
+·    A: This is because KOI has a longer boot time than Micro:bit. When the power is turned on, Micro:bit has already ran the code for KOI initialization before KOI is ready.
 
-​       ·    解決辦法：打開電源後，重新按下Microbit背後的Reset按鍵，讓Microbit重新開始運行（秘訣就是讓KOI魔塊先完全運行起來，再讓Microbit 跑初始化程式）
+·    Solution: Reset your Micro:bit after KOI has been turned on. (The trick is to let KOI power on completely before initialization.)
 
-### 2: 音訊名稱可以用中文嗎？
+### 2: Does KOI work with 3V input?
 
-   ·    答：不可以，Makecode本身編碼不支援中文。 
+·    A: No, KOI only works with 5V.
 
-### 3: 錄音的時長，我可以進行更改嗎？
+### 3: Can I change the recording duration?
 
-   ·    答：不可以，可以錄製的時長已經是最長的，大概3秒。
+·    A: No, because recording duration is limited by the amount of RAM that KOI has.
 
+### 4: Can I play mp3 files on the KOI?
 
-### 4: 播放的音訊，支援MP3格式嗎？
+·    A: No, KOI can only play wav files, and file size cannot exceed 512KB.
 
-   ·    答：不支持，只支持wav格式，且wav音訊不能超過512K。因此播放歌曲這種就無法實現了。
+### 5: Can I create my own wav files to play on KOI?
 
-### 5: 為什麼我預載了音頻檔到SD卡，在KOI播放不了？
-
-·    答：因為KOI對音頻檔案有限制，長度必須要是少於3.75秒，大小要少於512KB和位元速率要是少於512kbps。
+·    A： Yes but make sure the duration is less than 3.75 seconds with a bitrate of less than 512kbps. The file size has to be within 512KB.

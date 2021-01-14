@@ -1,94 +1,74 @@
-# **讀取條碼Bar Code 及 二維碼QR Code**
+# **Scanning Barcodes and QR Codes**
 
-·    條碼 (Bar Code) 廣泛用於我們生活中，例如產品的識別標籤。
+·    Barcode is wide adopted in our daily lives, they are found on various products.
 
-·    二維碼(QR Code)用於支付場景或者社交場景。
+·    QR Codes are used for data exchange or cashless shopping.
 
-
-
-## 編寫Bar Code及QR Code讀取程式
+## Scanning Barcodes and QR Codes
 
 ![](../../PWmodules/images/mcbanner.png)
 
-### 加載KOI插件：https://github.com/KittenBot/pxt-koi
+### Load KOI Extension: https://github.com/KittenBot/pxt-koi
 
-### [詳細方法](../../../Makecode/powerBrickMC)
+### [Loading Extensions](../../../Makecode/powerBrickMC)
 
-
-讀取標籤積木塊：
+Blocks for reading codes:
 
  ![](KOI06/01.png)
 
-
-
-完整參考程式：
+### Sample Program
 
   ![](KOI06/02-1.png)
 
+## Program Flow
 
+Download the program to the Micro:bit.
 
-## 程式運行流程
+1. Point the KOI at a Barcode and press A on the Microbit, the content of the Barcode will be shown on KOI's screen.
+2. Point the KOI at a QRCode and press B on the Microbit, the content of the QRCode will be shown on KOI's screen.
 
-把程式下載到Microbit 上, 
+## Advanced Program
 
-1. 把Bar Code 放到KOI 鏡頭前, 按下Microbit的按鍵A，進行識別;  Bar Code 數字便會顯示在KOI 的螢幕上。
-2. 把QR Code 放到KOI 鏡頭前, 按下Microbit的按鍵B，進行識別;  QR Code 所含的資訊便會顯示在KOI 的螢幕上。
+There may not be enough time to read the contents if we show it on KOI, to improve readability, we can connect an OLED screen.
 
+### Connecting an OLED
 
-
-## 進階程式
-
-讀取Bar Code 及 QR Code 後可能出現大量資訊, 在KOI 的螢幕上未必有足夠時間閱讀; 此時我們便可考慮多加一塊OLED顯示屏, 以提高資訊的可讀性。
-
-### OLED接線
-
-本例子以Robotbit 示範, 把OLED 屏接到I2C 接口上
+Connect an OLED panel to the I2C port of your Robotbit/Armourbit.
 
  ![](KOI06/03-1.png)
 
+### Sample Program
 
-
-### 編寫程式
-
-### 加入OLED的插件： https://github.com/KittenBot/pxt-oled
+### Load the extension for OLED: https://github.com/KittenBot/pxt-oled
 
  ![](KOI06/04-1.png)
 
+## Sample Code
 
+[1. Scanning Barcodes and QR Codes (Extension0.5.7)](https://makecode.microbit.org/_bUKY6cULX7E8)
 
+[2. Scanning Barcodes and QR Codes /w OLED (Extension0.5.7)](https://makecode.microbit.org/_9VxF5J8Tu3kD)
 
+[Bar Code & QR Code Sample](https://bit.ly/KOIBarAndQRCodeSample)
 
-## 參考程式
+## Extension Version and Updates
 
-[1. 讀取Bar Code及QR Code HEX (插件0.5.7)](https://makecode.microbit.org/_bUKY6cULX7E8)
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-[2. 讀取Bar Code及QR Code, OLED顯示HEX (插件0.5.7)](https://makecode.microbit.org/_9VxF5J8Tu3kD)
-
-[Bar Code 及 QR Code Sample](https://bit.ly/KOIBarAndQRCodeSample)
-
-## 插件版本與更新
-
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
-
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
-### 1: 為什麼我打開電源，按Microbit的A按鍵，怎麼沒反應？
+### 1: There is no reaction after pressing the buttons on the Micro:bit.
 
-​       ·    答：打開電源後, KOI 及microbit 同時起動; 相對上, Microbit 所需的起動時間比KOI魔塊短, 引致 Microbit 的初始化程式已經跑完了，KOI還沒完全起動。
+·    A: This is because KOI has a longer boot time than Micro:bit. When the power is turned on, Micro:bit has already ran the code for KOI initialization before KOI is ready.
 
-​       ·    解決辦法：打開電源後，重新按下Microbit背後的Reset按鍵，讓Microbit重新開始運行（秘訣就是讓KOI魔塊先完全運行起來，再讓Microbit 跑初始化程式）
+·    Solution: Reset your Micro:bit after KOI has been turned on. (The trick is to let KOI power on completely before initialization.)
 
+### 2: Does KOI work with 3V input?
 
+·    A: No, KOI only works with 5V.
 
-### 2: 為什麼不能成功讀取Bar Code 或QR Code？
+### 3: KOI fails to recognize my Barcodes/QR Codes.
 
-   ·    答：條碼及二維碼的寬度要求不小於3.5cm; 若條碼太小，會因解析度太小的原因無法識別。另掃描時保證完全條碼或二維碼入鏡且清晰。
-
-
-   
-
-   
-
-
+·    A: Make sure the width of the code is at least 3.5cm and the code is entirely within the camera's view.

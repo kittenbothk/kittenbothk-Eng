@@ -12,7 +12,7 @@ The trained model will be stored on an SD card, without an SD card we won't be a
 
 ![](../../PWmodules/images/mcbanner.png)
 
-### Loading KOI extension: https://github.com/KittenBot/pxt-koi
+### Load KOI extension: https://github.com/KittenBot/pxt-koi
 
 ### [Loading Extensions](../../../Makecode/powerBrickMC)
 

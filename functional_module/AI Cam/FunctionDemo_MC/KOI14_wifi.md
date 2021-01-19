@@ -1,69 +1,67 @@
-# **IoT物聯網 (固件版本: v1.9.5或之後)**
+# **Internet of Things (KOI v1.9.5)**
 
-KOI上面也有Wifi的功能，我們可以透過Wifi存取物聯網平台的數據。
+The Wifi capabilities of KOI allows it to access IoT platforms.
 
-## 編寫物聯網程式
+## Connecting to IoT Platforms
 
 ![](../../PWmodules/images/mcbanner.png)
 
-### 加載KOI插件：https://github.com/KittenBot/pxt-koi
+### Load KOI Extension: https://github.com/KittenBot/pxt-koi
 
+### [Loading Extensions](../../../Makecode/powerBrickMC)
 
-### [詳細方法](../../../Makecode/powerBrickMC)
-
-物聯網積木塊：
+Blocks for IoT:
 
 ![](KOI14/1.png)
 
-編寫程式：
+### Sample Code
 
-### 此教程只是作為示範，請大家依你所用的平台填寫資料。
+### This tutorial just serves as a general example for communicating with MQTT servers, different MQTT servers may require different credentials.
 
-### ThingSpeak平台
+### ThingSpeak
 
-有關ThingSpeak的教學可以參考： [ThingSpeak教學](../../../Wifibrick/MakeCode/MC_TS)
+Refer to this page for ThingSpeak tutorials: [ThingSpeak Tutorial](../../../Wifibrick/MakeCode/MC_TS)
 
-### Makercloud創客雲平台
+### MakerCloud
 
-[創客雲介紹](../../../Wifibrick/IoTPlatform/makercloud)
+[MakerCloud](../../../Wifibrick/IoTPlatform/makercloud)
 
-假如你使用Makercloud創客雲平台，可以參考： [創客雲教學](../../../Wifibrick/MakeCode/makercloud)
+For MakerCloud Users, please refer to: [MakerCloud Tutorial](../../../Wifibrick/MakeCode/makercloud)
 
 ![](KOI14/9.png)
 
-## 程式流程
+## Program Flow
 
-1: 首先將程式下載到Microbit上。
+1: Download the program to the Micro:bit.
 
-2: 按下A+B按鍵，等待KOI連接網絡，完成後Microbit上會顯示剔號。
+2: Press A and B at the same time and wait for KOI to connect to the Wifi network.
 
-    像手提電話一樣，連接Wifi網絡的名稱密碼，和MQTT伺服器的資料已經會儲存在KOI上面。
-    所以不需要每次使用時都是用連接wifi網絡和MQTT的積木，只需要訂閱話題就可以了。
+    KOI can store the Wifi and MQTT credentials, there is no need to run these blocks everytime we use these functions.
 
-3: 按下A按鍵，由0至10隨機取數然後將數值傳上MQTT伺服器。
+3: Press A to upload a random number to the MQTT.
 
-4: 按下B按鍵，讀取MQTT的上的數據。
+4: Press B to read the data from the MQTT.
 
-5: 讀取到的數據(剛才我們傳上去的數字)就會顯示在KOI的屏幕上。
+5: KOI will display the number on its screen.
 
-## 參考程式
+## Sample Code
 
-[1. 物聯網HEX網址(固件v1.9.5_插件0.5.7)](https://makecode.microbit.org/_4UPgr7az71g1)
+[1. IoT(Firmware1.12.0_Extension0.5.7)](https://makecode.microbit.org/_4UPgr7az71g1)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
-### 1： 為什麼我重新開機，按下按鍵A，但按鍵沒有反應？
+### 1: There is no reaction after pressing the buttons on the Micro:bit.
 
-·    答：打開電源後, KOI 及microbit 同時起動; 相對上, Microbit 所需的起動時間比KOI魔塊短, 引致 Microbit的初始化程式已經跑完了，KOI還沒完全起動, 因此按下A鍵沒有反應。
+·    A: This is because KOI has a longer boot time than Micro:bit. When the power is turned on, Micro:bit has already ran the code for KOI initialization before KOI is ready.
 
-·    解決辦法：打開電源後，重新按下Microbit背後的Reset按鍵，讓Microbit重新開始運行（秘訣就是讓KOI魔塊先完全運行起來，再讓Microbit 跑初始化程式）
+·    Solution: Reset your Micro:bit after KOI has been turned on. (The trick is to let KOI power on completely before initialization.)
 
-### 2： KOI鯉魚魔塊我直接3V電源可以嗎？
+### 2: Does KOI work with 3V input?
 
-·    答：不行，必須要接5V！
+·    A: No, KOI only works with 5V.

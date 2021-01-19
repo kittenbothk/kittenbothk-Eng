@@ -1,7 +1,6 @@
 KOI Coding with MakeCode
 ====================
 
-
 .. toctree::
     :maxdepth: 1
     :glob:

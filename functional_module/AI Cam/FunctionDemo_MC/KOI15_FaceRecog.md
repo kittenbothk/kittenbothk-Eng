@@ -1,81 +1,75 @@
-# **人面辨識 (固件版本: v1.9.5或之後)**
+# **Face Recognition (KOI v1.9.5)**
 
-人面檢測和人面辨識在於前者只是探測畫面是否有人面，而後者可以將人面記下來並可以辨認該人面。在KOI也可以做到人面辨識的功能。
+Face Recognition is the technology of recognizing individuals from an image. This function can be realized on KOI.
 
-## 編寫人面辨識程式
+## Face Recognition
 
 ![](../../PWmodules/images/mcbanner.png)
 
-### 加載KOI插件：https://github.com/KittenBot/pxt-koi
+### Load KOI Extension: https://github.com/KittenBot/pxt-koi
 
+### [Loading Extensions](../../../Makecode/powerBrickMC)
 
-### [詳細方法](../../../Makecode/powerBrickMC)
-
-人面辨識積木塊：
+Blocks for Face Recognition:
 
 ![](KOI15/1.png)
 
-編寫程式：
+### Sample Program:
 
-    人臉辨識需要連接WIFI。假如你已經入網，之後不需要每次都運行入網的積木。
+    Wifi connection is required for Face Recognition.
 
-    由於這個功能是免費的，你使用的人臉組名稱可能有人已用過，所以請選擇一個比較獨特的名稱。
-    例如Test123這種就可能有人已經用過了。
-    另外，在人臉組裏面最多可以儲存20張人臉照片。
+    Face Recognition is a free feature, therefore you must choose a unique name for your class.
+    For example, common names like testing, test1, class01 are already made by others.
+    A maximum of 20 images can be stored in each class.
 
 ![](KOI15/3.png)
 
-## 程式流程
+## Program Flow
 
-1: 首先將程式下載到Microbit上。
+1: Download the program to Micro:bit.
 
-2: 將人面對準鏡頭然後按下A按鍵錄入人面。
+2: Press A to store a face to the class.
 
-3: KOI需要一段短時間分析畫面，成功分析之後畫面會顯示人臉的年齡和性別。
+3: After a shortwhile, KOI will display the gender and the age of the face detected.
 
-4: 按下A和B按鍵，錄入下一張人臉。
+    You can change the name and reupload the program to store another face.
 
-5: 重複2-4。
+6: Press B to recognize a face
 
+7: KOI will display the name of this face and its confidence. If a new face is detected, KOI will display "stranger".
 
-6: 錄完之後可以按下B按鍵開始辨識人臉。
+    Confidence level can range from 0 to 100.
 
-7: 辨識到之後畫面就會列出人臉的名稱和準繩度。假如遇到未被錄入的人臉，KOI就會顯示Stranger字句。
+## Sample Code
 
+[1. Face Recognition(Firmware1.12.0_Extension0.5.7)](https://makecode.microbit.org/_YdW8M1VW4UEb)
 
-    準繩度由0-100，越高越準確。
-
-## 參考程式
-
-[1. 人面辨識HEX網址(固件v1.9.5_插件0.5.7)](https://makecode.microbit.org/_YdW8M1VW4UEb)
-
-## 人臉辨識示範短片
+## Face Recognition Demo Video
 
 [![](KOI15/4.png)](https://www.youtube.com/watch?v=XvMZMsXpg1A)
 
+## Extension Version and Updates
 
-## 插件版本與更新
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
-
-詳情請參考: [Makecode插件版本更換](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 
-### 1： 為什麼我重新開機，按下按鍵A，但按鍵沒有反應？
+### 1: There is no reaction after pressing the buttons on the Micro:bit.
 
-·    答：打開電源後, KOI 及microbit 同時起動; 相對上, Microbit 所需的起動時間比KOI魔塊短, 引致 Microbit的初始化程式已經跑完了，KOI還沒完全起動, 因此按下A鍵沒有反應。
+·    A: This is because KOI has a longer boot time than Micro:bit. When the power is turned on, Micro:bit has already ran the code for KOI initialization before KOI is ready.
 
-·    解決辦法：打開電源後，重新按下Microbit背後的Reset按鍵，讓Microbit重新開始運行（秘訣就是讓KOI魔塊先完全運行起來，再讓Microbit 跑初始化程式）
+·    Solution: Reset your Micro:bit after KOI has been turned on. (The trick is to let KOI power on completely before initialization.)
 
-### 2： KOI鯉魚魔塊我直接3V電源可以嗎？
+### 2: Does KOI work with 3V input?
 
-·    答：不行，必須要接5V！
+·    A: No, KOI only works with 5V.
 
-### 3: 拍照之後KOI出現紅字，顯示 "Pic not has face" ，是我做錯了嗎？
+### 3: KOI shows "Pic not has face" after taking a picture.
 
-·    答：是正常的，這只是因為拍照的時候可能對焦未清楚或者有震動所以模糊了，只要再拍一次就可以了。
+·    A: This is normal because the focus may be off, try taking the picture again.
 
-### 3: 拍照之後KOI出現紅字，顯示 "Get Timeout" ，是我做錯了嗎？
+### 3: KOI shows "Get timeout" after taking a picture.
 
-·    答：有時候網絡不穩定、網絡擠塞或者伺服器忙碌的時候就會顯示Get Timeout，請再拍一次。
+·    A: This is because network conditions may not be good enough, or sometimes the server may be too busy.

@@ -1,40 +1,40 @@
-# Robotbit Shield 擴展板
+# Robotbit Shield
 
-為了方便大家使用不同模塊的PH2.0防反接接口Kittenbot推出了Robotbit的擴展板Robotbit Shield，板上載有多個3pin和4pin的PH2.0接口，讓大家不用再每次都使用杜邦線轉接到模塊了。
+The Robotbit Shield is designed to facilitate the use of modules with a PH2.0 connector by adapting the Dupont connectors into 3PIN and 4Pin PH2.0 connectors, removing the need to use a conversion cable.
 
 ![](../RBimage/shield4.jpg) 
 
-## Robotbit Shield 安插示範
+## Installing the Robotbot Shield
 
 ![](../RBimage/shield3.jpg) 
 
 ![](../RBimage/shield5.gif)
 
-## Robotbit Shield 擴展板指示圖
+## Robotbit Shield Breakdown Diagram
 
 ![](../RBimage/shield1.jpg) 
 
-1: PH2.0 4PIN I2C接口           
+1: PH2.0 4PIN I2C Port           
 
-2~9: PH2.0 3PIN接口                    
+2~9: PH2.0 3PIN Ports                    
    
-10: PH2.0 4PIN接口，與Armourbit上的Port2對應    
+10: PH2.0 4PIN Port, identical to Port 2 of Armourbit  
                  
-11: 4PIN針線I2C接口                    
+11: Dupont 4PIN I2C Port                    
  
-12: 電壓切換開關，用於切換13號針位的電壓，可以選3.3V和5V   
+12: Voltage Selector, switches the voltage at pin 0-2 to be 3.3V or 5V 
                
-13: 3PIN針線接口，VCC電壓用12號開關選擇，可以選3.3V和5V 
+13: Dupont 3PIN Port, VCC voltage can be switched by the selector
                        
-14: 電源指示燈                       
+14: Power Indicator                       
 
 ![](../RBimage/shield2.jpg) 
 
-15: 8PIN排母接口，用於插接Robotbit Pin排針
+15: 8PIN Female Connector, connects to the IO pins on the Robotbit
      
-16: 2x2排5V母接口，用於插接Robotbit 5V排針  
+16: 2x2 5V Female Connector, connects to the 5V pins on the Robotbit
       
-17: 4PIN排母接口，用於插接Robotbit I2C排針 
+17: 4PIN Female Connector, connects to the I2C pins on the Robotbit
     
-    注：所有PH2.0接口的電壓都是3.3V
+    Attention: All PH2.0 ports have a voltage of 3.3V
 

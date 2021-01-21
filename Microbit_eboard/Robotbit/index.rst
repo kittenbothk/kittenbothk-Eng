@@ -1,7 +1,7 @@
 RobotBit
 ====================
 
-RobotBit的資訊。
+Information related to Robotbit.
 
 .. toctree::
     :maxdepth: 1

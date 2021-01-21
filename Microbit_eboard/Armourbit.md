@@ -1,99 +1,99 @@
-# Armourbit
+# Armourbit Expansion Box
 
-Armourbit擴展盒 (HKBD9006A)
+Armourbit Expansion Box (HKBD9006A)
 
 ![](./images/01_03.png)
 
-跟Robotbit 性質類似, Armourbit 也是 Microbit的一款擴展配件，由於它外形像個盒子, 就稱它為Microbit 擴展盒。
+Similar to robotbit, Armourbit is an expansion module for Micro:bit, due to its boxy shape, it is called an expansion box.
 
-Armourbit 是Powerbrick (能量魔塊) 套件體系的主控盒，打通Microbit與套件中各種Brick (魔塊)的連接。它具有以下特色:
+Armourbit is the main control hub for the Powerbrick system, connecting the Micro:bit with various "bricks".
 
-1. 7個Port 位，1個I2C介面
-2. 採用4PIN防反接端子口
-3. 自帶蜂鳴器，兩路電機驅動
-4. 八路舵機驅動
-5. 對電路板進行全包裹，全方位保護更安全，適合編程教育的使用場景。
+It has the following features:
 
-Armour中文意思是指盔甲（Armour讀法arm 麼），Kittenbot 開發人員希望這個擴展盒能給予Microbit擴展之餘, 還有全方位的保護，更適合課堂的使用環境。
+1. 7 IO Ports and 1 I2C port
+2. Uses 4Pin PH2.0 ports, ensures correct connection
+3. Built-in buzzer and 2 motor ports
+4. 8 servo ports
+5. Complete encasing of the circuit board, improves safety and makes it more suiable for an education environment.
 
-## 詳細介紹
+Developers at Kittenbot hopes to provide a way to expand the usability of Micro:bit while also improving safety, making teaching and learning easier for teachers and students.
+
+## Details
 
 ![](./images/03_01.png)
 
-## 規格
+## Specification
 
-- 電壓：3.3V（板載不帶5V電壓）
-- 尺寸：61mm X 61mm X 23mm
-- 介面：PH2.0 4PIN端子 ，引腳服從GVAB排布
-- 直流電機介面：電壓不超過5V，電流小於1A，適用於喵家黃色TT電機或者Geekservo電機
-- 舵機介面：電壓3.7~6V，單路電流小於100MA，總電流小於1A，適用9g藍色小舵機或喵家Geekservo
+- Voltage: 3.3V(No 5V output)
+- Dimensions: 61mm X 61mm X 23mm
+- Interface: PH2.0 4PIN Ports , follows the GVAB pinout
+- DC Motor Driver: Voltage<5V, current<1A, compatible with Kittenbot's motors
+- Servo Drivr： Voltage 3.7~6V, current<100mA for 1 servo, total current<1A, compatible with Kittenbot's servos
 
-對應Makecode程式設計介面：
+Microsoft MakeCode Programming Platform:
 
 Makecode Online：https://makecode.microbit.org/
 
-**Powerbrick 插件 (Extension)**：https://github.com/KittenBot/pxt-powerbrick
+**Powerbrick Extension**：https://github.com/KittenBot/pxt-powerbrick
 
 
-## 引腳分布
+## Pin Distribution
 
 ![](./images/03_02.png)
 
-- 新手用戶無需記住Port位對應的引腳，只需記住port位使用即可。
-- 使用**Port5-Port7**口需關閉LED點陣屏功能（如下圖，關閉LED點陣操作）才能進行使用
-- Port4口沒有模擬讀取功能（溫濕度的土壤水位魔塊不能使用）（因為Port5-Port7引腳被Microbit點陣屏佔用了）
+- It is not necessary for new users to remember the corresponding pins for each port, it is sufficient to remember the 7 ports.
+- Using **Port5-Port7** requires turning off the LED Matrix of the Micro:bit since these Ports are used by Micro:bit's LED Matrix(Refer to the following figure).
+- Analog modules cannot use Port 4 (Moisture and Water Sensor can't be used)
 
 ![](./images/03_03.png)
 
 
-## 使用注意事項
+## Precautions
 
-- 舵機介面只能使用藍色的9g小舵機或Geekservo舵機，禁止插接大電流舵機。
-- 直流電機(DC motor)介面只適用於喵家TT電機或Geekservo電機，禁止插接大電流電機。
-- 蜂鳴器與Microbit的P0複用，使用時需檢查底部的撥動開關是否打開。（蜂鳴器預設為開啟）
-- 使用各個模組、電機、舵機，**必須接Powerbrick電池盒，否則因為電流不足，導致模組使用不正常。**
+- The Servo Interface is intended to use with 9g servos or Geekservo servos, high current servos should not be used.
+- The DC motor Interface is intended to use with Kittenbot's TT motors or Geekservo motors, hight current motors should not be used.
+- The built-in buzzer uses Pin 0 of the Micro:bit, please make sure the toggle switch is at the correct position when Pin 0(Port 1) is being used. (Buzzer is set to **ON** by default)
+- The PowerBrick Battery Box must be connected when modules, servos or motors are being used or they may exhibit erratic behaviour.
 
-## Micro:bit安裝到Armourbit上示範
+## Installing Micro:bit onto Armourbit
 
-下方左側的撥動開關是用來切換P0是否連接蜂鳴器
+1. Slot in the Micro:bit with the A and B buttons facing outwards.
+2. Checking the buzzer toggle switch.
 
 ![](./images/IMG_2567.GIF)
 
-## Reset (重啟)Microbit 示範
+## Resetting the Micro:bit's program
 
-用於重定Microbit的程式（這樣你就不用把Microbit 拿出來才能進行復位了）
+1. Power on the Micro:bit.
+2. Press the button on the back of the Armourbit to reset the Micro:bit.
 
 ![](./images/IMG_2568.GIF)
 
 
-## 编程介绍
+## MakeCode Coding Tutorial
 
-### 點陣屏编程
+![](./images/mcbanner.png)
 
-與Microbit操作一樣
+### Using the LED Matrix
+
+Same with Micro:bit.
 
 ![](./images/03_04.png)
 
-### 按鍵編程
+### Using the Buttons
 
-與Microbit操作一樣
+Same with Micro:bit.
 
 ![](./images/03_08.png)
 
-### **蜂鳴器編程**
+### **Using the Buzzer**
 
-與Microbit操作一樣
+Same with Micro:bit.
 
-![丰](./images/03_05.png)
+![](./images/03_05.png)
 
-### DC motor (直流馬逹)编程
+## Extension Version and Updates
 
-注意電機介面M1、M2，程式設計對應進行控制
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-![](./images/03_06.png)
-
-### 舵機編程
-
-注意舵機線序接法，注意舵機線序介面S1-S8，實物接線與程式程式設計需要對應。
-
-![](./images/03_07.png)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)

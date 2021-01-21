@@ -9,4 +9,5 @@ Information about Micro:bit compatible Expansion Boards.
 
     Robotbit/index
     ../functional_module/PWmodules/Armourbit.md
+    iobit/index
     JoyFrog/index

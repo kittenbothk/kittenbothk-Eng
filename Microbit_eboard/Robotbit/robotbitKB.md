@@ -1,135 +1,132 @@
-# Robotbit 在Kittenblock編程
+# Robotbit Coding with KittenBlock
 
-Robotbit亦支援在Kittenblock上編程。
+Robotbit can be programmed with KittenBlock.
 
-有關Kittenblock的介紹可以參考：[Kittenblock大全](../KittenBlock/index)
+Refer to this page for introduction with Kittenblock: [Kittenblock Introduction](../KittenBlock/index)
 
-## Kittenblock編程
+## Kittenblock Coding
 
 ![](../../functional_module/PWmodules/images/kbbanner.png)
 
-首先將Microbit用USB線連接到電腦。
+Connect the Micro:bit to your computer with a USB cable.
 
-在左上角小貓logo旁邊的硬件欄選擇硬件，加載Robotbit的插件。
+Click select hardware and choose MicroBit Python from the menu.
 
 ![](../RBimage/add.png)
 
-在Microbit的積木欄中按下感嘆號 ( ! ) 按鈕。
+Press this exclamation mark(!).
 
 ![](../../functional_module/PWmodules/kbimages/kbmbcon.png)
 
-然後點選『開始連線』。
+Click this button to connect the Micro:bit.
 
 ![](../../functional_module/PWmodules/kbimages/kbmbcon1.png)
 
-連接完成！
-
 ![](../../functional_module/PWmodules/kbimages/kbmbcon2.png)
 
-成功連接後，MicroBit會顯示心形。
+Micro:bit will display a heart icon after connecting to Kittenblock.
 
-假如沒有顯示心形，可以按下升級韌體。
+If the Micro:bit does not show a heart icon, 
 
 ![](../../functional_module/PWmodules/kbimages/upload.png)
 
-#### 加載成功
+#### The blocks for Robotbit will be added
 
-![](../RBimages/success1.png)
+![](../RBimage/success1.png)
 
-### 1. 電機編程
+### 1. Programming Motors
 
 ![](../RBimage/robotbit_motorKB.png)
 
-Kittenbot每款電機的詳細教學可以參考：[電機教學](../../motors/index)
+For information about DC motors by Kittenbot, please visit: [Kittenbot Actuators](../../motors/index)
 
-示範接線與編程：
+#### Sample Program:
 
-將電機連接在robotbit的M1A和M1B上。
+Connect 2 DC motors to the M1A and M1B port of the Robotbit.
 
 ![](../RBimage/motor_wire.png)
 
-    電機速度範圍由-255至255
+    The speed of motor ranges from -255 to 255.
 
 ![](../RBimage/kb_code1.png)
 
-### 2. 舵機編程
+### 2. Programming Servos
 
-Kittenbot每款舵機的詳細教學可以參考：[舵機教學](../../motors/index)
+For information about servos by Kittenbot, please visit: [Kittenbot Actuators](../../motors/index)
 
-示範接線與編程：
+#### Sample Program:
 
-將舵機連接在Robotbit的S1上。
+Connect a servo to the S1 port of Robotbit.
 
-    將舵機的橙色線接到黃色引腳針線，紅色線接到紅色正極針線，黑色線接到黑色負極針線。
+    Connect the orange wire from the servo to the yellow wire of the Robotbit.
 
 ![](../RBimage/servo_wire.png)
 
-    由於舵機轉動需要時間，所以我們需要加一個短暫的停頓(pause)，給予舵機足夠時間轉動。
-    一般舵機的轉向角度範圍由0至180度
+    Typical servos have a rotation range of 0-180.
     
 ![](../RBimage/kb_code2.png)
 
-### 3. 步進電機編程
+### 3. Programming Stepper Motors
 
-Kittenbot每款電機的詳細教學可以參考：[電機教學](../../motors/index)
+For information about DC motors by Kittenbot, please visit: [Kittenbot Actuators](../../motors/index)
 
-示範接線與編程：
+#### Sample Program:
 
-將步進電機連接到Robotbit的M1和M2上（將紅色電線連接到VM）。
+Connect Stepper Motors to the M1 and M2 port of the Robotbit, with the red wire connecting to the VM port.
 
 ![](../RBimage/stepper_wire.png)
 
-    步進電機的角度範圍為-360至360度
+    Stepper Motors have a rotation range of -360 to 360.
 
 ![](../RBimage/kb_code3.png)
 
-### 4. 蜂鳴器編程
+### 4. Programming the buzzer
 
-使用蜂鳴器時，不可以拔除P0的Jumper線帽。
+Do not remove the buzzer jumper when using the buzzer.
 
 ![](../RBimage/kb_code4.png)
 
-### 5. RGB燈編程
+### 5. Programming the built-in LED strip
 
-    所有積木都需要加一個”顯示”的積木才會顯示效果。
+    Remember to add a "Show" block to display the effect.
 
-#### 5.1 4顆燈同時點亮
+#### 5.1 Lighting up all lights
 
 ![](../RBimage/kb_code5.png)
 
-#### 5.2 使用RGB數值指定顏色
+#### 5.2 Customizing color with RGB
 
-    RGB的數值範圍由0-255。
+    RGB value has a range of 0-255.
 
 ![](../RBimage/kb_code6.png)
 
-#### 5.3 點亮指定一顆燈
+#### 5.3 Lighting up individual lights
 
-    燈的編號由0至3。(Robotbit上也印有編號)
+    The lights are labelled 0-3. (As labelled on the Robotbit)
     
 ![](../RBimage/robotbit_neopixel2.png)
 
 ![](../RBimage/kb_code7.png)
 
-### 6. 引腳編程
+### 6. Programming the IO Pins
 
-引腳的讀寫需要用到Microbit的積木塊。
+The blocks for the IO pins are found in the menu for Micro:bit.
 
 ![](../RBimage/robobit_pinKB.png)
 
-    Pin 0-2可以用作類比引腳，其他Pin只可以用作數位引腳。
-    類比數值範圍由0-1023，數位數值範圍由0至1。
+    Pin 0-2 can be used as analog pins while P8, P12~P15 can only be used as digital pins.
+    Analog values have a range of 0 to 1023, digital values have a range of 0 to 1.
     
 ![](../RBimage/robobit_pinKB1.png)
 
-#### 6.1 引腳數值讀取
+#### 6.1 Reading values from pins
 
-    Pin 0預設與蜂鳴器相接，所以使用Pin 0引腳時需要拔除跳線帽。
+    Pin 0 is occupied by the buzzer by default, the jumper should be removed when using this pin.
 
 ![](../RBimage/robobit_pinKB2.png)
 
-#### 6.2 引腳數值寫入
+#### 6.2 Writing values to pins
 
-    Pin 0預設與蜂鳴器相接，所以使用Pin 0引腳時需要拔除跳線帽。
+    Pin 0 is occupied by the buzzer by default, the jumper should be removed when using this pin.
 
 ![](../RBimage/robobit_pinKB3.png)

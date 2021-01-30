@@ -1,7 +1,7 @@
-﻿IoT Solutions and Wifibrick
-========================
+﻿Wifibrick & IoT Solutions
+====================
 
-Developing IoT applications with the Micro:bit is impossible without a WiFi module, therefore Kittenbot developed Wifibrick, an easy to use module allowing your Micro:bit to access IoT platforms.
+Kittenbot has developed a Wifi module for Micro:bit called Wifibrick to enable the creation of IoT applications using Micro:bit.
 
 .. toctree::
     :maxdepth: 1
@@ -9,5 +9,5 @@ Developing IoT applications with the Micro:bit is impossible without a WiFi modu
 
     Wifibrick_intro
     wifiUpdate.md
-    IoTPlatform/index
+    IoTplatform/index
     MakeCode/index

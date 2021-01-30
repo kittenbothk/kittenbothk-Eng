@@ -53,6 +53,12 @@ Welcome to the Coding & STEM Sharing Hub of Kittenbot HK, here you will find all
 
 .. toctree::
     :maxdepth: 2
+    :caption: Wifibrick and IoT Solutions
+
+    Wifibrick/index
+
+.. toctree::
+    :maxdepth: 2
     :caption: Functional Modules
 
     functional_module/index

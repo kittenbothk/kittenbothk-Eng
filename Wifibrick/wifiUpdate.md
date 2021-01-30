@@ -1,62 +1,65 @@
-# WifiBrick固件更新
+# WifiBrick Firmware Update
 
-Kittenbot會不定時推出Wifibrick固件，提升穩定性和改善功能。
+Updates may be available to the Wifibrick periodically to improve stability or add new functions.
 
-以下會講解一下檢查和更新固件版本的方法。
+This page includes the tutorial to check and update the firmware.
+
+---
 
 ![](../functional_module/PWmodules/images/mcbanner.png)
 
-#### 我們先加載WifiBrick插件：
+#### Load the Wifibrick Extension:
 
 #### https://github.com/KittenBot/pxt-kittenwifi
 
-方法請參考：[KittenBot產品與MakeCode](../Makecode/powerBrickMC)
+[Loading Extensions](../Makecode/powerBrickMC)
 
-## 檢查固件版本
+## Checking the firmware version
 
-首先編寫以下程式將Wifibrick連上路由器。
+Write the following code to connect Wifibrick to your router.
 
 ![](./introimage/update1.png)
 
-[參考程式下載](https://makecode.microbit.org/_VmD9sTTXrYH1)
+[Sample Code Link](https://makecode.microbit.org/_VmD9sTTXrYH1)
 
-將程序上載至Microbit之後等待WifiBrick連上網絡。成功連上網絡之後，WifiBrick會亮著綠燈。
+Upload the program to Micro:bit and wait for the Wifibrick to connect to the internet.
 
-按下A按鍵，Microbit的屏幕上會顯示WifiBrick的IP地址。請將IP地址抄寫下來。
+The LED on the Wifibrick will light up green after a successful connection.
 
-    假如你有網絡路由器的管理員權限，您可以直接到網絡路由器的頁面中查找閣下Wifibrick的IP地址，不用慢慢抄寫。
+Press the A button on Micro:bit to show the IP Address of the Wifibrick, write down the IP Address.
+
+    If you have the Adminstrator rights to the Network, you can find the IP address in the router's homepage.
 
 ![](./introimage/update3.gif)
 
-然後請打開瀏覽器，在搜尋欄輸入剛抄寫下來的IP地址然後按Enter。
+Open the internet browser and type the IP Address of the Wifibrick, and then press Enter.
 
-    例如，我的IP地址是192.168.2.117，我就將它輸入到瀏覽器然後按Enter前往。
     
 ![](./introimage/update4.gif)
     
-你的WifiBrick固件版本就會顯示在Wifibrick介面。
+The firmware version is displayed on the page.
     
 ![](./introimage/update2.png)
 
 
-## 更新WifiBrick固件
+## Update Wifibrick Firmware
 
-下載最新版本的固件：[v2.88](https://bit.ly/WifiBrickFW288)
+Download the latest firmware: [v2.88]()
 
-根據以上方法進入到WifiBrick的介面。
+Enter Wifibrick's interface using the above method.
 
-在左邊的菜單中選擇Upgrade Firmware。
+Select Upgrade Firmware from the menu.
 
 ![](./introimage/update5.png)
 
-根據提示，選擇正確的user.bin。
+Select the right file according to the instructions.
 
 ![](./introimage/update6.png)
 
-頁面提示我們要上載user2.bin，所以我們選擇相應的檔案。
+The instruction tells us to upload user2.bin, so that file is selected.
 
 ![](./introimage/update8.png)
 
-完成下載更新。
+The update will be done automatically.
 
 ![](./introimage/update7.png)

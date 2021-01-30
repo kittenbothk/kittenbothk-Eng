@@ -1,89 +1,91 @@
-# Kittenbot JoyFrog micro:bit遙控介紹
+# JoyFrog Micro:bit Controller
 
-Kittenbot JoyFrog micro:bit遙控綠色(HKBA8027A)
+Kittenbot JoyFrog Micro:bit Controller Green(HKBA8027A)
 
-Kittenbot JoyFrog micro:bit遙控紫色(HKBA8027B)
+Kittenbot JoyFrog Micro:bit Controller Purple(HKBA8027B)
 
 ![](../images/joyfrog1.png)
 
-JoyFrog是Kittenbot推出的Microbit擴展版，它為Microbit增加了按鍵和搖桿等的輸入方式，適合作為遙距控制機械人的遙控器。它還可以用作主控板，在Kittenblock中充當遊戲手掣使用。
+JoyFrog is a Micro:bit expansion board by Kittenbot, it is designed to add input devices including an analog joystick and 4 buttons, making it ideal in acting as a remote control for robots.
 
-## 配送清單
+It can also be programmed using Kittenblock to act as a micro controller.
 
-- Joyfrog手掣x1
-- Microbit電池盒x1
+## Package Contents
 
-## 產品特色
+- Joyfrog Controller x1
+- Microbit Battery Box x1
 
-- 作為主控板：可以在Kittenblock或者Scratch用作遊戲手掣
-- 作為擴展版：可以為Microbit提供遊戲般的控制
-- 可以透過3pin和4pin接口連接傳感器
-- 作為遊戲手掣：連接可以當基本的遊戲手掣使用
+## Special Features
 
-## 產品規格
+- Controller Mode: Can be used as a game controller in KittenBlock or Scratch.
+- Expansion Board Mode: Can be used as an expansion board for Micro:bit, provide game-like controls for Micro:bit.
+- 3 pin and 4 pin PH2.0 connectors allows JoyFrogs to use Kittenbot modules.
+- Game Controller: Can be used as a normal game controller in computer games.
 
-- 尺寸：128mmx80mmx35mm    
-- 主控晶片：GD32F350C8T6   
-- 頻率：108MHz   
-- 快閃記憶體：64K   
-- 內存：8K   
-- 工作電壓：3.3V   
-- 供電：Micro USB(5v)/3v(AAA電池x2，JST接口)
+## Specifications
 
-## 主控板上零件
+- Dimensions: 128mm x 80mm x 35mm    
+- Main Chip: GD32F350C8T6   
+- Clock Speed: 108MHz   
+- Flash Memory: 64K   
+- RAM: 8K   
+- Voltage: 3.3V   
+- Power Input: Micro USB(5v)/3v(AAA x2, JST Connector)
 
-- 2軸遊戲搖桿（有按鈕）
-- 四粒按鍵
-- 紅外線發射器和接收器（可以對NEC紅外碼解碼）
-- 8條金手指，可以配搭鱷魚夾使用
-- 蜂鳴器
-- 喇叭開關（切換蜂鳴器或者喇叭輸出）
+## On-board devices
 
-## 主控板接口
+- 2 Axis Analog Joystick with button
+- 4 Buttons
+- InfraRed Trasmitter and Receiver (Able to decode NEC codes)
+- Edge Connector with 8 IO Pins
+- Buzzer
+- Buzzer Toggle Switch (Switch between buzzer or headphones)
 
-- Microbit 40PIN接口x1
-- GVAB 4PIN PH2.0防反接接口x2
-- GVS 3PIN PH2.0防反接接口x2
-- 3.5音頻接口x1(可以連接喇叭或耳機)
-- NRF24L01 8PIN 2.4G無綫x1
+## IO Ports
+
+- Microbit 40PIN Slot x1
+- GVAB 4PIN PH2.0 Connectors x2
+- GVS 3PIN PH2.0 Connectors x2
+- 3.5 Audio Jack x1
+- NRF24L01 8PIN 2.4G Wirelessx1
 
 ## 支援軟件
 
 - Kittenblock
 
-    [Kittenblock大全](../../KittenBlock/index)
+    [Kittenblock](../../KittenBlock/index)
     
 - MakeCode
 
-    [MakeCode編程平台教學](../../Makecode/index)
+    [MakeCode](../../Makecode/index)
     
-## 主控板指示圖
+## Breakdown Diagram
 
 ![](../images/joyfrog_diag1.png)
 
 ![](../images/joyfrog_diag2.png)
 
-1. 紅外線接收器
-2. 3.5mm音頻接口
-3. 蜂鳴器切換開關
-4. 重置按鍵
-5. DFU模式按鍵
-6. 4pin模塊防反接接口
-7. 2軸搖桿
-8. 金手指接觸片（1~8、GND）
-9. Microbit 40PIN接口
-10. 主控芯片
-11. 蜂鳴器
-12. 4粒按鍵
-13. 4pin 防反接I2C接口
-14. MicroUSB接口
-15. 紅外線發射器
-16. 3pin模塊防反接接口
-17. 3pin模塊防反接接口
+1. InfraRed Receiver
+2. 3.5mm Audio Jack
+3. Buzzer Toggle Switch
+4. Reset Button
+5. DFU Mode Button
+6. 4Pin connector
+7. Joystick
+8. IO Pins Contacts (1~8, GND)
+9. Microbit 40PIN Slot
+10. Main Chip
+11. Buzzer
+12. 4 Buttons
+13. 4Pin I2C connector
+14. MicroUSB Port
+15. InfraRed Transmitter
+16. 3Pin connector
+17. 3Pin connector
 
-## JoyFrog電池盒安裝教學
+## Installing a Battery Box
 
-安裝Microbit電池盒之後，就不用永遠連著電線啦～
+By installing a Micro:bit Battery Box, there is no need to connect a USB power at all times~
 
 ![](../images/joyfrog_bat1.png)
 
@@ -95,14 +97,14 @@ JoyFrog是Kittenbot推出的Microbit擴展版，它為Microbit增加了按鍵和
 
 ![](../images/joyfrog_bat5.png)
 
-## JoyFrog雙人模式
+## JoyFrog 2 Player Mode
 
-考慮到大家用Kittenblock或者Scratch做遊戲的時候可能會做多人遊戲，Kittenbot特地加了雙人模式，讓大家可以在一部電腦上使用兩隻JoyFrog手掣。
+Considering students may create multiplayer games with KittenBlock or Scratch, JoyFrog has a 2 player mode which allows users to use 2 JoyFrogs with the same computer.
 
-按著X鍵不放手，用USB線連接到電腦。JoyFrog會發出兩下較長的聲音，代表成功進入2號玩家模式。
+Press and hold X and connect JoyFrog to a computer, there will be 2 long beeps, this means the JoyFrog is in player 2 mode.
 
 ![](../images/joyfrog_2p1.png)
 
-在2號玩家模式下，JoyFrog所充當的鍵盤按鍵會改變。
+Key mappings for player 2 mode:
 
 ![](../images/joyfrog_2p2.png)

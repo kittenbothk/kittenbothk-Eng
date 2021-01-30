@@ -1,34 +1,34 @@
-# JoyFrog micro:bit遙控在MakeCode編程教學
+# JoyFrog Controller Coding with MakeCode
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](../../functional_module/PWmodules/images/mcbanner.png)
 
 ![](../images/joyfrog1.png)
 
-#### 加載JoyFrog插件：github.com/KittenBot/pxt-joyfrog
+#### Load JoyFrog Extension: github.com/KittenBot/pxt-joyfrog
 
-#### JoyFrog積木塊：
+#### Blocks for JoyFrog:
 
 ![](../images/joyfrog2.png)
 
-#### 搖桿編程：
+#### Using the Analog Stick:
 
-推動搖桿，Microbit就會顯示搖桿值。
+Showing the value of the stick's position.
 
 ![](../images/joyfrog3.png)
 
-[參考程式網址](https://makecode.microbit.org/_Ty95YCWwUC3s)
+[Sample Code Link](https://makecode.microbit.org/_Ty95YCWwUC3s)
 
-#### 按鈕編程：
+#### Using the buttons:
 
-按下按鈕，Microbit會顯示您按下的按鈕。
+Each button can be individually triggered.
 
 ![](../images/joyfrog4.png)
 
-[參考程式網址](https://makecode.microbit.org/_THaPh5RTVRRt)
+[Sample Link](https://makecode.microbit.org/_THaPh5RTVRRt)
 
-#### 鋼琴編程：
+#### Using the IO pins.
 
 利用JoyFrog底部的金手指，我們可以當作鋼琴使用。
 

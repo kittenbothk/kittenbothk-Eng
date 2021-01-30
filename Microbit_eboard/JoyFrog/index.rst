@@ -1,7 +1,7 @@
-Kittenbot JoyFrog micro:bit遙控
+Kittenbot JoyFrog Micro:bit Controller
 ====================
 
-Kittenbot JoyFrog micro:bit遙控的資訊。
+Information about Kittenbot JoyFrog Micro:bit Controller.
 
 .. toctree::
     :maxdepth: 1

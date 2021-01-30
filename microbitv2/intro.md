@@ -1,14 +1,14 @@
-# BBC Micro:bit第二代介紹
+# BBC Micro:bit V2
 
 ![](./image/3.png)
 
-BBC Micro:bit自從2016年推出第一代以來，在2020年11月終於也推出第二代了！第二代的Microbit比起第一代有極之大的升級，包括性能上的升級，新增感應器，甚至是主控板的設計都作出了改善。
+Since the initial release of BBC Micro:bit in 2016, the long-awaited V2 of the Micro:bit is released in November, 2020!Compared to the first generation, this new Micro:bit has been massively upgraded in both performance and design.
 
-以下篇章我們將會詳細了解Microbit第二代各方面的升級。
+In this article, every detail of the Micro:bit V2 will be covered.
 
-BBC Micro:bit第二代官網：<https://microbit.org/new-microbit/>
+BBC Micro:bit Official Website: <https://microbit.org/new-microbit/>
 
-## 新版Microbit外貌
+## Appearnace
 
 ![](./image/appearance.png)
 
@@ -16,157 +16,153 @@ BBC Micro:bit第二代官網：<https://microbit.org/new-microbit/>
 
 (Picture Credit: https://micromag.cc/microbit-v2-announcement/)
 
-## 官方介紹短片
+## Official Trailer
 
 [![](./image/23.png)](https://www.youtube.com/watch?v=pIUJ4kvJ_QU&feature=emb_title)
 
 [![](./image/24.png)](https://www.youtube.com/watch?v=waIdGCitbH4&feature=emb_title)
 
-# Micro:bit升級逐個睇
+# Micro:bit Upgrades
 
-Microbit第二代在六個方面上均有顯著的升級，現在讓我們逐項了解吧。
+Microbit V2 has been upgraded in 6 different areas, let's take a close look at each of them.
 
-## 升級1：內置咪高峰
+## Upgrade 1: Built-in Microphone
 
 ![](./image/4.jpg)
 
-Microbit在第二代終於都加入了咪高峰，讓Microbit可以感應得到聲音的強弱從而作出反應。
+Micro:bit V2 has finally added a microphone, allowing it to sense the loudness of a sound.
 
-能夠用聲音控制Microbit做不同的動作，肯定會讓大家創作的靈活性更大！
+Using sounds to control the Micro:bit will surely open up even more possibilities for your creations!
 
 ![](./image/6.jpg)
 
 (Picture Credit: https://micromag.cc/microbit-v2-announcement/)
 
-Microbit機構表示，為了教育大眾保護私隱的重要性，Microbit上亦加上了一顆配合咪高峰的LED燈，當大家使用咪高峰時就會點亮。
+The Micro:bit Organization states that it is a must to educate the public about the importance of privacy and surveillance, thus the Microphone icon would light up when it is in use.
 
 ![](./image/7.jpg)
 
 (Picture Credit: https://micromag.cc/microbit-v2-announcement/)
 
-在MakeCode上對咪高峰編程亦都十分簡單，我們只需用這些簡單積木檢測聲音數值和使用聲音觸發事件。
+The microphone can be easily programmed with these programming blocks.
 
 ![](./image/8.png)
 
+### Demonstration:
 
-### 效果展示：
-
-拍拍手：利用Microbit的咪高峰，聽到拍手時顯示心形圖案。
+Clappy Hearts: The Micro:bit shows a heart icon when it hears a clap.
 
 [![](./image/9.png)](https://www.youtube.com/watch?v=JYvUnb2zImk&feature=emb_title)
 
-唱歌挑戰：一直唱歌，使Microbit上的點陣屏完全點亮。
+Sing your heart out: Sing until the entire matrix is lit up.
 
 [![](./image/25.png)](https://www.youtube.com/watch?v=cw_rDuByN_8&feature=emb_title)
 
-## 升級2：內置揚聲器
+## Upgrade 2: Built-in Speaker
 
 ![](./image/5.jpg)
 
-以往我們想用Microbit發聲的時候只能用擴展板的蜂鳴器，現在Microbit第二代上終於搭載了揚聲器，讓Microbit能夠發出聲音。
+Making sounds with a Micro:bit used to require an external buzzer with the first generation, but now with the built-in speaker of the Micro:bit, sounds can finally be made without connecting an external buzzer.
 
-能夠讓Microbit發聲能夠讓大家發揮更大的想像力，教導學生時亦有新的反饋方式。
+This feature unlocks more potential for your creations, and it gives students more physical feedbacks.
 
-在MakeCode上編程亦都十分簡單，大家只需要啟用揚聲器就可以沿用大家已經熟悉的發聲積木。
+The speaker can be easily programmed using these programming blocks.
 
 ![](./image/10.png)
 
-### 效果展示：
+### Demonstration:
 
-大黃蜂：Microbit因應動作和速度改變發出的聲音。
+Bumblebee: Microbit buzzes like a bee.
 
 [![](./image/11.png)](https://www.youtube.com/watch?v=KbB6-6Nn19U&feature=emb_title)
 
-鸚鵡學舌：Microbit模仿你說話的語調。
+Parrot: Microbit imitates your voice.
 
 [![](./image/26.png)](https://www.youtube.com/watch?v=9xpvNcYtd6Q&feature=emb_title)
 
-## 升級3：內置觸控感應器
+## Upgrade 3: Touch Sensor
 
 ![](./image/12.png)
 
-在第二代的Microbit上，大家可以見到Microbit的標誌變金色了。這金色的標誌就是新的觸控感應器，這個感應器可以用作在原有的A和B鍵外的新輸入方法。
+On the new Micro:bit, you will find a gold Micro:bit logo. This golden logo is more than just appearance, it is actually a new feature built into the Micro:bit, a touch sensor.
 
 ![](./image/13.jpg)
 
 (Picture Credit: https://micromag.cc/microbit-v2-announcement/)
 
-在編程方面，在MakeCode上則新加了這2件積木，讓大家很輕鬆地就可以使用觸控感應器。
+The touch sensor functions just like the A and B buttons.
 
 ![](./image/14.png)
 
-## 升級4：待機模式/減少用電
+## Upgrade 6: Standby Mode
 
 ![](./image/15.png)
 
-為了應付學校課堂時的需要，Microbit的第二代加入了待機模式。讓大家可以暫停Microbit的程式，完成教導之後再繼續Microbit的程式。
+In order to cater to education needs, a Standby mode is added to the V2 to allow suspension of Micro:bit's program. Teachers can now suspend and resume a program after they finished teaching.
 
-大家只需要按着板背的重置按鈕數秒，紅色LED閃動就代表已經進入待機模式了。
+The Standby mode can be entered by pressing and holding the reset button for a few seconds, the power LED flashes slowly when it is in Standby mode.
 
-除此之外，Microbit第二代亦都減少了耗電量，支援長時間地使用電池盒運行Microbit。
+In addition, the new Micro:bit draws less power, meaning it can last longer with a battery pack than before.
 
 ![](./image/16.jpg)
 
 (Picture Credit: https://micromag.cc/microbit-v2-announcement/)
 
-## 升級5：效能大升級
+## Upgrade 5: Performance
 
 ![](./image/17.png)
 
-第二代的Microbit上搭載了新的處理器，新的處理器運算速度大幅提升，為未來推出的人工智能和機器學習功能做好準備。
-此外，板上的內存亦都增加了7倍，由原本的16Kb提升到128kB。快閃記憶體亦增加1倍至512kB，支援上傳更加大的程式到Microbit。
+In preparation of future functions such as Artificial Intelligence and Machine Learning, the new Micro:bit has a new microchip that has vastly improved processing capabilities. The memory capacity is 8 times of the original, it now has 128Kb of RAM. The ROM has also been increased to 512 KB, allowing more complex and longer programs to be uploaded to the Micro:bit. Connectivity has also been upgraded to support the latest Bluetooth 5.0.
 
-除了運算效能之外，Microbit第二代亦都支援最新的藍芽5.0。
+## Upgrade 6: Edge Connectors
 
-## 升級6：引腳升級
+The edge connectors has always been a mainstay of the Micro:bit to allow different modules to be used. It has also been given improvements to improve usability.
 
-相信大家使用Microbit時都會利用引腳擴展Microbit的應用，所以Microbit第二代亦都對引腳作出重大的升級。
+### 1. Design
 
-### 1. 電路板的設計
-
-首先在電路板的設計方面，Microbit第二代的主要引腳都加設了一個小小的凹位。
+A small notch has been added to the major pins of the Micro:bit.
 
 ![](./image/18.jpg)
 
 (Picture Credit: https://micromag.cc/microbit-v2-announcement/)
 
-這個凹位的設計是別有用心的，大家可能發現在舊版Microbit使用鱷魚夾時，鱷魚夾可能會鬆脫出來。
+This notch is specially designed to be used with crocodile clips. In the previous generation, the crocodile clips are prone to disconnect as they were not firmly attached to the Micro:bit.
 
-這個新的設計就正正容許更加穩固地連接鱷魚夾，不用再擔心鬆脫了。
+With this new notch design, the clips will have a firmer and more stable connection with the pins.
 
 ![](./image/19.jpg)
 
 (Picture Credit: https://micromag.cc/microbit-v2-announcement/)
 
-### 2. I2C引腳改善
+### 2. I2C Pin Upgrades
 
-在引腳方面，第二代的Microbit將I2C的接口獨立地引出來，讓大家不再需要擔心手上的I2C配件會與Microbit不相容了。
+The I2C pins is now dedicated rather than shared with other pins, improving compatibility with more I2C modules.
 
-### 3. 供電提升
+### 3. Power Delivery
 
-Microbit的第二代亦都提升了引腳輸出的電量，由舊版的90mA提升至200mA，讓大家可以使用更多功能配件。
+The current output of the edge connectors have been upgraded from 90mA to 200mA to allow users to use even more functional modules.
 
-## Microbit第二代硬件詳解
+## Microbit V2 Details
 
 ![](./image/layout.jpg)
 
 (Picture Credit: https://mp.weixin.qq.com/s/u5Sj8DZg6oPHOOfzHbb1PA)
 
-# 新舊Microbit的比較
+# V1 vs V2
 
-## 新舊Microbit相容性
+## Compatibility
 
-說到這裡，相信大家都對新的Microbit十分心動吧，不過大家可能心中有個疑問：
+Of course, with all these upgrades, many users maybe concerned about one issue: compatibility.
 
-#### 我現有的hex程式能夠在第二代Microbit上運行嗎？
+#### You may ask: Are my old programs compatible with the new Micro:bit?
 
-#### 答案是可以的，不過有一點要注意。
+#### The answer is YES, but there is one thing to keep in mine.
 
-由於新的Microbit的改進頗大，MakeCode編程上亦要作出相應的改動才可支援新版，所以大家現有的hex程式需要更換成新版本的hex才可以在新版Microbit上使用。
+As the Micro:bit V2 features quite a big change, Microsoft MakeCode has also been updated. The V2 runs on a new universal hex format so your old programs cannot directly work on the V2.
 
-不過大家不需要擔心，大家只需要將現有的hex檔案上傳到MakeCode就會自動轉換為新版的程式。新的程式下載下來後，就可以在新或舊版的Microbit上使用。
+But there is no need to worry, all old hex programs can be converted to the new universal hex format when you upload the hex and download it from MakeCode. This universal hex has a larger file size but it can be used by both V1 and V2 Micro:bits.
 
-## 新舊Microbit對照
+## Side to Side Comparisons
 
 ![](./image/21.png)
 
@@ -174,34 +170,32 @@ Microbit的第二代亦都提升了引腳輸出的電量，由舊版的90mA提�
 
 ![](./image/20.png)
 
-# Microbit第二代與Kittenbot擴展板
+# Microbit V2 & Kittenbot Expansion Boards
 
-假如大家有用Kittenbot的擴展板的話，相信大家都會有以下疑問：
+#### Is the V2 compatible with my existing Kittenbot Expansion Boards?
 
-#### 我手上的Kittenbot擴展板與Microbit第二代互相兼容嗎？
+#### Yes, the V2 is compativle with Kittenbot Expansions, there is no need to purchase new expansion boards.
 
-#### 答案是兩者可以無縫兼容的！無論你是用Robotbit或者是Armourbit，都能夠完美支援Microbit第二代。所以大家可以放心繼續使用手上的擴展板，無需另購新版本。 
-
-Microbit第二代與Robotbit：
+Microbit V2 & Robotbit：
 
 ![](./image/robotbit1.jpg)
 
 ![](./image/robotbit2.jpg)
 
-Microbit第二代與Armourbit：
+Microbit V2 & Armourbit：
 
 ![](./image/armourbit.jpg)
 
 ## Q&A
 
-### 1. 問：Microbit第二代有這麼多升級，價錢上也肯定有上升吧？
+### 1. Does the price of Micro:bit V2 increase compared to V1?
 
-#### 答：大家可以放心。雖然Microbit第二代的升級強大，不過價錢不會上漲。
+#### No, the price of Micro:bit V2 will stay the same.
 
-### 2. 問：新版本的Microbit何時能夠買得到呢？
+### 2. When will Micro:bit V2 be available?
 
-#### 答：Microbit第二代的正式發售日為2020年11月。
+#### They will be available from November 2020 onwards.
 
-### 3. 各款編程平台還會支援我手上的舊版本Microbit嗎？
+### 3. Will my Micro:bit V1 still be supported?
 
-#### 答：大家可以放心，各個編程平台將會同步支援新舊版的Microbit，並不會強制要求大家購買新版本。
+#### Both V1 and V2 will be continously supported.

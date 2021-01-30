@@ -4,11 +4,11 @@ English strings can be displayed on the KOI screen.
 
 ## Displaying Text
 
-![](../../PWmodules/images/mcbanner.png)
+![](../../functional_module/PWmodules/images/mcbanner.png)
 
 ### Load KOI Extension: https://github.com/KittenBot/pxt-koi
 
-### [Loading Extensions](../../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
 Blocks for displaying text:
 
@@ -38,7 +38,7 @@ Pressing button A on the Micro:bit to display "Kittenbot" on the screen. Pressin
 
 There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 

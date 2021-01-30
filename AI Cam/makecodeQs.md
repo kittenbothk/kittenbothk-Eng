@@ -45,7 +45,7 @@ Ensure the connection is correct and switch the power on.
 
 ## **MakeCode Coding Tutorial**
 
-![](../PWmodules/images/mcbanner.png)
+![](../functional_module/PWmodules/images/mcbanner.png)
 
 [https://makecode.microbit.org](https://makecode.microbit.org/)
 
@@ -181,4 +181,4 @@ When the button is pressed, it returns 1, otherwise 0 is returned.
 
 There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-[Makecode Extension Update](../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../Makecode/makecode_extensionUpdate)

@@ -4,7 +4,7 @@ Kittenbot may release Wifi firmware updates periodically to improve stability an
 
 Users can follow this guide to update their KOI Wifi firmware.
 
-![](../../PWmodules/images/mcbanner.png)
+![](../../functional_module/PWmodules/images/mcbanner.png)
 
 #### Load KOI Extension:
 

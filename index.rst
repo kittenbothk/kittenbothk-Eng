@@ -47,6 +47,12 @@ Welcome to the Coding & STEM Sharing Hub of Kittenbot HK, here you will find all
 
 .. toctree::
     :maxdepth: 2
+    :caption: KOI AI Camera
+
+    AI Cam/index
+
+.. toctree::
+    :maxdepth: 2
     :caption: Functional Modules
 
     functional_module/index

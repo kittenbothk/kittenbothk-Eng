@@ -12,11 +12,11 @@ KOI can record a 3 second audio clip and saves the file as a wav format.
 
 ## Recording and playback
 
-![](../../PWmodules/images/mcbanner.png)
+![](../../functional_module/PWmodules/images/mcbanner.png)
 
 ### Load KOI Extension: https://github.com/KittenBot/pxt-koi
 
-### [Loading Extensions](../../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
 Blocks for recording and playback:
 
@@ -41,7 +41,7 @@ Download the program to Micro:bit.
 
 There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 

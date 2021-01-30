@@ -6,11 +6,11 @@ KOI has 2 built in programmable buttons called A and B.
 
 ## Using A and B Buttons
 
-![](../../PWmodules/images/mcbanner.png)
+![](../../functional_module/PWmodules/images/mcbanner.png)
 
 ### Load KOI Extension: https://github.com/KittenBot/pxt-koi
 
-### [Loading Extensions](../../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
 Blocks for buttons:
 
@@ -38,7 +38,7 @@ Pressing button A on the KOI causes Micro:bit to show a smiley face, pressing bu
 
 There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 

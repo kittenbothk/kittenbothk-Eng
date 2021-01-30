@@ -4,11 +4,11 @@ After connecting to the Wifi, KOI is able to tell the current time to function a
 
 ## Getting internet time
 
-![](../../PWmodules/images/mcbanner.png)
+![](../../functional_module/PWmodules/images/mcbanner.png)
 
 ### Load KOI Extension: https://github.com/KittenBot/pxt-koi
 
-### [Loading Extensions](../../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
 Blocks for IoT:
 
@@ -35,7 +35,7 @@ Blocks for IoT:
 
 There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../Makecode/makecode_extensionUpdate)
 
 ## FAQ
 

@@ -4,11 +4,11 @@ KOI supports both Robotbit and Armourbit, the only difference is in the initiali
 
 ## KOI Initialization
 
-![](../../PWmodules/images/mcbanner.png)
+![](../../functional_module/PWmodules/images/mcbanner.png)
 
 ### Load KOI Extension: https://github.com/KittenBot/pxt-koi
 
-### [Loading Extensions](../../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
 Initialization Blocks:
 

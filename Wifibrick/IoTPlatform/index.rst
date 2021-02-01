@@ -14,5 +14,5 @@ There are both free and paid IoT platforms, here are introductions to some platf
     :maxdepth: 1
     :caption: MakerCloud:
 
-    https://learn.makercloud.io/zh_TW/latest/
+    makercloud.md
     

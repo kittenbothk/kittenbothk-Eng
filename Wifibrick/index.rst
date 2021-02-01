@@ -9,5 +9,5 @@ Kittenbot has developed a Wifi module for Micro:bit called Wifibrick to enable t
 
     Wifibrick_intro
     wifiUpdate.md
-    IoTplatform/index
+    IoTPlatform/index
     MakeCode/index

@@ -1,4 +1,4 @@
-(IoT 平台介紹)
+(IoT Platform Introduction)
 
 # MakerCloud
 

@@ -1,21 +1,21 @@
 (IoT 平台介紹)
 
-# MakerCloud創客雲
+# MakerCloud
 
-## MakerCloud創客雲簡介
+## MakerCloud Introduction
 
 ![](./iotimage/logo.png) 
 
-MakerCloud創客雲是本港科創企業智方創科Scale Innotech所開發的物聯網IoT平台。
+MakerCloud is an IoT platform designed for educational purposes developed by Scale Innotech.
 
-這平台是針對香港教學需求而設的，它的使用介面簡潔易明，即使小學生也能輕鬆學習和使用物聯網。另外，這個平台的功能強大，除了支援MQTT的資料傳送之外，亦支援創建圖表和全球定位等的功能，更支援IFTTT等的物聯網應用，讓大家可以非常簡單地開發不同的物聯網程式。
+As a platform focused on educational purposes, it has an easy to use interface that even primary school students are able to easily master this platform. It also supports many powerful features besides MQTT data transfer, such as creating charts, GPS tracking and IFTTT or Webhooks, making it easy to develop IoT applications.
 
-[官方創客雲官網](www.makercloud.io)
+[MakerCloud Official Website](www.makercloud.io)
 
-## MakerCloud創客雲官方教學
+## MakerCloud Official Tutorials
 
-創客雲也有官方的教學，大家可以前往官方教學，了解如何創建帳號，操作界面和使用WiFiBrick連接創客雲。
+Scale Innotech provides official tutorials for their MakerCloud platform.
 
-官方創客雲教學：<https://learn.makercloud.io/zh_TW/latest/>
+MakerCloud Tutorial: <https://learn.makercloud.io/zh_TW/latest/>
 
 ![](./iotimage/makerCloud_learn.png) 

@@ -30,7 +30,7 @@ Robotbit: **https://github.com/KittenBot/pxt-robotbit**
 
 Powerbrick: **https://github.com/KittenBot/pxt-powerbrick**
 
- [Loading Extensions](../../../Makecode/powerBrickMC)
+ [Loading Extensions](../../Makecode/powerBrickMC)
 
 ### 1. Connecting to the Internet
 
@@ -284,4 +284,4 @@ You are welcome to join our Whatsapp group to share your IoT projects!
 
 There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../Makecode/makecode_extensionUpdate)

@@ -1,133 +1,129 @@
-(MakeCode 中編程)
+(MakeCode Coding)
 
-# Makecode 編程與MakerCloud
+# Makecode Coding and MakerCloud
 
 ![](../../functional_module/PWmodules/images/mcbanner.png)
 
-## 前言：
+## Foreword:
 
-在這節教程，我們將會學習使用WifiBrick在MakerCloud上如何發布資料和接收資料。
+In this tutorial, you will learn how to use MakerCloud platfrom with a Wifibrick or KOI. A Robotbit will be used for demonstration.
 
-我們會使用Robotbit作範例。
+## Step 1: Platform Preparation
 
-    KOI也支援Makercloud。
+Log in to MakerCloud and set up an IoT service.
 
-## 第一步：平台準備
+Navigate to the mainpage and create a project.
 
-我們首先要登入MakerCloud平台，設立好MQTT主題。
-
-登入之後前往主頁，點擊『創建項目』。
-
-    你亦可以使用你先前創立的項目。
+    Or use ones that you created previously.
 
 ![](./iotimage/mc1.png)
 
-剔選物聯網項目，輸入項目名稱，並點擊『創建項目』。
+You will be redirected to the main page of your IoT project. Select Create Topic.
 
 ![](./iotimage/mc2.png)
 
-之後我們就可以創建自己的主題。
+Create a MQTT topic.
 
 ![](./iotimage/mc3.png)
 
-創建之後，我們會在頁面看到我們剛剛創下的頁面，並且寫有主題名稱。
+Navigate to the Internet of Things tab.
 
-這個主題名稱是你的私密資料，請不要讓其他人得知。
+The topic name will be automatically generated, this topic name should remain secret as it is the key to access this topic.
 
 ![](./iotimage/mc4.png)
 
-去到這裡，MQTT主題的設立就大功告成了，然後我們就可以開始進行編程。
+The IoT platform is now ready to be used for IoT operations.
 
-## 第二步：加載插件
+## Step 2: Load the extension
 
-我們要先加載MakerCloud的插件，這樣才可以與MakerCloud的伺服器連接。
+We will load an extension so that we can communicate with MakerCloud's server.
 
-wifibrick插件地址：https://github.com/maxwong-scale/pxt-makercloud-V2
+Extension for Wifibrick: https://github.com/maxwong-scale/pxt-makercloud-V2
 
-koi插件地址：https://github.com/scaleinnotech/pxt-makercloud-koi
+Extension for KOI: https://github.com/scaleinnotech/pxt-makercloud-koi
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Loading Extensions](../../Makecode/powerBrickMC)
 
-## 第三步：編程
+## Step 3: Coding
 
-### 1：將WifiBrick連上網絡並連接創客雲伺服器。
+### 1: Connecting Wifibrick to MakerCloud
 
-連接積木塊：
+Blocks for initiating connection:
 
 ![](./iotimage/mc12.png)
 
-首先更新引腳初始化WifiBrick，然後連接Wifi網絡，再連上伺服器。
+As a Robotbit is used in this tutorial, we initiate the Wifibrick with Tx & Rx pins.
 
 ![](./iotimage/mc5.png)
 
-假如你使用Armourbit，只要將更新引腳的積木改為Armourbit的積木就可以了。
+Armourbit users can use ports to initialize.
 
 ![](./iotimage/mc6.png)
 
-連接網絡的時候Microbit會顯示以下動畫。
+The Micro:bit will display a short animation when connecting to the Wifi.
 
 ![](./iotimage/mc16.gif)
 
-連接創客雲MQTT時會顯示以下動畫。
+The Micro:bit will display a short animation when connecting to the MQTT server.
 
 ![](./iotimage/mc17.gif)
 
-### 2：發佈到MQTT主題。
+### 2: Publishing to the Topic
 
-發佈積木塊：
+Blocks for publishing:
 
 ![](./iotimage/mc13.png)
 
-我們會發佈一個隨機數字到我們剛剛設立的主題。
+Let's publish a random number to our topic.
 
-將之前設立的主題名稱複製並貼上。
+Copy and paste your topic name here.
 
 ![](./iotimage/mc7.png)
 
-成功發佈之後，資料會顯示在項目的即時數據紀錄中。
+The data we sent will be shown in the real-time data feed.
 
 ![](./iotimage/mc10.png)
 
-數據亦會自動產生一個圖表。
+A chart will also be generated.
 
 ![](./iotimage/mc15.png)
 
-同時，我們亦可以手動在主題中發送訊息。
+We can manually publish data to a topic with this window.
 
 ![](./iotimage/mc11.png)
 
-### 3：訂閱MQTT主題。
+### 3: Subscribing to a Topic
 
-訂閱積木塊：
+Blocks for subscribing and reading data:
 
 ![](./iotimage/mc14.png)
 
-要讀取MQTT主題上的資料，我們一定要訂閱該主題。
+In order to obtain data from a topic, a subscription is required.
 
-以下，我們會訂閱剛才設立了的主題，讀取我們發佈的資料。
+In this example, let's subscribe to the same topic we publish data to.
 
 ![](./iotimage/mc8.png)
 
-## 參考程式
+## Sample Program
 
-### Wifibrick參考程式
+### Sample Program for Wifibrick
 
 ![](./iotimage/mc9.png)
 
-[參考程式下載](https://makecode.microbit.org/_5gv25KKz2Y7d)
+[Sample Code Link](https://makecode.microbit.org/_dXThEb1bxUrj)
 
-### KOI參考程式
+### Sample Program for KOI
 
 ![](./iotimage/mc18.png)
 
-[參考程式下載](https://makecode.microbit.org/_RR6exEM0R9uz)
+[Sample Code Link](https://makecode.microbit.org/_2FfTJ1eMaKtV)
 
-## 總結：
+## Conclusion:
 
-看到這裡，相信大家都大概熟悉在WifiBrick使用創客雲的方法吧。其實創客雲還有創建圖表，資料觸發等的功能，所以說大家用創客雲不需要只是局限於MQTT上呢！
+This concludes the basic usage of the MakerCloud platform with a Micro:bit, for more advanced usage, please refer to the official tutorials.
 
- ## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../Makecode/makecode_extensionUpdate)

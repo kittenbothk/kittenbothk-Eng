@@ -36,8 +36,6 @@ If the Micro:bit does not show a heart icon,
 
 ### 1. Programming Motors
 
-![](../RBimage/robotbit_motorKB.png)
-
 For information about DC motors by Kittenbot, please visit: [Kittenbot Actuators](../../motors/index)
 
 #### Sample Program:
@@ -117,7 +115,7 @@ The blocks for the IO pins are found in the menu for Micro:bit.
     Pin 0-2 can be used as analog pins while P8, P12~P15 can only be used as digital pins.
     Analog values have a range of 0 to 1023, digital values have a range of 0 to 1.
     
-![](../RBimage/robobit_pinKB1.png)
+![](../RBimage/robotbit_pin1.png)
 
 #### 6.1 Reading values from pins
 

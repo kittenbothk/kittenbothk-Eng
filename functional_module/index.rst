@@ -34,13 +34,13 @@ Information and tutorials related to Micro:bit compatible modules.
     :maxdepth: 1
     :caption: Wifibrick & IoT Solutions
 
-    Wifibrick/index
+    ../Wifibrick/index
 
 .. toctree::
     :maxdepth: 1
-    :caption: AI Camer KOI
+    :caption: AI Camera KOI
 
-    AI Cam/index
+    ../AI Cam/index
 
 .. toctree::
     :maxdepth: 1

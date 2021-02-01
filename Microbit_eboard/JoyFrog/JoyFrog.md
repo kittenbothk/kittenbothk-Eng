@@ -4,7 +4,7 @@ Kittenbot JoyFrog Micro:bit Controller Green(HKBA8027A)
 
 Kittenbot JoyFrog Micro:bit Controller Purple(HKBA8027B)
 
-![](../images/joyfrog1.png)
+![](../images/jf1.png)
 
 JoyFrog is a Micro:bit expansion board by Kittenbot, it is designed to add input devices including an analog joystick and 4 buttons, making it ideal in acting as a remote control for robots.
 

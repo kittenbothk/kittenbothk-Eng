@@ -1,30 +1,28 @@
-# Makecode插件版本更換
+# Makecode Extension Updates
 
-我們在Makecode上使用Kittenbot的產品必須使用插件，而插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。以下會講解一下檢查和更新插件版本的方法。
+Kittenbot may release updates for MakeCode extensions periodically to improve functionality and remove bugs. This page will show you how to update or rollback your MakeCode extension versions.
 
+![](../functional_module/PWmodules/images/mcbanner.png)
 
+#### KOI extension is used for demonstration
 
-![](./images/mcbanner.png)
-
-#### 本教程使用KOI插件為例子，其他插件的做法與本教程相同。
-
-#### 我們先加載KOI插件：
+#### Import the KOI extension.
 
 #### https://github.com/KittenBot/pxt-koi
 
-方法請參考：[KittenBot產品與MakeCode](./powerBrickMC)
+[Loading Extensions](./powerBrickMC)
 
-## 檢查插件版本
+## Checking Extension Version
 
-檢查插件版本的方法如下：
+The steps to check the version of the extension:
 
-1. 切換至JavaScript模式
-2. 打開資源管理器
-3. 檢查插件版本
+1. Switch to text code mode
+2. Open Explorer
+3. The version is shown
 
 ![](./images/check.gif)
 
-## 更新插件版本
+## Updating the Extension
 
 你可能正在使用舊版本的插件而需要更新，更新插件的方法如下：
 1. 切換至JavaScript模式

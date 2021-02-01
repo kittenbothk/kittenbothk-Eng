@@ -14,7 +14,7 @@ JoyFrog can be used with the keyboard events.
 
 JoyFrog is mapped to the following buttons. (Pressing the joystick triggers the Space Bar)
 
-![](../images/joyfrog_2p3.png)
+![](../images/jf_2p3.png)
 
 ![](../images/joyfrog20.png)
 

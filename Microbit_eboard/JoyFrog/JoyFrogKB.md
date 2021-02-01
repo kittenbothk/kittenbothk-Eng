@@ -10,29 +10,29 @@ Connect JoyFrog to a computer with a USB cable.
 
 Select JoyFrog from the Hardware selection menu.
 
-![](../images/joyfrogadd.png)
+![](../images/jfadd.png)
 
 The programming blocks for JoyFrog will be added.
 
-![](../images/joyfrogsuccess.png)
+![](../images/jfsuccess.png)
 
 Click the Exclamation Mark Icon and select your device.
 
-![](../images/joyfrog11.png)
+![](../images/jf11.png)
 
 A melody will sound when JoyFrog is connected to Kittenblock.
 
-![](../images/joyfrog12.png)
+![](../images/jf12.png)
 
 #### Using the buttons and the joystick.
 
 The buttons and the joystick input is mapped to individual keyboard keys.
 
-![](../images/joyfrog_2p3.png)
+![](../images/jf_2p3.png)
 
 The edge connectors are mapped to the number keys.
 
-![](../images/joyfrog13.png)
+![](../images/jf13.png)
 
 #### Making a Piano:
 
@@ -42,7 +42,7 @@ Try connecting different conductive objects to create your own unique keyboard!
 
     The notes correspond to numbers 1~8.
 
-![](../images/joyfrog14.png)
+![](../images/jf14.png)
 
 ![](../images/piano.png)
 
@@ -56,7 +56,7 @@ Transmitting and receiving an infrared signal.
 
     The infrared signals are in a hexadecimal format.
 
-![](../images/joyfrog15.png)
+![](../images/jf15.png)
 
 #### Digital read and write:
 
@@ -64,7 +64,7 @@ Reading and writing digital values.
 
 ![](../images/joyfrogButton.png)
 
-![](../images/joyfrog16.png)
+![](../images/jf16.png)
 
 #### Analog read and write:
 
@@ -72,4 +72,4 @@ Reading and writing analog(PWM) values.
 
 ![](../images/joyfrogServo.png)
 
-![](../images/joyfrog17.png)
+![](../images/jf17.png)

@@ -4,7 +4,7 @@
 
 ![](../../functional_module/PWmodules/images/mcbanner.png)
 
-![](../images/joyfrog1.png)
+![](../images/jf1.png)
 
 #### Load JoyFrog Extension: github.com/KittenBot/pxt-joyfrog
 
@@ -12,13 +12,13 @@
 
 #### Blocks for JoyFrog:
 
-![](../images/joyfrog2.png)
+![](../images/jf2.png)
 
 #### Using the Analog Stick:
 
 Showing the value of the stick's position.
 
-![](../images/joyfrog3.png)
+![](../images/jf3.png)
 
 [Sample Code Link](https://makecode.microbit.org/_Ty95YCWwUC3s)
 
@@ -26,7 +26,7 @@ Showing the value of the stick's position.
 
 Each button can be individually triggered.
 
-![](../images/joyfrog4.png)
+![](../images/jf4.png)
 
 [Sample Code Link](https://makecode.microbit.org/_THaPh5RTVRRt)
 
@@ -52,7 +52,7 @@ Trasmitting an InfraRed signal on button press.
 
     The infrared signals are in a hexadecimal format.
 
-![](../images/joyfrog5.png)
+![](../images/jf5.png)
 
 [Sample Code Link](https://makecode.microbit.org/_Wvp6vxiPMLWr)
 
@@ -62,7 +62,7 @@ Displaying the received signal.
 
     The infrared signals are in a hexadecimal format.
 
-![](../images/joyfrog6.png)
+![](../images/jf6.png)
 
 [Sample Code Link](https://makecode.microbit.org/_bhK8e9f7WVcy)
 
@@ -72,7 +72,7 @@ Reading analog values.
 
 ![](../images/joyfrogPoten.png)
 
-![](../images/joyfrog7.png)
+![](../images/jf7.png)
 
 [Sample Code Link](https://makecode.microbit.org/_HLtdh2Ha6KMp)
 
@@ -80,7 +80,7 @@ Reading analog values.
 
 Writing analog(PWM) values.
 
-![](../images/joyfrog8.png)
+![](../images/jf8.png)
 
 ![](../images/joyfrogLED.png)
 
@@ -92,7 +92,7 @@ Reading digital values.
 
 ![](../images/joyfrogButton.png)
 
-![](../images/joyfrog9.png)
+![](../images/jf9.png)
 
 [Sample Code Link](https://makecode.microbit.org/_Dd71FegibTs3)
 
@@ -100,6 +100,6 @@ Reading digital values.
 
 Writing digital values.
 
-![](../images/joyfrog10.png)
+![](../images/jf10.png)
 
 [Sample Code Link](https://makecode.microbit.org/_UKU0K75uYcyL)

@@ -1,40 +1,42 @@
-# KittenBot產品與MakeCode
+# KittenBot & MakeCode
 
 ![](./images/RE25mkU.png)
 
-## 快速開始
+## Quick Start
 
-KittenBot產品其中一款的編程平台是微軟Makecode。
+MakeCode is the recommended programming platform for using kittenbot products.
 
 MakeCode: 
 
 [https://makecode.microbit.org/](https://makecode.microbit.org/)
 
-## KittenBot產品在MakeCode上編程
+## KittenBot Products on MakeCode
 
-![](./images/mcbanner.png)
+![](../functional_module/PWmodules/images/mcbanner.png)
 
-首先進入MakeCode，建立新專案。
+Open MakeCode's webpage and create a new project.
 
 ![](./images/02_01.png)
 
-### 加載插件
+### Loading Extensions
 
-編程之前我們需要先載入KittenBot產品的插件。
+Most Kittenbot products require an extension to function properly.
 
-#### 在此教程我們會使用Powerbrick作為例子，學習加載Powerbrick的插件。
+#### This tutorial demonstrates loading the extension for PowerBrick.
 
-    KittenBot不同產品需要不同的插件，插件資料可以在各產品的教程中找到。
+    Each Kittenbot product may require a different extension, please refer to each products' page to find the link to extension.
+
+Select "Extensions" from the settings menu.
 
 ![](./images/editor1.png)
 
-複製以下地址，在搜尋欄貼上並搜尋。
+Copy and paste the following link into the search bar.
 
 ### https://github.com/KittenBot/pxt-powerbrick
 
 ![](./images/02_02.png)
 
-點擊加載，加載成功後會新增PowerBrick的積木塊。
+The extension will then be loaded, new programming blocks are added.
 
 ![](./images/02_03.png)
 

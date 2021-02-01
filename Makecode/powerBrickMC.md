@@ -1,4 +1,4 @@
-# KittenBot & MakeCode
+# KittenBot & MakeCode Coding
 
 ![](./images/RE25mkU.png)
 

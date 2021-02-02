@@ -1,4 +1,4 @@
-# KittenBot & MakeCode Coding
+# KittenBot & MakeCode
 
 ![](./images/RE25mkU.png)
 
@@ -29,6 +29,10 @@ Most Kittenbot products require an extension to function properly.
 Select "Extensions" from the settings menu.
 
 ![](./images/editor1.png)
+
+Alernatively, open up the Advanced menu and select Extensions.
+
+![](./images/editor2.png)
 
 Copy and paste the following link into the search bar.
 

@@ -24,26 +24,27 @@ The steps to check the version of the extension:
 
 ## Updating the Extension
 
-你可能正在使用舊版本的插件而需要更新，更新插件的方法如下：
-1. 切換至JavaScript模式
-2. 打開資源管理器
-3. 點擊插件版本
-4. 插件就會自動更新到最新版本
+If the extension version is outdated, it can be updated using the following method:
+
+1. Switch to text code mode.
+2. Open Explorer.
+3. Click the version number.
+4. The extension will be updated automatically.
 
 ![](./images/update.gif)
 
-## 修改插件版本
+## Specifying an Extension Version:
 
-你有時候可能會需要切換至之前版本的插件，更改插件版本的方法如下：
+You may need to specify an older version of an extension, this is done with the following method.
 
-1. 打開專案設定
-2. 點擊「以純文字模式編輯設定」
-3. 在KOI的插件中，更改版本
+1. Open Project Settings.
+2. Select "Edit Setting as Text".
+3. Change the version number to the one desired.
 
         ( "koi" : "github:kittenbot/pxt-koi#v0.5.4" )->( "koi" : "github:kittenbot/pxt-koi#v0.2.4" )
     
-4. 右擊然後儲存
-5. 切換至Javascript模式
-6. 檢查插件版本
+4. Right click and save.
+5. Switch to text code mode.
+6. The extension version should now be changed.
 
 ![](./images/modify.gif)

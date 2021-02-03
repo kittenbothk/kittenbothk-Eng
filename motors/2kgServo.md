@@ -1,163 +1,184 @@
-# GeekServo 2KG舵機
+# GeekServo 2KG Servo
 
-2KG舵機 (HKBD8008A)
+2KG Servo (HKBD8008A)
 
 ![](./images/image--003.png)
 
-這是一款兼容樂高插孔的高扭力的舵機，相對於9g舵機，在同等供電下具有更高扭力。輸出軸為兩組樂高十字孔，主要用在需求精細控制的結構上。
+This is a servo compatible with Lego technic parts, compared to 9g Servos, it can produce a higher torque. The output axle is a Lego technic axle connector. It is suitable for applications where a precise control is required.
 
-## 產品參數
+## Specifications
 
-- 工作電壓：3.3V~6V
-- 額定電壓：4.8V
-- 額定電流：70mA
-- 堵轉電流：900mA   
-- 打滑電流：700mA
-- 最大扭力：1.6kg±0.2kg/cm(4.8V)
-- 角度轉速：60°/0.14s
-- 角度範圍：0°~360°
-- 重量：20g
-- 接口：橙紅啡線
+- Operating Voltage: 3.3V~6V
+- Rated Voltage: 4.8V
+- Rated Current: 70mA
+- Blocked Rotor Current: 900mA   
+- Slipping Current: 700mA
+- Maximum Torque: 1.6kg±0.2kg/cm(4.8V)
+- Rotational Speed: 60°/0.14s
+- Rotational Range: 0°~360°
+- Weight: 20g
+- Connector: Orange-Red-Brown Servo Connector
 
-## 產品特色：
+## Special Features
 
 ![](./images/2kg_1.jpg)
 
-繼承了GeekServo 9G舵機電機的優點，增強了扭力與速度，改善了結構
+Inherits the special features of the 9g servo while improving torque and speed at the same time.
 
-- 採用十字沉孔作輸出軸
-    - 可以因使用情況自由插入不同長度的十字軸
-- 雙邊輸出
-    - 左右均有輸出軸
+- Uses an axle connector for output
+    - Allows connecting axles of different lengths to better suit your needs
+    
+- Dual Outputs
+    - Output axles are found on both sides
 
-- 轉動角度更大
-    - 舵機控制範圍為0至360度
+- Larger rotational range
+    - Has a full 360° range
 
-- 扭力更大
-    - 扭力為GeekServo 9G的三倍左右
+- Higher Torque
+    - About 3 times the torque of a 9g servo
 
-## 規格尺寸
+## Dimensions
 
-### 樂高孔單位:
+### In Lego units:
 
-- 長度：5孔
-- 闊度：3孔
-- 高度：3孔
-- 輸出軸：樂高十字軸
+- Length: 5
+- Width: 3
+- Height: 3
+- Output Axle: Technic Axle
 
-### mm單位:
+### In mm units:
 
-- 長度：40mm
-- 闊度：24mm
-- 高度：24mm
-- 輸出軸：樂高十字軸
+- Length: 40mm
+- Width: 24mm
+- Height: 24mm
+- Output Axle: Technic Axle
 
 ![](./images/0111.png)
 
-## 接線方法
+## Connection
 
 ### ArmourBit
 
-將舵機的橙紅啡線連接至Armourbit背部的舵機接口。
+Connect the servo to the servo ports of the Armourbit.
 
 ![](./images/2kservoCon.jpg)
 
-    啡色接負極，紅色接正極，橙色接數據。
+    Orange to Yellow, Red to Red, Brown to Black.
     
 ### RobotBit
 
-將舵機的橙紅啡線連接至RobotBit的舵機接口。
+Connect the servo to the servo ports of the Robotbit.
 
 ![](./images/2kservoConRB.jpg)
 
 ![](./images/2kservoConRB1.jpg)
 
-    啡色接負極，紅色接正極，橙色接數據
+    Orange to Yellow, Red to Red, Brown to Black.
     
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-![](../meowbit/images/acbanner.png)
+![](../meowbit/images/acbanner1.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used by Micro:bit and Meowbit.
 
-### ArmourBit與RobotBit的編程是一樣的。
+### The programming for ArmourBit and Robotbit are identical.
 
 ### ArmourBit
 
 ---
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Load Powerbrick Extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [Loading Extension](../Makecode/powerBrickMC)
 
 ### RobotBit
 
 ---
 
-### 加載RobotBit插件：
+### Load Robotbit Extension:
 
-![](./images/robotbitExtension.png)
+![](./images/robotbitExtension1.png)
 
-### 舵機積木塊:
+---
 
-![](./images/2kservoblocks.png)
+### Blocks for controlling servos:
 
-### 舵機編程
+![](./images/2kservoblocks1.png)
 
-![](./images/2kservocode.png)
+### Programming the servos
 
-[參考程式下載](https://bit.ly/M132kgGeekServoSampleCode)
+![](./images/2kservocode1.png)
 
-[參考程式網址](https://makecode.microbit.org/_Fxq45rHFrD8s)
+[Sample Code Link](https://makecode.microbit.org/_Fxq45rHFrD8s)
 
 ### Meowbit:
 
 ---
 
-### 加載robotbit插件：https://github.com/KittenBot/meow-robotbit
+### Load Robotbit Extension: https://github.com/KittenBot/meow-robotbit
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [Loading Extensions](../Makecode/powerBrickMC)
 
-### 電機積木塊:
+### Blocks for controlling motors:
 
-![](../motors/images/motorblocks.png)
+![](../motors/images/servoblocks_meow1.png)
 
-## 電機編程
+## Programming the motors
 
-![](../motors/images/2kservocode_meow.png)
+![](../motors/images/2kservocode_meow1.png)
 
-[參考程式網址](https://makecode.com/_2syJW2iFPUMx)
+[Sample Code Link](https://makecode.com/_2syJW2iFPUMx)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-PowerBrick插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../Makecode/makecode_extensionUpdate)
 
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./images/kbbanner.png)
 
-### 加載PowerBrick插件
+---
 
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+### Armourbit
 
-![](./images/addextension.png)
+### Load Powerbrick extension
 
-### 舵機積木塊
+Select Powerbrick from the Hardware Menu.
 
-![](./images/2kkbservoblocks.png)
+![](./kbimages/addextension.png)
 
-### 舵機編程
+### Blocks for controlling servos:
 
-![](./images/2kkbservo.png)
+![](./kbimages/kbservoblocks1.png)
 
-[參考程式下載](https://bit.ly/M132kgGeekServoSampleCode)
+### Programming the servos:
+
+![](./images/2kkbservo1.png)
+
+---
+
+### Robotbit
+
+### Load Robotbit Extension
+
+Open the hardware menu and select Micro:bit to load the extension for Micro:bit and Robotbit.
+
+![](./images/addRB1.png)
+
+### Blocks for controlling servos:
+
+![](./kbimages/rbservoblocks1.png)
+
+### Programming the servos
+
+![](./kbimages/rb2kservocode1.png)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1: The Micro:bit does not react when I click the programming blocks.
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure the Micro:bit has been connected to the Kittenblock and then try flashing the firmware.

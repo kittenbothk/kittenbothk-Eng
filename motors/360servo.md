@@ -1,117 +1,114 @@
-# Geek Motor O 續轉舵機
+# Geek Motor O 360 Servo
 
-Geek Motor O 續轉舵機(HKBD8001A)
+Geek Motor O 360 Servo(HKBD8001A)
 
 ![](./images/360servo1.jpg)
 
-這是一款兼容樂高件的續轉舵機，是可以當作電機使用，輸出軸為樂高十字軸。主要用作驅動如車子，齒輪般動力機械。它的特別在於不需要舵機驅動或電機驅動芯片，可以直接用引腳驅動，適合用於例如IOBit等沒有驅動芯片的擴展板。
+This is a small continuos servo compatible with Lego technic parts, the output axle is compatible with Lego technic axles. It is mainly used to drive wheels or gears.
 
-## 產品參數
+This is a special servo because it can be used as a motor for boards that lack a motor drivers, for example IOBit. They can be controlled simply with IO pins.
 
-- 工作電壓：3.3V~6V
-- 額定電壓：4.8V
-- 額定電流：200ma
-- 堵轉電流：700ma
-- 打滑電流：450ma
-- 最大扭力：500g/cm(4.8V)
-- 轉速：70rpm
-- 重量：12.4g
-- 接口：橙紅啡線
+## Specifications
 
+- Operating Voltage: 3.3V~6V
+- Rated Voltage: 4.8V
+- Rated Current: 200ma
+- Blocked Rotor Current: 700ma
+- Slipping Current: 450ma
+- Maximum torque: 500g/cm(4.8V)
+- Maximum RPM: 70rpm
+- Weight: 12.4g
+- Connector:  Orange-Red-Brown Servo Connector
 
-## Geekservo特色
+## Geekservo Features
 
-- 極力子過載保護:
-    - 遇到輸出軸被暴力扭擰會啟動極力子進行跳齒保護，發出「噠噠噠」的聲音。不會損毀齒輪。
+- Clutch Protection:
+    - In case of violent turning of the output axle, the clutch is enabled to protect the gears from damage.
 
-- 安裝方式靈活:
-    - 支援樂高標準磚和Technic插孔，輸出軸亦是樂高標準十字軸。
+- Flexible Installation:
+    - Can be mounted on standard Lego bricks or with Technic elements, providing a lot of possibilities for installation.
 
-- 輕盈小巧:
-    - 方便製作各種小型機械。
+- Small and lightweight:
+    - Suitable for small robotic projects.
     
-- 不需要驅動芯片:
-    - 適合用於沒有驅動芯片的擴展板。
+- Does not require motor driver:
+    - Suitable for expansion boards that lack a motor driver.
     
-## 規格尺寸
+## Dimensions:
 
-### 樂高孔單位:
+### In Lego units:
 
-- 長度：5孔
-- 闊度：2孔
-- 高度：3孔
-- 輸出軸：樂高十字軸
+- Length: 5
+- Width: 2
+- Height: 3
+- Output axle: Technic Axle
 
-### mm單位:
+### In mm units:
 
-- 長度：40mm
-- 闊度：16mm
-- 高度：34.4mm
-- 輸出軸：樂高十字軸
+- Length: 40mm
+- Width: 16mm
+- Height: 34.4mm
+- Output axle: Technic Axle
 
 ![](./images/13_03.png)
     
-## 接線方法
+## Connection
 
 ### IOBit
 
-將舵機連接到IOBit的類比引腳。
+Connect the servo to an **Analog Pin** of the IOBit.
 
-    可以使用3v或者5v。
-    啡色接負極，紅色接正極，橙色接數據。   
+    Both 3V and 5V are supported.
+    Orange to Yellow, Red to Red, Brown to Black.  
     
 ![](./images/360servo_wire1.png)
 
 ![](./images/360servo_wire2.png)
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-![](../meowbit/images/acbanner.png)
+![](../meowbit/images/acbanner1.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used by Micro:bit and Meowbit.
 
-## 電機編程(方法1)
+## Programming the servo(Method 1)
 
-續轉舵機需要使用伺服脈衝積木。
+The servo can be controlled with the pulse block.
 
-![](./images/360servo_block.png)
+![](./images/360servo_block1.png)
 
-續轉舵機控制數值範圍由500至2500。詳細可以參考這個圖表。
+The pulse value for this servo is from 500 to 2500.
 
-    500為反方向全速轉動，2500為正方向全速轉動，1500為停止轉動。
+    500 means full speed backwards, 2500 means full speed forwards, 1500 means full stop.
 
 ![](./images/360servo_speed1.png)
 
-![](./images/360servo_code1.png)
+![](./images/360servo_code11.png)
 
-[參考程式網址](https://makecode.microbit.org/_Ub76W98a29A2)
+[Sample Code Link](https://makecode.microbit.org/_Ub76W98a29A2)
 
-## 電機編程(方法2)
+## Programming the servo(Method 2)
 
-### 加載Servo插件
+### Load the servo extension
 
-![](./images/servo_extension.png)
+![](./images/servo_extension1.png)
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [Loading Extensions](../Makecode/powerBrickMC)
 
-![](./images/360servo_code2.png)
+![](./images/360servo_code21.png)
 
-[參考程式網址](https://makecode.microbit.org/_JdJDbv5ue97t)
+[Sample Code Link](https://makecode.microbit.org/_JdJDbv5ue97t)
 
 ### Meowbit:
 
 ---
 
-### 加載robotbit插件：https://github.com/KittenBot/meow-robotbit
+### Load the Robotbit extension: https://github.com/KittenBot/meow-robotbit
 
-### 電機積木塊:
+## Programming the servo
 
-![](../motors/images/motorblocks.png)
+![](../motors/images/360servo_codeMeow1.png)
 
-## 電機編程
-
-![](../motors/images/360servo_codeMeow.png)
-
-[參考程式網址](https://makecode.com/_DPeAM8h5HMaf)
+[Sample Code Link](https://makecode.com/_DPeAM8h5HMaf)

@@ -33,7 +33,7 @@ If the extension version is outdated, it can be updated using the following meth
 
 ![](./images/update.gif)
 
-## Specifying an Extension Version:
+## Specifying an Extension Version
 
 You may need to specify an older version of an extension, this is done with the following method.
 

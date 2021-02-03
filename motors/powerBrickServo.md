@@ -1,167 +1,185 @@
-# Geekservo舵機
+# Geekservo Servo
 
-Geekservo舵機 (HKBD9005A)
+Geekservo Servo (HKBD9005A)
 
 ![](./images/13_04.png)
 
-這是一款兼容樂高件的舵機。輸出軸為樂高十字軸。主要用在需求精細控制的結構上，例如關節，機械臂。
+This is a small servo compatible to Lego Technic parts, the output axle is compatible with Lego technic axles. It is suitable for models requiring precise movements such as joints, doors or cranes.
 
-## 產品參數
+## Specifications
 
-- 工作電壓：3.3V~6V
-- 額定電壓：4.8V
-- 額定電流：200ma
-- 堵轉電流：700ma
-- 打滑電流：450ma
-- 最大扭力：500g/cm(4.8V)
-- 角度轉速：60°/0.12s
-- 角度範圍：-45°~225°
-- 重量：12.4g
-- 接口：橙紅啡線
+- Operation Voltage: 3.3V~6V
+- Rated Voltage: 4.8V
+- Rated Current: 200ma
+- Blocked Rotor Current: 700ma
+- Slipping Current: 450ma
+- Maximum Torque: 500g/cm(4.8V)
+- Rotational Speed: 60°/0.12s
+- Rotational Range: -45°~225°
+- Weight: 12.4g
+- Connector: Orange-Red-Brown Servo Connector
     
-## 使用注意事項
+## Precautions
 
-- 這只是一種小型電機，使用情境的扭力和電壓需求請不要過大。
-- Geekservo舵機有嚴格的線序要求，請根據線序連接。
-- 禁止長時間超出堵轉電流，否則會燒壞電機。
+- This is a small servo only, do not use it for models that require a high torque.
+- Servos should not be connected in the wrong way, please pay attention when connecting a servo.
+- Do not block the rotor for prolonged periods of time or it may damage the motor.
 
-## 規格尺寸
+## Dimensions:
 
-### 樂高孔單位:
+### In LEGO units:
 
-- 長度：5孔
-- 闊度：2孔
-- 高度：3孔
-- 輸出軸：樂高十字軸
+- Length: 5
+- Width: 2
+- Height: 3
+- Output Axle: Technic Axle
 
-### mm單位:
+### In mm units:
 
-- 長度：40mm
-- 闊度：16mm
-- 高度：34.4mm
-- 輸出軸：樂高十字軸
+- Length: 40mm
+- Width: 16mm
+- Height: 34.4mm
+- Output Axel: Technic Axle
 
 ![](./images/13_03.png)
 
-## Geekservo特色
+## Geekservo Features
 
-- 極力子過載保護:
-    - 遇到輸出軸被暴力扭擰會啟動極力子進行跳齒保護，發出「噠噠噠」的聲音。不會損毀齒輪。
+- Clutch Protection:
+    - In case of violent turning of the output axle, the clutch is enabled to protect the gears from damage.
 
-- 安裝方式靈活:
-    - 支援樂高標準磚和Technic插孔，輸出軸亦是樂高標準十字軸。
+- Flexible Installation:
+    - Can be mounted on standard Lego bricks or with Technic elements, providing a lot of possibilities for installation.
 
-- 輕盈小巧:
-    - 方便製作各種小型機械。
+- Small and lightweight:
+    - Suitable for small robotic projects.
 
-## 接線方法
+## Connection
 
 ### ArmourBit
 
-將舵機的橙紅啡線連接至Armourbit背部的舵機接口。
+Connect the servo to the servo ports of the Armourbit.
 
 ![](./kbimages/servo_wire.png)
 
-    啡色接負極，紅色接正極，橙色接數據。
+    Orange to Yellow, Red to Red, Brown to Black.
     
 ### RobotBit
 
-將舵機的橙紅啡線連接至RobotBit的舵機接口。
+Connect the servo to the servo ports of the Robotbit.
 
 ![](./images/servoConRB.jpg)
 
 ![](./images/2kservoConRB1.jpg)
 
-    啡色接負極，紅色接正極，橙色接數據
+    Orange to Yellow, Red to Red, Black to Black.
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
-![](./images/mcbanner.png)
+![](../functional_module/PWmodules/images/mcbanner.png)
 
-![](../meowbit/images/acbanner.png)
+![](../meowbit/images/acbanner1.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used by Micro:bit or Meowbit.
 
-### ArmourBit與RobotBit的編程是一樣的。
+### The programming for Armourbit and Robotbit is identical.
 
 ### ArmourBit
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### Load Powerbrick Extension: https://github.com/KittenBot/pxt-powerbrick
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [Loading Extensions](../Makecode/powerBrickMC)
 
 ### RobotBit
 
-### 加載RobotBit插件：
+### Load Robotbit Extension:
 
-![](./images/robotbitExtension.png)
+![](./images/robotbitExtension1.png)
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [Loading Extensions](../Makecode/powerBrickMC)
 
-### 舵機積木塊:
+### Blocks for controlling servos:
 
 ![](./images/servoblocks.png)
 
-## 舵機編程
+### Programming servos:
 
-![](./images/servo.png)
+![](./images/servo1.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM12_01Hex)
+[Sample Code Link](https://makecode.microbit.org/_APuPfVUHtMpe)
 
-[參考程式網址](https://makecode.microbit.org/_APuPfVUHtMpe)
-
-### Makecode教學短片
+### Makecode Coding Tutorial
 
 [![](./images/geekservotut.png)](https://www.youtube.com/watch?v=gUR2DbgVTCQ)
 
-### Meowbit:
-
 ---
 
-### 加載robotbit插件：https://github.com/KittenBot/meow-robotbit
+### Meowbit:
 
-### [詳細方法](../Makecode/powerBrickMC)
+### Load Robitbit Extension: https://github.com/KittenBot/meow-robotbit
 
-### 電機積木塊:
+### [Loading Extensions](../Makecode/powerBrickMC)
 
-![](../motors/images/motorblocks.png)
+### Blocks for controlling servos:
 
-## 電機編程
+![](../motors/images/servoblocks_meow1.png)
 
-![](../motors/images/servocode_meow.png)
+### Programming the servos:
 
-[參考程式網址](https://makecode.com/_WrrEcRhMm0o4)
+![](../motors/images/servocode_meow1.png)
 
-## 插件版本與更新
+[Sample Code Link](https://makecode.com/_WrrEcRhMm0o4)
 
-PowerBrick插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+## Extension Version and Updates
 
-詳情請參考: [Makecode插件版本更換](../Makecode/makecode_extensionUpdate)
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-## KittenBlock編程教學
+[Makecode Extension Update](../Makecode/makecode_extensionUpdate)
+
+## KittenBlock Coding Tutorial
 
 ![](./images/kbbanner.png)
 
-### 加載PowerBrick插件
+---
 
-離線版與在線版同樣操作。
+### Armourbit
 
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+### Load Powerbrick extension
+
+Select Powerbrick from the Hardware Menu.
 
 ![](./kbimages/addextension.png)
 
-### 舵機積木塊
+### Blocks for controlling servos:
 
-![](./kbimages/kbservoblocks.png)
+![](./kbimages/kbservoblocks1.png)
 
-### 舵機編程
+### Programming the servos:
 
 ![](./kbimages/kbservo.png)
 
-[參考程式下載](https://bit.ly/PowerbrickM12_01sb3)
+[Sample Code Link](https://bit.ly/PowerbrickM12_01sb3)
+
+---
+
+### Robotbit
+
+### Load Robotbit Extension
+
+Open the hardware menu and select Micro:bit to load the extension for Micro:bit and Robotbit.
+
+![](./images/addRB.png)
+
+### Blocks for controlling servos:
+
+![](./kbimages/rbservoblocks1.png)
+
+### Programming the servos
+
+![](./kbimages/rbservocode1.png)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1: The Micro:bit does not react when I click the programming blocks.
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure the Micro:bit has been connected to the Kittenblock and then try flashing the firmware.

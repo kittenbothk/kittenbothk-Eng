@@ -1,150 +1,145 @@
-# T/T減速直流電機
+# T/T DC Motors
 
 ![](./images/tt2.png)
 
-這是一款減速直流電機，特點在於扭力高噪音低。
+This is a DC motor with a low noise and high torque output.
 
-## 接線方法
+## Connection
 
 ### ArmourBit
 
-將電機的紅黑線連接至Armourbit底部的電機接口。
+Connect the motor to the motor ports on the Armourbit.
 
 ![](./images/tt_wire2.png)
 
-    沒有嚴格正負極之分，插的方向只會影響電機轉動方向。
+    Plugging the motor in the reverse way will not damage the motor, but the rotating direction will be reversed.
     
 ### RobotBit
 
-將電機的紅黑線連接至RobotBit的電機接口。
+Connect the motor to the motor ports on the Robotbit.
 
 ![](./images/tt_wire1.png)
 
 ![](./images/2kmotorConRB1.jpg)
 
-    沒有嚴格正負極之分，插的方向只會影響電機轉動方向。
+    Plugging the motor in the reverse way will not damage the motor, but the rotating direction will be reversed.
 
-## MakeCode編程教學
+## MakeCode Coding Tutorial
 
 ![](./images/mcbanner.png)
 
-![](../meowbit/images/acbanner.png)
+![](../meowbit/images/acbanner1.png)
 
-### 此模組可供Microbit和Meowbit使用。
+### This module can be used by both Micro:bit and Meowbit.
+
+--------
 
 ### ArmourBit
 
---------
+### Load PowerBrick Extension: https://github.com/KittenBot/pxt-powerbrick
 
-### 加載PowerBrick插件：https://github.com/KittenBot/pxt-powerbrick
+### [Loading Extensions](../Makecode/powerBrickMC)
 
-### [詳細方法](../Makecode/powerBrickMC)
+### Blocks for controlling motors:
 
-### 電機積木塊:
+![](./images/motorblocks1.png)
 
-![](./images/motorblocks.png)
+### Programming the motors
 
-## 電機編程
+![](./images/motor1.png)
 
-![](./images/motor.png)
+[Sample Code Link](https://makecode.microbit.org/_RYHivyayYL4q)
 
-[參考程式下載](https://bit.ly/PowerbrickM11_01Hex)
-
-[參考程式網址](https://makecode.microbit.org/_RYHivyayYL4q)
-
-### Makecode教學短片
+### Makecode Tutorial Video
 
 [![](./images/geekservotut.png)](https://www.youtube.com/watch?v=gUR2DbgVTCQ)
 
-### RobotBit
-
 --------
 
-### 加載RobotBit插件：
+### RobotBit
 
-![](./images/robotbitExtension.png)
+### Load Robotbit Extension
 
-### [詳細方法](../Makecode/powerBrickMC)
+![](./images/robotbitExtension1.png)
 
-### 電機積木塊:
+### [Loading Extensions](../Makecode/powerBrickMC)
 
-![](./images/2kmotorblocks_rb.png)
+### Blocks for controlling motors:
 
-### 電機編程
+![](./images/2kmotorblocks_rb1.png)
 
-![](./images/2kmotorcode_rb.png)
+### Programming the motors
 
-[參考程式網址](https://makecode.microbit.org/_33HMywgx9H97q)
+![](./images/2kmotorcode_rb1.png)
 
+[Sample Code Link](https://makecode.microbit.org/_c8F80i0Ta5cF)
+
+------
 
 ### Meowbit:
 
----
+### Load Robotbit Extension: https://github.com/KittenBot/meow-robotbit
 
-### 加載robotbit插件：https://github.com/KittenBot/meow-robotbit
+### [Loading Extensions](../Makecode/powerBrickMC)
 
-### [詳細方法](../Makecode/powerBrickMC)
+### Blocks for controlling motors:
 
-### 電機積木塊:
+![](../motors/images/motorblocks2.png)
 
-![](../motors/images/motorblocks.png)
+### Programming the motors
 
-## 電機編程
+![](../motors/images/2kmotorcode_meow1.png)
 
-![](../motors/images/2kmotorcode_meow.png)
+[Sample Code Link](https://makecode.com/_2z0C8v6XAC5y)
 
-[參考程式網址](https://makecode.com/_2z0C8v6XAC5y)
+## Extension Version and Updates
 
-## 插件版本與更新
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+[Makecode Extension Update](../Makecode/makecode_extensionUpdate)
 
-詳情請參考: [Makecode插件版本更換](../Makecode/makecode_extensionUpdate)
-
-## KittenBlock編程教學
+## KittenBlock Coding Tutorial
 
 ![](./images/kbbanner.png)
 
+---
+
 ### Armourbit
 
---- 
+### Load Powerbrick Extension
 
-### 加載PowerBrick插件
-
-在左上角小貓logo旁邊的硬件欄選擇PowerBrick，加載Microbit與Powerbrick插件。
+Open the hardware menu and select Powerbrick to load the extension for Micro:bit and Powerbrick.
 
 ![](./kbimages/addextension.png)
 
-### 電機積木塊
+### Blocks for controlling motors:
 
-![](./kbimages/kbmotorblocks.png)
+![](./kbimages/kbmotorblocks1.png)
 
-### 電機編程
+### Programming the motors
 
-![](./kbimages/kbmotor.png)
-
-### Robotbit
+![](./kbimages/kbmotor1.png)
 
 ---
 
-### 加載Robotbit插件
+### Robotbit
 
-在左上角小貓logo旁邊的硬件欄選擇Microbit，加載Microbit與Robotbit插件。
+### Load Robotbit Extension
 
-![](./images/addRB.png)
+Open the hardware menu and select Micro:bit to load the extension for Micro:bit and Robotbit.
 
-### 電機積木塊
+![](./images/addRB1.png)
 
-![](./images/rbmotorblocks.png)
+### Blocks for controlling motors:
 
-### 電機編程
+![](./images/rbmotorblocks1.png)
 
-![](./images/rbmotorcode.png)
+### Programming the motors
 
+![](./images/rbmotorcode1.png)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1: The Micro:bit does not react when I click the programming blocks.
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
-
+Make sure the Micro:bit has been connected to the Kittenblock and then try flashing the firmware.

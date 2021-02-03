@@ -1,81 +1,79 @@
-# Meowbit Kittenblock編程快速入門
+# Meowbit Kittenblock Coding Quickstart
 
-Kittenblock是針對青少年STEAM教育的編程平台，是Meowbit的其中一種支援平台。
+Kittenblock is a programming platform designed for teenagers, it is another major programming platform for Meowbit.
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-## 在Kittenblock連接Meowbit
+## Connect Meowbit to Kittenblock
 
-要在Kittenblock對Meowbit編程，我們首先要與Meowbit建立連接。
+Establishing a connection between Meowbit and Kittenblock is required to program Meowbit from Kittenblock.
 
-### 1. 將Meowbit連接電腦，並進入下載模式。
+### 1. Connect Meowbit to computer and enter upload mode.
 
-- 按著MeowBit的A按鍵不放，打開MeowBit電源。
+- Hold button A and turn on the power.
 
 ![](./images/kb1.jpg)
 
-成功的話，電腦會出現一個叫Arcade F4的裝置。
+A device called Arcade-F4 would appear.
 
 ![](./images/kb2.png)
 
-### 2. 打開Kittenblock，在選擇硬件欄選擇Meowbit。
+### 2. Open Kittenblock and select Meowbit from the Hardware Menu.
 
 ![](./images/kb3.png)
 
-### 3. 點擊升級韌體。
+### 3. Flash the firmware.
 
 ![](./images/kb4.png)
 
 ![](./images/kb5.png)
 
-完成後，電腦會出現一個叫PYBFLASH的裝置。
+A device called PYBFLASH would appear.
 
 ![](./images/kb6.png)
 
-    假如電腦上只出現了可移動式磁碟(USB Drive)，你需要按著B然後按一下Reset。
+    If the device is called USB Drive, hold down B and press reset.
 
-### 4. 點擊感嘆號，連接Meowbit。
+### 4. Click the Exclamation Mark Icon and click Connect.
 
 ![](./images/kb7.png)
 
 ![](./images/kb8.png)
 
-Meowbit上會顯示”設備已連接”的字句。
+A string will be displayed on Meowbit to notify it is connected to Kittenblock.
 
-## 在Kittenblock上編程教學
+## Kittenblock Coding Tutorial
 
-在Kittenblock上Meowbit有不同種類的功能。
-
-### 運行類
+### Scripts
 
 ![](./images/kb9.png)
 
-### 輸入類，感應器類
+### Inputs and Sensors
 
 ![](./images/kb10.png)
 
-### 顯示屏類
+### Display
 
 ![](./images/kb11.png)
 
-### 蜂鳴器類
+### Buzzer
 
 ![](./images/kb12.png)
 
-### 引腳控制類
+### IO Pins
 
 ![](./images/kb13.png)
 
-### Robotbit控制類
+### Robotbit
 
 ![](./images/kb15.png)
 
-### Neopixel類
+### Neopixel
 
-### LOGO海龜類
+### Turtle
 
 ![](./images/kb16.png)
 
-### 串口通訊類
+### Serial Communication
 
 ![](./images/kb14.png)

@@ -1,52 +1,52 @@
-# Meowbit MakeCode編程快速入門
+# Meowbit MakeCode Coding QuickStart
 
-MakeCode Arcade是微軟開發的圖像化遊戲編寫平台，同時也是MeowBit的主要編程平台。
+MakeCode Arcade is a programming platform for making games developed by Microsoft, it is also the main programming platform for Meowbit.
 
-#### Meowbit是微軟MakeCode Arcade的其中一款官方認可硬件。
+#### Meowbit has been officially approved by Microsoft for MakeCode Arcade.
 
-## MakeCode Arcade編程
+## MakeCode Arcade Coding
 
-![](./images/acbanner.png)
+![](./images/acbanner1.png)
 
-### 用USB線連接MeowBit到電腦。
+### Connect your Meowbit to the computer.
 
-### 進入下載模式
+### Enter Upload Mode
 
-- 按著MeowBit的A按鍵不放，打開MeowBit電源。
+- Hold A and power on.
 
 ![](./images/kb1.jpg)
 
-成功的話，電腦會出現一個叫Arcade F4的裝置。
+A device called Arcade-F4 would appear on your computer.
 
 ![](./images/kb2.png)
 
-### 打開Makecode Arcade
+### Open Makecode Arcade
 
 ### <https://arcade.makecode.com>
 
 ![](./images/arcade1.png)
 
-### 建立新專案
+### Create a Project
 
 ![](./images/arcade2.png)
 
-### 編程介面
+### Coding Interface
 
 ![](./images/arcade3.png)
 
-### 選擇Meowbit平台
+### Select Meowbit from Hardware Menu
 
 ![](./images/arcade4.png)
 
 ![](./images/arcade5.png)
 
-### 進行編程
+### Code your game
 
-    作為示範，這裡只加入一塊積木示範。
+    This program is for demonstration only.
 
 ![](./images/arcade7.png)
 
-### 編程完成之後下載遊戲到MeowBit。
+### Download the game onto your Meowbit.
 
 ![](./images/arcade8.png)
 

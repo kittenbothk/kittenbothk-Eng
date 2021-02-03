@@ -1,55 +1,54 @@
-# MeowBit操作教學
+# MeowBit System Operations
 
-這裡會教大家一些關於MeowBit的操作，例如進入下載模式，選項介面，固件更新等。
+This page will explain how to use the system operations on the MeowBit, including entering uploading mode, opening options or firmware updates.
 
-## 進入下載模式
+## Entering Upload Mode
 
-想將遊戲下載到Meowbit的話，就一定要將Meowbit進入下載模式。
+Only in Upload Mode can the games be uploaded to MeowBit.
 
-### 方法1
+### Method 1
 
-首先用USB線連接MeowBit到電腦。
+Connect the MeowBit to a computer using an USB Cable.
 
-按著MeowBit的A按鍵不放，打開MeowBit電源。
+Hold the A button on the MeowBit and switch the power on.
 
-Meowbit會顯示寫著F4字樣的介面，進入模式成功。
+The Meowbit is in Upload Mode when this screen is shown.
 
 ![](./images/f4_1.gif)
 
-### 方法2
+### Method 2
 
-首先用USB線連接MeowBit到電腦。
+Connect the MeowBit to a computer using an USB Cable.
 
-打開MeowBit電源。
+Switch the power on.
 
-按著MeowBit的A按鍵不放，按一下重置按鍵。
+Hold the A button and press the reset button.
 
-Meowbit會顯示寫著F4字樣的介面，進入模式成功。
+The Meowbit is in Upload Mode when this screen is shown.
 
 ![](./images/f4_2.gif)
 
-## 進入選項介面
+## Opening Options Menu
 
-在遊戲中，我們可以開啟選項，調較音量和屏幕光度。
+We can open up the settings menu to change settings such as screen brightness or volume.
 
-### 進入選項介面方法
+### Method 1
 
-按一下選項按鍵。
+Press the Options button.
 
-Meowbit會顯示選項菜單，您可以用方向鍵選擇選項，按A確認。
+Use the D-Pad to select different settings and use button A to confirm.
 
 ![](./images/menu1.gif)
 
-## 固件更新
+## Updating the Firmware
 
-[最新固件2.8.0下載](www.google.com)
+[Firmware v2.8.0 Download](www.google.com)
 
-首先進入下載模式。畫面上會顯示固件版本。
+Enter Upload Mode first.
 
 ![](./images/fw1.jpeg)
 
-將更新檔案拖到Arcade-F4上面。  
-等待MeowBit出現YAY字樣，然後按一下重置按鍵。  
+Put the files onto the device called Arcade-F4.
+After updating, press the reset button to finish the update.
 
 ![](./images/fw2.jpeg)
-

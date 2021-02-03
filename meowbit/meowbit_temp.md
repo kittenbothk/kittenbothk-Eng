@@ -1,37 +1,33 @@
-# Meowbit的溫度感應器
+# Meowbit's Temperature Sensor
 
-Meowbit上搭載了溫度感應器，可以檢測環境溫度。
+Meowbit has a built-in Temperature Sensor that allows it to detect the ambient temperature.
 
-## MakeCode Arcade編程教學
+## MakeCode Arcade Coding Tutorial
 
-![](./images/acbanner.png)
+![](./images/acbanner1.png)
 
-### 載入控制器插件
+### Load Controller Extension
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [Loading Extensions](../Makecode/powerBrickMC)
 
 ![](./images/sd5.png)
 
 ![](./images/light1.png)
 
-### 控制器積木塊
+### Blocks for Controller Extension
 
 ![](./images/light2.png)
 
-### 探測溫度數值編程
+### Detecting the temperature
 
 ![](./images/temp1.png)
 
-小鴨會一直說出現時的溫度數值。
+[Sample Code Link](https://makecode.com/_0RVU8sirC9hM)
 
-[參考程式](https://makecode.com/_0RVU8sirC9hM)
-
-##  Kittenblock編程教學
+##  Kittenblock Coding Tutorial
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-### 探測光度數值編程
+### Detecting the temperature
 
 ![](./images/temp2.png)
-
-小貓會一直說出現時的溫度數值。

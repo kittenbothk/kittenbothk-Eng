@@ -1,112 +1,116 @@
-# Meowbit介紹
+# Meowbit Introductions
 
 ![](./images/1.jpeg)
 
-時下的年青人都喜歡玩電子遊戲，為了提高他們對編程的興趣，Kittenbot推出了Meowbit，一款為MakeCode Arcade而設計的一款小型掌上遊戲機。運用MakeCode Arcade，學生可以用圖像化的編程方式創作自己的遊戲然後直接上傳到Meowbit遊玩，讓大家都可以輕鬆地體驗遊戲設計，充分體現出STEAM的學習理念。  
-除此之外，MeowBit還是一塊機械人主控板，它底部也有與Microbit相容的引腳金手指，兼容Kittenbot的擴展板，令Meowbit的靈活性更高，創作性更豐富。  
-### **Meowbit喵比特已經受到Microsoft的官方認證，是Microsoft推薦的MakeCode Arcade硬件之一。**
+Most teenagers nowadays like playing video games, in order to make them more intereseted in coding, Kittenbot has developed Meowbit, a handheld game console designed for MakeCode Arcade. Students can use MakeCode Arcade to create their own games and then play them on the Meowbit, allowing everyone to experience game design, truly realizing the concept of STEAM education.
 
-## 適合人群
+In addition, Meowbit can also act as a control board for robots as it has the same edge connectors as the Micro:bit, making it compatible with Kittenbot's expansion boards. Thus, the flexibility and possibilities with Meowbit can be further increased with expansion boards!
 
-- 學校，培訓機構
-- 對遊戲設計有興趣的大眾
+### **Meowbit has been officially approved by Microsoft as a recommended board for MakeCode Arcade.**
 
-## 產品特色
+## Target Audiences
 
-- 圖像化編程，令新手也容易上手。
-- 將編程和藝術結合，體現STEAM教學的理念。
-- 靈活性高，可作遊戲機亦可作機械人主控。
-- 搭載多款感應器，令編程靈活性更高。
-- 支援多款編程平台，包括MakeCode Arcade和Kittenblock。
-- 可愛又懷舊的畫風。
-- 體積細小，適合便攜，隨時隨地遊玩你創作的遊戲。
-- 支援中文編碼，畫面可顯示中文。
+- Schools and Institutes
+- Users interested in Game Design
 
-## 產品參數
+## Special Features
 
-- 產品大小：52x76x12mm
-- 淨重：42g
-- 主控芯片：STM32F401RET6,32位元ARM Cortex M4核心
-- 供電電壓：5V USB供電，3.7~4.2V電池盒供電
-- 螢幕類型：TFT全彩螢幕
-- 屏幕解像度：160x128
-- 螢幕尺寸：1.8吋
-- IO引腳：20PIN金手指（與Microbit相容）
+- Supports Graphical Programming, suitable for beginners.
+- Combing Coding with Art, realizing concept of STEAM.
+- High flexibility, can be used as a game console or as a robot controller.
+- Multiple sensors have been built-in, allowing for more possibilities in coding.
+- Supports multiple coding platform, including MakeCode Arcade and Kittenblock.
+- Nostalgic and adorable graphics.
+- Highly portable, allows you to play you games anywhere.
+- Supports Chinese Unicode, allowing you to display Chinese characters.
 
-## 板上感應器和接口：
+## Specifications
 
-- 可編程按鍵x6
-- 蜂鳴器x1
-- 可編程LED燈x2
-- 光度感應器x1
-- 溫度感應器x1
-- 陀螺儀x1
-- SD卡插口x1
-- JacDac插口x1
+- Dimensions: 52x76x12mm
+- Weight: 42g
+- CPU: STM32F401RET6,32-bit ARM Cortex M4
+- Power Inpit: 5V USB, 3.7~4.2V Battery Box
+- Screen: TFT Full-Color
+- Resolution: 160x128
+- Screen Size: 1.8 inches
+- IO Pins: 20PIN(Same as Microbit)
 
-## 硬件細節
+## Onboard Devices:
+
+- Programmable Buttons x6
+- Buzzer x1
+- Programmable LEDs x2
+- Light Intensity Sensor x1
+- Temperature Sensor x1
+- Accelerometer x1
+- SD Card Slotx1
+- JacDac Connectorx1
+
+## Breakdown Diagram
 
 ![](./images/2.png)
 
-**1：電源指示燈**  
+**1: Power Indicator**  
 
-**2：光度感應器**  
+**2: Light Sensor**  
 
-**3：電源開關**  
+**3: Power Switch**  
 
-**4：可編程LED燈x2** 
+**4: Programmable LEDs x2** 
  
-**5：重置按鍵** 
+**5: Reset Button** 
  
-**6：DFU模式/Menu按鍵**
+**6: DFU/Menu Button**
   
-**7：TFT螢幕**  
+**7: TFT Screen**  
 
-**8：溫度感應器** 
+**8: Temperature Sensor** 
  
-**9：可編程方向鍵**
+**9: Programmable D-Pad**
   
-**10：可編程蜂鳴器** 
+**10: Programmable Buzzer** 
  
-**11：可編程AB按鍵**  
+**11： Programmable A and B Buttons**  
 
-**12：引腳**  
+**12: Edge Connectors**  
 
 ![](./images/3.png)
 
-**13：USB接口** 
+**13：USB Port** 
  
-**14：SD卡插槽** 
+**14：SD Card Slot** 
  
-**15：JacDac接口**  
+**15：JacDac Connector**  
 
-**16：6軸陀螺儀**  
+**16: 6-Axis Accelerometer**  
 
-**17：3.7V鋰電池JST接口** 
+**17：3.7V Battery JST Connector** 
  
-**18：主控晶片**
+**18: Main Chip**
   
-**19：Unicode晶片**  
+**19: Unicode Chipset**  
 
-**20：簽名欄**  
+**20: Name Plate**  
 
-## 支援編程平台：
+## Supported Programming Platforms:
 
 - Microsoft MakeCode Arcade
 - Kittenblock
 
-## 詳細引腳圖：
+## Detailed Pinouts:
 
 ![](./images/4.png)
 
-## 介紹短片：
+## Videos:
 
-### Meowbit介紹
+### Meowbit Introduction:
+
 [![](./images/6.png)](https://www.youtube.com/watch?v=2Z8bXXwBaIY&feature=youtu.be)
 
-### 外國用家分享
+### Sharing by Overseas User:
+
 [![](./images/5.png)](https://www.youtube.com/watch?v=2Z8bXXwBaIY&feature=youtu.be)
 
-### Meowbit應用分享
+### Meowbit Usage Sharing:
 
 [![](./images/7.png)](https://www.youtube.com/watch?v=_-waYx6LuK0&feature=youtu.be)

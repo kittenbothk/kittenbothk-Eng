@@ -8,7 +8,8 @@ Turtle Academy is a programming tool designed for children, Turtle is also avail
 
 ### Blocks for controlling Turtle
 
-![](./images/kb16.png)
+![](./images/kb16_1.png)
+![](./images/kb16_2.png)
 
 ### Turtle Movements and Filling
 

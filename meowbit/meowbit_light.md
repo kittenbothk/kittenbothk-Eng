@@ -36,6 +36,10 @@ Meowbit has a built-in light intensity sensor, allowing it to detect environment
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
+### Blocks for onboard sensors
+
+![](./images/kb10_1.png)
+
 ### Detecting Light Intensity
 
-![](./images/light5.png)
+![](./images/light5_1.png)

@@ -6,9 +6,10 @@ Meowbit's screen can be programmed to display various text or shapes.
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-### Blocks for displaying
+### Blocks for controlling the screen
 
-![](./images/kb11.png)
+![](./images/kb11_1.png)
+![](./images/kb11_2.png)
 
 ### Filling a color and clear screen
 

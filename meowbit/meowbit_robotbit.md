@@ -70,7 +70,7 @@ Connect stepper motors to the motor ports M1 and M2 of the Robotbit, with the re
 
 ### Blocks for controlling Robotbit
 
-![](./images/kb15.png)
+![](./images/kb15_1.png)
 
 #### 1. Controlling Motors
 
@@ -78,7 +78,7 @@ Connect DC motors to the motor ports M1A and B of the Robotbit.
 
 ![](../Microbit_eboard/RBimage/motor_wire.png)
 
-![](./images/robotbit16.png)
+![](./images/robotbit16_1.png)
 
 ### 2. Controlling Servos
 
@@ -86,7 +86,7 @@ Connect a servo to the servo port S1 of the Robotbit.
 
 ![](../Microbit_eboard/RBimage/servo_wire.png)
 
-![](./images/robotbit17.png)
+![](./images/robotbit17_1.png)
 
 ### 3. Controlling Stepper Motors
 
@@ -94,7 +94,7 @@ Connect stepper motors to the motor ports M1 and M2 of the Robotbit, with the re
 
 ![](../Microbit_eboard/RBimage/stepper_wire.png)
 
-![](./images/robotbit18.png)
+![](./images/robotbit18_1.png)
 
 ## Troubleshooting
 

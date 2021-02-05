@@ -28,6 +28,10 @@ Meowbit has a built-in Temperature Sensor that allows it to detect the ambient t
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
+### Blocks for onboard sensors
+
+![](./images/kb10_1.png)
+
 ### Detecting the temperature
 
-![](./images/temp2.png)
+![](./images/temp2_1.png)

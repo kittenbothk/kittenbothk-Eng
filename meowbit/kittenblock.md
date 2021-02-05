@@ -46,34 +46,39 @@ A string will be displayed on Meowbit to notify it is connected to Kittenblock.
 
 ### Scripts
 
-![](./images/kb9.png)
+![](./images/kb9_1.png)
 
 ### Inputs and Sensors
 
-![](./images/kb10.png)
+![](./images/kb10_1.png)
+![](./images/kb10_2.png)
 
 ### Display
 
-![](./images/kb11.png)
+![](./images/kb11_1.png)
+![](./images/kb11_2.png)
 
 ### Buzzer
 
-![](./images/kb12.png)
+![](./images/kb12_1.png)
 
 ### IO Pins
 
-![](./images/kb13.png)
+![](./images/kb13_1.png)
 
 ### Robotbit
 
-![](./images/kb15.png)
+![](./images/kb15_1.png)
 
 ### Neopixel
 
+![](./images/kb17_1.png)
+
 ### Turtle
 
-![](./images/kb16.png)
+![](./images/kb16_1.png)
+![](./images/kb16_2.png)
 
 ### Serial Communication
 
-![](./images/kb14.png)
+![](./images/kb14_1.png)

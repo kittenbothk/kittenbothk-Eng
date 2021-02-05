@@ -62,6 +62,10 @@ Meowbit can also be programmed to control Neopixel LED strips, such as the one o
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
+### Blocks for controlling the LED strip
+
+![](./images/kb17_1.png)
+
 ### Programming the LED strip of the Robotbit
 
     The LED strip of the Robotbit is connected to P16.

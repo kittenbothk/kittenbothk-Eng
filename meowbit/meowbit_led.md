@@ -30,7 +30,7 @@ Programmable LEDs are built onto Meowbit.
 
 ### Blocks for LEDs
 
-![](./images/kb17.png)
+![](./images/kb10_2.png)
 
 ### Using the LED
 

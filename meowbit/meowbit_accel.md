@@ -39,21 +39,21 @@ Meowbit has a built-in accelerometer for measuring rotation and acceleration of 
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-### Blocks for the accelerometer
+### Blocks for onboard sensors
 
-![](./images/kb18.png)
+![](./images/kb10_1.png)
 
 ### Getting the acceleration
 
-![](./images/accel3.png)
+![](./images/accel3_1.png)
 
 ### Getting the rotational acceleration
 
-![](./images/accel4.png)
+![](./images/accel4_1.png)
 
 ### Getting the tilting degree
 
-![](./images/accel5.png)
+![](./images/accel5_1.png)
 
 ![](./images/accel7.png)
 ![](./images/accel8.png)
@@ -62,6 +62,6 @@ Meowbit has a built-in accelerometer for measuring rotation and acceleration of 
 
 The gestures can be detected in 2 ways.
 
-![](./images/accel9.png)
+![](./images/accel9_1.png)
 
-![](./images/accel10.png)
+![](./images/accel10_1.png)

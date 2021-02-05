@@ -40,12 +40,12 @@ Meowbit has the same 20 IO Pins as the Micro:bit, you can connect different modu
 
 ### Blocks for IO Pins
 
-![](./images/kb13.png)
+![](./images/kb13_1.png)
 
 #### Reading values
 
-![](./images/pin1.png)
+![](./images/pin1_1.png)
 
 #### Writing Values
 
-![](./images/pin2.png)
+![](./images/pin2_1.png)

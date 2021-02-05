@@ -24,31 +24,31 @@ A device called Arcade-F4 would appear on your computer.
 
 ### <https://arcade.makecode.com>
 
-![](./images/arcade1.png)
+![](./images/arcade1_1.png)
 
 ### Create a Project
 
-![](./images/arcade2.png)
+![](./images/arcade2_1.png)
 
 ### Coding Interface
 
-![](./images/arcade3.png)
+![](./images/arcade3_1.png)
 
 ### Select Meowbit from Hardware Menu
 
-![](./images/arcade4.png)
+![](./images/arcade4_1.png)
 
-![](./images/arcade5.png)
+![](./images/arcade5_1.png)
 
 ### Code your game
 
     This program is for demonstration only.
 
-![](./images/arcade7.png)
+![](./images/arcade7_1.png)
 
 ### Download the game onto your Meowbit.
 
-![](./images/arcade8.png)
+![](./images/arcade8_1.png)
 
 ![](./images/arcade6.png)
 

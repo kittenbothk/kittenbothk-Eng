@@ -14,42 +14,42 @@ IOBit Extension: https://github.com/KittenBot/meow-iobit
 
 ### [Loading Extensions](../Makecode/powerBrickMC)
 
-![](./images/sd5.png)
+![](./images/sd5_1.png)
 
-![](./images/iobit1.png)
+![](./images/iobit1_1.png)
 
 ### Blocks for controlling IOBit
 
-![](./images/iobit2.png)
+![](./images/iobit2_1.png)
 
 ### 1. Reading and Writing Values
 
 #### 1.1 Read digital values
 
-![](./images/iobit3.png)
+![](./images/iobit3_1.png)
 
 [Sample Code Link](https://makecode.com/_fD2EzsE3JVPJ)
 
 #### 1.2 Write digital values
 
-![](./images/iobit4.png)
+![](./images/iobit4_1.png)
 
 [Sample Code Link](https://makecode.com/_0Eq1XdHzWXJq)
 
 #### 1.3 Reading analog values
 
-![](./images/iobit5.png)
+![](./images/iobit5_1.png)
 
 [Sample Code Link](https://makecode.com/_cujbCAPbE5Hx)
 
 #### 1.4 Writing analog values
 
-![](./images/iobit6.png)
+![](./images/iobit6_1.png)
 
 [Sample Code Link](https://makecode.com/_2ovaa74358EC)
 
 ### 2. Controlling servos
 
-![](./images/iobit7.png)
+![](./images/iobit7_1.png)
 
 [Sample Code Link](https://makecode.com/_iA0YjiR3sJFz)

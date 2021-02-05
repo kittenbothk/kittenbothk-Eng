@@ -24,13 +24,13 @@ Meowbit can be used in conjunction with a Robotbit to achieve even more possibil
 
     Loading the extension for Robotbit would automatically load the extension for IO pins.
 
-![](./images/sd5.png)
+![](./images/sd5_1.png)
 
-![](./images/robotbit1.png)
+![](./images/robotbit1_1.png)
 
 ### Blocks for controlling Robotbit
 
-![](./images/robotbit2.png)
+![](./images/robotbit2_1.png)
 
 ### Using Meowbit and Robotbit
 
@@ -40,7 +40,7 @@ Connect DC motors to the motor ports M1A and B of the Robotbit.
 
 ![](../Microbit_eboard/RBimage/motor_wire.png)
 
-![](./images/robotbit5.png)
+![](./images/robotbit5_1.png)
 
 [Sample Code Link](https://makecode.com/_PtE25Ke69X5h)
 
@@ -50,7 +50,7 @@ Connect a servo to the servo port S1 of the Robotbit.
 
 ![](../Microbit_eboard/RBimage/servo_wire.png)
 
-![](./images/robotbit6.png)
+![](./images/robotbit6_1.png)
 
 [Sample Code Link](https://makecode.com/_FdTVtYRy55kr)
 
@@ -60,7 +60,7 @@ Connect stepper motors to the motor ports M1 and M2 of the Robotbit, with the re
 
 ![](../Microbit_eboard/RBimage/stepper_wire.png)
 
-![](./images/robotbit7.png)
+![](./images/robotbit7_1.png)
 
 [Sample Code Link](https://makecode.com/_9hk2UwcvsCAo)
 

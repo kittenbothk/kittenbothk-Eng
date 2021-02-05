@@ -10,17 +10,17 @@ Programmable LEDs are built onto Meowbit.
 
 ### [Loading Extensions](../Makecode/powerBrickMC)
 
-![](./images/sd5.png)
+![](./images/sd5_1.png)
 
-![](./images/led1.png)
+![](./images/led1_1.png)
 
 ### Blocks for IO Pins
 
-![](./images/led2.png)
+![](./images/led2_1.png)
 
 ### Using the LED
 
-![](./images/led3.png)
+![](./images/led3_1.png)
 
 [Sample Code Link](https://makecode.com/_FHs7jp8L3erd)
 

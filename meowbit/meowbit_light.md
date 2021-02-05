@@ -4,29 +4,29 @@ Meowbit has a built-in light intensity sensor, allowing it to detect environment
 
 ## MakeCode Arcade Coding Tutorial
 
-![](./images/acbanner.png)
+![](./images/acbanner1.png)
 
 ### Load Controller Extension
 
 ### [Loading Extensions](../Makecode/powerBrickMC)
 
-![](./images/sd5.png)
+![](./images/sd5_1.png)
 
-![](./images/light1.png)
+![](./images/light1_1.png)
 
 ### Blocks for Controller Extension
 
-![](./images/light2.png)
+![](./images/light2_1.png)
 
 ### Detecting Brightness
 
-![](./images/light3.png)
+![](./images/light3_1.png)
 
 [Sample Code Link](https://makecode.com/_EUyfs590PdhJ)
 
 ### Detecting Light Intensity
 
-![](./images/light4.png)
+![](./images/light4_1.png)
 
     The light intensity has a range from 0 to 255.
 

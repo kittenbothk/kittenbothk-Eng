@@ -20,13 +20,13 @@ A device called Arcade-F4 would appear.
 
 ### 2. Open Kittenblock and select Meowbit from the Hardware Menu.
 
-![](./images/kb3.png)
+![](./images/kb3_1.png)
 
 ### 3. Flash the firmware.
 
-![](./images/kb4.png)
+![](./images/kb4_1.png)
 
-![](./images/kb5.png)
+![](./images/kb5_1.png)
 
 A device called PYBFLASH would appear.
 
@@ -36,9 +36,9 @@ A device called PYBFLASH would appear.
 
 ### 4. Click the Exclamation Mark Icon and click Connect.
 
-![](./images/kb7.png)
+![](./images/kb7_1.png)
 
-![](./images/kb8.png)
+![](./images/kb8_1.png)
 
 A string will be displayed on Meowbit to notify it is connected to Kittenblock.
 

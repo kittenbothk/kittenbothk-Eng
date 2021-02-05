@@ -10,27 +10,27 @@ Meowbit has the same 20 IO Pins as the Micro:bit, you can connect different modu
 
 ### [Loading Extensions](../Makecode/powerBrickMC)
 
-![](./images/sd5.png)
+![](./images/sd5_1.png)
 
-![](./images/led1.png)
+![](./images/led1_1.png)
 
 ### Blocks for IO Pins
 
     Loading the extension for Robotbit would automatically load the extension for IO pins.
 
-![](./images/led2.png)
+![](./images/led2_1.png)
 
 ### Using the IO Pins
 
 #### Reading values
 
-![](./images/robotbit8.png)
+![](./images/robotbit8_1.png)
 
 [Sample Code Link](https://makecode.com/_7ubaidLXoJai)
 
 #### Writing Values
 
-![](./images/robotbit9.png)
+![](./images/robotbit9_1.png)
 
 [Sample Code Link](https://makecode.com/_46pdR89CkTD5)
 

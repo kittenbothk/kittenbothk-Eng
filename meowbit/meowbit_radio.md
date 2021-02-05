@@ -45,13 +45,13 @@ Wireless Extension: https://github.com/KittenBot/pxt-sdwireless
 
 ### [Loading Extensions](../Makecode/powerBrickMC)
 
-![](./images/sd5.png)
+![](./images/sd5_1.png)
 
-![](./images/sd6.png)
+![](./images/sd6_1.png)
 
 ### Blocks for the wireless module
 
-![](./images/sd7.png)
+![](./images/sd7_1.png)
 
 ### MakeCode Arcade Error Message
 
@@ -66,13 +66,13 @@ Data can be sent from Meowbit to the Micro:bit using the 2.4GHz radio.
 
 #### Meowbit Coding
 
-![](./images/sd8.png)
+![](./images/sd8_1.png)
 
 [Sample Code Link](https://makecode.com/_CTHU6hP81P6U)
 
 #### Microbit Coding
 
-![](./images/sd9.png)
+![](./images/sd9_1.png)
 
 [Sample Code Link](https://makecode.microbit.org/_R8zKEpixPazc)
 
@@ -84,13 +84,13 @@ Meowbit can also receive data from a Micro:bit using the 2.4GHz radio.
 
 #### Meowbit Coding
 
-![](./images/sd11.png)
+![](./images/sd11_1.png)
 
 [Sample Code Link](https://makecode.com/_KDPdA0XccXvP)
 
 #### Microbit Coding
 
-![](./images/sd10.png)
+![](./images/sd10_1.png)
 
 [Sample Code Link](https://makecode.microbit.org/_Xx39ryM2CTp9)
 

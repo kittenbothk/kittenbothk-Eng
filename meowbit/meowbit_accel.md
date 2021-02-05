@@ -12,27 +12,28 @@ Meowbit has a built-in accelerometer for measuring rotation and acceleration of 
 
 ### [Loading Extensions](../Makecode/powerBrickMC)
 
-![](./images/sd5.png)
+![](./images/sd5_1.png)
 
-![](./images/light1.png)
+![](./images/light1_1.png)
 
 ### Blocks for Controller Extension
 
-![](./images/light2.png)
+![](./images/light2_1.png)
 
 ### Detecting rotation
 
-![](./images/accel1.png)
+![](./images/accel1_1.png)
 
     The rotation value ranges from 0 to 1023.
 
-[Sample Code Link](https://makecode.com/_5UrbHAFAFD2K)
+[Sample Code Link](https://makecode.com/_Pc0AufXvC6DD)
+
 
 ### Detecting gestures
 
-![](./images/accel2.png)
+![](./images/accel2_1.png)
 
-[Sample Code Link](https://makecode.com/_Pc0AufXvC6DD)
+[Sample Code Link](https://makecode.com/_5UrbHAFAFD2K)
 
 ##  Kittenblock Coding Tutorial
 

@@ -12,35 +12,35 @@ Meowbit can also be programmed to control Neopixel LED strips, such as the one o
 
 ### [Loading Extensions](../Makecode/powerBrickMC)
 
-![](./images/sd5.png)
+![](./images/sd5_1.png)
 
-![](./images/robotbit3.png)
+![](./images/robotbit3_1.png)
 
 ### Blocks for controlling LED strips
 
-![](./images/robotbit4.png)
+![](./images/robotbit4_1.png)
 
 ### Programming LED strip of the Robotbit
 
     The LED strip on the Robotbit is connected to P16.
     
-![](./images/robotbit15.png)
+![](./images/robotbit15_1.png)
     
 #### Lighting up all 4 LEDs
 
-![](./images/robotbit10.png)
+![](./images/robotbit10_1.png)
 
 [Sample Code Link](https://makecode.com/_XXwcLH7YpW2x)
 
 #### RGB color
 
-![](./images/robotbit11.png)
+![](./images/robotbit11_1.png)
 
 [Sample Code Link](https://makecode.com/_CTVgMgevD2Ks)
 
 #### HSL color
 
-![](./images/robotbit12.png)
+![](./images/robotbit12_1.png)
 
 [Sample Code Link](https://makecode.com/_M6M9VrHbj8dH)
 
@@ -48,13 +48,13 @@ Meowbit can also be programmed to control Neopixel LED strips, such as the one o
 
     The index of the LED lights starts from 0.
 
-![](./images/robotbit13.png)
+![](./images/robotbit13_1.png)
 
 [Sample Code Link](https://makecode.com/_89Hb2TW6LJ0a)
 
 #### Photon effect
 
-![](./images/robotbit14.png)
+![](./images/robotbit14_1.png)
 
 [Sample Code Link](https://makecode.com/_92m20h91uL5j)
 

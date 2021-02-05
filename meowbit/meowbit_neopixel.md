@@ -1,87 +1,85 @@
-# Meowbit的燈條編程
+# Meowbit & Neopixel
 
-使用Meowbit亦可對Neopixel的燈條編程，例如Robotbit上的燈條。
+Meowbit can also be programmed to control Neopixel LED strips, such as the one on Robotbit.
 
-## MakeCode Arcade編程教學
+## MakeCode Arcade Coding Tutorial
 
-![](./images/acbanner.png)
+![](./images/acbanner1.png)
 
-## Robotbit 燈條編程
+## Controlling LED strip
 
-### 載入燈條插件
+### Load Light Extension
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [Loading Extensions](../Makecode/powerBrickMC)
 
 ![](./images/sd5.png)
 
 ![](./images/robotbit3.png)
 
-### 燈條積木塊
+### Blocks for controlling LED strips
 
 ![](./images/robotbit4.png)
 
-### 燈條編程
+### Programming LED strip of the Robotbit
 
-    在Meowbit上使用Robotbit的燈條時，需要在Pin 16設置長度為4的WS2812燈條。
+    The LED strip on the Robotbit is connected to P16.
     
 ![](./images/robotbit15.png)
     
-#### 4顆燈同時點亮
+#### Lighting up all 4 LEDs
 
 ![](./images/robotbit10.png)
 
-[參考程式](https://makecode.com/_XXwcLH7YpW2x)
+[Sample Code Link](https://makecode.com/_XXwcLH7YpW2x)
 
-#### 使用RGB數值指定顏色
+#### RGB color
 
 ![](./images/robotbit11.png)
 
-[參考程式](https://makecode.com/_CTVgMgevD2Ks)
+[Sample Code Link](https://makecode.com/_CTVgMgevD2Ks)
 
-#### 使用HSL數值指定顏色
+#### HSL color
 
 ![](./images/robotbit12.png)
 
-[參考程式](https://makecode.com/_M6M9VrHbj8dH)
+[Sample Code Link](https://makecode.com/_M6M9VrHbj8dH)
 
-#### 點亮指定一顆燈
+#### Controlling individual lights
 
-    燈條像素數值由0開始數。
+    The index of the LED lights starts from 0.
 
 ![](./images/robotbit13.png)
 
-[參考程式](https://makecode.com/_89Hb2TW6LJ0a)
+[Sample Code Link](https://makecode.com/_89Hb2TW6LJ0a)
 
-#### 光子效果
+#### Photon effect
 
 ![](./images/robotbit14.png)
 
-[參考程式](https://makecode.com/_92m20h91uL5j)
+[Sample Code Link](https://makecode.com/_92m20h91uL5j)
 
-##  Kittenblock編程教學
+##  Kittenblock Coding Tutorial
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-### 燈條編程
+### Programming the LED strip of the Robotbit
 
-    在Meowbit上使用Robotbit的燈條時，需要在Pin 16設置長度為4的WS2812燈條。
+    The LED strip of the Robotbit is connected to P16.
 
 ![](./images/robotbit19.png)
 
-    
-#### 4顆燈同時點亮
+#### Lighting up all LEDs
 
-    所有燈效都需要運行Color Update這個積木才會顯示。
+    All effects will only be shown after using Color Update block.
 
 ![](./images/robotbit20.png)
 
-
-#### 使用RGB數值指定顏色
+#### RGB color
 
 ![](./images/robotbit21.png)
 
-#### 點亮指定一顆燈
+#### Controlling Individual Lights
 
-    燈條像素數值由0開始數。
+    The index of the LED lights starts from 0.
 
 ![](./images/robotbit22.png)

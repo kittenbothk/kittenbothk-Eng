@@ -1,42 +1,38 @@
-# Meowbit與海龜繪圖(Kittenblock)
+# Meowbit & Turtle(Kittenblock)
 
-海龜學園是一個設計給小孩子學習編程繪圖的平台。
+Turtle Academy is a programming tool designed for children, Turtle is also available on Meowbit in Kittenblock.
 
-Meowbit在Kittenblock上也可以玩海龜繪圖。
-
-##  Kittenblock編程教學
+##  Kittenblock Coding Tutorial
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-### 海龜積木塊
+### Blocks for controlling Turtle
 
 ![](./images/kb16.png)
 
-### 海龜移動和繪圖
+### Turtle Movements and Filling
 
 ![](./images/turtle1.png)
 
-按上記錄填色起點，按A前進，按左或右轉向，最後按下記錄填色終點並填上顏色。
+Press up to begin filling, press A to go forwards, use Left and Right to turn and press down to complete the filling.
 
-### 海龜繪畫圓形
+### Setting Coordinates and Drawing Circles
 
 ![](./images/turtle2.png)
 
-海龜自動移動到(100,100)，然後畫一個圓圈。
+Setting the coordinates and drawing a circle with a radius of 20 pixels.
 
-### 海龜畫點和清屏
+### Drawing dots and clearing the screen.
 
-    清屏後會連背景一併清掉，所以我們清屏後再畫一次背景。
+    Clearing the screen also clears the background.
 
 ![](./images/turtle3.png)
 
-按A畫點，按B清屏。
+### Pen Up and Pen Down
 
-### 海龜起筆和落筆。
-
-    假如我們沒有起筆，海龜的所有移動都會有畫線。相反在起筆之後，海龜的移動不會畫出來，這樣就可以繪畫多個圖形了。
+    Any movement of the turtle would draw a line if the pen is down. We can use pen up to avoid this.
 
 ![](./images/turtle4.png)
 
-海龜一次過在(20,20)至(70,70)和(100,70)至(100,120)繪畫兩條線。
+Using Pen Up and Pen Down, it can draw 2 serperate lines.
 

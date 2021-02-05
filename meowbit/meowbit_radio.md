@@ -1,99 +1,98 @@
-# MeowBit無綫通訊SD模組
+# MeowBit Wireless SD Module
 
-有了這塊無綫通訊模組，我們就可以利用Meowbit與例如Microbit等的設備通訊了！
+With the Wireless SD Module, we can use Meowbit to communicate with other devices such as Micro:bit.
 
 ![](./images/sd1.png)
 
 ![](./images/sd2.png)
 
-## 產品參數
+## Specifications
 
-- 主控芯片：nRF51822 ARM Cortex-M0
-- 核心頻率：16Mhz
-- 尺寸：24x21X3mm
-- 重量：1.4g
-- 通訊最遠距離：10m
-- 工作電壓：3.3V
-- 通訊模式：2.4G和藍芽2.4G
-- 無綫狀態指示燈（綠色為2.4G模式、藍色為藍芽模式）
-- 模式切換按鍵
-- SD卡金手指接口
+- Chipset: nRF51822 ARM Cortex-M0
+- Frequency: 16Mhz
+- Dimensions: 24x21X3mm
+- Weight: 14g
+- Max distance: 10m
+- Working Voltage: 3.3V
+- Protocols: Wireless 2.4GHz, Bluetooth 2.4G
+- Wireless Mode Indicator (Green for 2.4GHz, Blue for Bluetooth)
+- Mode Toggle Switch
+- Compatible with SD Card slot
 
-## 裝插方法
+## Installation Method
 
-安裝方法：將模塊插入Meowbit頂部的SD卡插槽，金手指那一面朝自己。
+Installation: Insert the module into the SD Card Slot of Meowbit with the golden connectors facing towards you.
 
 ![](./images/sd3.gif)
 
-拔除方法：將模組小心地拔出Meowbit。
+Removal: Slowly and carefully pull out the module from the slot.
 
 ![](./images/sd4.gif)
 
-## 模式切換
+## Mode Toggle
 
-我們可以按模組頂部的按鈕在2.4G和藍芽模式中切換。
+The button on the top of the module is for switching between modes.
 
 ![](./images/sd12.gif)
 
-## MakeCode Arcade編程教學
+## MakeCode Arcade Coding Tutorial
 
-![](./images/acbanner.png)
+![](./images/acbanner1.png)
 
+### Load the extension for the wireless module
 
+Wireless Extension: https://github.com/KittenBot/pxt-sdwireless
 
-### 載入無綫模組插件
-
-插件地址：https://github.com/KittenBot/pxt-sdwireless
-
-### [詳細方法](../Makecode/powerBrickMC)
+### [Loading Extensions](../Makecode/powerBrickMC)
 
 ![](./images/sd5.png)
 
 ![](./images/sd6.png)
 
-### 無綫模組積木塊
+### Blocks for the wireless module
 
 ![](./images/sd7.png)
 
-### MakeCode Arcade錯誤警告
+### MakeCode Arcade Error Message
 
-    MakeCode Arcade用插件時有時候會顯示以下警告，這只是因為Arcade的模擬器沒有無綫模組，不需要理會。
+    This error message may appear in MakeCode Arcade when using the wireless module, this is simply because the emulator cannot emulate the wireless module.
+    Please ignore and continue.
 
 ![](./images/sd13.png)
 
-### 無綫傳送資料
+### Sending data
 
-我們會試試用Meowbit和**無綫模組2.4G模式**發送資料到Microbit。
+Data can be sent from Meowbit to the Micro:bit using the 2.4GHz radio.
 
-#### Meowbit編程
+#### Meowbit Coding
 
 ![](./images/sd8.png)
 
-[參考程式](https://makecode.com/_CTHU6hP81P6U)
+[Sample Code Link](https://makecode.com/_CTHU6hP81P6U)
 
-#### Microbit編程
+#### Microbit Coding
 
 ![](./images/sd9.png)
 
-[參考程式](https://makecode.microbit.org/_R8zKEpixPazc)
+[Sample Code Link](https://makecode.microbit.org/_R8zKEpixPazc)
 
-#### 我們在Meowbit按A或B鍵，Microbit會顯示相應的表情。
+#### Pressing A or B on the Meowbit causes Micro:bit to display different icons.
 
-### 無綫接收資料
+### Receiving data
 
-我們會試試用Meowbit和**無綫模組2.4G模式**接收Microbit的資料。
+Meowbit can also receive data from a Micro:bit using the 2.4GHz radio.
 
-#### Meowbit編程
+#### Meowbit Coding
 
 ![](./images/sd11.png)
 
-[參考程式](https://makecode.com/_KDPdA0XccXvP)
+[Sample Code Link](https://makecode.com/_KDPdA0XccXvP)
 
-#### Microbit編程
+#### Microbit Coding
 
 ![](./images/sd10.png)
 
-[參考程式](https://makecode.microbit.org/_Xx39ryM2CTp9)
+[Sample Code Link](https://makecode.microbit.org/_Xx39ryM2CTp9)
 
-#### 我們在Microbit按A或B鍵，Meowbit會顯示相應的文字。
+#### Pressing A or B on the Micro:bit causes Meowbit to display different text.
 

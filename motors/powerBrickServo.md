@@ -156,7 +156,7 @@ Select Powerbrick from the Hardware Menu.
 
 ### Programming the servos:
 
-![](./kbimages/kbservo.png)
+![](./kbimages/kbservo1.png)
 
 [Sample Code Link](https://bit.ly/PowerbrickM12_01sb3)
 
@@ -168,7 +168,7 @@ Select Powerbrick from the Hardware Menu.
 
 Open the hardware menu and select Micro:bit to load the extension for Micro:bit and Robotbit.
 
-![](./images/addRB.png)
+![](./images/addRB1.png)
 
 ### Blocks for controlling servos:
 

@@ -1,57 +1,55 @@
-# Meowbit與IOBit
+# Meowbit & IOBit
 
-Meowbit上的引腳其實也支援Kittenbot的其他擴展板，在這節教程我們會看看Meowbit怎樣和IOBit一起使用。
+Meowbit can be used in conjunction with an IOBit to achieve even more possibilities.
 
-## MakeCode Arcade編程教學
+## MakeCode Arcade Coding Tutorial
 
-![](./images/acbanner.png)
+![](./images/acbanner1.png)
 
-## IOBit 硬件與引腳編程
+## Using IOBit and IO Pins
 
-### 載入IOBit插件
+### Load IOBit Extension
 
-插件地址：https://github.com/KittenBot/meow-iobit
+IOBit Extension: https://github.com/KittenBot/meow-iobit
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [Loading Extensions](../Makecode/powerBrickMC)
 
 ![](./images/sd5.png)
 
 ![](./images/iobit1.png)
 
-### IOBit積木塊
+### Blocks for controlling IOBit
 
 ![](./images/iobit2.png)
 
-## Meowbit與IOBit編程
+### 1. Reading and Writing Values
 
-### 1. 讀寫引腳數值
-
-#### 1.1 讀取數位數值
+#### 1.1 Read digital values
 
 ![](./images/iobit3.png)
 
-[參考程式](https://makecode.com/_fD2EzsE3JVPJ)
+[Sample Code Link](https://makecode.com/_fD2EzsE3JVPJ)
 
-#### 1.2 寫入數位數值
+#### 1.2 Write digital values
 
 ![](./images/iobit4.png)
 
-[參考程式](https://makecode.com/_0Eq1XdHzWXJq)
+[Sample Code Link](https://makecode.com/_0Eq1XdHzWXJq)
 
-#### 1.3 讀取類比數值
+#### 1.3 Reading analog values
 
 ![](./images/iobit5.png)
 
-[參考程式](https://makecode.com/_cujbCAPbE5Hx)
+[Sample Code Link](https://makecode.com/_cujbCAPbE5Hx)
 
-#### 1.4 寫入類比數值
+#### 1.4 Writing analog values
 
 ![](./images/iobit6.png)
 
-[參考程式](https://makecode.com/_2ovaa74358EC)
+[Sample Code Link](https://makecode.com/_2ovaa74358EC)
 
-### 2. 舵機編程
+### 2. Controlling servos
 
 ![](./images/iobit7.png)
 
-[參考程式](https://makecode.com/_iA0YjiR3sJFz)
+[Sample Code Link](https://makecode.com/_iA0YjiR3sJFz)

@@ -1,42 +1,37 @@
-# Meowbit的LED
+# Meowbit's LED
 
-Meowbit上也搭載了LED燈，可以點亮或熄滅。
+Programmable LEDs are built onto Meowbit.
 
-## MakeCode Arcade編程教學
+## MakeCode Arcade Coding Tutorial
 
-![](./images/acbanner.png)
+![](./images/acbanner1.png)
 
-### 載入引腳插件
+### Load IO Pin Extension
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [Loading Extensions](../Makecode/powerBrickMC)
 
 ![](./images/sd5.png)
 
 ![](./images/led1.png)
 
-
-### 引腳積木塊
+### Blocks for IO Pins
 
 ![](./images/led2.png)
 
-### LED編程
+### Using the LED
 
 ![](./images/led3.png)
 
-按A點亮LED燈，按B熄滅LED燈。
+[Sample Code Link](https://makecode.com/_FHs7jp8L3erd)
 
-[參考程式](https://makecode.com/_FHs7jp8L3erd)
-
-##  Kittenblock編程教學
+##  Kittenblock Coding Tutorial
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-### LED積木塊
+### Blocks for LEDs
 
 ![](./images/kb17.png)
 
-### LED編程
+### Using the LED
 
 ![](./images/led4.png)
-
-按A以44%亮度點亮綠色LED燈，按B熄滅綠色LED燈。按下開關紅色LED燈。

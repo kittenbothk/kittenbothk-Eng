@@ -1,106 +1,105 @@
-# Meowbit與Robotbit
+# Meowbit & Robotbit
 
-Meowbit上的引腳其實也支援Kittenbot的其他擴展板，在這節教程我們會看看Meowbit怎樣和Robotbit一起使用。
+Meowbit can be used in conjunction with a Robotbit to achieve even more possibilities.
 
-## Robotbit注意事項：
+## Robotbit Precautions:
 
-### 1：電池的正負極一定要正確地安裝
+### 1: The battery must be installed in the right way.
 
-### 2：將Meowbit插上Robotbit時必須要屏幕向外
+### 2: The screen of the Meowbit must be facing outwards.
 
 ![](./images/robotbit24.png)
 
-## MakeCode Arcade編程教學
+## MakeCode Arcade Coding Tutorial
 
-![](./images/acbanner.png)
+![](./images/acbanner1.png)
 
-## Robotbit編程
+## Using Robotbit
 
-### 載入Robotbit插件
+### Load Robotbit Extension
 
-### 插件地址：https://github.com/KittenBot/meow-robotbit
+### Robotbit Extension: https://github.com/KittenBot/meow-robotbit
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [Loading Extensions](../Makecode/powerBrickMC)
 
-    加入Robotbit插件時也會自動一併加入引腳插件。
+    Loading the extension for Robotbit would automatically load the extension for IO pins.
 
 ![](./images/sd5.png)
 
 ![](./images/robotbit1.png)
 
-### Robotbit積木塊
+### Blocks for controlling Robotbit
 
 ![](./images/robotbit2.png)
 
-### Meowbit與Robotbit編程
+### Using Meowbit and Robotbit
 
-#### 1. 電機編程
+#### 1. Controlling Motors
 
-將電機連接在Robotbit的M1A和M1B上。
+Connect DC motors to the motor ports M1A and B of the Robotbit.
 
 ![](../Microbit_eboard/RBimage/motor_wire.png)
 
 ![](./images/robotbit5.png)
 
-[參考程式](https://makecode.com/_PtE25Ke69X5h)
+[Sample Code Link](https://makecode.com/_PtE25Ke69X5h)
 
-### 2. 舵機編程
+### 2. Controlling Servos
 
-將舵機連接在Robotbit的S1上。
+Connect a servo to the servo port S1 of the Robotbit.
 
 ![](../Microbit_eboard/RBimage/servo_wire.png)
 
 ![](./images/robotbit6.png)
 
-[參考程式](https://makecode.com/_FdTVtYRy55kr)
+[Sample Code Link](https://makecode.com/_FdTVtYRy55kr)
 
-### 3. 步進電機編程
+### 3. Controlling Stepper Motors
 
-將步進電機連接到Robotbit的M1和M2上（將紅色電線連接到VM）。
+Connect stepper motors to the motor ports M1 and M2 of the Robotbit, with the red wire connecting to VM.
 
 ![](../Microbit_eboard/RBimage/stepper_wire.png)
 
 ![](./images/robotbit7.png)
 
-[參考程式](https://makecode.com/_9hk2UwcvsCAo)
+[Sample Code Link](https://makecode.com/_9hk2UwcvsCAo)
 
-##  Kittenblock編程教學
+##  Kittenblock Coding Tutorial
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-### Robotbit積木塊
+### Blocks for controlling Robotbit
 
 ![](./images/kb15.png)
 
-#### 1. 電機編程
+#### 1. Controlling Motors
 
-將電機連接在Robotbit的M1A和M1B上。
+Connect DC motors to the motor ports M1A and B of the Robotbit.
 
 ![](../Microbit_eboard/RBimage/motor_wire.png)
 
 ![](./images/robotbit16.png)
 
-### 2. 舵機編程
+### 2. Controlling Servos
 
-將舵機連接在Robotbit的S1上。
+Connect a servo to the servo port S1 of the Robotbit.
 
 ![](../Microbit_eboard/RBimage/servo_wire.png)
 
 ![](./images/robotbit17.png)
 
+### 3. Controlling Stepper Motors
 
-### 3. 步進電機編程
-
-將步進電機連接到Robotbit的M1和M2上（將紅色電線連接到VM）。
+Connect stepper motors to the motor ports M1 and M2 of the Robotbit, with the red wire connecting to VM.
 
 ![](../Microbit_eboard/RBimage/stepper_wire.png)
 
 ![](./images/robotbit18.png)
 
-## 疑難排解
+## Troubleshooting
 
-### 問：我在Kittenblock上載程序到Meowbit之後出現錯誤，畫面顯示 ”Robotbit is not defined”，應該如何解決？
+### Q: How to solve the problem of "Robotbit is not defined" error on Meowbit after uploading the program from Kittenblock?
 
 ![](./images/robotbit23.jpg)
 
-### 答：Robotbit的插件必須要在插上Robotbit時才能使用，只要將Meowbit插上Robotbit然後重啟就可以了。
+### A: Robotbit could not be initialized because Meowbit is not connected to Robotbit, connect Meowbit to Robotbit and reset to run the program as normal.

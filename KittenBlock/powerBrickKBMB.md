@@ -1,141 +1,137 @@
-# 在Kittenblock連接Micro:bit
+# Micro:bit & Kittenblock
 
-我們要在Kittenblock上使用Microbit，就首先要與Microbit建立連接。
-
-### Kittenblock支援USB連接或藍芽連接，請根據您使用的方式參考連接方法。
+Micro:bit can be used on Kittenblock.
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-## 使用USB線連接
+## Using USB cable.
 
-首先將Microbit用USB線連接到電腦。
+Connect a Micro:bit to the computer with an USB cable.
 
-在左上角小貓logo旁邊的硬件欄選擇硬件，加載Microbit與硬件的插件。
+Select your hardware from the hardware menu to load the necessary extensions.
 
-    這教程使用Powerbrick作例子，請大家按照自己手上的硬件作選擇。
+    PowerBrick is used as an example, you should choose MicroBit Python when using Robotbits.
 
-以USB模式連接時請選擇『serial』。
+Select "Serial" for USB connection.
 
 ![](../functional_module/PWmodules/kbimages/addextension_usb.png)
 
-在Microbit的積木欄中按下感嘆號 ( ! ) 按鈕。
+Click the Exclamation Mark Icon.
 
 ![](../functional_module/PWmodules/kbimages/kbmbcon.png)
 
-然後點選『開始連線』。
+Select your device and click "Connect".
 
 ![](../functional_module/PWmodules/kbimages/kbmbcon1.png)
 
-連接完成！
+Wait for a few seconds and this pop up should show.
 
 ![](../functional_module/PWmodules/kbimages/kbmbcon2.png)
 
-成功連接後，MicroBit會顯示心形。
+Micro:bit should display a heart icon when connected.
 
 ![](../functional_module/PWmodules/kbimages/03_08.png)
 
-假如沒有顯示心形，可以按下升級韌體。
+If it doesn't, click upload firmware and wait for it to finish.
 
 ![](../functional_module/PWmodules/kbimages/upload.png)
 
-## 使用藍芽連接
+## Using Bluetooth Adapter
 
-首先將KittenBot藍牙適配器插入電腦或者打開電腦的藍芽模式。
+Plug in the Kittenbot Bluetooth Adapter.
 
-    藍芽適配器初次使用前需要更新固件，詳情請參考此教程：
+Connect your Micro:bit using a USB cable.
 
-將Microbit用USB線連接到電腦。
+Select Settings and choose the "Advanced Tab", enable the option for USB BLE.
 
-按下右上角的設定，然後按下『進階』(Advanced)，剔選USB BLE選項。
-
-    這一步很重要，請勿忘記！
+    Do not forget this important step!!
 
 ![](../functional_module/PWmodules/kbimages/ble1.png)
 
-在左上角小貓logo旁邊的硬件欄選擇硬件，加載Microbit與硬件的插件。
+Open up the hardware menu and select BLE.
 
-    這教程使用Powerbrick作例子，請大家按照自己手上的硬件作選擇。
-
-以藍芽模式連接時請選擇『ble』。
+    Powerbrick is used as an example only.
 
 ![](../functional_module/PWmodules/kbimages/addextension_ble.png)
 
-在Microbit的積木欄中按下感嘆號 ( ! ) 按鈕。
+Press the Exclamation Mark Icon.
 
 ![](../functional_module/PWmodules/kbimages/kbmbcon.png)
 
-然後點選『開始連線』。
+Connect to the Micro:bit.
 
 ![](../functional_module/PWmodules/kbimages/kbmbcon1.png)
 
-連接完成之後按回到編輯器。
+Go back to the editor after it successfully connected.
 
 ![](../functional_module/PWmodules/kbimages/kbmbcon2.png)
 
-然後按下『升級固件』(Upgrade Firmware)。
+Click Upgrade Firmware.
 
 ![](../functional_module/PWmodules/kbimages/ble3.png)
 
-完成後Microbit上會顯示一串英文字母，這是Microbit自己的ID。
+A string will appear on your Micro:bit, this is the Bluetooth ID of your Micro:bit.
 
 ![](../functional_module/PWmodules/kbimages/15.gif)
 
-然後可以斷開與Microbit的連接，再重新連接硬件。
+You can now disconnect the Micro:bit.
 
 ![](../functional_module/PWmodules/kbimages/ble4.png)
 
+Go back to the connection page.
+
 ![](../functional_module/PWmodules/kbimages/ble5.png)
 
-選擇自己Microbit的藍芽ID進行連接。
+Select your device and click "Connect".
 
 ![](../functional_module/PWmodules/kbimages/ble6.png)
 
-連接完成！
+Wait for a few seconds and this pop up should show.
 
 ![](../functional_module/PWmodules/kbimages/ble8.png)
 
-成功連接後，MicroBit會顯示心形。
+Micro:bit should display a heart icon when connected.
 
 ![](../functional_module/PWmodules/kbimages/03_08.png)
 
-假如沒有顯示心形，可以按下升級韌體。
+If it doesn't, click upload firmware and wait for it to finish.
 
 ![](../functional_module/PWmodules/kbimages/upload.png)
 
-## 連接測試
+## Testing the connection
 
-按下Microbit的積木，Microbit應該會即時有反應。
+Click any blocks from the Micro:bit menu, your Micro:bit should respond immediately.
 
 ![](../functional_module/PWmodules/kbimages/03_09.png)
 
 ![](../functional_module/PWmodules/kbimages/03_12.png)
 
-## 上載程式
+## Uploading programs
 
-### 注意：藍芽連接並不支援上載程式到Microbit！
+### Attention: Programs can't be uploaded under a bluetooth connection!
 
-### 注意：藍芽連接並不支援上載程式到Microbit！
+### Attention: Programs can't be uploaded under a bluetooth connection!
 
-在Kittenblock平台上也可以將程式上載到MicroBit，不用永遠連着電腦使用。
+Uploading a program to your Micro:bit allows it to run the program without being connected to the computer.
 
-首先按右上角的代碼按鈕，切換至代碼模式。
+Switch to coding mode by click this switch at the top right corner.
 
 ![](../functional_module/PWmodules/kbimages/upload1.png)
 
-然後按下翻譯，將積木轉換成Python代碼。
+Click "Translate" to translate your blocks into Python code.
 
 ![](../functional_module/PWmodules/kbimages/upload2.png)
 
-最後按下上傳，程式就會下載到Microbit上，實現離線操作。
+Click "Upload" and wait for it to finish.
 
 ![](../functional_module/PWmodules/kbimages/upload3.png)
 
 ## FAQ
 
-1：為什麼我點擊積木塊沒有反應呢？
+1: My Micro:bit does not respond to my blocks.
 
-首先確保已經連接好Microbit，然後上載韌體再試一試。
+Make sure the Micro:bit is connected in Kittenblock and
 
-2：為什麼在藍芽模式下搜索不到Microbit？
+2: My Micro:bit cannot be found in bluetooth mode.
 
-請確保您已經更新藍芽適配器的固件和上傳韌體至Microbit。
+Make sure the bluetooth adapter is updated correctly and follow the instructions.

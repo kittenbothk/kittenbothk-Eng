@@ -1,112 +1,111 @@
-# 在Kittenblock使用Micro:bit
+# Micro:bit Coding & Kittenblock
 
-連接Microbit之後我們就可以開始進行編程。
+With the Micro:bit connected, programming can start.
 
-## Kittenblock的編程模式
+## Kittenblock Coding Modes
 
-Kittenblock支援兩種編程模式：
+There are 2 modes for coding in Kittenblock.
 
-### 1. 在線實時模式
+### 1. Online Mode
 
-這模式的獨特之處在於Microbit的程序可以與舞台實時同步。
+In this mode, Micro:bit is connected with Kittenblock at all times but the advantage is that the Micro:bit can react with Kittenblock in real-time. Which means Micro:bit and Kittenblock can interact with each other, allowing Micro:bit to control Kittenblock and vice versa.
 
-何謂與舞台同步？那即是Microbit與舞台可以互相控制對方。
-這代表舞台和硬件的積木塊都能用，你可以用Microbit控制舞台上的角色，而且反之亦然。
-    
-### 2. 離線下載模式
+All programming blocks can be used in this mode, Micro:bit and Kittenblock are able to respond to programming blocks in real-time.
+ 
+### 2. Offline Mode
 
-Kittenblock也支援像Makecode那樣將程序上載到Microbit，程序保留在Microbit上就可以離線運行，不需要永遠連著電腦使用。
+Similar to MakeCode, programs can be uploaded to Micro:bit so that it can run without being connected to the computer.
 
-要上載到Microbit的話就不可以使用舞台的積木塊，而且也不能與舞台做到同步了。
+Only programming blocks that are specifically for the hardware can be used in this mode, and Kittenblock cannot interact with Micro:bit and vice versa in this mode.
 
-有關舞台積木與硬件積木的解釋可以參考： asdsdgsdfgsfhdsdhgj
+Please refer to this page for more explanation on programming blocks: [Coding Blocks](../interfaceIntro/codingblocks)
 
-## 編程範例1：控制點陣屏
+## Coding Example 1: LED Matrix
 
-#### 請將Microbit以USB線連接到Kittenblock。
+#### Connect Micro:bit to the computer.
 
-#### 在線實時模式
+#### Online Mode
 
-我們首先編寫一個簡單程序，利用空白鍵與舞台角色控制Microbit的點陣屏。
+Let's make a simple program to show some icons on the Micro:bit.
 
 ![](./images/example1a.png)
 
-完成後點擊舞台上的小貓角色或者按下空白鍵，您可以看到Microbit上的點陣屏會即時顯示相應圖案。
+Press the spacebar or click the charater on the stage, Micro:bit will respond immediately.
 
-這就是以舞台實時控制Microbit的例子了。
+As shown in this example, we can control Micro:bit via Kittenblock in Online Mode.
 
-#### 離線下載模式
+#### Offline Mode
 
-然後我們試試編寫一個離線運行的版本。
+Let's make a simple program to show some icons on the Micro:bit.
 
 ![](./images/example1b1.png)
 
-然後切換到代碼模式，按下翻譯按鈕。
+Switch to coding mode and click "Translate".
 
 ![](./images/upload1.png)
 
-你的積木會自動變成代碼，最後按下上載。
+The programming blocks are translated into Python automatically, click "Upload" and wait.
 
 ![](./images/upload2.png)
 
 ![](./images/upload3.png)
 
-上載完成之後你可以按Microbit的A和B鍵，點陣屏就會顯示相應圖案了。
+Pressing the buttons on the Micro:bit to display different icons.
 
-然後我們再試試加上積木，編寫按空白鍵控制點陣屏的程式。
+Next, add the following program to make Micro:bit respond to Kittenblock.
 
 ![](./images/example1b2.png)
 
-但是這時候我們按下空白鍵的時候，Microbit並不會有反應。這是因為我們正在離線運行Microbit，Kittenblock與Microbit沒有溝通。
+However in this case, Micro:bit does not respond to Kittenblock, this is because the program is uploaded to the Micro:bit and it is now in Offline Mode.
 
-這就是連線運行與在線實時的分別了。
+This shows the difference between Online Mode and Offline Mode.
 
-## 編程範例2：溫度探測
+## Coding Example 2: Temperature Sensor
 
-#### 請將Microbit以USB線連接到Kittenblock。
+#### Connect Micro:bit to the computer.
 
-#### 在線實時模式
+#### Online Mode
 
-我們來試試編寫一個簡單的程式，讓小貓角色說出Microbit探測到的溫度。
+Create the following program to make our character tell us the reading of the temperature sensor.
 
 ![](./images/example2a1.png)
 
-完成之後點擊小綠旗，小貓的角色就會說出microbit探測到的溫度。
+Click the green flag to activate the program.
 
 ![](./images/example2a2.png)
 
-這就是實現了microbit控制舞台的效果。
+In this example, we can see that Micro:bit can also control things in Kittenblock.
 
-#### 離線下載模式
+#### Offline Mode
 
-然後我們試試切換至代碼模式並將以上積木翻譯成代碼。
+Let's try uploading the program to the Micro:bit.
 
 ![](./images/example2b1.png)
 
-大家可以看見翻譯會失敗，並會有警告，將錯誤積木變成紅色。這是因為讓小貓說話的積木是舞台限定的，Microbit不能運行，所以翻譯失敗。
+However, a warning will pop up when translating the program into Python and the incorrect blocks are highlighted in red. This is because the highlighted blocks are for Kittenblock only, and cannot be ran on Micro:bit, thus the translation would fail.
 
-從這件事我們可以知道，假如想上載程式到Microbit，我們就不可以使用只限舞台的積木。
+From this example we can see that for a program to be successfully uploaded to the Micro:bit, there must not be any blocks that are Kittenblock only.
 
-舞台積木與硬件積木的解釋可以參考：[編程積木欄](./interfaceIntro/codingblocks.md)
+Please refer to this page for more explanation on programming blocks: [Coding Blocks](../interfaceIntro/codingblocks)
 
 ![](./images/example2b2.png)
 
-我們只要改一改錯誤的積木，然後再翻譯。
+Change the highlighted block into one that Micro:bit can understand.
 
 ![](./images/example2b3.png)
 
-翻譯成功！此時我們就可以上載程式到Microbit了。
+The program can be translated and uploaded to Micro:bit.
 
-## 總結
+## Conclusion:
 
-#### Kittenblock中可以支援2種模式：
+#### There are 2 programming modes in Kittenblock.
 
-1. 與舞台實時互動
+1. Online Mode
    
-- 將Kittenblock與Microbit連接起來，可以實現舞台與Microbit的互動。
-- 舞台和硬件的積木都可以使用。
+- Connects Micro:bit and Kittenblock, allowing interaction between the two.
+- All programming blocks can be used.
     
-2. 離線運行
+2. Offline Mode
 
-- 可以將程式儲存在Microbit上，切斷連接也可以運行。
-- 只能夠使用硬件的積木，不可以使用舞台限定的積木。
+- Programs can be uploaded to the Micro:bit and used without being connected to the computer.
+- Only blocks compatible with Micro:bit can be used.

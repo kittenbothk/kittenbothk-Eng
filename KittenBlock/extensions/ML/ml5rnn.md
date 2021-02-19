@@ -1,33 +1,31 @@
-# Machine Learning 5 塗鴉RNN
+# Machine Learning 5 SketchRNN
 
-利用內建神經網絡，我們可以叫Kittenblock幫我們繪畫。
+SketchRNN can draw pictures about a topic.
 
-## 加載Machine Learning 5插件
+![](../images/ml5.png)
 
-由於今次教程需要使用畫筆，所以我們要加載畫筆插件。
+## Loading the extension for Machine Learning 5
 
-按下左下角的插件加載按鈕。
+Open up the extension page.
 
 ![](../images/add.png)
 
-選擇Machine Learning 5和畫筆插件。
+Select Machine Learning 5 and the Pen extension.
 
 ![](../images/add2.png)
 
-加載成功！
+New programming blocks will be added.
 
 ![](../images/ml6.png)
 
-## 塗鴉RNN
+## Drawing sketches
 
-搭建以下程式，要kittenblock為我們繪畫一隻貓的圖畫。
+Example: Drawing a cat
 
 ![](../images/ml22.png)
 
-完成畫作。
-
-每一次繪畫，Kittenblock都會畫出不同的圖畫。
-
 ![](../images/ml23.png)
+
+Example: Drawing a face
 
 ![](../images/ml24.png)

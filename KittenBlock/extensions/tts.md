@@ -1,29 +1,27 @@
-# 文字轉語音插件
+# Text to Speech
 
-我們可以用翻譯插件替我們文字轉語音。
+Text can be spoken out by the computer with the help of text to speech extension.
 
-## 加載文字轉語音插件
+## Load the extension for Text to Speech
 
-按下左下角的插件加載按鈕。
+Open up the extension page.
 
 ![](./images/add.png)
 
-選擇文字轉語音插件。
+Select Text to Speech.
 
 ![](./images/tts1.png)
 
-加載成功！
+New programming blocks will be added.
 
 ![](./images/tts2.png)
 
-## 文字轉語音介紹
+## Using text to speech
 
-我們可以選擇語音的聲調口音。
-
-程式唸出的文字一定要與選擇的語言一致。
+Example 1: Speaking in the selected language.
 
 ![](./images/tts3.png)
 
-我們還可以與翻譯插件一起使用。
+Example 2: Combining with the translation addon.
 
 ![](./images/tts4.png)

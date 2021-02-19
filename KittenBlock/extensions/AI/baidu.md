@@ -1,96 +1,104 @@
-# 百度大腦插件
+# BaiduAI
 
-百度大腦是百度開發的人工智能系統，Kittenblock特地將百度大腦加入Kittenblock，讓大家可以試試百度大腦強大的功能。
+BaiduAI is an AI service by Baidu, some of its features can be accessed from Kittenblock so everyone can try out their functions without much hassle.
 
-## 加載百度大腦插件
+## Loading the extension for Baidu AI
 
-按下左下角的插件加載按鈕。
+Open up the extension page.
 
 ![](../images/add.png)
 
-選擇百度大腦插件。
+Select BaiduAI.
 
 ![](../images/baidu1.png)
 
-加載成功！
+New programming blocks will be added.
 
 ![](../images/baidu2.png)
 
-## 百度大腦插件介紹
+## Using BaiduAI
 
-百度大腦有不同的功能。
+There are serveral functions in BaiduAI.
 
-### 文學創作
+### Creating Literature
 
-百度大腦擁有文學創作能力，可以作春聯和七言絕詩。
+Literature such as poems and couplets can be generated.
 
 ![](../images/baidu3.png)
 
-我們可以提供題材作春聯。
+Example 1: Creating a couplet.
 
 ![](../images/baidu4.png)
 
-我們可以提供題材作七言絕詩。
+Example 2: Creating a poem.
 
 ![](../images/baidu5.png)
 
-### 朗讀文字
+### Text to speech
 
-百度大腦擁有朗讀文字能力。
+BaiduAI can also read out texts.
 
-可以朗讀中文。
+Example 1: Reading out Chinese.
 
 ![](../images/baidu13.png)
 
-可以朗讀英文。
+Example 2: Reading out English.
 
 ![](../images/baidu14.png)
 
-### 語音辨識
+### Voice Recognition
 
-百度大腦擁有語音辨識能力，懂得辨認你的說話。
+BaiduAI can understand speech.
 
-目前百度大腦只能聽得懂普通話。
+Currently BaiduAI can understand Putonghua.
 
 ![](../images/baidu15.png)
 
-### 物件辨認
+### Object Recognition
 
-百度大腦擁有物件辨認能力，懂得辨認不同類別的物件，例如水果、菜式、動物、汽車等。
+BaiduAI is able to recognize different objects in multiple categories.
 
-首先上傳你想辨認的圖片。
+Upload some pictures to be recognized.
 
 ![](../images/baidu7.png)
 
-然後將所有圖片隱藏顯示。
+Hide the pictures on canvas.
 
 ![](../images/baidu8.png)
 
-選擇你想辨認的類別，搭建程式。
+Select the category an unhide the picture.
 
 ![](../images/baidu9.png)
 
-運行結果:
+Example 1: Recognizing foods.
 
 ![](../images/baidu10.png)
 
+Example 2: Recognizing cars.
+
 ![](../images/baidu11.png)
+
+Example 3: Recognizing animals.
 
 ![](../images/baidu12.png)
 
-### 文字辨認
+### Optical Character Recognition
 
-百度大腦擁有文字辨認能力，可以辨認中文和英文。
+BaiduAI is able to read Chinese and English characters.
 
-    這裡額外加載了視訊偵測插件。
+    The Video Sensing extension is used here.
+    
+Example 1: Recognizing Chinese characters.
 
 ![](../images/baidu16.png)
 
+Example 2: Recognizing English characters.
+
 ![](../images/baidu17.png)
 
-### 智能對話
+### Smart Talk
 
-百度大腦擁有智能對話能力，可以像手機的智能助理一樣和你對話。
+BaiduAI has the ability to chat with you.
 
 ![](../images/baidu18.png)
 

@@ -1,37 +1,37 @@
-# Machine Learning 5 骨架網絡
+# Machine Learning 5 PoseNet
 
-透過PoseNet，可以估計人體的姿勢，追蹤鏡頭內人的骨架。
+Machine Learning 5's poseNet can estimate the posture of a human.
 
-## 加載Machine Learning 5插件
+## Loading the extension for Machine Learning 5
+    
+    The Video Sensing extension is also used in this tutorial.
 
-由於今次教程需要使用視像偵測，所以我們要加載視像偵測插件。
-
-按下左下角的插件加載按鈕。
+Open up the extension page.
 
 ![](../images/add.png)
 
-選擇Machine Learning 5和視像偵測插件。
+Select Video Sensing, Machine Learning 5 and the Pen extension.
 
-![](../images/add1.png)
+![](../images/add2.png)
 
-加載成功！
+![](../images/ml28.png)
+
+New programming blocks will be added.
 
 ![](../images/ml6.png)
 
-電腦配置比較弱(例如：缺乏顯示卡)的用戶，可以點選CPU模式提升效能。
+If your computer has a low specification(e.g. lacks a discrete GPU), its performance maybe enhanced by using CPU mode.
 
 ![](../images/ml14.png)
 
-## 追蹤骨架
+## Tracking a Skeleton
 
-首先初始化PoseNet模型。
+The PoseNet model must be initialized before using.
 
 ![](../images/ml25.png)
 
-搭建以下程式，要kittenblock追蹤和繪畫出人體骨架。
+Example 1: Trace the skeleton of a human.
 
 ![](../images/ml26.png)
-
-按下空白鍵運行程式，走到鏡頭內。
 
 ![](../images/ml27.png)

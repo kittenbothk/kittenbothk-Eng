@@ -1,7 +1,7 @@
-Kittenbot內的插件
+Kittenbot Extensions
 =================
 
-Kittenbot裡面預載了很多功能強大的插件，在這裡我們會介紹一下每個插件。
+Many powerful extensions are built into Kittenblock, let's take a closer look at each of the available extensions.
 
 .. toctree::
     :maxdepth: 1

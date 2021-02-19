@@ -1,43 +1,43 @@
-# IOT(物聯網)插件
+# Internet of Things
 
-隨著5G網絡的落實，IOT(物聯網)是近年來的熱門話題。Kittenblock中也預載了iot的插件，讓大家可以在Kittenblock中學習IOT。
+Internet of Things is a hot topic in today's society. Kittenblock already comes with an easy-to-use IoT extension for you to learn and experience IoT.
 
-## 加載IOT插件
+## Load the extension for IoT
 
-按下左下角的插件加載按鈕。
+Open up the extension page.
 
 ![](./images/add.png)
 
-選擇iot插件。
+Select IoT.
 
 ![](./images/iot1.png)
 
-加載成功！
+New programming blocks will be added.
 
 ![](./images/iot2.png)
 
-## IOT插件介紹
+## Using IoT Extension
 
-Kittenblock裡面可以運行本地的內聯網MQTT伺服器。
+Kittenblock comes with a local IoT server.
 
 ![](./images/iot3.png)
 
-點擊IOT本地伺服器，按下開關按鈕。
+Navigate to local server and switch the server on.
 
-頁面會顯示本地伺服器的IP地址。
+The IP address of your local server is seen on this page.
 
 ![](./images/iot4.png)
 
-運行伺服器之後，我們試試搭建這個程式。
+We can now use our local IoT server for MQTT operations. Type the IP adress of your local server into the MQTT host parameter.
+
+Example: Publishing and Subscribing to a topic on our local server
 
 ![](./images/iot6.png)
 
-運行程式後，可以看到舞台小貓會說出收到的資料。
-
 ![](./images/iot7.png)
 
-如果你有多台電腦，只要你的電腦都連接到同一個網絡，所有電腦都可以連接到同一個本地內聯網伺服器。
+Multiple computers or devices can connect to the local server as long as they are connected to the same local network, i.e. the same WiFi network.
 
-例如，在下圖，3台電腦都連接到192.168.0.117，大家都訂閱和發佈到同一個話題，就可以互相溝通。
+For example, in this figure, all 3 computers are on the same Wifi network, with computer A hosting the server with 192.168.0.117 while B and C connecting to it. The 3 computers can communicate with each other as they publish and subscribe to the same topic.
 
 ![](./images/iot8.png)

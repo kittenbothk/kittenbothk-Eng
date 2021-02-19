@@ -1,53 +1,55 @@
-# 視訊偵測插件
+# Video Sensing
 
-在Kittenblock中我們可以利用電腦的鏡頭做視訊偵測。
+The Video & Detection Plug-in allows Kittenblock to use the webcam to produce various effects.
 
-## 加載視訊偵測插件
+## Add the Video Sensing Extension
 
-按下左下角的插件加載按鈕。
+Open up the extension page.
 
 ![](./images/add.png)
 
-選擇視訊偵測插件。
+Select Video Sensing.
 
 ![](./images/cam6.png)
 
-加載成功！
+New programming blocks will be added.
 
 ![](./images/cam1.png)
 
-## 視訊偵測
+## Video Sensing
 
-假如你的電腦沒有視像鏡頭，可以插入USB鏡頭然後到設定選擇USB鏡頭。
+You can also use a USB webcam by enabling this option in settings.
 
 ![](./images/cam3.png)
 
-我們需要首先開啟鏡頭。
+We use this block to turn on or off the camera.
 
 ![](./images/cam2.png)
 
-### 人臉偵測
+### Face Detection
 
-視訊偵測有人臉偵測的功能，我們試試將面具套上偵測到的人臉上。
+Example: Detecting a face and putting a mask on it.
 
 ![](./images/cam4.png)
 
-我們還可以追蹤五官的位置。
+Example: Tracking Facial Features
 
 ![](./images/cam5.png)
 
-### 動態偵測
+### Motion Detection
 
-這插件也可以幫我們偵測到物件的移動，數值越少越靈敏(0至100)。
+Example: Detecting movement
+
+The threshold(0-100) determines how large the movement should be for the event to be triggered.
 
 ![](./images/cam7.png)
 
 ![](./images/cam10.gif)
 
-我們可以獲取物件移動的方向(-180至180)。
+Example: The direction of movement can also be obtained(-180~180).
 
 ![](./images/cam8.png)
 
-我們可以獲取物件移動的速度(0至100)。
+Example: Obtaining the velocity of the object in move.
 
 ![](./images/cam9.png)

@@ -1,52 +1,52 @@
-# Machine Learning 5 圖像分類器
+# Machine Learning 5 Image Classification
 
-使用ml5內建的機器學習模型，可以辨認圖像的內容。
+Images can be classified using ML5's built-in model.
 
-## 加載Machine Learning 5插件
+## Loading the extension for Machine Learning 5
 
-按下左下角的插件加載按鈕。
+Open up the extension page.
 
 ![](../images/add.png)
 
-選擇Machine Learning 5。
+Select Machine Learning 5.
 
 ![](../images/ml5.png)
 
-加載成功！
+New programming blocks will be added.
 
 ![](../images/ml6.png)
 
-電腦配置比較弱(例如：缺乏獨立顯示卡)的用戶，可以點選CPU模式提升效能。
+If your computer has a low specification(e.g. lacks a discrete GPU), its performance maybe enhanced by using CPU mode.
 
 ![](../images/ml14.png)
 
-## 辨認圖像
+## Classifying Images
 
-首先將希望辨識的圖片上傳到Kittenblock中。
+Upload the pictures onto Kittenblock.
 
 ![](../images/ml7.png)
 
-將全部圖片隱藏。
+Hide the pictures.
 
 ![](../images/ml8.png)
 
-點選主角色然後編程。
+Start programming the main character.
 
-我們可以選擇MobileNet或者MobileNetLocal，兩者分別在於MobileNetLocal能夠在沒有網絡的情況下仍能使用。
+MobileNet has better performance but needs an internet connection, MobileNetLocal does not need an internet connection but it is not as powerful.
 
 ![](../images/ml9.png)
 
-點選想辨認的圖片然後解除隱藏。
+Unhide the picture you wish to classify.
 
 ![](../images/ml10.png)
 
-點擊載入分類器的積木，然後按預測積木。
+Example 1: Recognizing pictures
 
 ![](../images/ml11.png)
 
 ![](../images/ml12.png)
 
-MobileNet模型只是包含一些日常生活常見的物件，日常生活比較少接觸的物件就可能辨認不到了。
+MobileNet is only able to recognize objects that are commonly seen.
 
 ![](../images/ml13.png)
 

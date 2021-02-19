@@ -1,7 +1,9 @@
-機器學習類插件
+Machine Learning
 =============
 
-機器學習泛指透過學習過往的資料和數據來自我改善演算法的科學，當中包括了深度學習，神經網絡等。在Kittenblock裏也包裝了Machine Learning 5插件，讓大家能夠輕易學習機器學習。
+Machine Learning is a study in making computers learn like humans, it includes technologies such as neural network, deep learning.
+
+Kittenblock comes with a Machine Learning extension so that everyone can experience machine learning in a convenient and easy way.
 
 .. toctree::
     :maxdepth: 1

@@ -1,27 +1,27 @@
-# 文字翻譯插件
+# Translation
 
-我們可以用翻譯插件替我們翻譯文字。
+Text can be translated into different languages with the Translation addon.
 
-## 加載文字翻譯插件
+## Load the extension for translation
 
-按下左下角的插件加載按鈕。
+Open up the extension page.
 
 ![](./images/add.png)
 
-選擇文字翻譯插件。
+Select Translation.
 
 ![](./images/translate2.png)
 
-加載成功！
+New programming blocks will be added.
 
 ![](./images/translate1.png)
 
-## 文字翻譯插件介紹
+## Translating Text
 
-我們可以選擇翻譯語言。
+Example: Translating text into English.
 
 ![](./images/translate4.png)
 
-我們亦可以自動將文字翻譯為Kittenblock介面語言。
+Example: Translating text into the system language.
 
 ![](./images/translate5.png)

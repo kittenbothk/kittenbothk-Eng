@@ -1,70 +1,72 @@
-# FaceAI插件
+# FaceAI
 
-FaceAI是一個人面辨識的AI插件。
+FaceAI is an extension for face recognition.
 
-## 加載FaceAI插件
+## Loading the extension for FaceAI
 
-由於FaceAI需要使用視像偵測，所以我們要加載FaceAI和視像偵測插件。
+    FaceAI is used alongside the Video Sensing Extension in this tutorial.
 
-按下左下角的插件加載按鈕。
+Open up the extension page.
 
 ![](../images/add.png)
 
-選擇FaceAI和視像偵測插件。
+Select FaceAI and Video Sensing.
 
 ![](../images/faceai1.png)
 
-加載成功！
+New programming blocks will be added.
 
 ![](../images/faceai2.png)
 
-## FaceAI插件介紹
+## Using FaceAI
 
-我們這裡使用的圖片是：
+Sample Picture:
 
 ![](../images/lenna.png)
 
-這圖片裏的女性叫做Lenna，這圖片是機器視覺領域裡面最有名的測試樣本。
+This picture is called Lenna, it is the most famous picture in computer vision.
 
-### 人臉偵測
+### Detecting Faces
 
-我們可以試試這個程式，說出偵測到的人臉的年齡。
+Example 1: Detecting age of the person
 
 ![](../images/faceai3.png)
 
 ![](../images/faceai4.png)
 
-FaceAI亦都可以辨認相中人的性別(男或女)。
+Example 2: Detecting gender of the person
 
 ![](../images/faceai5.png)
 
 ![](../images/faceai6.png)
 
-大家可以試玩一下其他的功能。
+You can try out other functions as well.
 
 ![](../images/faceai7.png)
 
-### 人面辨識
+### Face Recognition
 
-除了人面偵測之外，FaceAI還可以做到人面辨識，辨認相中人身份。
+FaceAI can recognize the identity of an individual.
 
 ![](../images/faceai8.png)
 
-我們首先建立一個人臉組別，儲存人臉的資料。
+Example 1: Building the database for face recognition
+
+Create a group of faces.
 
 ![](../images/faceai9.png)
 
-然後搭建程式，將人臉加入到所屬名稱裏。
+Add the person's image and name into the database.
 
 ![](../images/faceai10.png)
 
 ![](../images/faceai16.png)
 
-運行程式，完成之後更改名字再運行，錄入一下塊人臉的資料。
+Continue until all individuals are added.
 
 ![](../images/faceai11.png)
 
-最後我們搭建程式，要小貓說出人的名稱。
+Example 2: Recognizing the identity of the person
 
 ![](../images/faceai12.png)
 

@@ -1,8 +1,8 @@
-# Kittenblock主介面與工具欄
+# Kittenblock Main UI
 
-## Kittenblock主介面
+## Kittenblock Main UI
 
-打開Kittenblock之後可以看到這個主介面，這裡會介紹一下最主要的功能。
+This is the Main UI of Kittenblock, the most frequently used functions will be discussed here.
 
 Kittenblock 1.84Z
 
@@ -12,95 +12,68 @@ Kittenblock 1.85R
 
 ![](./images/mainUI185desc.png)
 
-## Kittenblock工具欄詳解
+## Kittenblock Toolbar
 
-這裡我們會逐一看看工具欄上每個按鈕的功用。
+Let's take a close look at the toolbar on the top of Kittenblock.
 
 ![](./images/toolbar1.png)
 
-### 1. Kittenblock登入
+### 1. Log In to Kittenblock
 
-您可以在這裡登入或建立你的Kittenblock帳號。
+Log in or create your Kittenblock account.
 
-登陸帳號有以下好處：
-1. 可以使用Kittenbot雲端伺服器
-2. 可以任意使用Kittenbot各種高級智能服務
-3. 可以將你的創作分享到Kittenbot社區
-4. 可以將專案儲存在雲端，以便在其他地方存取
+Logging in allows you to:
+1. use Kittenbot's cloud IoT server.
+2. freely use Kittenbot's AI functions.
+3. share your project with others on the forum.
+4. save the project on the cloud.
 
 ![](./images/toolbar2.png)
 
-### 2. 選擇語言
-
-您可以在這裡選擇顯示語言。
+### 2. Select Language
 
 ![](./images/toolbar3.png)
 
-### 3. 硬件選擇
-
-您可以在這裡選擇硬件。
+### 3. Select Hardware
 
 ![](./images/toolbar4.png)
 
-### 4. 連接硬件
-
-您可以在這裡連接硬件。
+### 4. Connect to Hardware
 
 ![](./images/toolbar5.png)
 
-### 5. 編程範例
-
-您可以在這裡載入示範程序。
+### 5. Sample Programs
 
 ![](./images/toolbar6.png)
 
-### 6. 升級固件
-
-您可以在這裡上傳固件。
+### 6. Firmware Upgrade
 
 ![](./images/toolbar7.png)
 
-### 7. 更改專案名稱
-
-您可以在這裡命名專案。
+### 7. Edit Project Name
 
 ![](./images/toolbar8.png)
 
-### 8. 儲存與載入
-
-您可以在這裡儲存與載入專案。
+### 8. Save and Load
 
 ![](./images/toolbar9.png)
 
-### 9. IOT本地伺服器
-
-您可以在這裡設定IOT本地伺服器。
-
+### 9. IoT Local Server
 
 ![](./images/toolbar10.png)
 
 ![](./images/toolbar11.png)
 
-### 11. 編程區截圖
-
-您可以在這裡對編程區的內容截圖。
-
-編程區為空的時候不允許截圖。
+### 11. Coding Area Screenshot
 
 ![](./images/toolbar12.png)
 
-### 12. 切換至代碼模式
-
-您可以在這裡切換至Python代碼模式。
+### 12. Switch to coding mode
 
 ![](./images/toolbar13.png)
 
 ![](./images/toolbar14.png)
 
-### 13. 設定
-
-您可以在這裡打開設定。
-
-這裡可以安裝驅動，更改外觀等。
+### 13. Settings
 
 ![](./images/toolbar15.png)

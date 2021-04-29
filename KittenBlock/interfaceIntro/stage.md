@@ -1,43 +1,43 @@
-# 舞台
+# Stage
 
-## Kittenblock舞台詳解
+## Kittenblock Stage
 
-這是Kittenblock中的舞台。
+This is the stage in Kittenblock.
 
 ![](./images/stage1.png)
 
-### 1. 主舞台
+### 1. Main Stage
 
-這是主舞台，您可以在這裡移動角色。
+Characters can be dragged around or selected in this main stage.
 
 ![](./images/stage2.png)
 
-### 2. 程序運行開關
+### 2. Start and Stop Buttons
 
-您可以在這裡按下綠旗開始程式，紅旗停止程式。
+Clicking the Green Flag starts the program and the Red Button stops the program.
 
 ![](./images/stage3.png)
 
-### 3. 版面配置切換
+### 3. View Selection
 
-您可以在這裡切換版面配置。
+You can adjust the size of the stage here.
 
 ![](./images/stage4.png)
 
-### 4. 角色資料欄
+### 4. Character Parameters
 
-您可以在這裡修改當前角色的資料，包括名稱、位置、角度、大小及能見度等。
+Parameters for characters can be set, such as coordinates, rotation, size.
 
 ![](./images/stage5.png)
 
-### 5. 角色選擇
+### 5. Character Selection
 
-您可以在這裡選擇角色或者刪除及增加角色。
+Select, add or delete characters from here.
 
 ![](./images/stage6.png)
 
-### 5. 背景選擇
+### 5. Background Selection
 
-您可以在這裡選擇背景或者刪除及增加背景。
+Select, add or delete backgrounds from here.
 
 ![](./images/stage7.png)

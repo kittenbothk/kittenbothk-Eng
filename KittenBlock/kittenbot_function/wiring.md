@@ -1,32 +1,32 @@
-# 繪製接線圖功能
+# Wiring Diagram Maker
 
-在使用硬件創作的時候，我們很多時都會想規劃硬件的接線圖，有見及此，Kittenbot特地開發了繪製接線的插件，讓大家能輕鬆規劃硬件接線，更容易分享自己的設計。
+Making Wiring Diagrams can make it easy for us to share our designs.
 
-## 繪製接線圖
+## Making Wiring Diagrams
 
-接線欄可以在這裡找到。
+Open the Wiring Diagram Tab
 
 ![](./images/wire1.png)
 
-### 1. 加入硬件
+### 1. Adding components
 
-我們可以在這裡加入硬件。將滑鼠移到按鈕上面，選項菜單就會出現。
+You can select the components here.
 
 ![](./images/wire2.png)
 
 ![](./images/wire3.png)
 
-#### 選擇硬件
+#### Select from library
 
-我們可以在這裡選擇硬件。
+You can select the components from the library.
 
 ![](./images/wire4.png)
 
 ![](./images/wire5.png)
 
-#### 上傳硬件
+#### Upload own component
 
-我們可以在這裡上傳硬件。
+You can upload your own hardware as an image.
 
 ![](./images/wire6.png)
 

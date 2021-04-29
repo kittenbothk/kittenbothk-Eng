@@ -1,25 +1,25 @@
-# 積木編程區
+# Coding Area
 
-## Kittenblock積木編程區詳解
+## Kittenblock Coding Area
 
-這是Kittenblock中的編程積木區。
+This is the Coding Area of Kittenblock.
 
 ![](./images/area1.png)
 
-### 1. 編程區
+### 1. Coding Area
 
-您可以在這裡用積木搭建程式，你可以將積木由積木欄拖曳至積木欄，亦可以將不要的積木拖到積木欄中刪除。
+Drag and drop coding blocks onto the area to build your program.
 
 ![](./images/area2.png)
 
-### 2. 復原和重做
+### 2. Undo and Redo
 
-您可以在這裡復原或重做你的操作。
+Undo or Redo your actions.
 
 ![](./images/area3.png)
 
-### 3. 鏡頭控制
+### 3. Zooming
 
-您可以在這裡放大或者縮小編程區的視野，你亦可以將鏡頭置中。
+Zoom in or out.
 
 ![](./images/area4.png)

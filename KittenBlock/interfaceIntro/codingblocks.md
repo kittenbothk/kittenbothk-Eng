@@ -1,53 +1,51 @@
-# 編程積木欄
+# Blocks Menu
 
-## Kittenblock編程積木欄詳解
+## Kittenblock Blocks Menu
 
-這是Kittenblock中的編程積木欄。
+This is the menu for selecting different coding blocks.
 
 ![](./images/block1.png)
 
-### 1. 積木欄
+### 1. Coding Blocks Menu
 
-您可以在這裡找到編程的積木，不同類型的積木會使用不同顏色。
-
-選擇硬件後，相關硬件的積木會出現在積木欄底部。
+All coding blocks will be found here, the blocks are color coded for easy understanding.
 
 ![](./images/block2.png)
 
-### 2. 加載插件
+### 2. Extension Menu
 
-您可以在這裡加載不同的插件。
+Load various extensions in this page.
 
 ![](./images/block3.png)
 
 ![](./images/block4.png)
 
-## 舞台積木與硬件積木
+## Stage-only Blocks and Hardware-only Blocks
 
-在Kittenblock的積木欄中有2種積木：
-- 舞台積木
-- 硬件積木
+2 kinds of blocks are present in Kittenblock:
+- Stage-only Blocks
+- Hardware-only Blocks
 
-兩者的分別在於能否與舞台互動或離線上載。
+These 2 kinds of blocks determine whether your program can be uploaded to the control board.
 
-當中有些積木是共用的，所以我們需要認清那些積木是舞台限定或硬件積木。
+There are shared blocks too, so it is important to distinguish the 2 kinds of blocks.
 
-### 舞台積木
+### Stage-only Blocks
 
-在舞台模式中，可以使用所有舞台與硬件的積木。
+In Stage Mode, all blocks are accessible.
 
-積木欄的左手邊可以看到能夠使用的積木。
+We can see the blocks available from the menu.
 
-這些就是舞台硬件與積木。
+Both Stage-only Blocks and Hardware-only blocks can be used in this mode.
 
 ![](./images/block5.png)
 
-### 硬件積木
+### Hardware-only Blocks
 
-在代碼模式中，只可以使用硬件積木。
+In Coding Mode, only hardware-only blocks are accessible.
 
-切換至代碼模式之後，我們可以看到在左手邊能夠使用的節目減少了。
+From the menu, we can see that the blocks available are reduced when in coding mode.
 
-這裡出現的積木就是硬件積木了。
+The blocks here are hardware-only.
 
 ![](./images/block6.png)

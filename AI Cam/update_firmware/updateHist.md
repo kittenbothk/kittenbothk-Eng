@@ -2,7 +2,27 @@
 
 The latest and legacy firmware files can be downloaded here.
 
-## Latest Firmware(Version: v1.12.0)
+## Latest Firmware(Version: v1.12.6)
+
+Firmware Version: v1.12.6
+
+Release date：20/03/2020
+
+[Firmware Download](http://bit.ly/KOIFW1126)
+
+Update Notes:
+
+1. Improve Stability
+
+Greeting Screen:
+
+![](./images/25081.jpg)
+
+Version: 
+
+![](./images/1_12_6.jpg)
+
+## Version: v1.12.0
 
 Firmware Version: v1.12.0
 

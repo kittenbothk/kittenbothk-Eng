@@ -1,18 +1,18 @@
-# MR STEMER 3合1格鬥小車套件
+# MR STEMER 3-in-1 BattleBots Kit
 
-MR STEMER 3合1格鬥小車套件(HKBK6001A)
+MR STEMER 3-in-1 BattleBots Kit(HKBK6001A)
 
-MR STEMER 3合1格鬥小車套件是一套針對Microbit而設計的一套競技性遊樂擴充套件。
+MR STEMER 3-in-1 BattleBots Kit is a competitive play set designed for BBC Micro:bit.
 
 透過組裝不同的模型和針對模型進行編程然後與人比拼，用家可以在刺激的競技遊戲之中學會動手搭建和邏輯編程，培養玩家對編程和工程的興趣。
 
 ![](images/3in1.png)
 
-## 套件內容
+## Contents
 
-1. Robotbit擴展板x1(只限標準版)
-2. 18650鋰電池x1(只限標準版)
-3. 積木包x1
+1. Robotbit Expansion Board x1(Only for Standard Version)
+2. 18650 Rechargeable Battery x1(只限標準版)
+3. Set of Building Bricks x1
 4. 65mm 車輪x2
 5. GeekServo電機x2
 6. GeekServo舵機x1

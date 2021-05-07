@@ -1,12 +1,11 @@
-在Kittenblock使用Scratch功能
+Scratch Functions in Kittenblock
 ============================
 
-Kittenblock也支援原本Scratch的功能。
+Kittenblock supports functions found in Scratch.
 
 .. toctree::
     :maxdepth: 1
 
-    bag.md
     listexport.md
     char_stage.md
     sounds.md

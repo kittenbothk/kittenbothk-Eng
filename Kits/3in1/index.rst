@@ -1,7 +1,7 @@
-MR STEMER 3合1格鬥小車套件
+MR STEMER 3-in-1 BattleBots Kit
 ==================
 
-此處集合了MR STEMER 3合1格鬥小車套件的各種資訊。
+Information related to the MR STEMER 3-in-1 BattleBots Kit can be found here.
 
 .. toctree::
     :maxdepth: 1

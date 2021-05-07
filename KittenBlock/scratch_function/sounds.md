@@ -1,44 +1,40 @@
-# 音效編輯
+# Editing Sound Effects
 
-我們也可以在Scratch中編輯音效。
-
-編輯音效的欄位可以在這裡找到。
+Go to the audio tab to open the sound editor.
 
 ![](./images/sound1.png)
 
-### 1. 音效選擇
+### 1. Select a sound effect
 
-我們可以在這裡選擇音效。
+Select a sound effect from this menu.
 
 ![](./images/sound2.png)
 
-### 2. 修改音效
+### 2. Editing the effect
 
-我們可以在這裡修改音效。例如修改名稱、音量、修剪。
+Trim, change volume or add fading to the sound effect.
 
 ![](./images/sound3.png)
 
-### 3. 增加音效
+### 3. Add sound effects
 
-我們可以在這裡增加音效。
+Add a sound effect from this menu.
 
 ![](./images/sound4.png)
 
-將滑鼠移到按鈕上，就會顯示選項菜單。
-
 ![](./images/sound5.png)
 
-#### 3.1 選擇音效
+#### 3.1 Premade sound effects
 
-我們可以在這裡選擇音效。
+Add a premade sound effect.
 
 ![](./images/sound6.png)
 
 ![](./images/sound7.png)
 
-#### 3.2 錄製音效
+#### 3.2 Record a sound effect
 
-我們可以在這裡錄製音效。
+Sound effects can be created by recording.
 
 ![](./images/sound8.png)
 
@@ -48,14 +44,14 @@
 
 ![](./images/sound11.png)
 
-#### 3.3 驚喜
+#### 3.3 Surprise
 
-我們可以從隨機抽到一個音效。
+Get a random sound effect.
 
 ![](./images/sound12.png)
 
-#### 3.4 上傳音效
+#### 3.4 Upload a sound effect
 
-我們可以上傳音效。
+Upload a custom sound effect.
 
 ![](./images/sound13.png)

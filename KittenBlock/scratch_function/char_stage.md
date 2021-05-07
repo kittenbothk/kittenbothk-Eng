@@ -1,97 +1,97 @@
-# 角色與背景編輯
+# Characters and Backdrops
 
-在介面介紹中和大家講過一下可以編輯舞台的角色和背景，在這教程我們我詳細看一下操作。
+Characters and backdrops can be edited.
 
-## 角色編輯
+## Characters Editing
 
 ![](./images/char1.png)
 
-### 1. 角色參數
+### 1. Parameters
 
-我們可以在這裡編輯目前角色的參數，例如名稱、位置、大小、角度和隱藏角色。
+Set the parameters such as position, size, rotation.
 
 ![](./images/char2.png)
 
-### 2. 角色選擇
+### 2. Characters Selection
 
-我們可以在這裡選擇角色。
+Select different characters here.
 
 ![](./images/char3.png)
 
-### 3. 增加角色
+### 3. Characters Editor
 
-我們可以在這裡增加角色。將滑鼠移到按鈕上，就會顯示選項菜單。
+We can add new characters via this menu.
 
 ![](./images/char4.png)
 
-#### 3.1 選擇角色
+#### 3.1 Premade Characters
 
-我們可以從預設角色中選擇。
+Select from a list of premade characters.
 
 ![](./images/char10.png)
 
 ![](./images/char9.png)
 
-#### 3.2 繪畫
+#### 3.2 Creating Characters
 
-我們可以繪畫一個新角色。
+You can draw a custom character.
 
 ![](./images/char7.png)
 
 ![](./images/char8.png)
 
-#### 3.3 驚喜
+#### 3.3 Surprise
 
-我們可以從隨機抽到一個角色。
+Gets a random character.
 
 ![](./images/char6.png)
 
-#### 3.4 上傳角色
+#### 3.4 Upload a character
 
-我們可以上傳圖片建立新角色。
+Upload a sprite to make a custom character.
 
 ![](./images/char5.png)
 
-## 背景編輯
+## Backdrop Editor
 
 ![](./images/bg1.png)
 
 ### 1. 背景選擇
 
-我們可以在這裡選擇背景。
+Select backdrops here.
 
 ![](./images/bg9.png)
 
-### 2. 增加背景
+### 2. Adding backdrops
 
-我們可以在這裡增加背景。將滑鼠移到按鈕上，就會顯示選項菜單。
+Add backdrops via this menu.
 
 ![](./images/bg2.png)
 
-#### 2.1 選擇背景
+#### 2.1 Premade Backdrops
 
-我們可以從預設背景中選擇。
+Select from the premade backdrops.
 
 ![](./images/bg4.png)
 
 ![](./images/bg3.png)
 
-#### 2.2 繪畫
+#### 2.2 Drawing a custom backdrop
 
-我們可以繪畫一個新背景。
+You can draw a custom backdrop.
 
 ![](./images/bg5.png)
 
 ![](./images/bg6.png)
 
-#### 2.3 驚喜
+#### 2.3 Surprise
 
-我們可以從隨機抽到一個背景。
+Get a random backdrop.
 
 ![](./images/bg7.png)
 
-#### 2.4 上傳背景
+#### 2.4 Upload backdrop
 
-我們可以上傳圖片建立新背景。
+Upload an image to use as a backdrop.
 
 ![](./images/bg8.png)

@@ -1,89 +1,87 @@
-# Kittenblock安裝
+# Kittenblock Installation
 
-KittenBlock是KittenBot的自家編程平台。
+KittenBlock is a programming platform developed by Kittenbot.
 
-## Kittenblock下載
+## Kittenblock Download
 
-### 下載地址
+### Downloading Kittenblock:
 
-Windows 10系統：
+For Windows 10:
 
-打開連結： [Kittenblock 1.87 下載](http://bit.ly/KittenblockHK187) ，下載KittenBlock。
+[Kittenblock 1.87 Download](http://bit.ly/KittenblockHK187)
 
 ![](./images/187download.png)  
 
-### 安裝KittenBlock
+### Installing KittenBlock
 
-打開Kittenblock.rar檔。
+Open KittenBlock.rar.
 
 ![](./images/187install1.png)
 
-將內容解壓到桌面。
+Extract the files to the desktop.
 
 ![](./images/187install2.png)
 
-點擊Kittenblock.exe打開Kittenblock。
+Open KittenBlock by double-clicking KittenBlock.exe.
 
 ![](./images/187install3.png)
 
-## 安裝KittenBlock後，還要安裝驅動
+## Installing  drivers
 
-點擊右上角的小齒輪。安裝Microbit COM和CH340。
+Open the setting menu, install Microbit COM and CH340.
 
-安裝過程大約需要數分鐘。
+It may take a few minutes to install the necessary drivers.
 
 ![](../functional_module/PWmodules/kbimages/an08.png)
 
-## Kittenblock軟件更新
+## Kittenblock Updates
 
-由於Kittenbot一直開發此軟件為用戶提供新的功能，大家需要不定時更新Kittenblock。
+As Kittenbot continues to improve Kittenblock, there maybe updates periodically.
 
-當有更新發佈的時候，Kittenblock會顯示更新提示。
+A notice will pop up when a new update is valid.
 
 ![](../functional_module/PWmodules/kbimages/update1.png)
 
-此時你就可以按右上角的火箭圖示更新。
+A rocket icon would appear, click this icon to begin the update.
 
 ![](../functional_module/PWmodules/kbimages/update2.png)
 
-下載完成後按下OK，Kittenblock會自動重啟。
+Press OK and Kittenblock will restart to complete the update.
 
 ![](../functional_module/PWmodules/kbimages/update3.png)
 
-點擊Kittenblock.exe即可開啟Kittenblock。
+## Troubleshooting:
 
-## 軟件排錯：
+### 1. KittenBlock displays a white or blue screen after launching.
 
-### 1. KittenBlock打開時白屏或藍屏？
+The user rights is not enough.
 
-這是因為管理員權限不夠。
-
-### 解決方法，右鍵Kittenblock圖示點擊屬性，更改兼容性和權限。
+### Right click Kittenblock and click "Properties", modify the compatibilty and rights.
 
 ![](../functional_module/PWmodules/kbimages/an10.png)
 
 ![](../functional_module/PWmodules/kbimages/an07.png)
 
-### 2. 安裝驅動程式時沒有反應？
+### 2. No response when installing drivers.
 
-有可能你的電腦權限要求太高，限制了軟件的操作。
+Kittenblock maybe restricted by system rights.
 
-### 解決方法：
+### Install the drivers manually.
 
-打開軟件的目錄：
+Navigate to Kittenblock's directory.
 
-例如我的軟件安裝在D磁碟上，我就前往 D:\Program Files (x86)\Kittenblock\drivers
+For example: D:\Program Files (x86)\Kittenblock\drivers
 
-手動雙擊安裝：
+Double click to install the drivers.
 
 ![](../functional_module/PWmodules/kbimages/an09.png)
 
-### 3. 為什麼下載更新後按OK但是沒有反應？
+### 3. Kittenblock does not restart after updating.
 
-這是因為管理員權限不夠。
+Kittenblock does not have the administrator rights.
 
-### 解決方法：
+### Launch Kittenblock with adminstrator rights/
 
-以管理員身份開啓Kittenblock再進行更新。
+Right click and select "Run as adminstrator".
 
 ![](../functional_module/PWmodules/kbimages/update4.png)

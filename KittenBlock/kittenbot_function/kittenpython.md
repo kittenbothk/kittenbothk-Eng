@@ -1,32 +1,30 @@
-# 內置Python編輯器
+# Python Editor
 
-我們之前在介面介紹提過Kittenblock可以切換至Python模式，我們現在會詳細看看內置的Python編輯器。
+The Python Editor allows easy coding with Python on KittenBlock. Let's take a closer look at the features it provides.
 
 ![](./images/python1.png)
 
-### 1. 自動翻譯
+### 1. Auto Translation
 
-在編程區搭建的積木會實時地自動變為Python代碼。
+Programming blocks are automatically translated into Python code when this box is ticked.
 
 ![](./images/python2.png)
 
-### 2. 手動翻譯
+### 2. Manual Translation
 
-將當前編程區的積木翻譯成Python代碼。
+Press this button to translate the programming blocks into Python code.
 
 ![](./images/python3.png)
 
-### 3. 編輯
+### 3. Edit
 
-打開或保存當前的Python代碼。
-
-其他選項不需要理會。
+Open or save the Python file.
 
 ![](./images/python4.png)
 
-### 4. 運行/上載
+### 4. Run/Upload
 
-運行程式或上載程式到硬件。
+Run the code or upload the code to the hardware.
 
 ![](./images/python5.png)
 

@@ -30,21 +30,19 @@ You can upload your own hardware as an image.
 
 ![](./images/wire6.png)
 
-### 2. 硬件接線
+### 2. Connecting components
 
-選擇硬件之後就可以開始接線。
-
-我們可以選擇個別硬件，調教大小、角度和位置等。
+Each component can be rotated and its size can be changed.
 
 ![](./images/wire7.png)
 
-在硬件上雙擊，建立接線點。
+Double-click on the component to create a wiring point.
 
 ![](./images/wire8.png)
 
-點選接線點之後我們可以更改顏色。
+Change the color to color code your connection.
 
-由接線點拖曳出線段，連接到另一個接線點。
+Drag a line from a wiring point and connect it to another wiring point.
 
 ![](./images/wire10.png)
 
@@ -52,16 +50,12 @@ You can upload your own hardware as an image.
 
 ![](./images/wire11.png)
 
-接線之後，我們可以移動硬件，接線不會因此斷開。
+The components can be freely moved without breaking the connection.
 
 ![](./images/wire12.png)
 
-我們也可以繪製彎曲的接線。
-
-在線段上雙擊，建立接線點。
+A curved wire can be created by double-clicking on the wire and dragging the point.
 
 ![](./images/wire13.png)
-
-拖曳接線點，拖出曲線。
 
 ![](./images/wire14.png)

@@ -1,8 +1,8 @@
-# MR STEMER 3合1格鬥小車套件積木零件清單
+# MR STEMER 3-in-1 Parts List
 
-MR STEMER 3合1格鬥小車套件的零件清單，請核實積木包沒有缺少零件。
+The parts list of MR STEMER 3-in-1 kit, please check and make sure there aren't any pieces missing.
 
-## 零件清單
+## Parts List
 
 ![](partslist/3in1parts.jpg)
 

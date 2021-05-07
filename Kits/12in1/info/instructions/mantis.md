@@ -1,33 +1,33 @@
-# 巨拳螳螂
+# Punching Mantis
 
-利用機械人的螳螂拳，將對手打倒。
+Use the fists to knock down the opponent.
 
 ![](images/mantis.png)
 
-## 組裝說明書和參考程式
+## Building Instructions and Sample Programs
 
-說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
+[Building Instructions](https://bit.ly/12In1SumobotBuildingInstruction)
 
-[參考程式: 巨拳螳螂-joyfrog搖控](https://makecode.microbit.org/_awFKYpec2gyz)
+[Punching Mantis-Joyfrog Controller](https://makecode.microbit.org/_awFKYpec2gyz)
 
-[參考程式: 巨拳螳螂-microbit搖控](https://makecode.microbit.org/_KjRD0FD1KUrW)
+[Punching Mantis-Microbit Controller](https://makecode.microbit.org/_KjRD0FD1KUrW)
 
-[參考程式: 巨拳螳螂-主體](https://makecode.microbit.org/_CJE1aggHy2uJ)
+[Punching Mantis-Robot](https://makecode.microbit.org/_CJE1aggHy2uJ)
 
-## 參考接線
+## Sample Wiring
 
 ![](images/mantis_wire.png)
 
-## 模型玩法
+## Operating the Robot
 
-### JoyFrog遊戲手柄:
+### JoyFrog Controller:
 
-1. 將模型打開之後，手掣上的Microbit會顯示X符號，機械人會亮著紅燈。
-2. 按下手掣的A按鍵，與機械人配對。當機械人亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用手掣上的搖桿控制機械人的移動，按下B鍵進行攻擊。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press A to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the joystick for movement, press B to attack and B to defend.
 
 ### Microbit控制:
 
-1. 將模型打開之後，Microbit會顯示X符號，機械人會亮著紅燈。
-2. 按下Microbit的A，與機械人配對。當機械人亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用Microbit的陀螺儀控制機械人的移動，按下B鍵進行攻擊。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press A to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the accelerometer for movement, press B to attack and B to defend.

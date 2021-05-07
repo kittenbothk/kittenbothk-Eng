@@ -1,7 +1,7 @@
-MR STEMER 3合1格鬥小車套件模塊教學
+MR STEMER 3-in-1 Modules
 ==================
 
-MR STEMER 3合1格鬥小車套件不同模塊的教程。
+Information about modules included with MR STEMER 3-in-1.
 
 .. toctree::
     :maxdepth: 1

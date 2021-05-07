@@ -1,7 +1,7 @@
-SumoBot 12合1套件
+SumoBot 12-in-1 Kit
 ==================
 
-此處集合了Sumo Bot 12合1套件的各種資訊。
+Information related to the SumoBot 12-in-1 Kit can be found here.
 
 .. toctree::
     :maxdepth: 1

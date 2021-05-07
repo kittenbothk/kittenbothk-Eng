@@ -1,120 +1,117 @@
-# AI衛生防疫套件介紹
+# Health Care Educational AI Kit
 
-### AI衛生防疫套件 (HKBK8034A)
+### Health Care Educational AI Kit (HKBK8034A)
 
 ![](./images/all.png)
 
-## 產品背景
+## Product Background
 
-新型冠狀病毒的疫情嚴重性，令市民大眾的抗疫意識大大提高，
-大家都明白做好抗疫工作的重要性。有見及此，Kittenbot推出了AI衛生防疫套件，
-舉出多款防疫案例，讓學生學習防疫措施之餘亦學習人工智能與我們日常生活的關係。
+The spread of Covid-19 has increased the public's awareness of hygiene and disease prevention.
+The public has learnt the importance of disease prevention measures, in sight of this, Kittenbot releases this educational kit set to bring these topics into the classroom.
+The various hygiene and disease prevention use cases can teach students the importance of hygiene and experience the integration of AI into our daily lives.
 
+## Contents
 
-## AI衛生防疫套件內容
+- Armourbit Expansion Board x1
 
-- Armourbit擴展板x1
+- Armourbit Battery Box x1
 
-- Armourbit電池盒x1
+- 2KG GeekServo Servos x2
 
-- 2KG舵機 x2
+- 2KG GeekServo Motors x2
 
-- 2KG電機 x2
+- KOI AI Camera x1
 
-- KOI AI鏡頭 x1
+- Infra-Red Temperature Sensor x1
 
-- 紅外線測溫模塊 x1
+- 18650 Rechargeable Battery x1
 
-- 18650鋰電池x1
+- RGB LED Matrix Module x1
 
-- 全彩點陣魔塊 x1
+- Water Pump+Water Tank x1
 
-- 水泵+水箱 x1
+- 4pin Cables x4
 
-- 4pin防反插排線 x4
+- 3pin Cable x1
 
-- 3pin防反插排線 x1
+- 1m USB Cable x1
 
-- 1m USB數據線 x1
+- Building Bricks(200 Pieces) x1
 
-- 200件積木包 x1
+- Black Tape x1
 
-- 巡線黑膠帶 x1
+- Instructions x1
 
-- 說明書 x1
+- Micro:bit Silicon Jacket x1
 
-- Microbit矽膠保護套x1
+- Decoration Cards x1
 
-- 裝飾膠片x1
-
-- SD卡 (128MB) x1
+- MicroSD Card x1
 
   ![](./images/AIHealthComponentList.png)
 
-## 防疫案例介紹
+## Use Cases
 
-### AI酒精搓手液機
+### AI Disinfection Alcohol Dispenser
 
-利用機器學習偵測手掌，遇見手掌時泵出洗手液。
+Using Machine Learning, the model can automatically dispense disinfection alcohol when a hand is detected.
 
 ![](./images/wash.png)
 
-[AI酒精搓手液機示範片](https://youtu.be/onL8VfX7MMo)
+[AI Disinfection Alcohol Dispenser Demo Video](https://youtu.be/onL8VfX7MMo)
 
-### 手提探溫槍
+### Handheld Contactless Temperature Sensor
 
-手提紅外線測溫槍。
+A handheld contactless temperature sensor.
 
 ![](./images/tempgun.png)
 
-### 自動追踪探溫器
+### Auto-Tracking Temperature Monitor
 
-自動追蹤人臉，遇見人臉時進行紅外線測溫。
+This machine tracks faces and measure their temperatures.
 
 ![](./images/tempdesk.png)
 
-[自動追踪探溫器示範片](https://youtu.be/3xKiPECyDeo)
+[Auto-Tracking Temperature Monitor Demo Video](https://youtu.be/3xKiPECyDeo)
 
-### 防疫用品指揮官
+### Anti-epidemic Supplies Commander
 
-利用機器學習，辨認防疫用品。
+Using Machine Learning to recognize different kinds of anti-epidemic supplies.
 
 ![](./images/command.png)
 
-[防疫用品指揮官示範片](https://youtu.be/ZkUQEeERP5w)
+[Anti-epidemic Supplies Commander Demo Video](https://youtu.be/ZkUQEeERP5w)
 
-### 口罩佩戴偵測器
+### Mask Detector
 
-利用機器學習，只為有佩戴口罩人士打開閘門。
+Using machine learning, the gate will only be opened to people who are wearing a mask.
 
 ![](./images/maskdoor.png)
 
-[口罩佩戴偵測器示範片](https://youtu.be/QdFkcH57gtw)
+[Mask Detector Demo Video](https://youtu.be/QdFkcH57gtw)
 
-### 無按鈕電梯
+### Contactless Elevator
 
-利用機器學習，辨識手勢控制升降機。
+Using machine learning, the elevator can be controlled with gestures.
 
 ![](./images/lift.png)
 
-[無按鈕電梯示範片](https://youtu.be/EjaEEezd9rQ)
+[Contactless Elevator Demo Video](https://youtu.be/EjaEEezd9rQ)
 
-### 非接觸式門鈴
+### Contactless Door Bell
 
-偵測到人臉時按下門鈴。
+The door bell is automatically triggered when a face is detected.
 
 ![](./images/bell.png)
 
-### 無人外賣車
+### Driverless Delivery Cart
 
-利用視覺巡線追蹤，實現無人駕駛。
-
-檢測條碼確認身份，只讓經確認人士提取外賣。
+Driverless Food Delivery can be realized using line tracing and QR Code Identification.
 
 ![](./images/car.png)
 
-### 智能模擬UV消毒燈
+### UV Light Sterilizer
 
-利用機器學習，辨認物品進行消毒。
+Using machine learning, the machine can sterilize various items.
 
 ![](./images/uvlight.png)

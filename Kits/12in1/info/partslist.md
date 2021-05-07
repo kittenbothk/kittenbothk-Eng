@@ -1,8 +1,8 @@
-# SumoBot 12合1套件積木零件清單
+# SumoBot 12-in-1 Parts List
 
-SumoBot 12合1套件的零件清單，請核實積木包沒有缺少零件。
+The parts list of SumoBot 12-in-1 Kit, please check and make sure there aren't any pieces missing.
 
-## 零件清單
+## Parts List
 
 ![](partslist/1.jpg)
 ![](partslist/2.jpg)
@@ -10,6 +10,6 @@ SumoBot 12合1套件的零件清單，請核實積木包沒有缺少零件。
 ![](partslist/4.jpg)
 ![](partslist/5.jpg)
 
-## 清單下載
+## Download
 
-[積木零件清單PDF下載](www.google.com)
+[Download as a PDF](https://drive.google.com/file/d/1GwtlFmMaxCKL12WSLju7zvG9dxBSweJI/view?usp=sharing)

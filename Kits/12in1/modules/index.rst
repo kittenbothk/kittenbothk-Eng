@@ -1,7 +1,7 @@
-SumoBot 12合1套件模塊教學
+SumoBot 12-in-1 Kit Modules
 ==================
 
-這裡合集了SumoBot 12合1套件不同模塊的教程。
+Information about modules included with SumoBot 12-in-1.
 
 .. toctree::
     :maxdepth: 1

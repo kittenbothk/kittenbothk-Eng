@@ -39,6 +39,11 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
     12in1/index
 
+.. toctree::
+    :maxdepth: 2
+    :caption: BattleBots 3-in-1
+
+    3in1/index
 
 .. toctree::
     :maxdepth: 2

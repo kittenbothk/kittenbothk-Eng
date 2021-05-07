@@ -4,66 +4,66 @@ MR STEMER 3-in-1 BattleBots Kit(HKBK6001A)
 
 MR STEMER 3-in-1 BattleBots Kit is a competitive play set designed for BBC Micro:bit.
 
-透過組裝不同的模型和針對模型進行編程然後與人比拼，用家可以在刺激的競技遊戲之中學會動手搭建和邏輯編程，培養玩家對編程和工程的興趣。
+Through building and programming different models, students can engage in competitive games and simultaneously increase their interests in coding and engineering.
 
 ![](images/3in1.png)
 
 ## Contents
 
 1. Robotbit Expansion Board x1(Only for Standard Version)
-2. 18650 Rechargeable Battery x1(只限標準版)
+2. 18650 Rechargeable Battery x1(Only for Standard Version)
 3. Set of Building Bricks x1
-4. 65mm 車輪x2
-5. GeekServo電機x2
-6. GeekServo舵機x1
-10. JoyFrog手掣x1
-11. Microbit電池盒x1
-12. Microbit矽膠套x1
-14. USB線x1
+4. 65mm Wheels x2
+5. GeekServo 9G Motors x2
+6. GeekServo 9G Servo x1
+10. JoyFrog Controller x1
+11. Microbit Battery Box x1
+12. Microbit Silicon Jacket x1
+14. USB Cable x1
 
-## 套件特色
+## Features
 
-- 將學習融合在遊戲之中
+- Learning by playing
 
-- 擴展板支援樂高積木，容許自行擴展
+- Allows easy expansion via building bricks
 
-- 容易上手的編程
+- Easy-to-pick-up programming
 
-- 小孩子也能輕易搭建的模型
+- Easy-to-build models
 
-- 配合大家手上已經有的Microbit使用
+- Designed for Micro:bit
 
-- 支援Kittenbot其他產品
+- Compatible with other Kittenbot products
 
-## 產品參數：
+## Specifications
 
-請參考[Robotbit介紹](../../Microbit_eboard/Robotbitfull.md)。
+Please refer to: [Robotbit](../../Microbit_eboard/Robotbit/Robotbitfull.md)。
 
-## 介紹短片
+## Demonstration Video
 
 [![](images/3.png)](https://www.youtube.com/watch?v=s-2cRY5CWXo&feature=youtu.be)
 
-## 模型玩法
+## Models
 
-### 1. 相撲小子
+### 1. SumoBot
 
-利用車子上的硬角進行比拼，您用角可以攻擊對手，嘗試令它倒下；或者進入防禦勢態，抵擋對方攻擊。你亦可以利用你堅硬的角，將對手推出格鬥場。
+Attack the opponent using the robot's horn and push it out of the arena, or enter defensive mode to protect your robot from attacks.
 
 ![](images/rhino.png)
 
 ![](images/rhino2.jpg)
 
-### 2. 奪旗小子
+### 2. Flag Swiper
 
-利用車子上的擺手，嘗試將對手左右兩旁的旗幟巧妙地奪下來。
+Use the arm to swipe down the flags on the opponent.
 
 ![](images/flag.png)
 
 ![](images/flag2.jpg)
 
-### 3. 搬運小子
+### 3. RoboPusher
 
-利用它敏捷的身手，嘗試將戰場上的物資搶先帶回基地，防止對方得逞。
+Make use of its agility to retrieve important resources from the arena.
 
 ![](images/transport.png)
 

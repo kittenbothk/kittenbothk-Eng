@@ -1,34 +1,35 @@
-# 足球小將
+# RoboFootballer
 
-在模擬的足球場上，利用它敏捷的身手將足球帶到龍門前面射球。
+Use its agility to score by kicking the football into the goal.
 
 ![](images/soccer.png)
 
-## 組裝說明書和參考程式
+## Building Instructions and Sample Programs
 
-說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
+[Building Instructions](https://bit.ly/12In1SumobotBuildingInstruction)
 
-[參考程式: 足球小將-joyfrog搖控](https://makecode.microbit.org/_ca7VFifeAhj4)
+[RoboFootballer-Joyfrog Controller](https://makecode.microbit.org/_ca7VFifeAhj4)
 
-[參考程式: 足球小將-microbit搖控](https://makecode.microbit.org/_V2da9FUy6eXy)
+[RoboFootballer-Microbit Controller](https://makecode.microbit.org/_V2da9FUy6eXy)
 
-[參考程式: 足球小將-主體](https://makecode.microbit.org/_V99A0ic03X50)
+[RoboFootballer-Robot](https://makecode.microbit.org/_V99A0ic03X50)
 
-## 參考接線
+## Sample Wiring
 
 ![](images/soccer_wire.png)
 
-## 模型玩法
+## Operating the Robot
 
-### JoyFrog遊戲手柄:
+### JoyFrog Controller:
 
-1. 將模型打開之後，手掣上的Microbit會顯示X符號，機械人會亮著紅燈。
-2. 按下手掣的A按鍵，與機械人配對。當機械人亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用手掣上的搖桿控制機械人的移動。
-4. 時機適當時，按下B鍵，將足球踢出。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press A to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the joystick for movement.
+4. When the moment is right, press B to kick the football.
 
-### Microbit控制:
+### Microbit Controller:
 
-1. 將模型打開之後，Microbit會顯示X符號，機械人會亮著紅燈。
-2. 按下Microbit的A按鍵，與機械人配對。當機械人亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用Microbit的陀螺儀控制機械人的移動。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press A to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the accelerometer for movement.
+4. When the moment is right, press B to kick the football.

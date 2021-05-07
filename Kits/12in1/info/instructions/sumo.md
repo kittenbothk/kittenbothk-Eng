@@ -1,33 +1,33 @@
-# 相撲選手
+# Sumo Wrestler
 
-利用相撲選手重量級的身軀，與對手在相撲擂台上較量一番。
+Use its huge body and pushing power to push the opponent out of the arena.
 
 ![](images/sumo.png)
 
-## 組裝說明書和參考程式
+## Building Instructions and Sample Programs
 
-說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
+[Building Instructions](https://bit.ly/12In1SumobotBuildingInstruction)
 
-[參考程式: 相撲選手-joyfrog搖控](https://makecode.microbit.org/_iaaKRmgTP3X7)
+[Sumo Wrestler-Joyfrog Controller](https://makecode.microbit.org/_iaaKRmgTP3X7)
 
-[參考程式: 相撲選手-microbit搖控](https://makecode.microbit.org/_9fuWMzb4y3bf)
+[Sumo Wrestler-Microbit Controller](https://makecode.microbit.org/_9fuWMzb4y3bf)
 
-[參考程式: 相撲選手-主體](https://makecode.microbit.org/_Jw0F9o94Vb5p)
+[Sumo Wrestler-Robot](https://makecode.microbit.org/_Jw0F9o94Vb5p)
 
-## 參考接線
+## Sample Wiring
 
 ![](images/sumo_wire.png)
 
-## 模型玩法
+## Operating the Robot
 
-### JoyFrog遊戲手柄:
+### JoyFrog Controller:
 
-1. 將模型打開之後，手掣上的Microbit會顯示X符號，機械人會亮著紅燈。
-2. 按下手掣的A按鍵，與機械人配對。當機械人亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用手掣上的搖桿控制機械人的移動。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press A to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the joystick for movement.
 
-### Microbit控制:
+### Microbit Controller:
 
-1. 將模型打開之後，Microbit會顯示X符號，機械人會亮著紅燈。
-2. 按下Microbit的A按鍵，與機械人配對。當機械人亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用Microbit的陀螺儀控制機械人的移動。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press A to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the accelerometer for movement.

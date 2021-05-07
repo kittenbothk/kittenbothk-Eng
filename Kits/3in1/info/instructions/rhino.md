@@ -1,35 +1,35 @@
-# 相撲小子
+# SumoBot
 
-用車子進行比拼，您可以攻擊對手，嘗試令它倒下；或者進入防禦勢態，抵擋對方攻擊。你亦可以利用你強壯的身軀，將對手推出格鬥場。
+Attack the opponent using the robot's horn and push it out of the arena, or enter defensive mode to protect your robot from attacks.
 
 ![](images/rhino.png)
 
-## 組裝說明書和參考程式
+## Building Instructions and Sample Programs
 
-說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
+[Building Instructions](https://bit.ly/12In1SumobotBuildingInstruction)
 
-參考程式: 
+Sample Programs:
 
-[相撲小子-JoyFrog搖控](https://makecode.microbit.org/_DEmiTaf1qAz2)
+[SumoBot-JoyFrog Controller](https://makecode.microbit.org/_DEmiTaf1qAz2)
 
-[相撲小子-microbit搖控](https://makecode.microbit.org/_a3FgJm1dXRka)
+[SumoBot-Microbit Controller](https://makecode.microbit.org/_a3FgJm1dXRka)
 
-[相撲小子-主體](https://makecode.microbit.org/_FYAD3f49c54q)
+[SumoBot-Robot](https://makecode.microbit.org/_FYAD3f49c54q)
 
-## 參考接線
+## Sample Wiring
 
 ![](images/rhino_wire.png)
 
-## 模型玩法
+## Operating the Robot
 
-### JoyFrog遊戲手柄:
+### JoyFrog Controller:
 
-1. 將模型打開之後，手掣上的Microbit會顯示X符號，機械人會亮著紅燈。
-2. 按下手掣的X按鍵，與機械人配對。當機械人亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用手掣上的搖桿控制機械人的移動，按下A鍵進行攻擊，B鍵進行防禦。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press X to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the joystick for movement, press A to attack and B to defend.
 
-### Microbit控制:
+### Microbit Controller:
 
-1. 將模型打開之後，Microbit會顯示X符號，機械人會亮著紅燈。
-2. 按下Microbit的A和B按鍵，與機械人配對。當機械人亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用Microbit的陀螺儀控制機械人的移動，按下A鍵進行攻擊，B鍵進行防禦。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press A+B to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the accelerometer for movement, press A to attack and B to defend.

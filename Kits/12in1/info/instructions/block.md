@@ -1,33 +1,33 @@
-# 路障剋星
+# RoadBlock Smasher
 
-利用機械人的大夾子，將大型的障礙物搬到戰場上阻擋敵方前進，或者負責清除路障。
+Use the big jaws to build roadblocks in the arena and clear the roadblocks built by the opponent.
 
 ![](images/block.png)
 
-## 組裝說明書和參考程式
+## Building Instructions and Sample Programs
 
-說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
+[Building Instructions](https://bit.ly/12In1SumobotBuildingInstruction)
 
-[參考程式: 路障剋星-JoyFrog搖控](https://makecode.microbit.org/_FDF4x99xf8UH)
+[RoadBlock Smasher-JoyFrog Controller](https://makecode.microbit.org/_FDF4x99xf8UH)
 
 [參考程式: 路障剋星-microbit搖控](https://makecode.microbit.org/_gwoa09KhTd1q)
 
 [參考程式: 路障剋星-主體](https://makecode.microbit.org/_MKqcWU0y6WHC)
 
-## 參考接線
+## Sample Wiring
 
 ![](images/block_wire.png)
 
-## 模型玩法
+## Operating the Robot
 
-### JoyFrog遊戲手柄:
+### JoyFrog Controller:
 
-1. 將模型打開之後，手掣上的Microbit會顯示心形圖案然後顯示0號，機械人會顯示0號。
-2. 利用手掣上的搖桿控制機械人的移動，按下A鍵收起大爪，B鍵放開大爪。
-3. 按下X鍵切換至巡線模式。
+1. Both the robot and the controller should display 0 when the power is switched no.
+2. Use the joystick for movement, press A to close the jaws, press B to open the jaws.
+3. Press X to switch to line-following mode.
 
-### Microbit控制:
+### Microbit Controller:
 
-1. 將模型打開之後，手掣上的Microbit會顯示心形圖案然後顯示0號，機械人會顯示0號。
-2. 利用Microbit的陀螺儀控制機械人的移動，按下B鍵收起大爪和放開大爪。
-3. 按下A鍵切換至巡線模式。
+1. Both the robot and the controller should display 0 when the power is switched no.
+2. Use the accelerometer for movement, press B to close or open the jaws.
+3. Press B to switch to line-following mode.

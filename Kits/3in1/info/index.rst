@@ -1,7 +1,7 @@
-MR STEMER 3合1格鬥小車套件模型組裝資料
+MR STEMER 3-in-1 Model Instructions
 ===============================
 
-這裡合集了MR STEMER 3合1格鬥小車套件的模型組裝資料。
+The building instructions for the models can be found here.
 
 .. toctree::
     :maxdepth: 2

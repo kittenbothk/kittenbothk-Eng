@@ -1,33 +1,35 @@
-# 奪旗小子
+# Flag Swiper
 
-利用車子上的把手，嘗試將對手左右兩旁的旗幟巧妙地奪下來。
+Use the arm to swipe down the flags on the opponent.
 
 ![](images/flag.png)
 
-## 組裝說明書和參考程式
+## Building Instructions and Sample Programs
 
-說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
+[Building Instructions:](https://bit.ly/12In1SumobotBuildingInstruction)
 
-[參考程式: 奪旗小子-joyfrog搖控](https://makecode.microbit.org/_MVPAdxc4JfmK)
+Sample Programs:
 
-[參考程式: 奪旗小子-microbit搖控](https://makecode.microbit.org/_EJAAk17c6cxi)
+[Flag Swiper-JoyFrog Controller](https://makecode.microbit.org/_bUuFeEW83CEt)
 
-[參考程式: 奪旗小子-主體](https://makecode.microbit.org/_CMPiDu1eWK6U)
+[Flag Swiper-Microbit Controller](https://makecode.microbit.org/_6ugdUsWaPddw)
 
-## 參考接線
+[Flag Swiper-Robot](https://makecode.microbit.org/_b5cWwihAv7WX)
+
+## Sample Wiring
 
 ![](images/flag_wire.png)
 
-## 模型玩法
+## Operating the Robot
 
-### JoyFrog遊戲手柄:
+### JoyFrog Controller:
 
-1. 將模型打開之後，手掣上的Microbit會顯示X符號，機械人會亮著紅燈。
-2. 按下手掣的X按鍵，與機械人配對。當機械人亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用手掣上的搖桿控制機械人的移動，按下A鍵向左攻擊，B鍵向右攻擊。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press X to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the joystick for movement, A and B buttons for swiping left and right.
 
 ### Microbit控制:
 
-1. 將模型打開之後，Microbit會顯示X符號，機械人會亮著紅燈。
-2. 按下Microbit的A和B按鍵，與機械人配對。當機械人亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用Microbit的陀螺儀控制機械人的移動，按下A鍵向左攻擊，B鍵向右攻擊。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press A+B to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the accelerometer for movement, A and B buttons for swiping left and right.

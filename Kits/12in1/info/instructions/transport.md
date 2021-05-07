@@ -1,33 +1,35 @@
-# 搬運小子
+# RoboPusher
 
-利用它敏捷的身手，嘗試將戰場上的物資搶先帶回基地，防止對方得逞。
+Make use of its agility to retrieve important resources from the arena.
 
 ![](images/transport.png)
 
-## 組裝說明書和參考程式
+## Building Instructions and Sample Programs
 
-說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
+[Building Instructions](https://bit.ly/12In1SumobotBuildingInstruction)
 
-[參考程式: 搬運小子-JoyFrog搖控](https://makecode.microbit.org/_bMTCUsX7TgeX)
+Sample Programs: 
 
-[參考程式: 搬運小子-microbit搖控](https://makecode.microbit.org/_cMpDja8ie5Cx)
+[RoboPusher-JoyFrog Controller](https://makecode.microbit.org/_Rrh8fsVpUb17)
 
-[參考程式: 搬運小子-主體](https://makecode.microbit.org/_RuWcxCRk6CmJ)
+[RoboPusher-Microbit Controller](https://makecode.microbit.org/_diEUaYgt1Dhc)
 
-## 參考接線
+[RoboPusher-Robot](https://makecode.microbit.org/_KpUhpri1K8za)
+
+## Sample Wiring
 
 ![](images/transport_wire.png)
 
-## 模型玩法
+## Operating the Robot
 
-### JoyFrog遊戲手柄:
+### JoyFrog Controller:
 
-1. 將模型打開之後，手掣上的Microbit會顯示X符號，機械人會亮著紅燈。
-2. 按下手掣的X按鍵，與機械人配對。當機械人亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用手掣上的搖桿控制機械人的移動。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press X to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the joystick for movement.
 
-### Microbit控制:
+### Microbit Controller:
 
-1. 將模型打開之後，Microbit會顯示X符號，機械人會亮著紅燈。
-2. 按下Microbit的A和B按鍵，與機械人配對。當機械人亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用Microbit的陀螺儀控制機械人的移動。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press A+B to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the accelerometer for movement.

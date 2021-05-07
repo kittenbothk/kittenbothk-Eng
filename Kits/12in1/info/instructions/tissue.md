@@ -1,20 +1,20 @@
-# 智能紙巾機
+# Smart Toilet Tissue Machine
 
-能夠自動出紙的智能紙巾機。
+Gives you toilet tissue automatically.
 
 ![](images/tissue.png)
 
-## 組裝說明書和參考程式
+## Building Instructions and Sample Program
 
-說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
+[Building Instructions](https://bit.ly/12In1SumobotBuildingInstruction)
 
-[參考程式: 智能紙巾機-主體](https://makecode.microbit.org/_EFYdx3ektJcx)
+[Smart Toilet Tissue Machine](https://makecode.microbit.org/_EFYdx3ektJcx)
 
-## 參考接線
+## Sample Wiring
 
 ![](images/tissue_wire.png)
 
-## 模型玩法
+## Operating the robot
 
-1. 首先裝上一卷紙巾。
-2. 按下板手出紙，放開板手停止出紙。
+1. Load a roll of toilet tissue.
+2. Press the lever to release toilet tisse.

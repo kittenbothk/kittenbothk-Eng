@@ -1,33 +1,33 @@
-# 風馳電掣
+# Speed Racer
 
-這是一台為競速而誕生的車子，利用它的速度和你的技術，與其他車手在賽道上較量。
+This is a robot designed for speed, use your skills to beat the other racers.
 
 ![](images/speed.png)
 
-## 組裝說明書和參考程式
+## Building Instrutions and Sample Programs
 
-說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
+[Building Instructions](https://bit.ly/12In1SumobotBuildingInstruction)
 
-[參考程式: 風馳電掣-joyfrog搖控](https://makecode.microbit.org/_H0udau4FrYqW)
+[Speed Racer-Joyfrog Controller](https://makecode.microbit.org/_H0udau4FrYqW)
 
-[參考程式: 風馳電掣-microbit搖控](https://makecode.microbit.org/_XcR2kH8iqMmY)
+[Speed Racer-Microbit Controller](https://makecode.microbit.org/_XcR2kH8iqMmY)
 
-[參考程式: 風馳電掣-主體](https://makecode.microbit.org/_WjWYEHPJJW4c)
+[Speed Racer-Robot](https://makecode.microbit.org/_WjWYEHPJJW4c)
 
-## 參考接線
+## Sample Wire
 
 ![](images/speed_wire.png)
 
-## 模型玩法
+## Operating the Robot
 
-### JoyFrog遊戲手柄:
+### JoyFrog Controller:
 
-1. 將模型打開之後，手掣上的Microbit會顯示X符號，車子會亮著紅燈。
-2. 按下手掣的A按鍵，與車子配對。當車子亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用手掣上的搖桿控制車子的移動。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press A to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the joystick for movement.
 
-### Microbit控制:
+### Microbit Controller:
 
-1. 將模型打開之後，Microbit會顯示X符號，車子會亮著紅燈。
-2. 按下Microbit的A和B按鍵，與車子配對。當車子亮起綠燈和Microbit出現剔號就可以開始行動。
-3. 利用Microbit的陀螺儀控制車子的移動，按下A鍵將車子停下來，B鍵鎖定轉向。
+1. The robot should show a red light and the controller should show a cross (X) when the power is switched on.
+2. Press A+B to pair the robot, the robot should show a green light upon successful pairing.
+3. Use the accelerometer for movement, press A to stop the car, B to lock the steering.

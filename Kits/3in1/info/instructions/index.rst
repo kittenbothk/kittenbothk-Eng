@@ -1,7 +1,7 @@
-MR STEMER 3合1格鬥小車套件模型組裝說明書
+MR STEMER 3-in-1 BattleBots
 ======================
 
-這處集合了MR STEMER 3合1格鬥小車套件的組裝說明書。
+The building instructions for the models can be found here.
 
 .. toctree::
     :maxdepth: 1

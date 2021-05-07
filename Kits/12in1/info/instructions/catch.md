@@ -1,36 +1,36 @@
-# 機靈捕手
+# RoboCatcher
 
-利用機械人的擋板，保護戰場上的物資。它亦可以自動避開障礙，以免被對手搶奪手上的物資。
+Use the shield to protect the resources from the oppoents, it can also avoid obstacles automatically.
 
 ![](images/catch.png)
 
-## 組裝說明書和參考程式
+## Building Instructions and Sample Programs
 
-說明書資源包： [資源包下載地址](https://bit.ly/12In1SumobotBuildingInstruction)
+[Building Instructions](https://bit.ly/12In1SumobotBuildingInstruction)
 
-[參考程式: 機靈捕手-JoyFrog搖控](https://makecode.microbit.org/_EAdieF1Y8Aqm)
+[RoboCatcher-JoyFrog Controller](https://makecode.microbit.org/_EAdieF1Y8Aqm)
 
-[參考程式: 機靈捕手-JoyFrog版主體](https://makecode.microbit.org/_AfqbPTEdMEc8)
+[RoboCatcher-Robot(Joyfrog Controller)](https://makecode.microbit.org/_AfqbPTEdMEc8)
 
-[參考程式: 機靈捕手-microbit搖控](https://makecode.microbit.org/_25oLsUgq19PK)
+[RoboCatcher-Microbit Controller](https://makecode.microbit.org/_25oLsUgq19PK)
 
-[參考程式: 機靈捕手-microbit版主體](https://makecode.microbit.org/_gLmJRpcdP7Ua)
+[RoboCatcher-Robot(Microbit Controller)](https://makecode.microbit.org/_gLmJRpcdP7Ua)
 
-## 參考接線
+## Sample Wiring
 
 ![](images/catch_wire.png)
 
-## 模型玩法
+## Operating the Robot
 
-### JoyFrog遊戲手柄:
+### JoyFrog Controller:
 
-1. 將模型打開之後，手掣上的Microbit會顯示心形圖案符號。
-2. 利用手掣上的搖桿控制機械人的移動，按下A鍵放下擋板，B鍵收起擋板。
-3. 按下X鍵切換至避障模式，機械人遇到障礙物會轉換方向繼續前進，可以作為自動防禦機制。
-4. 按下Y鍵，手掣的Microbit會顯示超聲波距離。
+1. The controller should show a heart icon when the power is switched on.
+2. Use the joystick for movement, press A to put down the shield, press B to hold up the shield.
+3. Press X to switch to Obstacle Avoiding mode.
+4. Press Y to show the distance detected by the ultrasound sensor.
 
-### Microbit控制:
+### Microbit Controller:
 
-1. 將模型打開之後，手掣上的Microbit會顯示心形圖案符號。
-2. 利用手掣上的搖桿控制機械人的移動，按下A鍵放下擋板，再按一下收起擋板。
-3. 按下B鍵切換至避障模式，機械人遇到障礙物會轉換方向繼續前進，可以作為自動防禦機制。
+1. The controller should show a heart icon when the power is switched on.
+2. Use the accelerometer for movement, press A to put down the shield and hold up the shield.
+3. Press B to switch to Obstacle Avoiding mode.。

@@ -1,36 +1,36 @@
-# 口罩佩戴偵測器說明書
+# Mask Detector
 
-在抗疫期間，佩戴口罩成為市民大眾的習慣，不同場所也規定要佩戴口罩才可入內。這個案例模擬了口罩檢測閘門，只許有口罩的人士進入。
+Many premises require visitors to wear a mask, this model simulates a gate where only people who are wearing a mask are allowed entry.
 
 ![](../../images/maskdoor.png)
 
-## 教材資源包下載
+## Building Instructions
 
-包括說明書： [資源包下載地址](https://bit.ly/AIHealthCareSetBuildingGuide)
+[Building Instructions Resource Pack Download](https://bit.ly/AIHealthCareSetBuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./images/maskdoorcon.png)
 
-## 參考程式
+## Sample Program
 
-[口罩佩戴偵測器參考程式](https://makecode.microbit.org/_3i3Dwm7Fm7w1)
+[Mask Detector](https://makecode.microbit.org/_3i3Dwm7Fm7w1)
 
-[參考程式資源包下載地址](https://bit.ly/AIHealthCareSetHex)
+[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
 
 ![](./images/maskdoorcode.png)
 
-## 模型玩法
+## Model Instructions
 
-打開電源後，重置Microbit。
+1. Reset the Micro:bit after the KOI has been powered on.
 
-戴上口罩，將鏡頭準自己然後按下A按鍵進行訓練，重複大約3次。
+2. Wear a mask then face the camera and press A.
 
-除下口罩，將鏡頭準自己然後按下B按鍵進行訓練，重複大約3次。
+3. Take off the mask then face the camera and press A.
 
-按下KOI的B按鍵，對背景進行訓練。
+4. Press button B of the KOI when the camera is looking at the background.
 
-按下KOI的A按鍵，KOI偵測到戴上口罩的人臉時，大閘會打開。
+5. Press button A of the KOI to begin recognition.
 
 
 

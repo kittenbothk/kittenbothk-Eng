@@ -60,7 +60,7 @@ Using Machine Learning, the model can automatically dispense disinfection alcoho
 
 [AI Disinfection Alcohol Dispenser Demo Video](https://youtu.be/onL8VfX7MMo)
 
-### Handheld Contactless Temperature Sensor
+### Handheld Contactless Temperature Monitor
 
 A handheld contactless temperature sensor.
 

@@ -1,44 +1,44 @@
-# 無按鈕電梯說明書
+# Contactless Elevator
 
-在抗疫期間，大家都會盡量避免觸摸公用物件，以免沾上病毒。有見及此，這案例模擬了一台非接觸式升降機，讓乘客不用觸摸按鈕也可以使用升降機。
+Touching public facilities is something that should be avoided during a pandemic. This model simulates a contactless elevator.
 
 ![](../../images/lift.png)
 
-## 教材資源包下載
+## Building Instructions
 
-包括說明書： [資源包下載地址](https://bit.ly/AIHealthCareSetBuildingGuide)
+[Building Instructions Resource Pack Download](https://bit.ly/AIHealthCareSetBuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./images/liftcon.png)
 
-## 參考程式
+## Sample Program
 
-[參考程式資源包下載地址](https://bit.ly/AIHealthCareSetHex)
+[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
 
 ![](./images/liftcode.png)
 
-## 模型玩法
+## Model Instructions
 
-### 首先載入訓練程序
+### 1. Model Training
 
-打開電源後，重置Microbit。
+1. Reset the Micro:bit after the KOI has been powered on.
 
-做出G樓的手勢，對準鏡頭然後按下B按鍵，重複大約3次然後按下A按鍵完成訓練。
+2. Make the gesture for Ground Floor and press B. Repeat for about 3 times.
 
-使用同樣方法訓練1樓和2樓的手勢。
+3. Press A to move on to the next floor.
 
-最後走出鏡頭範圍，對背景進行訓練。
+4. Train the model to recognize the background by pressing B when the camera is looking at the background.
 
-完成所有訓練之後同時按下A和B按鍵，儲存訓練的檔案。
+5. Press A+B to save the model.
 
-### 然後載入升降機程序
+### Contactless Elevator
 
-打開電源，重置Microbit。
+1. Reset the Micro:bit after the KOI has been powered on.
 
-按下B按鍵，模型會開始辨識手勢。
+2. Press B to start recognition.
 
-對鏡頭做出相應手勢，升降機就會移動到相應樓層。
+3. The elevator will move to the floor corresponding to the gesture.
 
 
 

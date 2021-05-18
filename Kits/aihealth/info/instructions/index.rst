@@ -1,7 +1,7 @@
-AI衛生防疫套件案例
+Health Care Educational AI Kit Models Instructions
 ==========================================
 
-AI衛生防疫案例說明書與教學
+Here are the building instructions and sample program for the Health Care Educational AI Kit.
 
 .. toctree::
     :maxdepth: 1

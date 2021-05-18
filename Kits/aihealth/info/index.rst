@@ -1,7 +1,7 @@
-AI衛生防疫套件組裝資料
+Health Care Educational AI Kit Instructions
 ==========================================
 
-這裡合集了AI衛生防疫套件的模型組裝資料。
+The instructions and parts list of Health Care Educational AI Kit can be found here.
 
 .. toctree::
     :maxdepth: 2

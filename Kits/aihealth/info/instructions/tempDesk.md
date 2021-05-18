@@ -1,32 +1,32 @@
-# 自動追踪探溫器說明書
+#  Auto-Tracking Temperature Monitor
 
-在抗疫期間，測量體溫是抗疫工作之中最普遍的一環，大家在進入餐廳甚至辦公室之前都會先測量體溫。這個案例模擬了無人測溫槍的運作。
+Ensuring the visitors do not possess symptoms such as fever is key part in anti-pandemic effort, this model simulates an automatic temperature sensor.
 
 ![](../../images/tempdesk.png)
 
-## 教材資源包下載
+## Building Instructions
 
-包括說明書： [資源包下載地址](https://bit.ly/AIHealthCareSetBuildingGuide)
+[Building Instructions Resource Pack Download](https://bit.ly/AIHealthCareSetBuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./images/tempdeskcon.png)
 
-## 參考程式
+## Sample Programs
 
-[自動追踪探溫器參考程式](https://makecode.microbit.org/_LRc0Aa7r2gJx)
+[Auto-Tracking Temperature Monitor](https://makecode.microbit.org/_LRc0Aa7r2gJx)
 
-[參考程式資源包下載地址](https://bit.ly/AIHealthCareSetHex)
+[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
 
 ![](./images/tempdeskcode.png)
 
-## 模型玩法
+## Model Instructions
 
-打開電源後，重置Microbit。
+1. Reset the Micro:bit when the KOI is powered on.
 
-測溫器會慢慢轉動，探測人面。
+2. The model will track and detect faces.
 
-偵查到人面之後會停下來倒數3秒進行測溫。
+3. When a face is detected, it initiates a countdown of 3 seconds.
 
-測出的溫度會顯示在點陣屏和KOI上。
+4. The temperature is displayed on the Micro:bit.
 

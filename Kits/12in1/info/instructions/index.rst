@@ -1,7 +1,7 @@
-SumoBot 12合1套件模型組裝說明書
+SumoBot 12-in-1 Building Instructions and Sample Programs
 ======================
 
-這處集合了SumoBot 12合1套件的說明書和其他模型的組裝說明書。
+SumoBot 12-in-1 Building Instructions and Sample Programs can be found here.
 
 .. toctree::
     :maxdepth: 1

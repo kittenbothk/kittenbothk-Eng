@@ -1,48 +1,50 @@
-# AI酒精搓手液機說明書
+# AI Disinfection Alcohol Dispenser
 
-在抗疫期間，大家都會自動自覺常洗手，這案例模擬了智能洗手機的操作。
+Hand Sanitation is one of the most important parts of anti-pandemic practices, this model simulates an automatic hand wash dispenser.
 
 ![](../../images/wash.png)
 
-## 教材資源包下載
+## Building Instructions
 
-包括說明書： [資源包下載地址](https://bit.ly/AIHealthCareSetBuildingGuide)
+[Building Instructions Resource Pack Download](https://bit.ly/AIHealthCareSetBuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./images/washcon.png)
 
-## 參考程式
+## Sample Programs
 
-[訓練程序參考程式](https://makecode.microbit.org/_4v35X9ferVMY)
+[Model Training Program](https://makecode.microbit.org/_4v35X9ferVMY)
 
-[搓手液機參考程式](https://makecode.microbit.org/_Dzp8Xt48kMVq)
+[AI Disinfection Alcohol Dispenser Program](https://makecode.microbit.org/_Dzp8Xt48kMVq)
 
-[參考程式資源包下載地址](https://bit.ly/AIHealthCareSetHex)
+[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
 
 ![](./images/washcode.png)
 
-## 模型玩法
+## Model Instructions
 
-### 首先載入訓練程序
+### 1. Model Training
 
-打開電源後，重置Microbit。
+1. Reset the Micro:bit after the KOI has been powered on.
 
-擺出手掌，對準鏡頭然後按下B按鍵，重複大約3次然後按下A按鍵。
+2. Hold your palm in front of the camera and press B. Repeat this action after changing the angle of your palm.
 
-走出鏡頭範圍，按下B按鍵對背景進行訓練。
+3. When the above step is done, press A to move on.
 
-完成所有訓練之後同時按下A和B按鍵，儲存訓練的檔案。
+4. Train the model to recognize the background by pressing B when only the background is visible through KOI.
 
-### 然後載入搓手液機程序
+5. Save the trained model by pressing A+B.
 
-打開電源，重置Microbit。
+### 2. Using the AI Disinfection Alcohol Dispenser Program
 
-按下A按鍵然後按下B按鍵，模型會開始辨識手掌。
+1. Reset the Micro:bit after the KOI has been powered on.
 
-偵測到手掌之後，水泵會泵出少量消毒火酒。
+2. Press A to load the trained model, press B to begin recognition.
 
-按下B按鍵可以暫停偵測。
+3. Upon recognizing a palm, the machine will dispense a small amount of hand sanitizer.
+
+4. Pressing B will stop the recognition.
 
 
 

@@ -1,25 +1,23 @@
-# 手提探溫槍說明書
+# Handheld Contactless Temperature Monitor
 
-在抗疫期間，測量體溫是抗疫工作之中最普遍的一環，大家在進入餐廳甚至辦公室之前都會先測量體溫。這個案例模擬了一般測溫槍的運作。
+Ensuring the visitors do not possess symptoms such as fever is key part in anti-pandemic effort, this model simulates a contactless handheld temperature sensor.
 
 ![](../../images/tempgun.png)
 
-## 教材資源包下載
+## Building Instructions
 
-包括說明書： [資源包下載地址](https://bit.ly/AIHealthCareSetBuildingGuide)
+[Building Instructions Resource Pack Download](https://bit.ly/AIHealthCareSetBuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./images/tempcon.png)
 
-## 參考程式
+## Sample Programs
 
-[參考程式資源包下載地址](https://bit.ly/AIHealthCareSetHex)
+[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
 
 ![](./images/tempguncode.png)
 
-## 模型玩法
+## Model Instructions
 
-打開電源後，拿著測溫槍，對著額頭距離大約3cm，拉動扳機。
-
-成功測溫時會亮起綠燈，點陣屏以攝氏列出體溫。
+Aim the temperature sensor at a person's forehead and pull the trigger. The person's temperature will be displayed. (For best results, the sensor should be approximately 3cm away from the surface.)

@@ -1,35 +1,35 @@
-# 防疫用品指揮官說明書
+# Anti-epidemic Supplies Commander
 
-在抗疫期間，大家都會攜帶不同的防疫用品，例如消毒搓手液等。這個案例模擬了有關防疫用品的檢測，提醒大家攜帶足夠的防疫用品。
+It is important to prepare the necessary anti-epidemic supplies, this model identifies different anti-epidemic supplies.
 
 ![](../../images/command.png)
 
-## 教材資源包下載
+## Building Instructions
 
-包括說明書： [資源包下載地址](https://bit.ly/AIHealthCareSetBuildingGuide)
+[Building Instructions Resource Pack Download](https://bit.ly/AIHealthCareSetBuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./images/commandcon.png)
 
-## 參考程式
+## Sample Programs
 
-[防疫用品指揮官參考程式](https://makecode.microbit.org/_hHe2g954FgVf)
+[Anti-epidemic Supplies Commander](https://makecode.microbit.org/_hHe2g954FgVf)
 
-[參考程式資源包下載地址](https://bit.ly/AIHealthCareSetHex)
+[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
 
 ![](./images/commandcode.png)
 
-## 模型玩法
+## Model  Instructions
 
-打開電源後，重置Microbit。
+1. Reset the Micro:bit after the KOI has been powered on.
 
-按下A按鍵，對第一件物件進行訓練，重複大約3次。
+2. Hold the first item and press B to train the model to recognize that item.
 
-按下B按鍵，對第二件物件進行訓練，重複大約3次。
+3. Hold the second item and press B to train the model to recognize that item.
 
-按下KOI的B按鍵，對背景進行訓練，轉動模型改變角度，再按下KOI的B按鍵訓練背景。重複大約3次。
+4. Aim the KOI at the background and press B to train the model to recognize the background.
 
-按下KOI的A按鍵，指揮官會轉動，將已訓練的物件放在鏡頭面前，指揮官會揮動手臂。
+5. Press A to start recognizing, the model will wave its arms when an item is recognized.
 
 

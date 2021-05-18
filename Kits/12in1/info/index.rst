@@ -1,7 +1,7 @@
-SumoBot 12合1套件模型組裝資料
+SumoBot 12-in-1 Model Instructions And Parts List
 ===============================
 
-這裡合集了SumoBot 12合1套件的模型組裝資料。
+The instructions and parts list of SumoBot 12-in-1 Kit can be found here.
 
 .. toctree::
     :maxdepth: 2

@@ -1,7 +1,7 @@
-AI衛生防疫套件魔塊教學
+Health Care Educational AI Kit Modules
 ==========================================
 
-AI衛生防疫套件魔塊教學
+Information about modules included with the Health Care Educational AI Kit.
 
 .. toctree::
     :maxdepth: 1

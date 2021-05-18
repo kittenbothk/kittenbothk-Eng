@@ -1,19 +1,17 @@
-# AI衛生防疫套件積木配件及積木清單
+# Health Care Educational AI Kit Parts List
 
-AI衛生防疫套件的零件清單，請核實配件及積木包沒有缺少零件。
+Here is the parts list of Health Care Educational AI Kit, please check and make sure there are no missing components.
 
-## 配件清單
+## List of electronic components
 
 ![](partslist/AIHealthComponentList.png)
 
-## 零件清單
+## List of building blocks
 
 ![](partslist/1.jpg)
 
 ![](partslist/2.jpg)
 
+## Parts List Download 
 
-
-## 清單下載
-
-[積木零件清單PDF下載](https://bit.ly/AIHealthCareSetBuildingGuide)
+[Download As PDF](https://bit.ly/AIHealthCareSetBuildingGuide)

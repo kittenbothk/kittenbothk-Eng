@@ -1,7 +1,7 @@
-PowerBrick十合一模型組裝說明書
+PowerBrick Model Inatructions
 ======================
 
-這處集合了PowerBrick十合一的說明書和其他模型的組裝說明書。
+Here are the building instructions and the sample program for the 10 models from Powerbrick.
 
 .. toctree::
     :maxdepth: 1

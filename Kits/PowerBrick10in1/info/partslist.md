@@ -1,8 +1,8 @@
-# PowerBrick積木零件清單
+# PowerBrick Building Blocks List
 
-PowerBrick連積木版的零件清單，請核實積木包沒有缺少零件。
+Please make sure that there are no missing blocks.
 
-## 零件清單
+## Parts List
 
 ![](partslist/page1.jpg)
 
@@ -14,6 +14,6 @@ PowerBrick連積木版的零件清單，請核實積木包沒有缺少零件。
 
 ![](partslist/page5.jpg)
 
-## 清單下載
+## Download PDF
 
-[積木零件清單PDF下載](https://bit.ly/Powerbrick10in1BuildingGuide)
+[Download PDF](https://bit.ly/Powerbrick10in1BuildingGuide)

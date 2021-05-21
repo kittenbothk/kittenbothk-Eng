@@ -1,29 +1,29 @@
-# 手勢控制機械臂說明書
+# Gestured Controlled Crane
 
 ![](./instruction1/01_claw.png)
 
-## 教材資源包下載
+## Instructions Resource Pack
 
-包括說明書和音效檔案： [資源包下載地址](https://bit.ly/Powerbrick10in1BuildingGuide)
+[Download](https://bit.ly/Powerbrick10in1BuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./instruction1/01_clawcon.jpg)
 
-## 參考程式
+## Sample Programs Resource Pack
 
-[參考程式資源包下載地址](https://bit.ly/Powerbrick10in1ModelsHex)
+[Download](https://bit.ly/Powerbrick10in1ModelsHex)
 
 ![](./instruction1/01_clawcode.png)
 
-## 模型玩法
+## Model Instructions
 
-這是一隻小吊臂模型，您可以用它來抓起小物件。
+This is a model crane which can pick up items with its claws.
 
-開動模型後，可以用手指選擇吊臂方向。
+Your finger directions will determine the crane's actions.
 
-將手指向上或下移動然後按下A按鍵，可以分別控制吊臂的上下伸展。
+Swipe up or down and then press A, this will make the crane extend or retract.
 
-將手指向左或右移動然後按下A按鍵，可以分別控制吊臂的左右旋轉。
+Swipe left or right and then press A, this will make the crane rotate left or right.
 
-按下B按鍵，控制夾爪的開合。
+Press B to close or open the claws.

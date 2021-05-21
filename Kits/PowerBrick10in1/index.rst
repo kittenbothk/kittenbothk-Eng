@@ -1,7 +1,7 @@
 PowerBrick  AllInOne
 ==========================================
 
-PowerBrick是一套支援BBC:microbit的十合一套件。這部分會詳細地介紹PowerBrick與其內容。
+PowerBrick is an educational kit set designed for BBC Micro:bit, this section contains all the information about this kit set.
 
 .. toctree::
     :maxdepth: 1

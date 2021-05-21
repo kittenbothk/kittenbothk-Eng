@@ -1,7 +1,7 @@
-PowerBrick魔塊教學
+PowerBrick Modules
 ==========================================
 
-這裡合集了Powerbrick不同魔塊的教程。
+Information and tutorials related to modules included in the Powerbrick kit set.
 
 .. toctree::
     :maxdepth: 1

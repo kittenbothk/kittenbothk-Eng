@@ -1,7 +1,7 @@
-PowerBrick十合一模型組裝資料
+PowerBrick Instructions and Parts List
 ==========================================
 
-這裡合集了Powerbrick的模型組裝資料。
+Here are the instructions for each model from Powerbrick.
 
 .. toctree::
     :maxdepth: 2

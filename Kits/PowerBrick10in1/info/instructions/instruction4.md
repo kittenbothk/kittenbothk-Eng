@@ -1,27 +1,27 @@
-# 恐龍王說明書
+# Dino King
 
 ![](./instruction1/04_dino.png)
 
-## 教材資源包下載
+## Instructions Resource Pack
 
-包括說明書和音效檔案： [資源包下載地址](https://bit.ly/Powerbrick10in1BuildingGuide)
+[Download](https://bit.ly/Powerbrick10in1BuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./instruction1/04_dinocon.png)
 
-## 參考程式
+## Sample Programs Resource Pack
 
-[參考程式資源包下載地址](https://bit.ly/Powerbrick10in1ModelsHex)
+[Download](https://bit.ly/Powerbrick10in1ModelsHex)
 
-請將MP3檔案儲存到microSD卡，並將卡插入MP3模組。
+**Put the sound files onto a microSD card(not included) and insert it into the MP3 module.**
 
 ![](./instruction1/04_dinocode.png)
 
-## 模型玩法
+## Model Instructions
 
-這是一隻會行走的恐龍。
+This is a walking dinosaur.
 
-開動模型，然後按下A按鍵，恐龍會向前行走6秒然後停下來。
+The dinosaur will walk forward for a few steps upon pressing A.
 
-將手指放到超聲波感應器前5cm內，恐龍會發出吼聲。
+It can also roar if an obstacle has been detected.

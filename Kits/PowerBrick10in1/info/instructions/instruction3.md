@@ -1,25 +1,25 @@
-# 巡線清潔車說明書
+# Line Follow Street Cleaning Car
 
 ![](./instruction1/03_linefollow.png)
 
-## 教材資源包下載
+## Instructions Resource Pack
 
-包括說明書和音效檔案： [資源包下載地址](https://bit.ly/Powerbrick10in1BuildingGuide)
+[Download](https://bit.ly/Powerbrick10in1BuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./instruction1/03_linefollowcon.png)
 
-## 參考程式
+## Sample Programs Resource Pack
 
-[參考程式資源包下載地址](https://bit.ly/Powerbrick10in1ModelsHex)
+[Download](https://bit.ly/Powerbrick10in1ModelsHex)
 
 ![](./instruction1/03_linefollowcode.png)
 
-## 模型玩法
+## Model Instructions
 
-這是一部自動的巡線清潔車。
+This is an automatic street cleaning car.
 
-首先在桌面用黑色膠紙貼出一條路線，然後將清潔車放到線上，將巡線感應器對準黑線，並開動模型。
+Place the model on a black line and press A, the car will move along the black line.
 
-按下按鍵A，清潔車就會自動沿著黑線前進，將沿途的物件掃走。
+The model will sweep away litter if any has been found.

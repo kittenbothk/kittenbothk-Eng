@@ -1,8 +1,8 @@
-# 四驅麥輪車套件介紹
+# Mecanum Wheel Robotic Car Kit
 
-### 四驅麥輪車套件基礎版 (HKBK8021A)
+### Mecanum Wheel Robotic Car(Basic) (HKBK8021A)
 
-### 四驅麥輪車套件射擊版 (HKBK8032B)
+### Mecanum Wheel Robotic Car(Shooter) (HKBK8032B)
 
 ![](./images/1.jpg)
 
@@ -10,30 +10,30 @@
 
 ![](./images/4.jpg)
 
-## 產品介紹
+## Product Information
 
-四驅麥輪車是為Microbit而設計的套件，是一套進階的車類套件。套件內的麥卡納姆輪有著全方位移動的特性，容許大家設計一些十分靈活的機械人，在一般車類機械人無法使用的狹窄環境大派用場，它奇妙的移動特性更可以教大家這種新型車輪的運作原理。
+Mecanum Wheel Robotic Car is an advanced educational kit for BBC Micro:bit. Mecanum Wheels have the unique ability of omnidirectional movement, allowing extremely flexible and agile robots to be made, as these wheels are able to traverse tight and narrow spaces.
 
-這套套件有兩種版本，基礎版和射擊版。射擊版包含基礎版的所有部件，比起基礎版多了額外的積木包和舵機，可以組裝進階版的射擊炮台；套件還附有一隻JoyFrog手掣，實現更加準確的遙控控制。
+There are 2 versions of this kit, the Shooter version comes with extra building blocks to build a turret capable of shooting rubber bands. It also comes with a JoyFrog controller for finer and more precise control.
 
-## 四驅麥輪車套件內容
+## Package Contents
 
 ![](./images/3.jpg)
 
-- Robotbit擴展板x1
-- GeekServo電機x4
-- 麥卡納姆輪x4
-- 麥輪車軸轉接器x4
-- 積木包x1
-- 18650鋰電池x1
-- USB數據線x1
-- Microbit矽膠套x1
-- GeekServo舵機x1 (只限射擊版)
-- GeekServo 360續轉舵機x1 (只限射擊版)
-- 炮台擴展積木包x1 (只限射擊版)
-- JoyFrog手掣x1 (只限射擊版)
-- 電池盒x1 (只限射擊版)
-- 橡筋包x1 (只限射擊版)
+- Robotbit Expansion Board x1
+- GeekServo 9G Motor x4
+- Mecanum Wheel x4
+- Mecanum Wheel Adapter x4
+- Building Blocks Set x1
+- 18650 Lithium Battery x1
+- USB Cablex1
+- Microbit Silicon Case x1
+- GeekServo 9G Servo x1 (Shooter Version)
+- GeekServo 360 Servo x1 (Shooter Version)
+- Extra Building Blocks Set x1 (Shooter Version)
+- JoyFrog x1 (Shooter Version)
+- Battery Box x1 (Shooter Version)
+- Rubber Band x1 (只限射擊版)
 
 ## 產品特色
 

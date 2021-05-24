@@ -1,7 +1,7 @@
-MR STEMer Kart Lite模組教學
+MR STEMer Kart Lite Modules
 ===========================
 
-這裡集合了MR STEMer Kart Lite不同模組的教程。
+Information and tutorials about modules included with MR STEMer Kart Lite.
 
 .. toctree::
     :maxdepth: 1

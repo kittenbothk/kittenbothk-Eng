@@ -1,21 +1,20 @@
-# 搖擺機械人說明書
+# Robo Dancer
 
 ![](./instruction1/05_dancing.png)
 
-## 教材資源包下載
+## Instructions Resource Pack
 
-包括說明書和音效檔案： [資源包下載地址](https://bit.ly/Powerbrick10in1BuildingGuide)
+[Download](https://bit.ly/Powerbrick10in1BuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./instruction1/05_dancingcon.png)
 
-## 參考程式
+## Sample Programs Resource Pack
 
-[參考程式資源包下載地址](https://bit.ly/Powerbrick10in1ModelsHex)
+[Download](https://bit.ly/Powerbrick10in1ModelsHex)
 
-請將MP3檔案儲存到microSD卡，並將卡插入MP3模組。
-
+**Put the sound files onto a microSD card(not included) and insert it into the MP3 module.**
 
     "Flying Kerfuffle" Kevin MacLeod (incompetech.com)
     Licensed under Creative Commons: By Attribution 4.0 License
@@ -23,10 +22,10 @@
 
 ![](./instruction1/05_dancingcode.png)
 
-## 模型玩法
+## Model Instructions
 
-這是一隻會跳舞的機械人。
+This little robot will dance to the music.
 
-開動模型後，按下MicroBit的A按鍵，模型會開始播放音樂，機械人會開始跳舞。
+Press A or B on the Micro:bit to start or stop the music.
 
-你亦可以按按鍵模組的A和B按鍵可以分別加長或減短機械人跳舞的時間。
+Pressing A or B on the button module changes the robot's speed.

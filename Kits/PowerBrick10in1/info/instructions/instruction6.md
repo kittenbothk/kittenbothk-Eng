@@ -1,33 +1,33 @@
-# 智能垃圾箱說明書
+# Smart Bin
 
 ![](./instruction1/06_bin.png)
 
-## 教材資源包下載
+## Instructions Resource Pack
 
-包括說明書和音效檔案： [資源包下載地址](https://bit.ly/Powerbrick10in1BuildingGuide)
+[Download](https://bit.ly/Powerbrick10in1BuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./instruction1/06_bincon.png)
 
-## 參考程式
+## Sample Programs Resource Pack
 
-[參考程式資源包下載地址](https://bit.ly/Powerbrick10in1ModelsHex)
+[Download](https://bit.ly/Powerbrick10in1ModelsHex)
 
 ![](./instruction1/06_bincode.png)
 
-## 模型玩法
+## Model Instructions
 
-這是一個智能垃圾桶。
+This is a smart trash bin.
 
-將垃圾桶放在桌上然後開動模型，再同時按下A和B按鍵就可以開始控制它。
+Press A and B simultaneously to enter automatic mode.
 
-將手掌放到超聲波感應器前可以控制它的移動。
+In automatic mode, you can control the model in these ways:
 
-- 將手掌放在垃圾桶前0-10cm距離內，可以將垃圾桶推開。
+- Push the bin away from you by placing your hand in the 0~10 cm range.
+  
+- The bin cover can be opened by placing your hand in the 10~20 cm range.
 
-- 將手掌放在垃圾桶前20-30cm距離內，可以將垃圾桶拉近。
+- Pull the bin towards you by placing your hand in the 20~30 cm range.
 
-- 將手掌放在垃圾桶前10-20cm距離內，垃圾桶的蓋會打開，過一段時間會自動閉上。
-
-你亦可以手動控制開關垃圾桶蓋，按下A和B就可以分別開啟和關閉頂蓋。
+Press A or B to manually control the bin cover.

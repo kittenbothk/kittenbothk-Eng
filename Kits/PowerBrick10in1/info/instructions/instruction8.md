@@ -1,25 +1,25 @@
-# 氣候滙報機說明書
+# Weather Reporter
 
 ![](./instruction1/08_env.png)
 
-## 教材資源包下載
+## Instructions Resource Pack
 
-包括說明書和音效檔案： [資源包下載地址](https://bit.ly/Powerbrick10in1BuildingGuide)
+[Download](https://bit.ly/Powerbrick10in1BuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./instruction1/08_envcon.png)
 
-## 參考程式
+## Sample Programs Resource Pack
 
-[參考程式資源包下載地址](https://bit.ly/Powerbrick10in1ModelsHex)
+[Download](https://bit.ly/Powerbrick10in1ModelsHex)
 
-請將MP3檔案儲存到microSD卡，並將卡插入MP3模組。
+**Put the sound files onto a microSD card(not included) and insert it into the MP3 module.**
 
 ![](./instruction1/08_envcode.png)
 
-## 模型玩法
+## Model Instructions
 
-這是一部氣候匯報機，它可以報告當時環境的溫度和濕度。
+This weather reporter monitors the temperature and humidity in the environment.
 
-開動模型後，按下A按鍵，模型會說出當時的溫度；按下B按鍵，模型會說出當時的濕度。
+Press A to tell the temperature, press B to tell the humidity.

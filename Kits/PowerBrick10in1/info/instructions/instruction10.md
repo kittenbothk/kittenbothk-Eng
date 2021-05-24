@@ -1,27 +1,22 @@
-# 風車說明書
+# Windmill
 
 ![](./instruction1/10_windmill.png)
 
-## 教材資源包下載
+## Instructions Resource Pack
 
-包括說明書和音效檔案： [資源包下載地址](https://bit.ly/Powerbrick10in1BuildingGuide)
+[Download](https://bit.ly/Powerbrick10in1BuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./instruction1/10_windmillcon.png)
 
-## 參考程式
+## Sample Programs Resource Pack
 
-[參考程式資源包下載地址](https://bit.ly/Powerbrick10in1ModelsHex)
+[Download](https://bit.ly/Powerbrick10in1ModelsHex)
 
 ![](./instruction1/10_windmillcode.png)
 
-## 模型玩法
+## Model Instructions
 
-這是一台風車模型。
+Blow air at the ultrasound sensor to spin the windmill.
 
-開動模型後，風車扇葉不會自動轉動。
-
-想令風車扇葉轉動，你就要向超聲波感應器吹氣，模擬吹風。
-
-風車扇葉就會徐徐轉動，假如你不再向它吹氣，風車會停下來。

@@ -1,25 +1,25 @@
-# 顏色分辨機說明書
+# Brick Sorter
 
 ![](./instruction1/09_color.png)
 
-## 教材資源包下載
+## Instructions Resource Pack
 
-包括說明書和音效檔案： [資源包下載地址](https://bit.ly/Powerbrick10in1BuildingGuide)
+[Download](https://bit.ly/Powerbrick10in1BuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./instruction1/09_colorcon.png)
 
-## 參考程式
+## Sample Programs Resource Pack
 
-[參考程式資源包下載地址](https://bit.ly/Powerbrick10in1ModelsHex)
+[Download](https://bit.ly/Powerbrick10in1ModelsHex)
 
 ![](./instruction1/09_colorcode.png)
 
-## 模型玩法
+## Model Instructions
 
-這是一部顏色分辨機，他可以分辨藍色、黃色和紅色的積木。
+This machine is able to sort plastic bricks by 3 colors: red, yellow and blue.
 
-將模型開動，將藍色、黃色或紅色的積木放在模型背上的斜斗。
+Place the colored bricks onto the ramp.
 
-感應器會識別它的顏色，然後將積木輸送到相應的收集箱。
+The bricks will be transported to the corresponding basket.

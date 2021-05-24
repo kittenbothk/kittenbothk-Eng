@@ -8,7 +8,7 @@
 
 ## Sample Wiring
 
-![](./instruction1/01_clawcon.jpg)
+![](./instruction1/01_clawcon.png)
 
 ## Sample Programs Resource Pack
 

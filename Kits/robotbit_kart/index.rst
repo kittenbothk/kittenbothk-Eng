@@ -1,4 +1,4 @@
-MR STEMer Kart Lite套件
+MR STEMer Kart Lite
 ====================
 
 .. toctree::

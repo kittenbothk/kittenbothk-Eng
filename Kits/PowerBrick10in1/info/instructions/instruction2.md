@@ -1,23 +1,23 @@
-# 大咀鴨說明書
+# Chomping Duck
 
 ![](./instruction1/02_bite.png)
 
-## 教材資源包下載
+## Instructions Resource Pack
 
-包括說明書和音效檔案： [資源包下載地址](https://bit.ly/Powerbrick10in1BuildingGuide)
+[Download](https://bit.ly/Powerbrick10in1BuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](./instruction1/02_bitecon.png)
 
-## 參考程式
+## Sample Programs Resource Pack
 
-[參考程式資源包下載地址](https://bit.ly/Powerbrick10in1ModelsHex)
+[Download](https://bit.ly/Powerbrick10in1ModelsHex)
 
 ![](./instruction1/02_bitecode.png)
 
-## 模型玩法
+## Model Instructions
 
-這是一個測試運氣的小遊戲。
+This is a game of luck.
 
-將手指放在大咀鴨的口裏，按下A或B按鍵，假如你運氣不好，大咀鴨就會咬下你的手指！
+Put your fingers inside the duck's mouth and press either the left or right button, you will be chomped if you are unfortunate.

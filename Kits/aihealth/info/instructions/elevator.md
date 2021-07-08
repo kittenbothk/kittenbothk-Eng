@@ -14,7 +14,15 @@ Touching public facilities is something that should be avoided during a pandemic
 
 ## Sample Program
 
-[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
+### Training Program
+
+[Training Program](https://makecode.microbit.org/_4KC2zeDPr69H)
+
+![](./images/wash_traincode.png)
+
+### Contactless Elevator
+
+[Contactless Elevator](https://makecode.microbit.org/_f0sgk5KUaA1X)
 
 ![](./images/liftcode.png)
 
@@ -22,7 +30,7 @@ Touching public facilities is something that should be avoided during a pandemic
 
 ### 1. Model Training
 
-1. Reset the Micro:bit after the KOI has been powered on.
+1. Switch on the power and wait 10 seconds for the KOI to power on completely.
 
 2. Make the gesture for Ground Floor and press B. Repeat for about 3 times.
 
@@ -34,7 +42,7 @@ Touching public facilities is something that should be avoided during a pandemic
 
 ### Contactless Elevator
 
-1. Reset the Micro:bit after the KOI has been powered on.
+1. Switch on the power and wait 10 seconds for the KOI to power on completely.
 
 2. Press B to start recognition.
 

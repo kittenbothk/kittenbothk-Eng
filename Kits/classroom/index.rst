@@ -1,7 +1,7 @@
-Robotbit 大班教學套件
+Robotbit Sensor Kit
 ==========================================
 
-Robotbit 大班教學套件是一套專為學校課堂教學而設計的套件，裡面包含Microbit擴展板和多款感應器模組。
+Robotbit Sensor Kit is designed specifically for use in classrooms or training institutions. This kit caters to the needs for educators in Hong Kong, Kittenbot aims to improve teaching efficiency in lessons by including a Robotbit expansion board and many commonly found electronic modules.
 
 .. toctree::
     :maxdepth: 1

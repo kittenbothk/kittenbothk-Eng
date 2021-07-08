@@ -14,11 +14,10 @@ Ordering takeout delivery is common during the pandemic, this model simulates a 
 
 ## Sample  Programs
 
-[Driverless Delivery Cart-Line Tracing Mode](https://makecode.microbit.org/_58Hekq255Kop)
+[Driverless Delivery Cart-Line Tracing Mode](https://makecode.microbit.org/_0bvU9A8cy1iq)
 
-[Driverless Delivery Cart-QR Code Mode](https://makecode.microbit.org/_LboPVwaYrY54)
+[Driverless Delivery Cart-QR Code Mode](https://makecode.microbit.org/_Me07uWH4dXEC)
 
-[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
 
 ### Line Tracing Mode:
 
@@ -32,7 +31,7 @@ Ordering takeout delivery is common during the pandemic, this model simulates a 
 
 ### Line Tracing Mode:
 
-1. Reset the Micro:bit after the KOI has been powered on.
+1. Switch on the power and wait 10 seconds for the KOI to power on completely.
 
 2. Put the cart onto a black line and press A to begin colour calibration.
 
@@ -40,7 +39,7 @@ Ordering takeout delivery is common during the pandemic, this model simulates a 
 
 ### QR Code Mode:
 
-1. Reset the Micro:bit after the KOI has been powered on.
+1. Switch on the power and wait 10 seconds for the KOI to power on completely.
 
 2. The cart will move forward slowly.
 

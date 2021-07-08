@@ -14,15 +14,13 @@ Many premises require visitors to wear a mask, this model simulates a gate where
 
 ## Sample Program
 
-[Mask Detector](https://makecode.microbit.org/_3i3Dwm7Fm7w1)
-
-[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
+[Mask Detector](https://makecode.microbit.org/_2t3CoUa389R0)
 
 ![](./images/maskdoorcode.png)
 
 ## Model Instructions
 
-1. Reset the Micro:bit after the KOI has been powered on.
+1. Switch on the power and wait 10 seconds for the KOI to power on completely.
 
 2. Wear a mask then face the camera and press A.
 

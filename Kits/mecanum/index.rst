@@ -1,9 +1,9 @@
-四驅麥輪車
+Mecanum Wheel Robotic Car Kit
 ============
 
-四驅麥輪車是為BBC Microbit而設計的套件，是一套進階的車類套件。
+Mecanum Wheel Robotic Car is an advanced educational kit for BBC Micro:bit.
 
-這部分會詳細地介紹四驅麥輪車套件與其內容。
+This section contains all the information and tutorials for this kit.
 
 .. toctree::
     :maxdepth: 1

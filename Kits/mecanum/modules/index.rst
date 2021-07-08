@@ -1,7 +1,7 @@
-四驅麥輪車模組教學
+Mecanum Wheel Robotic Car Kit Modules
 ===================
 
-這裡合集了四驅麥輪車套件不同模組的教程。
+Information and tutorials for the modules included with Mecanum Wheel Robotic Car Kit.
 
 .. toctree::
     :maxdepth: 1

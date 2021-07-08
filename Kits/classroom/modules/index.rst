@@ -1,7 +1,7 @@
-Robotbit 大班教學套件模組教學
+Robotbit Sensor Kit Modules
 ===========================
 
-這裡合集了Robotbit 大班教學套件不同模組的教程。
+Information and tutorials for modules included in the Robotbit Sensor Kit.
 
 .. toctree::
     :maxdepth: 1

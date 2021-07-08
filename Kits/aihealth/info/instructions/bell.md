@@ -1,4 +1,4 @@
-# Contactless Elevator
+# Contactless Door Bell
 
 Touching public facilities is something that should be avoided during a pandemic. This model simulates a contactless door bell.
 
@@ -14,15 +14,13 @@ Touching public facilities is something that should be avoided during a pandemic
 
 ## Sample Program
 
-[Contactless Elevator](https://makecode.microbit.org/_1Dh6xrbaWf3F)
-
-[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
+[Contactless Door Bell](https://makecode.microbit.org/_YFV5b8Ax7aqr)
 
 ![](./images/bellcode.png)
 
 ## Model Instructions
 
-1. Reset the Micro:bit after the KOI has been powered on.
+1. Switch on the power and wait 10 seconds for the KOI to power on completely.
 
 2. Press A to start recognition.
 

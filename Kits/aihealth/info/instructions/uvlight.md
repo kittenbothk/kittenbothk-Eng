@@ -14,7 +14,7 @@ Sterilizing is an important part in anti-epidemic effort, this model simulates a
 
 ## Sample Programs
 
-[UV Light Sterilizer](https://makecode.microbit.org/_VfbfE312p0cv)
+[UV Light Sterilizer](https://makecode.microbit.org/_AP5ioadg0eg4)
 
 [Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
 
@@ -22,7 +22,7 @@ Sterilizing is an important part in anti-epidemic effort, this model simulates a
 
 ## Model Instructions
 
-1. Reset the Micro:bit after the KOI has been powered on.
+1. Switch on the power and wait 10 seconds for the KOI to power on completely.
 
 2. Hold the first item and press A to train the model to recognize that item.
 

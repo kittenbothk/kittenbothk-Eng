@@ -33,21 +33,21 @@ There are 2 versions of this kit, the Shooter version comes with extra building 
 - Extra Building Blocks Set x1 (Shooter Version)
 - JoyFrog x1 (Shooter Version)
 - Battery Box x1 (Shooter Version)
-- Rubber Band x1 (只限射擊版)
+- Rubber Band x1 (Shooter Version)
 
-## 產品特色
+## Product Features
 
-- 基於Microbit的圖形化編程，更容易上手
-- 兼容樂高積木，擴展性高
-- 全方位移動，新穎兼靈活性高
-- 支援MakeCode和Kittenblock編程
+- Block-based programming makes it easy to learn
+- Compatible with major brands of plastic building bricks
+- Highly agile movement
+- Supports MakeCode or Kittenblock
 
-## 產品參數
+## Product Dimensions
 
-- 包裝盒尺寸：251x182x81mm
-- 重量：880g(基礎版)，1140g(射擊版)
-- 麥輪尺寸：64mm外經
+- Package Size：251x182x81mm
+- Weight：880g(Basic)，1140g(Shooter)
+- Mecanum Wheel Diameter：64mm
 
-## 介紹短片
+## Demo Video
 
 [![](./images/5.png)](https://www.youtube.com/watch?v=OkAB-bp0mbQ&feature=youtu.be)

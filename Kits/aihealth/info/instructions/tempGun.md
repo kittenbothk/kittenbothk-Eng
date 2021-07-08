@@ -14,7 +14,7 @@ Ensuring the visitors do not possess symptoms such as fever is key part in anti-
 
 ## Sample Programs
 
-[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
+[Handheld Contactless Temperature Monitor](https://makecode.microbit.org/_6zedo5PpWMdP)
 
 ![](./images/tempguncode.png)
 

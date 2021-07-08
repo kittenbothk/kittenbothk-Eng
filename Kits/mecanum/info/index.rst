@@ -1,7 +1,7 @@
-四驅麥輪車模型組裝資料
+Mecanum Wheel Robotic Car Kit Instructions
 ===============================
 
-這裡合集了四驅麥輪車套件的模型組裝資料。
+Here are the building instructions and sample programs for the Mecanum Wheel Robotic Car Kit.
 
 .. toctree::
     :maxdepth: 1

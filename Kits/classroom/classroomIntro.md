@@ -1,47 +1,45 @@
-# Robotbit 大班教學套件介紹
+# Robotbit Sensor Kit
 
-Robotbit 大班教學套件
+Robotbit Sensor Kit
 
-為針對香港學校課堂裏對STEM教育的需求，Kittenbot特意推出了Robotbit大班教學套件。      
-以提升學校計劃式教學效率為目標，大班教學套件包括了Robotbit的擴展板和多款常用電子模組，涉及光、水、電、火等領域，讓學生在學習編程之餘還能學習科學的原理。
+Robotbit Sensor Kit is designed specifically for use in classrooms or training institutions. This kit caters to the needs for educators in Hong Kong, Kittenbot aims to improve teaching efficiency in lessons by including a Robotbit expansion board and many commonly found electronic modules.
 
 ![](./images/list.jpg)
 
-## 套件特色：
+## Special features:
 
-1. 以導師和學生都熟悉的Microbit作為主控板，讓大家能夠輕易上手，提升課堂效率
-2. 配合Robotbit和Robotbit Shield，不再需要用鱷魚夾接線
-3. 配合Robotbit強大的的驅動能力，可以支援各類電機舵機
-4. 支援3pin和4pin防反插接口模組
-5. 支援市面上其他模擬或數位電子零件
-6. 容易收納，零件有儲存格，便於課堂後收拾和整理
-7. 易於攜帶，盒子有便攜把手
-
+1. Based on BBC Micro:bit as the control board, the familiarity improves efficiency.
+2. The Robotbit with its Robotbit Shield eliminates the needs for crocodile clips.
+3. Robotbit's powerful capabilities can drive multiple motors and servos.
+4. Supports modules with PH2.0 ports.
+5. Compatible with other sensor modules found on the market.
+6. Components can be categorized and stored inside the carrying case.
+7. A carrying handle allows for easy portability.
 
 ## 套件內容：
 
-- Robotbit擴展板x1
-- Robotbit Shield擴展板x1
-- T/T電機x1
-- GeekServo 270度舵機x1
-- 樂高風扇模組x1
-- 超聲波感應器模組x1
-- 電位器模組x1
-- 光度感應器模組x1
-- 火焰感應器模組x1
-- 磁場感應器模組x1
-- 土壤濕度感應器模組x1
-- 水位感應器模組x1
-- Wifibrick魔塊x1(只限IoT版)
-- Robotbit底座x1
-- Microbit矽膠保護套x1
-- 母對母杜邦線x20
-- 母杜邦線對4Pin防反插接口線x2
-- 3Pin防反插線x2
-- 18650鋰電池x1
-- USB線x1
+- Robotbit x1
+- Robotbit Shield x1
+- T/T Motors x1 pair
+- GeekServo 9G Servo x1
+- Lego Fan Module x1
+- Ultrasonic Distance Sensor x1
+- Potentialmeter Module x1
+- Ambient Light Sensor x1
+- Flame Sensor x1
+- Magnetic Sensor x1
+- Soil Moisture Sensor x1
+- Water Level Sensor x1
+- Wifibrick Module x1 (Only IoT Version)
+- Robotbit Base x1
+- Microbit Silicon Jacket x1
+- Female to Female Dupont wires x20
+- 4-Pin Female to PH2.0 wires x2
+- 3-Pin PH2.0 wires x2
+- 18650 Lithium-Ion Battery x1
+- USB cable x1
 
-## 支援編程平台
+## Programming Platform
 
 - Microsoft Makecode
 ![](./images/makecode.png)
@@ -49,11 +47,11 @@ Robotbit 大班教學套件
 ![](./images/kittenblock.png)
 
 
-## 介紹短片：
+## Introduction Video
 
 [![](./images/video.png)](https://www.youtube.com/watch?v=i35FuFmxtQQ&feature=youtu.be)
 
-## 開箱圖
+## Unboxing
 
 ![](./images/pack1.png)
 

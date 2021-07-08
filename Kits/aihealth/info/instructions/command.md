@@ -14,15 +14,13 @@ It is important to prepare the necessary anti-epidemic supplies, this model iden
 
 ## Sample Programs
 
-[Anti-epidemic Supplies Commander](https://makecode.microbit.org/_hHe2g954FgVf)
-
-[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
+[Anti-epidemic Supplies Commander](https://makecode.microbit.org/_7P44VhWT8bAM)
 
 ![](./images/commandcode.png)
 
 ## Model  Instructions
 
-1. Reset the Micro:bit after the KOI has been powered on.
+1. Switch on the power and wait 10 seconds for the KOI to power on completely.
 
 2. Hold the first item and press B to train the model to recognize that item.
 

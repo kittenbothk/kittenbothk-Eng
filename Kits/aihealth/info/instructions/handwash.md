@@ -14,11 +14,17 @@ Hand Sanitation is one of the most important parts of anti-pandemic practices, t
 
 ## Sample Programs
 
-[Model Training Program](https://makecode.microbit.org/_4v35X9ferVMY)
+### Training Program
 
-[AI Disinfection Alcohol Dispenser Program](https://makecode.microbit.org/_Dzp8Xt48kMVq)
+[Training Program](https://makecode.microbit.org/_4KC2zeDPr69H)
 
-[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
+![](./images/wash_traincode.png)
+
+### AI Disinfection Alcohol Dispenser
+
+[AI Disinfection Alcohol Dispenser](https://makecode.microbit.org/_MreTHbcWAhR0)
+
+![](./images/washcode.png)
 
 ![](./images/washcode.png)
 
@@ -26,7 +32,7 @@ Hand Sanitation is one of the most important parts of anti-pandemic practices, t
 
 ### 1. Model Training
 
-1. Reset the Micro:bit after the KOI has been powered on.
+1. Switch on the power and wait 10 seconds for the KOI to power on completely.
 
 2. Hold your palm in front of the camera and press B. Repeat this action after changing the angle of your palm.
 
@@ -38,7 +44,7 @@ Hand Sanitation is one of the most important parts of anti-pandemic practices, t
 
 ### 2. Using the AI Disinfection Alcohol Dispenser Program
 
-1. Reset the Micro:bit after the KOI has been powered on.
+1. Switch on the power and wait 10 seconds for the KOI to power on completely.
 
 2. Press A to load the trained model, press B to begin recognition.
 

@@ -1,128 +1,128 @@
-# 電路科學實驗教學套件零件清單
+# Circuitry Experiments Kit Component List
 
-電路科學實驗教學套件內有12節課的電子元件，總共47塊，請點算一下確保沒有遺漏。
+Circuitry Experiments Kit has a total of 47 components across 12 lessons, please count and make sure there are no missing components.
 
-## 電子零件清單
+## List of electric components
 
-### 1. 鈕扣電池座
+### 1. Button Battery Holder
 
-#### 數量：12
+#### Amount：12
 
 ![](images/2032cell.jpg)
 
-### 2. 自鎖按键開關
+### 2. Self-locking Switch
 
-#### 數量：6
+#### Amount：6
 
 ![](images/switch.jpg)
 
-### 3. 單色LED燈
+### 3. LED Module
 
-#### 紅色數量：3
-#### 綠色數量：1
-#### 藍色數量：3
-#### 黃色數量：2
+#### Red LED Amount：3
+#### Green LED Amount：1
+#### Blue LED Amound：3
+#### Yellow LED Amount：2
 
 ![](images/greenled.jpg)
 
-### 4. 電位器
+### 4. Potentialmeter
 
-#### 數量：1
+#### Amount：1
 
 ![](images/potentialmeter.jpg)
 
-### 5. 音樂盒
+### 5. Jukebox Module
 
-#### 數量：1
+#### Amount：1
 
 ![](images/music.jpg)
 
-### 6. 喇叭
+### 6. Speaker
 
-#### 數量：1
+#### Amount：1
 
 ![](images/speaker.jpg)
 
-### 7. 三色LED
+### 7. RGB LED
 
-#### 數量：1
+#### Amount：1
 
 ![](images/rgb.png)
 
-### 8. 3位數碼開關
+### 8. 3-way Dip Switch Module
 
-#### 數量：1
+#### Amount：1
 
 ![](images/3digit.jpg)
 
-### 9. 7位數碼開關
+### 9. 7-way Dip Switch Module
 
-#### 數量：1
+#### Amount：1
 
 ![](images/7digit.jpg)
 
-### 8. 數字顯示
+### 8. Digit Display
 
-#### 數量：1
+#### Amount：1
 
 ![](images/number.jpg)
 
-### 9. 輕觸開關
+### 9. Touch Sensor
 
-#### 數量：2
+#### Amount：2
 
 ![](images/button.jpg)
 
-### 10. 蜂鳴器
+### 10. Buzzer
 
-#### 數量：1
+#### Amount：1
 
 ![](images/buzzer.jpg)
 
-### 11. 七彩LED
+### 11. RGB LED
 
-#### 數量：1
+#### Amount：1
 
 ![](images/colorled.jpg)
 
-### 12. 磁簧開關
+### 12. Magnetic Switch
 
-#### 數量：1
+#### Amount：1
 
 ![](images/reed.jpg)
 
-### 13. 100K 電阻
+### 13. 100K Resistor
 
-#### 數量：1
+#### Amount：1
 
 ![](images/100k.jpg)
 
-### 14. 10K 電阻
+### 14. 10K Resistor
 
-#### 數量：2
+#### Amount：2
 
 ![](images/10k.jpg)
 
-### 15. 光敏電阻
+### 15. Photoresistor
 
-#### 數量：1
+#### Amount：1
 
 ![](images/lightsensor.jpg)
 
-### 16. 三極管
+### 16. NPN Triode
 
-#### 數量：2
+#### Amount：2
 
 ![](images/npn.jpg)
 
-### 17. 10uf 電容
+### 17. 10uf Capacitor
 
-#### 數量：1
+#### Amount：1
 
 ![](images/capacitor.jpg)
 
-### 18. 彩虹LED
+### 18. LED Rainbow
 
-#### 數量：1
+#### Amount：1
 
 ![](images/rainbow.jpg)

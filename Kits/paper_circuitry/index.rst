@@ -1,7 +1,7 @@
-電路科學實驗教學套件
+Circuitry Experiments Education Kit
 ==========================================
 
-紙電路套件是專為初小設計的STEAM教育套件，這部分會詳細地介紹紙電路套件與其內容。
+Circuitry Experiments Education Kit is a STEAM education kit designed for lower primary school students.
 
 .. toctree::
     :maxdepth: 1

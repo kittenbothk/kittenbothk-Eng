@@ -1,87 +1,89 @@
-# 電路科學實驗教學套件
+# Circuitry Experiments Education Kit
 
 ![](images/3.jpg)
 
-為了針對市場上的STEM教育產品偏向適合高小至初中學生，比較難對年幼的學生進行STEM教育的情況，KittenBot現在推出電路科學實驗教學套件。套件是專為初小設計的STEM教育套件，它的內容都是圍繞著光、聲、電的題材。
+In Hong Kong, most STEM education focuses on Senior Primary School or Junior Secondary School pupils, resulting in a lack of STEM education among Junior Primary School pupils. Kittenbot believes that a strong understanding in fundamental STEM knowledge is important, and that STEM education should begin way before coding training begins.
 
-套件裏包含12個故事情境，配合導電膠布與總共47塊的電子元件，以生動有趣的故事形式令學生能夠輕鬆愉快地學習電路的知識、光與聲的原理還有如何搭建電路，為STEM教育打好基礎。
+In sight of this, Kittenbot has developed the Circuitry Experiments Education Kit, a STEM education kit designed for junior primary school students. This kit focuses on the basics for electrical circuits, while including topics about sound and light.
 
-## 套件內容
+The kit includes 12 story-based scenarios and a total of 47 electronic components scattered in 12 lessons. Students will be able to learn the basics of electric circuits and electronic components through vivid and engaging stories as well as hands-on experiments.
+
+## Kit Contents
 
 ![](images/2.jpg)
 
-1. 12塊故事情境紙板
+1. 12 Story Cardboard
 
-2. 12張彩色故事圖畫
+2. 12 Coloured Story Illustrations
 
-3. 12張黑白故事填色紙樣
+3. 12 Black and White Story Illustrations
 
-4. 12包電子元件
+4. 12 Packs of electronic components
 
-5. 12粒鈕扣電池
+5. 12 Button Cell Batteries
 
-6. 導電膠布
+6. 1 Roll of Conductive Adhesive Tape
 
-7. 雙面膠紙
+7. 1 Roll of Double Sided Adhesive Tape
 
-8. 安全剪刀
+8. 1 Pair of Safety Scissors
 
-9. 彩色粉彩筆
+9. 1 Set of Crayons
 
-10. 對話框框貼紙
+10. 1 Sheet of Speech Bubble Stickers
 
-11. 1張貼紙
+11. 1 Sheet of Stickers
 
-12. 4塊創意情景紙板
+12. 4 DIY Story Cardboard
 
-13. 4張立體紙樣
+13. 4 Sheets of Fold-Out Carboard Decorations
 
-## 套件特色
+## Special Features
 
-- 適合初小的STEM教學套件
+- Designed for junior primary schools
 
-- 以生動有趣的故事貫穿12節課程
+- 12 interesting and engaging lessons told in stories
 
-- 12包電子元件，總共47塊
+- 12 packs of electronic components, totalling 47 pieces
 
-- 不需要處理接線，只需將膠布依指示貼上
+- No wiring required
 
-- 無需編程知識
+- No coding knowledge required
 
-- 學習基本電路知識
+- Topics are closely related to General Studies
 
-## 安全設計
+## Child-proof Design
 
-- 採用CR2032大尺寸鋰電池，不怕小孩子誤吞
+- The large CR2032 Button Cells prevent swallowing
 
-- 電路板圓角設計，不怕割傷小孩子
+- The PCBs feature rounded corners to prevent cutting
 
-- 大尺寸電路板，不怕誤吞電池元件
+- The PCBs are oversived to prevent swallowing
 
-- 電線膠布柔軟，不怕割傷孩子
+- The conductive tape is flexible and soft
 
-- 配合安全剪刀，不怕剪傷
+- Comes with a pair of safety scissors
 
-- 容易收納，每一節課都有獨立的元件包，不怕混亂
+- Ease of storage
 
-## 玩學過程
+## Learning by Playing
 
-#### 1. 按照指引將元件粘貼在紙板上。
+#### 1. Place the corresponding component on the cardboard.
 
 ![](images/4.png)
 
-#### 2. 使用導電膠布連接電路。
+#### 2. Complete the circuit with conductive tape.
 
 ![](images/5.png)
 
-#### 3. 將故事漫畫貼在紙板上。
+#### 3. Paste the illustration onto the cardboard.
 
 ![](images/6.png)
 
-### 4. 觀看效果。
+### 4. Play with the circuit.
 
 ![](images/7.png)
 
-## 介紹短片
+## Video Showcase
 
 [![](images/1.png)](https://www.youtube.com/watch?v=4kmj-qQupyQ)

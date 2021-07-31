@@ -1,7 +1,7 @@
-Meowbit發明家套件案例
+Meowbit Creator Kit Building Instructions
 ==========================================
 
-Meowbit發明家套件案例說明書與教學
+Building Instructions and Sample Programs for Meowbit Creator Kit
 
 .. toctree::
     :maxdepth: 1

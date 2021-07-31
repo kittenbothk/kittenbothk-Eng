@@ -1,29 +1,28 @@
-# 11. 智能停車系統
+# 11. Smart Parking Lot
 
 ![](../../images/parking.jpg)
 
-## 教材資源包下載
+## Building Instructions Download
 
-包括說明書： [資源包下載地址](https://bit.ly/AIHealthCareSetBuildingGuide)
+[Building Instructions Download](https://bit.ly/AIHealthCareSetBuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](../../images/parking_wire.png)
 
+## Sample Program
 
-## 參考程式
+[Sample Program Download](https://makecode.com/_DkLE863zqT8h)
 
-[智能停車系統參考程式](https://makecode.com/_DkLE863zqT8h)
+[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
 
-[參考程式資源包下載地址](https://bit.ly/AIHealthCareSetHex)
+## Model Instructions
 
-## 模型玩法
+The gate will open when a car approaches, park the car in front of the IR sensor, Meowbit will display the number of available spaces.
 
-將車子駛到閘前，閘門打開之後可以駛到車位停泊。Meowbit上會顯示剩餘的車位。
+## Troubleshooting
 
-## 疑難排解
+### 1: The sensitivity of the IR sensor is low.
 
-### 1: 為什麼我巡線感應器的靈敏度這麼低？
-
-### 巡線感應器的檢測距離可以調較，靈敏度設定位於感應器上的藍色旋鈕，請使用螺絲批調節檢測距離(向左調高，向右調低)。
+### The sensitivity can be adjusted via a potentiometer on the sensor, use a screwdriver to adjust to preference.
 

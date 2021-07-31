@@ -1,7 +1,7 @@
-Meowbit發明家套件組裝資料
+Meowbit Creator Kit Instructions
 ==========================================
 
-這裡合集了Meowbit發明家套件的模型組裝資料。
+You can find all the instructions for Meowbit Creator Kit in this section.
 
 .. toctree::
     :maxdepth: 2

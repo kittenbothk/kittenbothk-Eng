@@ -1,21 +1,21 @@
-# 3. 硬幣收藏家
+# 3. Coin Collector
 
 ![](../../images/coin3.jpg)
 
-## 教材資源包下載
+## Building Instructions Download
 
-包括說明書： [資源包下載地址](https://bit.ly/AIHealthCareSetBuildingGuide)
+[Building Instructions Download](https://bit.ly/AIHealthCareSetBuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](../../images/coin_wire.png)
 
-## 參考程式
+## Sample Program
 
-[硬幣收藏家參考程式](https://makecode.com/_MFFLfW0RUKuX)
+[Sample Program Download](https://makecode.com/_MFFLfW0RUKuX)
 
-[參考程式資源包下載地址](https://bit.ly/AIHealthCareSetHex)
+[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
 
-## 模型玩法
+## Model Instructions
 
-這是一個錢箱，能夠幫助你儲錢。將硬幣放在錢箱的手上，它就會把硬幣吞下。直至錢箱裏儲夠20個硬幣才可以按A鍵打開錢箱將錢幣拿出來。
+This coin box can help you save up coins. Place a coin onto his hands, then he will swallow the coin. The coin box can only be opened after 20 coins have been saved up, press A to open the coin box.

@@ -1,85 +1,85 @@
-# Meowbit發明家套件介紹
+# Meowbit Creator Kit
 
-### Meowbit發明家套件()
+### Meowbit Creator Kit
 
 ![](./images/4.png)
 
-Meowbit發明家套件是一套針對Meowbit而開發的教育套件，為Meowbit提供多款電子硬件擴展Meowbit的功能性。發明家套件正正發揮了Meowbit上搭載了引腳這個優勢，配合各款感應器和積木，Meowbit的玩法就變得更加多，可以創作更多獨特的遊戲！
+Meowbit Creator Kit is an education kit developed for Meowbit to utilise the hardware capabilities of Meowbit. This kit comes with multiple sensors and actuators, combining with building bricks, this kit expands the flexibility of Meowbit, allowing more unique games to be created.
 
-## Meowbit發明家套件內容
+## Meowbit Creator Kit Contents
 
-- Robotbit擴展板x1
-- 滑動電位器x1
-- 紅外線避障/巡線感應器x1
-- 聲音感應器x1
-- 全彩LED燈x1
-- 貓耳超聲波x1
-- GeekServo 9G電機x1
-- GeekServo 9G舵機x1
-- 公對公杜邦線x20
-- 公對母杜邦線x20
-- 18650鋰電池x1
-- 導電銅片貼紙x1
-- USB數據線x1
-- 積木包x1
-- 造型紙板包x1
-- 雙面膠紙x1
-- Robotbit底座x1
+- Robotbit Expansion Board x1
+- Sliding Potentialmeter x1
+- Infra Red Line Follow Sensor x1
+- Ambient Sound Sensor x1
+- RGB LED Module x1
+- NekoUltrasound Module x1
+- GeekServo 9G Motor x1
+- GeekServo 9G Servo x1
+- Male to Male Dupont Wires x20
+- Male to Female Dupont Wires x20
+- 18650 Litihum Battery x1
+- Conductive Copper Stickers x1 Sheet
+- USB Cable x1
+- Building Bricks x1 Bag
+- Decorative Cardboard x1 Sheet
+- Double Sided Adhesive Tape x1 Roll
+- Robotbit Base x1
 
-## 產品特色
+## Special Features
 
 ![](./images/2.jpg)
 
-1. Meowbit的彩屏可以顯示動態的畫面和文字，令你的創作更美觀和更靈活
-2. 支援MakeCode Arcade與Kittenblock編程，編程門檻更低。
+1. Meowbit can display dynamic graphics and text in many languages, allowing your creations to be more flexible and visually appealing
+2. Supports coding with both MakeCode Arcade or Kittenblock, lowering the requirements for coding skills
 
-## 產品參數
+## Specifications
 
-- 包裝尺寸：195x175x70mm
-- 淨重：650g
+- Package Size: 195x175x70mm
+- Weight: 650g
 
-## 套件案例介紹
+## Model Showcase
 
-### 1. 計步裝置
+### 1. Step Counter
 
 ![](./images/step.jpg)
 
-### 2. 拔河比賽
+### 2. Tug-Of-War
 
 ![](./images/tugofwar2.jpg)
 
-### 3. 硬幣收藏家
+### 3. Coin Collector
 
 ![](./images/coin4.jpg)
 
-### 4. 智能儲物箱
+### 4. Rubbish Bin
 
 ![](./images/coin2.jpg)
 
-### 5. 灌籃高手
+### 5. Basketball Game
 
 ![](./images/ball2.jpg)
 
-### 6. 鋼琴大師
+### 6. Piano Master
 
 ![](./images/piano2.jpg)
 
-### 7. 聲控彩燈
+### 7. Voice Control Lights
 
 ![](./images/light1.jpg)
 
-### 8. 防噪窗
+### 8. Anti-Noise Window
 
 ![](./images/window2.jpg)
 
-### 9. 巡邏智械
+### 9. Line Follower Robot
 
 ![](./images/trace2.jpg)
 
-### 10. 避障智貓
+### 10. Obstacle Avoiding Robot Cat
 
 ![](./images/avoid2.jpg)
 
-### 11. 智能停車系統
+### 11. Smart Parking Lot
 
 ![](./images/parking.jpg)

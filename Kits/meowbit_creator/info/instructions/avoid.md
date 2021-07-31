@@ -1,24 +1,24 @@
-# 10. 避障智貓
+# 10. Obstacle Avoiding Robot Cat
 
 ![](../../images/avoid1.jpg)
 
-## 教材資源包下載
+## Building Instructions Download
 
-包括說明書： [資源包下載地址](https://bit.ly/AIHealthCareSetBuildingGuide)
+[Building Instructions Download](https://bit.ly/AIHealthCareSetBuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](../../images/avoid_wire.png)
 
 ![](../../images/trace_wire2.png)
 
-## 參考程式
+## Sample Programs
 
-[避障智貓參考程式](https://makecode.com/_eDEbk6C7yUjH)
+[Sample Program Download](https://makecode.com/_eDEbk6C7yUjH)
 
-[參考程式資源包下載地址](https://bit.ly/AIHealthCareSetHex)
+[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
 
-## 模型玩法
+## Model Instructions
 
-車子會在地上行走，遇到障礙物時會停下來，探測出路然後繼續行走。
+The car will roam on the ground freely, upon detection of an obstacle, the car will avoid the obstacle.
 

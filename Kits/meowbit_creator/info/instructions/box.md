@@ -1,4 +1,4 @@
-# 4. 智能儲物箱
+# 4. Rubbish Bin
 
 ![](../../images/coin1.jpg)
 

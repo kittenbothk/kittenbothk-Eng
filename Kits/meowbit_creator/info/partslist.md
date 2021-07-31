@@ -1,15 +1,9 @@
-# Meowbit發明家套件積木零件清單
+# Meowbit Creator Kit Parts List
 
-Meowbit發明家套件的零件清單，請核實積木包沒有缺少零件。
+Please check and make sure there are no missing pieces in the parts bag.
 
-## 零件清單
+## Parts List
 
 ![](partslist/1.jpg)
 
 ![](partslist/2.jpg)
-
-
-
-## 清單下載
-
-[積木零件清單PDF下載](www.google.com)

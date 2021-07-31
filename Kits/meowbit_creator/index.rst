@@ -1,7 +1,7 @@
-Meowbit發明家套件
+Meowbit Creator Kit
 ===================
 
-Meowbit發明家套件是為Meowbit而開發的套件。這部分會詳細地介紹Meowbit發明家套件與其內容。
+Meowbit Creator Kit is an education kit set designed for Meowbit, you can find the resources and materials for this kit set in this section.
 
 .. toctree::
     :maxdepth: 1

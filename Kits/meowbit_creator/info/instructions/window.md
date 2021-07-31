@@ -1,22 +1,22 @@
-# 8. 防噪窗
+# 8. Anti-Noise Window
 
 ![](../../images/window1.jpg)
 
-## 教材資源包下載
+## Building Instructions Download
 
-包括說明書： [資源包下載地址](https://bit.ly/AIHealthCareSetBuildingGuide)
+[Building Instructions Download](https://bit.ly/AIHealthCareSetBuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](../../images/window_wire.png)
 
-## 參考程式
+## Sample Program
 
-[防噪窗參考程式](https://makecode.com/_PLWY3se9MFqD)
+[Sample Program Download](https://makecode.com/_PLWY3se9MFqD)
 
-[參考程式資源包下載地址](https://bit.ly/AIHealthCareSetHex)
+[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
 
-## 模型玩法
+## Model Instructions
 
-遇到環境的噪音過大的時候，窗口會自動關上。待環境噪音回復至平靜水平時才會自動打開。
+The window will close when the environment is too loud, and will remain shut until the environment becomes quiet again.
 

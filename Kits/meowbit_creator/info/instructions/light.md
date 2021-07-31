@@ -1,21 +1,21 @@
-# 7. 聲控彩燈
+# 7. Voice Control Lights
 
 ![](../../images/light2.jpg)
 
-## 教材資源包下載
+## Building Instructions Download
 
-包括說明書： [資源包下載地址](https://bit.ly/AIHealthCareSetBuildingGuide)
+[Building Instructions Download](https://bit.ly/AIHealthCareSetBuildingGuide)
 
-## 參考接線
+## Sample Wiring
 
 ![](../../images/light_wire.png)
 
-## 參考程式
+## Sample Program
 
-[聲控彩燈參考程式](https://makecode.com/_Jbv0Ad7CcJah)
+[Sample Program Download](https://makecode.com/_Jbv0Ad7CcJah)
 
-[參考程式資源包下載地址](https://bit.ly/AIHealthCareSetHex)
+[Sample Program Resource Pack](https://bit.ly/AIHealthCareSetHex)
 
-## 模型玩法
+## Model Instructions
 
-對著模型拍手，燈泡會轉換顏色。
+The light bulb will change color when you clap your hands.

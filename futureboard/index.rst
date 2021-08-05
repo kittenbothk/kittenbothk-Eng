@@ -1,18 +1,18 @@
-未來板
+FutureBoard
 =================
 
-未來板介紹及詳細資訊
+FutureBoard details an tutorials can be found here.
 
 .. toctree::
     :maxdepth: 1
-    :caption: 未來板介紹
+    :caption: FutureBoard Details
 
     futureboard
     futureos
 
 .. toctree::
     :maxdepth: 1
-    :caption: 未來板更新
+    :caption: Updating the Firmware
 
     firmwareUpdate.md
     updateHist.md
@@ -20,7 +20,7 @@
 
 .. toctree::
     :maxdepth: 1
-    :caption: KittenBlock編程教學
+    :caption: Coding with KittenBlock
 
     kittenblock
     sensors
@@ -39,7 +39,7 @@
 
 .. toctree::
     :maxdepth: 1
-    :caption: MicroPython編程教學
+    :caption: Coding wih MicroPython
 
     micropython
     api1

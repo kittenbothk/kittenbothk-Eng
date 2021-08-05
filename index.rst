@@ -41,7 +41,7 @@ Welcome to the Coding & STEM Sharing Hub of Kittenbot HK, here you will find all
 
 .. toctree::
     :maxdepth: 2
-    :caption: Future Board
+    :caption: FutureBoard
 
     futureboard/index
 

@@ -1,48 +1,48 @@
-# FutureOS操作指引
+# FutureOS Operation Guide
 
-FutureOS是Kittenbot自家開發的未來板操作系統，主要是為了方便各位用家選擇儲存在SD卡上的程序。
+FutureOS is the GUI developed for FutureBoard, its main function is to provide an interface to select which .py file to run.
 
-FutureOS功能：
+FutureOS Functions:
 
-- 儲存並選擇多個程式
-- 一鍵連網
-- 查詢未來板固件版本
-- 回復出廠設定並清除SD卡
+- Storing and selecting .py files from the SD Card.
+- 1-Click Airkiss
+- Checking Firmware Version
+- Factory Reset
 
-## 進入FutureOS
+## Entering FutureOS
 
-當未來板開機時，默認不會進入FutureOS而是會開啟main.py。
+By default, FutureBoard runs main.py if it is found.
 
-當未來板顯示開機動畫時，按實A按鍵不放，未來板就會進入FutureOS介面。
+FutureOS can be entered by pressing A during the opening animation.
 
 ![](./images/futureos1.png)
 
-![](./images/futureos2.png)
+![](./images/futureos2eng.jpg)
 
-## 使用FutureOS
+## FutureOS Functions
 
-按下A按鍵跳到下一個選項，按下B按鍵確認。
+Press A to go to the next option, press B to confirm.
 
-### 選擇程序
+### Select
 
-在選擇程序的畫面中，可以選擇儲存在SD卡上或板上的程式。
+Select and run the .py files from the SD Card.
 
-![](./images/futureos3.jpg)
+![](./images/futureos3eng.jpg)
 
-### 智能配網
+### Network
 
-在智能配網的畫面中，可以選擇各項與網絡有關的選項。
+Various Networking options are here.
 
-![](./images/futureos4.jpg)
+![](./images/futureos4eng.jpg)
 
-### 關於主板
+### About
 
-在關於主板的畫面中，可以查詢關於主板的各項資料。
+Check the firmware version and MAC Address here.
 
-![](./images/futureos5.jpg)
+![](./images/futureos5eng.jpg)
 
-### 恢復出廠
+### Factory Reset
 
-在恢復出廠的選項中，可以將未來板的資料（包括SD卡上的資料）清除，還原出廠時的狀態。
+Factory Reset and clear all files on SD Card.
 
-![](./images/futureos6.jpg)
+![](./images/futureos6eng.jpg)

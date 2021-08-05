@@ -90,14 +90,6 @@ FutureBoard will be a great companion for STEM education.
 - KittenCode
 - MicroPython
 
-## Showcase Videos:
+## FutureBoard Demonstrations Playlist:
 
-### Introduction
-
-[![](./images/video1.png)](https://www.youtube.com/watch?v=PlyQjzOZ3N4)
-
-### FutureBoard Demonstrations
-
-[![](./images/video2.png)](https://www.youtube.com/watch?v=92jPcYZHtWE)
-
-[![](./images/video3.png)](https://www.youtube.com/watch?v=tUIvmvl7esI)
+[![](./images/video2.png)](https://www.youtube.com/playlist?list=PLAujwz8NieMDguS3Bpt4JBrejW0KY0xwT)

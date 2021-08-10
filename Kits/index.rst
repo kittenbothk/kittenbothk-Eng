@@ -29,7 +29,7 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
-    :caption: Robotbit Classroom Kit
+    :caption: Robotbit Classroom Kit *Discontinued Item*
 
     classroom/index
 

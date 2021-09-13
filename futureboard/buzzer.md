@@ -1,50 +1,50 @@
-# 未來板蜂鳴器KittenBlock編程教學
+# Programming with KittenBlock: Buzzer
 
-使用蜂鳴器可以為你的項目添加聲音，增加趣味。
+Buzzers can make your creations more interesting by adding sounds and musics.
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-## 蜂鳴器積木塊
+## Buzzer Blocks
 
-![](./images/buzzer.png)
+![](./images/buzzer_en.png)
 
-### 範例程式：蜂鳴器頻率發聲
+### Sample Program: Buzzer and Frequencies
 
-使用頻率控制蜂鳴器。
+The buzzer can be controlled using frequencies.
 
-頻率與音調對照表可以參考： <https://pages.mtu.edu/~suits/notefreqs.html>
+Refer to this page for more information about frequencies and notes: <https://pages.mtu.edu/~suits/notefreqs.html>
 
-![](./images/buzzer_code1.png)
+![](./images/buzzer_code1en.png)
 
-### 範例程式：蜂鳴器持續發聲
+### Sample Program: Stopping the Buzzer
 
-持續發聲適合製作琴鍵等的項目。
+Press A and the buzzer will sound continuously, press B to stop the sound.
 
-![](./images/buzzer_code2.png)
+![](./images/buzzer_code2en.png)
 
-### 範例程式：蜂鳴器根據音符發聲
+### Sample Program: Playing Notes
 
-播放中八度的所有音調。
+Plays the 8 stand notes.
 
-![](./images/buzzer_code3.png)
+![](./images/buzzer_code3en.png)
 
-### 範例程式：播放旋律
+### Sample Program: Making your own Melodies
 
-- 以c4:2為例子：
-    - C代表音調
-    - 4代表八度
-    - :2代表持續時間
+- Using c4:2 as an example
+    - C is the note played
+    - 4 is the octave
+    - :2 is the duration in beats
     
-![](./images/buzzer_code4.png)
+![](./images/buzzer_code4en.png)
 
-### 範例程式：播放內置音樂
+### Sample Program: Playing Preset Melodies
 
-可以播放預設的旋律，
+Plays a few preset melodies.
 
-![](./images/buzzer_code5.png)
+![](./images/buzzer_code5en.png)
 
-### 範例程式：改變播放速率
+### Sample Program: Affecting the BPM
 
-可以改變播放的速率。
+The BPM slowly increases.
 
-![](./images/buzzer_code6.png)
+![](./images/buzzer_code6en.png)

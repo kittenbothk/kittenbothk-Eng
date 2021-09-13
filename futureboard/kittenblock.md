@@ -1,101 +1,101 @@
-# 未來板Kittenblock編程快速入門
+# FutureBoard and KittenBlock Quick Start Guide
 
-Kittenblock是未來板的主要編程平台。
+KittenBlock is the main programming platform for FutureBoard.
 
-Kittenblock下載: [Kittenblock安裝](../KittenBlock/kittenblockGreen.md)
+Download KittenBlock: [Installing Kittenblock](../KittenBlock/kittenblockGreen.md)
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-## 在Kittenblock中連接未來板
+## Establishing Connection with FutureBoard
 
-要在Kittenblock對未來板編程，我們首先要與未來板建立連接。
+The FutureBoard needs to be connected on KittenBlock before coding.
 
-### 1. 將未來板連接電腦，並打開電源。
+### 1. Connect the FutureBoard to the PC using the provided cable.
 
 ![](./images/usb.png)
 
-### 2. 打開Kittenblock，在硬件欄選擇未來板。
+### 2. Select FutureBoard from the list.
 
-![](./images/kittenblock1.png)
+![](./images/kittenblock1en.png)
 
-### 3. 點擊感嘆號，連接未來板。
+### 3. Click on the exclamation mark and select the FutureBoard.
 
-![](./images/kittenblock2.png)
+![](./images/kittenblock2en.png)
 
-等待數秒，未來板會自動連接Kittenblock。
+The connection should be finished in a few seconds.
 
-![](./images/kittenblock3.png)
+![](./images/kittenblock3en.png)
 
-等待數秒，未來板上會顯示hello world的字句。
+After a few seconds, the text 'hello world' will be displayed on the screen.
 
 ![](./images/kittenblock4.jpg)
 
-假如你使用Windows 7作業系統，系統可能缺乏所需的串口驅動程式。請下載此檔案，手動安裝驅動程式。
+Windows 7 users may require an additional driver, please refer to the last section on this page.
 
-### 4. 點擊積木，測試連接。
+### 4. Testing the connection
 
-點擊Kittenblock的積木，未來板應該會即時作出反應。
+The FutureBoard should react immediately after clicking on any blocks on KittenBlock.
 
-![](./images/kittenblock5.png)
+![](./images/kittenblock5en.png)
 
 ![](./images/kittenblock6.jpg)
 
-假如點擊後沒有反應，請點擊恢復固件。
+You may need to update the firmware if there is no reaction.
 
-![](./images/kittenblock7.png)
+![](./images/kittenblock7en.png)
 
-## 在Kittenblock上編程教學
+## Kittenblock Coding Quick Start
 
-### 1. 感應器類
+### 1. Onboard Sensors
 
-![](./images/sensors.png)
+![](./images/sensors_en.png)
 
-### 2. 音樂類
+### 2. Buzzer
 
-![](./images/buzzer.png)
+![](./images/buzzer_en.png)
 
-### 3. 顯示屏類
+### 3. Display
 
-![](./images/screen.png)
+![](./images/screen_en.png)
 
-### 4. 海龜繪圖類
+### 4. Turtle
 
-![](./images/turtle.png)
+![](./images/turtle_en.png)
 
-### 5. 引腳類
+### 5. Pins
 
-![](./images/gpio.png)
+![](./images/gpio_en.png)
 
-### 6. 彩燈類
+### 6. Neopixel
 
-![](./images/neopixel.png)
+![](./images/neopixel_en.png)
 
-### 7. 咪高峰類
+### 7. Microphone
 
-![](./images/microphone.png)
+![](./images/microphone_en.png)
 
-### 8. WiFi網絡類
+### 8. WiFi & IoT
 
-![](./images/wifi.png)
+![](./images/wifi_en.png)
 
-### 9. 無線通訊類
+### 9. Wireless Radio
 
-![](./images/radio.png)
+![](./images/radio_en.png)
 
-### 10. Robotbit類
+### 10. Robotbit
 
-![](./images/robotbit.png)
+![](./images/robotbit_en.png)
 
-### 11. 大班套件類
+### 11. Basic Sensors
 
-![](./images/sensorkit.png)
+![](./images/sensorkit_en.png)
 
-### 12. 天文台API
+### 12. HK Observatory API
 
-![](./images/hko.png)
+![](./images/hko_en.png)
 
-## Windows 7用家注意事項
+## Windows 7 Drivers
 
-由於Windows 7可能缺乏驅動程式，請下載此檔案，手動安裝驅動程式。
+For Windows 7 users, please download and install the following drivers;.
 
-[未來板Windows 7驅動程式](https://drive.google.com/file/d/1Ldx1baDITzg-bHGvWpbgyQ0NdWDFdGD4/view?usp=sharing)
+[Futureboard Driver Windows 7](https://drive.google.com/file/d/1Ldx1baDITzg-bHGvWpbgyQ0NdWDFdGD4/view?usp=sharing)

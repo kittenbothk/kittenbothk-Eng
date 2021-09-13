@@ -1,47 +1,47 @@
-# 未來板固件更新
+# Firmware Updates
 
-Kittenbot會不定期推出未來版的固件更新，提升功能與穩定性。
+Kittenbot may periodically release firmware updates for the Futureboard to improve functionality and stability.
 
-## 未來版固件更新方法
+## Updating the firmware of Futureboard
 
-首先下載更新軟件。
+Download the firmware flashing tool.
 
-[更新軟件](https://drive.google.com/file/d/1_M4EzolaJWpYXts_FwUIqH8pZWqy-fye/view?usp=sharing)
+[Flashing Tool Download](https://drive.google.com/file/d/1_M4EzolaJWpYXts_FwUIqH8pZWqy-fye/view?usp=sharing)
 
-將檔案解壓縮。
+Unzip the file.
 
 ![](./images/update1.png)
 
-打開flash_download_tool_3.8.5.exe。
+Open flash_download_tool_3.8.5.exe.
 
 ![](./images/update2.png)
 
-選擇Factory Mode。
+Choose Factory Mode.
 
 ![](./images/update3.png)
 
-選擇ESP32 Download Tool。
+Select ESP32 Download Tool.
 
 ![](./images/update4.png)
 
-解鎖用戶界面。
+Unlock the UI.
 
 ![](./images/update5.png)
 
-選擇.bin固件文件。
+Select the firmware file ending with .bin.
 
 ![](./images/update6.png)
 
-確保已剔選固件文件和欄位中文字為0x1000。
+Make sure the memory address is 0x1000 and the check box is ticked.
 
 ![](./images/update7.png)
 
-選擇未來板的串口和選擇1152000波特率，點擊Start直至完成。
+Select the port where the Futureboard is connected and use a baud rate of 1152000, press start and wait.
 
 ![](./images/update8.png)
 
-完成之後按一下未來板背後的重置鍵。
+Press the reset switch on the back of the Futureboard.
 
 ![](./images/resetbutton.jpg)
 
-假如更新後未來板提示你重置未來板，請參考[重置未來板](./reset.md)。
+If the Futureboard says a reset is required, please refer to [Futureboard Reset](./reset.md).

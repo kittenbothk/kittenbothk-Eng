@@ -1,45 +1,49 @@
-# 未來板顯示屏KittenBlock編程教學
+# Programming with KittenBlock: Screen
 
-在未來板的屏幕上，我們也可以做到很多有趣的效果。
+The TFT screen can be used to display various effects.
 
 ![](./images/screen_coordinates.png)
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-## 顯示屏積木塊
+## Screen Blocks
 
-![](./images/screen.png)
+![](./images/screen_en.png)
 
-### 範例程式：屏幕填充
+### Sample Program: Filling Colors
 
-![](./images/screen_code1.png)
+![](./images/screen_code1en.png)
 
-### 範例程式：顯示文字
+### Sample Program: Showing Text
 
-未來板可以顯示繁體中文字。
+The screen can show English and Chinese texts.
 
-![](./images/screen_code2.png)
+![](./images/screen_code2en.png)
 
-### 範例程式：繪畫點與線
+### Sample Program: Pixels and Lines
 
-### 範例程式：繪畫矩形與圓形
+To be added.
 
-注意：矩形的座標為圖形的左上角，圓形的座標為圖形的正中心。
+### Sample Program: Rectangles and Circles
 
-![](./images/screen_code4.png)
+    Note: The coordinates define the top left corner for rectangles, the origin for circles.
 
-### 範例程式：繪畫三角形與多邊形
+![](./images/screen_code4en.png)
 
-### 範例程式：同步模式
+### Sample Program: Triangles and Polygons
 
-關閉同步模式對於顯示動畫會有幫助。不關掉屏幕同步刷新的話，屏幕會不斷閃屏。
+To be added.
 
-![](./images/screen_code6.png)
+### Sample Program: Sync Mode
 
-### 範例程式：顯示圖片
+Disabling Sync Mode helps with smooth animations by eliminating screen flashings。
 
-未來板可以顯示png，bmp與gif圖片。
+![](./images/screen_code6en.png)
 
-請將圖片放在SD卡上。
+### Sample Program: Showing Images
 
-![](./images/screen_code7.png)
+FutureBoard is capable of showing png, bmp or gif files.
+
+Put the images on the SD card.
+
+![](./images/screen_code7en.png)

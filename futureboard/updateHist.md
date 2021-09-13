@@ -1,12 +1,25 @@
-# 未來板固件一覽
+# FutureBoard Firmware History
 
 ----------------
 
-## 最新固件
+## Latest Firmware
 
-更新摘要：原廠固件
+Notes:
 
-固件日期：10/2/2021
+1. Improve SD Card Compatibility
+2. Introduce support for Powerbrick modules
 
-下載地址：[固件下載](http://bit.ly/FutureBoardFW0210)
+Firmware Date: 1/6/2021
+
+[Download](http://bit.ly/FutureBoardFW0601)
+
+## Factory Firmware
+
+Notes:
+
+1. Factory Firmware
+
+Firmware Date: 10/2/2021
+
+[Download](http://bit.ly/FutureBoardFW0210)
 

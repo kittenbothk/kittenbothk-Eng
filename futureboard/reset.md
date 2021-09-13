@@ -1,17 +1,17 @@
-# 重置未來板
+# Resetting the FutureBoard
 
-更新後你可能需要重置未來板，請參考以下步驟重置你的未來板。
+A reset may be required after updating the firmware.
 
-## 重置方法
+## How to Reset
 
-### 1. 按著B鍵不放手。
+### 1. Press and hold B.
 
 ![](./images/bbutton.png)
 
-### 2. 輕按一下背後的重置鍵。
+### 2. Press the reset button once.
 
 ![](./images/resetbutton.jpg)
 
-### 3. 等待2秒然後放開B鍵。
+### 3. Hold B for 2 more seconds and release.
 
-### 4. 未來板完成重置後會顯示開機動畫。
+### 4. The start up animation will load, indicating a successful reset.

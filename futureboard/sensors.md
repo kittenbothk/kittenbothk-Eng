@@ -1,84 +1,82 @@
-# 未來板感應器KittenBlock編程教學
+# Programming with Kittenblock: Onboard Sensors
 
-未來板上有多款感應可以使用。
+There are multiple onboard sensors on Futureboard.
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-## 感應器積木塊
+## Onboard Sensors Blocks
 
-![](./images/sensors.png)
+![](./images/sensors_en.png)
 
-### 範例程式：按鍵使用
+### Sample Program: Buttons
 
-按下按鍵改變屏幕顏色。
+Pressing the buttons changes the color.
 
-![](./images/sensors_code1.png)
+![](./images/sensors_code1en.png)
 
-### 範例程式：溫度與亮度感應器
+### Sample Program: Temperature and Light sensors
 
-實時顯示感應器的數值。
+The sensor values are shown on the screen.
 
-![](./images/sensors_code2.png)
+![](./images/sensors_code2en.png)
 
-### 範例程式：陀螺儀加速度
+### Sample Program: Accelerometer and Gyroscope
 
-加速度的三軸如圖所示。
+Please refer to the following figure for the axis orientation.
 
 ![](./images/gyro.png)
 
-讀取陀螺儀的加速度數值。
+The acceleration values are shown on the screen.
 
-![](./images/sensors_code3.png)
+![](./images/sensors_code3en.png)
 
-### 範例程式：姿勢判斷
+### Sample Program: Gestures
 
-未來板能偵測8種姿勢。
+The Futureboard can detect 8 gestures:
 
-1. 'shake' : 搖晃
-2. 'freefall' : 自由落體
-3. 'tilt_up' : 正立
-4. 'tilt_down' : 倒立
-5. 'tilt_left' : 左傾
-6. 'tilt_right' : 右傾
-7. 'face_up' : 朝上
-8. 'face_down' : 朝下
+1. 'shake' 
+2. 'freefall'
+3. 'tilt_up'
+4. 'tilt_down'
+5. 'tilt_left'
+6. 'tilt_right'
+7. 'face_up'
+8. 'face_down'
 
-搖晃未來板，發出聲音。
+Shake the FutureBoard for a sound.
 
-![](./images/sensors_code4.png)
+![](./images/sensors_code4en.png)
 
-### 範例程式：姿勢事件
+### Sample Program: Gesture Triggers
 
-搖晃未來板，發出聲音。
+Shake the FutureBoard for a sound.
 
-    注意：姿勢事件只能在上傳後可用，即是說要將程式上載到未來板才可以用！
+    Note: Trigger Events only work when the program is uploaded onto the FutureBoard.
 
-![](./images/sensors_code5.png)
+![](./images/sensors_code5en.png)
 
-### 範例程式：讀取姿態角度
+### Sample Program: Gyroscope
 
-姿態角度分別為：橫滾(roll)，旋轉(pitch)。
+Shows the roll and pitch of the FutureBoard.
 
-顯示姿勢的角度。
+![](./images/sensors_code6en.png)
 
-![](./images/sensors_code6.png)
+### Sample Program: Magnetic Sensor
 
-### 範例程式：讀取磁力計數值
+The magnetic sensor has a range of ±800(μT)。
 
-磁力的檢測範圍為±800(μT)。
+The magnetic strengths are shown on FutureBoard.
 
-顯示三軸的磁場強度。
+![](./images/sensors_code7en.png)
 
-![](./images/sensors_code7.png)
-
-    使用磁力計前必須要進行校準。
+    The magnetic sensor needs to be calibrated before use.
 
 ![](./images/calibrate.jpg)
 
-### 範例程式：指南針
+### Sample Program: Compass
 
-指南針的數值是遵從方位，由0~360，0指向北方。
+The compass returns a compass bearing, with 0 indicating North.
 
-顯示當前的方位。
+The compass bearing is shown.
 
-![](./images/sensors_code8.png)
+![](./images/sensors_code8en.png)

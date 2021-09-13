@@ -43,7 +43,7 @@ FutureBoard will be a great companion for STEM education.
 - Screen Type: TFT Full Color
 - Resolution: 160x128
 - Screen Size: 1.8 inches
-- GPIO: 19Pin
+- GPIO: 19Pins
 
 ## Onboard Components
 

@@ -20,37 +20,7 @@ FutureBoard details an tutorials can be found here.
 
 .. toctree::
     :maxdepth: 1
-    :caption: Coding with KittenBlock
+    :caption: Coding QuickStart
 
-    kittenblock
-    sensors
-    buzzer
-    screen
-    turtle
-    pins
-    neopixel
-    wifi
-    microphone
-    radio
-    robotbit
-    sensorkit
-    hko
-    kmb
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Coding wih MicroPython
-
-    micropython
-    api1
-    api2
-    api3
-    api4
-    api5
-    api6
-    api7
-    api8
-    api9
-    api10
-    api11
-    api12
+    kittenblock/index
+    micropython/index

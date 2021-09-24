@@ -1,119 +1,125 @@
-# KOI在KittenBlock編程快速開始
+# KOI Programming with KittenBlock QuickStart
 
-我們可以在Kittenblock對KOI編程，達致KOI與舞台的互動。
+KOI can also be programmed using KittenBlock.
 
-## 連接KOI
+## Connecting the KOI
 
-我們首先需要在Kittenblock與KOI建立連接。
+First, we need to establish connection with the KOI in KittenBlock.
 
-#### 在硬件欄選擇KOI。
+Connect your KOI to the computer using a USB cable.
+
+#### Select KOI from the hardware selector.
 
 ![](./images/connect1.png)
 
-#### 點擊「連接硬件」或感嘆號連接KOI。
+#### Click "Connect" or click the exclamation mark icon.
 
 ![](./images/connect2.png)
 
-#### 點擊「開始連線」。
+#### Click "Connect".
 
 ![](./images/connect3.png)
 
-#### 連接成功。
+#### Wait for a few seconds.
 
 ![](./images/connect4.png)
 
-#### 點擊顯示字串積木，KOI會即時有反應。
+#### Test the connection by clicking on any block.
 
 ![](./images/connect5.png)
 
-## KOI在KittenBlock編程
+## KOI Programming on KittenBlock Guide
 
-## 基本應用
+## Basic Operations
 
 ![](./images/blocks1.png)
 
-### 示範程式
+### Sample Program
 
 ![](./images/code1.png)
 
-## 特徵分類器
+## Image Classifier
 
 ![](./images/blocks2.png)
 
-### 示範程式
+### Sample Program
+
+#### Model Training
 
 ![](./images/code2.png)
 
+#### Image Classification
+
 ![](./images/code3.png)
 
-## 人臉追蹤
+## Face Detection
 
 ![](./images/blocks3.png)
 
-### 示範程式
+### Sample Program
 
 ![](./images/code4.png)
 
-## 幾何圖形識別
+## Geometric Shapes Detection
 
 ![](./images/blocks4.png)
 
-### 示範程式
+### Sample Program
 
 ![](./images/code5.png)
 
-## 顏色追蹤
+## Color Tracking
 
 ![](./images/blocks5.png)
 
-### 示範程式
+### Sample Program
 
 ![](./images/code6.png)
 
-## 條碼識別
+## Barcode and QR code Scanner
 
 ![](./images/blocks6.png)
 
-### 示範程式
+### Sample Program
 
 ![](./images/code7.png)
 
-## 語音辨識
+## Voice Recognition
 
 ![](./images/blocks7.png)
 
-### 示範程式
+### Sample Program
 
 ![](./images/code8.png)
 
-## IOT物聯網
+## IOT
 
 ![](./images/blocks8.png)
 
-### 示範程式
+### Sample Program
 
 ![](./images/code9.png)
 
-## 人臉辨識(需要網絡連線)
+## Face Recognition(Requires Internet Connection)
 
 ![](./images/blocks9.png)
 
-### 示範程式
+### Sample Program
 
 ![](./images/code10.png)
 
 ![](./images/code11.png)
 
-## 疑難排解
+## Troubleshooting
 
-### 1. 連接完KOI之後，點擊積木後KOI沒有反應。
+### 1. Clicking on the blocks has no effect after connecting the KOI.
 
-#### 答：可能固件未更新，點擊上方的升級韌體即可。
+#### The firmware may be outdated, use the firmware update function to undate the firmware.
 
-### 2. KOI在Kittenblock中使用分類器時出現未定義報錯。
+### 2. Running the image classifier returns an undefined error.
 
-#### 答：未運行重置分類器。
+#### The Classifier hasn't been reset, reset the classifier and try again.
 
-### 3. KOI支援將程式上傳到KOI離線運行嗎？
+### 3. Can I upload the program to run on the KOI?
 
-#### 答：支援的。
+#### Yes, the KOI will run the main.py on startup.

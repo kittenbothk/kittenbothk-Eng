@@ -1,21 +1,21 @@
-# 未來板NeoPixel彩燈KittenBlock編程教學
+# Programming with KittenBlock: Neopixel
 
-未來板也支援各款ws2812的燈條，包括板上載有的燈條和外加的燈條。
+Common ws2812 light strips can be controlled by Futureboard.
 
-![](../functional_module/PWmodules/images/kbbanner.png)
+![](../../functional_module/PWmodules/images/kbbanner.png)
 
-## NeoPixel彩燈積木塊
+## NeoPixel Blocks
 
-![](./images/neopixel.png)
+![](../images/neopixel_en.png)
 
-### 範例程式：控制所有彩燈
+### Sample Program: Controlling all lights
 
-    未來板上的彩燈連接在P7。
+    Use P7 for the onboard light strip.
     
-![](./images/neopixel_code1.png)
+![](../images/neopixel_code1en.png)
 
-### 範例程式：控制單一彩燈
+### Sample Program: Controlling individual lights
 
-    未來板上的彩燈連接在P7。
+    Use P7 for the onboard light strip.
     
-![](./images/neopixel_code2.png)
+![](../images/neopixel_code2en.png)

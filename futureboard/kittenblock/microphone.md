@@ -1,23 +1,23 @@
-# 未來板麥克風KittenBlock編程教學
+# Programming with KittenBlock: Microphone
 
-未來板上有一隻MEMS麥克風，連接在未來板的P10。，可以做到語音辨識的效果。
+An MEMS microphone is wired to P10 on the FutureBoard.
 
-![](../functional_module/PWmodules/images/kbbanner.png)
+![](../../functional_module/PWmodules/images/kbbanner.png)
 
-## 麥克風積木塊
+## Microphone Blocks
 
-![](./images/microphone.png)
+![](../images/microphone_en.png)
 
-### 範例程式：獲取聲音強度
+### Sample Program: Noise Level
 
-![](./images/microphone_code1.png)
+![](../images/microphone_code1en.png)
 
-### 範例程式：語音辨識
+### Sample Program: Audio Recognition
 
-未來板現時支援粵語，普通話與英語的語音辨識。
+Cantonese, Mandarin and English are currently supported.
 
-    使用語音辨識需要網絡連接。
+    Audio Recognition requires and Internet Connection.
     
-![](./images/microphone_code2.png)
+![](../images/microphone_code2en.png)
 
 

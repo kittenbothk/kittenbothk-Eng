@@ -1,17 +1,17 @@
-# 未來板無綫通訊KittenBlock編程教學
+# Programming with KittenBlock: Radio
 
-使用未來板的2.4G無綫通訊，可以與其他主控板溝通。
+Futureboard can communicate with each other via the 2.4GHz wireless radio.
 
-![](../functional_module/PWmodules/images/kbbanner.png)
+![](../../functional_module/PWmodules/images/kbbanner.png)
 
-## 無線通訊積木塊
+## Radio Blocks
 
-![](./images/radio.png)
+![](../images/radio.png)
 
-### 範例程式：發送端
+### Sample Program: Transmission Device
 
-![](./images/radio_code1.png)
+![](../images/radio_code1en.png)
 
-### 範例程式：接收端
+### Sample Program: Receiving Device
 
-![](./images/radio_code2.png)
+![](../images/radio_code2en.png)

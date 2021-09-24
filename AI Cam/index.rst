@@ -12,3 +12,7 @@ All information about AI Camera KOI is documented here, including hardware infor
     makecodeQs
     update_firmware/index
     FunctionDemo_MC/index
+    serial/command
+    kittenblock/kittenblock
+    micropython/qs
+    micropython/api

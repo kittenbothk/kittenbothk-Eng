@@ -1,24 +1,24 @@
-# 未來板IoT KittenBlock編程教學
+# Programming with KittenBlock: WiFi & IoT
 
-使用未來板內置的WiFi，可以實現IoT的功能。
+FutureBoard's WiFi capability enables it to fulfill IoT tasks.
 
-![](../functional_module/PWmodules/images/kbbanner.png)
+![](../../functional_module/PWmodules/images/kbbanner.png)
 
-## IoT積木塊
+## IoT Blocks
 
-![](./images/wifi.png)
+![](../images/wifi_en.png)
 
-### 範例程式：連接WiFi與獲取WiFi配置信息
+### Sample Program: WiFi Configurations
 
-![](./images/wifi_code1.png)
+![](../images/wifi_code1en.png)
 
-### 範例程式：MQTT伺服器通訊
+### Sample Program: MQTT Operations
 
-![](./images/wifi_code2.png)
+![](../images/wifi_code2en.png)
 
-### 範例程式：獲取網絡時間
+### Sample Program: Network Time Protocol
 
-![](./images/wifi_code3.png)
+![](../images/wifi_code3en.png)
 
 
 

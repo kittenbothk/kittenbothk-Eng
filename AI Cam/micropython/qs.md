@@ -1,41 +1,41 @@
-# KOI MicroPython編程快速入門(需要SD卡)
+# KOI MicroPython Programming Quickstart
 
-KOI也支援使用MicroPython編程，詳情請參考本教程。
+KOI can be programmed using micropython.
 
 ![](./images/03.png)
 
-## 編程方法1：KittenBlock編程
+## 1. Programming on KittenBlock
 
-### 1. 在KittenBlock連接KOI。
+### Establish a connection
 
-[詳細教學](../kittenblock/kittenblock)
+[Tutorial](../kittenblock/kittenblock)
 
-![](./images/connect4.png)
+![](../kittenblock/images/connect4.png)
 
-### 2. 用KittenBlock的Python編輯器編程。
+### 2. Open the Python editor on KittenBlock.
 
 ![](./images/04.png)
 
-## 編程方法2：KittenCode編程
+## 2: KittenCode
 
-[詳細教學](../../KittenCode/interface)
+[Tutorial](../../KittenCode/interface)
 
 ![](./images/05.png)
 
-## 編程方法3：任何Python編輯器
+## 3: Any Python IDE
 
-### 1. 將SD卡插入KOI然後開機。
+### 1. Insert an SD Card into the KOI.
 
 ![](./images/02.png)
 
-### 2. 將SD卡插入電腦，你會在SD卡上看見一個boot.py的檔案。
+### 2. Open boot.py from the SD Card.
 
 ![](./images/01.png)
 
-### 2.1 或者你可以直接在SD卡新增boot.py檔案，寫入以下代碼。
+### 2.1 Alternatively, manually add a file called boot.py and add the following code.
 
     from fpioa_manager import *
     from koi import *
     # bootup comm code
 
-### 3. 新增一個main.py檔案，在main.py編程。
+### 3. Add a file called main.py and write code on this file.

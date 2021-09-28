@@ -1,50 +1,48 @@
 # KOI MicroPython API
 
-KOI也支援使用MicroPython編程，可以實現純文字的編程。
+Please refer to this page on how to utilize the various functions of the KOI using micropython.
 
-## 導入KOI庫
-
-需要先導入KOI庫才可以使用KOI。
+## Importing KOI library
 
     from koi import *
 
-## 基本應用
+## Basics
 
-### 改變屏幕方向
+### LCD Orientation
 
     lcd.rotation(0)
     
-改變屏幕方向。
+Changes LCD orientation.
 
-- 屏幕方向：0代表前置鏡頭，1代表橫置鏡頭，2代表後置鏡頭。
+- 0 for front facing, 1 for back facing.
 
-### 顯示字串
+### Drawing Strings
 
     drawString(x, y, string, delay)
     
-在屏幕顯示字串。
+Draws a string on the LCD.
 
-- x和y代表文字左上角的座標。
-- string代表字串。
-- delay代表延時，字串顯示時間。
+- X, Y: Coordinates represent top left corner of string.
+- String: String.
+- Delay: Text duration.
 
-### 截圖和顯示
+### Taking and showing pictures
 
     img.save("s1.jpg")
     loadImage("s1.jpg")
     
-用KOI拍照和顯示相片。
+Taking and showing pictures.
 
-### 獲取按鍵數值
+### Getting button values
 
     btnAValue()
     btnBValue()
     
-獲取A和B按鍵數值。
+Obtains button values.
 
-- 當按下時返回數值為1，否則為0。
+- Returns 1 when pressed, 0 when not pressed.
 
-### 示範程式
+### Sample Program
 
     #/bin/python
     from koi import *
@@ -53,107 +51,107 @@ KOI也支援使用MicroPython編程，可以實現純文字的編程。
     
     x = 0
     
-    lcd.rotation(2)     #改變屏幕方向
+    lcd.rotation(2)     #Change LCD orientation
     sleep(1)
-    lcd.rotation(0)     #改變屏幕方向
+    lcd.rotation(0)     #Change LCD orientation
     sleep(1)
-    drawString(5,5,"hello world",500)       #顯示字串
+    drawString(5,5,"hello world",500)       #Show String
     while True:
-      img=sensor.snapshot()     #屏幕刷新
-      lcd.display(img)          #屏幕刷新
+      img=sensor.snapshot()     #Enables screen refresh
+      lcd.display(img)          #Enables screen refresh
       if btnAValue() == 1:
-        img.save("s1.jpg")      #KOI拍照
+        img.save("s1.jpg")      #Takes picture
       if btnBValue() == 1:
-        loadImage("s1.jpg")     #顯示相片
+        loadImage("s1.jpg")     #Shows picture
         
-## 特徵分類器
+## Image Classifier
 
-### 初始化分類器
+### Initiate Classifier
 
     cla.reset()
     
-初始化特徵分類器。
+Initiates the classifier.
 
-### 特徵提取
+### Feature extraction
 
     cla.addImage("tag")
 
-提取特徵添加標籤。
+Extract features and add tag.
 
-- tag代表物件標籤，最多支援40張圖片，40件物件。
+- tag: object name, maximum 40 items, 40 pictures
 
-### 執行特徵分類
+### Image Classifying
 
     cla.getImageTag()
     
-運行一次分類器。
+Classify the image, returns tag.
 
-### 分類器返回觸發事件
+### Classifier Event Triggers
 
     while cla.getImageTag()=='tag':
         pass
     
-分類器返回標籤為tag時觸發事件。
+Triggers an event on classification.
 
-### 保存和載入分類器
+### Saving and Loading Classifier Models
 
     cla.save("abc.json")
     cla.load("abc.json")
     
-保存分類器模型和載入分類器模型。
+Save or load classifier models.
 
-### 示範程式
+### Sample Program
 
-    #模型訓練與保存
+    #Model Training
     from koi import *
     
     x=0
     
-    cla.reset()
+    cla.reset()     #Init classifier
     
     while True:
-        img=sensor.snapshot()   #屏幕刷新
-        lcd.display(img)        #屏幕刷新
+        img=sensor.snapshot()   #Enables screen refresh
+        lcd.display(img)        #Enables screen refresh
         if btnAValue():
-            cla.addImage('apple')       #提取特徵添加標籤
+            cla.addImage('apple')       #Add tag
         if btnBValue():
-            cla.addImage('orange')      #提取特徵添加標籤
+            cla.addImage('orange')      #Add tag
         if btnAValue() and btnBValue():
-            cla.save('fruit.json')      #保存分類器
+            cla.save('fruit.json')      #Save Model
         time.sleep(0.1)
 
 ---
-    #模型載入與運行
+    #Model Running
     from koi import *
     
     x=0
-    cla.reset()         #初始化分類器
-    cla.load("fruit.json")      #載入分類器
+    cla.reset()         #init classifier
+    cla.load("fruit.json")      #Load Model
     
     while True:
-        img=sensor.snapshot()   #屏幕刷新
-        lcd.display(img)        #屏幕刷新
+        img=sensor.snapshot()   #Enables screen refresh
+        lcd.display(img)        #Enables screen refresh
         if btnAValue():
-            tag=cla.getImageTag()       #執行特徵分類
+            tag=cla.getImageTag()       #Classify
             if tag=='orange':
                 print('I like oranges.')
             elif tag=='apple':
                 print('Apples are healthy.')
         time.sleep(0.1)
     
-## 人臉追蹤
+## Face Detection
 
-### 載入人臉模型
+### Load Face Model
 
     yoloinit()
 
-載入人臉模型。
+Load face model.
 
-### 運行人臉追蹤
+### Track face
 
     trackface()
 
-運行人臉追蹤。
+Tracks the face, returns a list.
 
 ### 示範程式
 
@@ -163,11 +161,11 @@ KOI也支援使用MicroPython編程，可以實現純文字的編程。
     x = 0
     face_prop=[0,0]
     
-    yoloinit()          #載入人臉模型
+    yoloinit()          #Load Face model
     while True:
-        img=sensor.snapshot()   #屏幕刷新
-        lcd.display(img)        #屏幕刷新
-        r = trackface()         #人臉追蹤
+        img=sensor.snapshot()   #Enables screen refresh
+        lcd.display(img)        #Enables screen refresh
+        r = trackface()         #Tracks the face
         if r:
             is_face=1
             drawString(5,5,r,500)
@@ -182,114 +180,114 @@ KOI也支援使用MicroPython編程，可以實現純文字的編程。
             is_face=0
         time.sleep(0.5)
     
-## 幾何圖形識別
+## Geometric Shape Tracking
 
-### 線條追蹤
+### Track Lines
 
     findLines()
     
-追蹤畫面裡的線條。返回一個列表。
+Find lines, returns a list.
 
-### 圓形追蹤
+### Track Circles
     
     findCircle(threshold)
     
-追蹤畫面裡的圓形。
+Find circles, returns a list.
 
-- threshold代表臨界值，越高越難追蹤，一般建議4000。返回一個列表。
+- threshold: adjust this value to adjust sensitivity, default is 4000.
 
-### 矩形追蹤
+### Track Rectangles
 
     findRect(threshold)
     
-追蹤畫面裡的矩形。
+Find rectangles, returns a list.
 
-- threshold代表臨界值，越高越難追蹤，一般建議4000。返回一個列表。
+- threshold: adjust this value to adjust sensitivity, default is 4000.
 
-### 示範程式
+### Sample Program
 
     from koi import *
 
     x=0
     
     while True:
-        img=sensor.snapshot()   #屏幕刷新
-        lcd.display(img)        #屏幕刷新
+        img=sensor.snapshot()   #Enables screen refresh
+        lcd.display(img)        #Enables screen refresh
         if btnAValue() and btnBValue():
-            line_prop = findLines()     #線條追蹤
+            line_prop = findLines()     #Find lines
             print(line_prop[0])
             time.sleep(0.1)
         elif btnAValue():
-            circle_prop = findCircle(4000)    #圓形追蹤
+            circle_prop = findCircle(4000)    #Find Circles
             print(circle_prop[0])
             time.sleep(0.1)
         elif btnBValue():
-            rect_prop = findRects(4000)       #矩形追蹤
+            rect_prop = findRects(4000)       #Find Rectangles
             print(rect_prop[0])
             time.sleep(0.1)
             
-## 顏色追蹤
+## Color Blob Tracking
 
-### 顏色校正
+### Calibrates Color
 
     colorCalibrate()
     
-校正要追蹤的顏色。
+Calibrates color for tracking.
 
-### 追蹤色塊
+### Finds Color Blob
 
     findBlob()
     
-追蹤色塊。
+Finds color blob, returns a list.
 
-### 追蹤巡線
+### Finds Line
 
     findLinearRegress()
     
-追蹤巡線。
+Finds line, returns a list.
 
-### 示範程式
+### Sample Program
 
     from koi import *
     
     x=0
     
     while True:
-        img=sensor.snapshot()   #屏幕刷新
-        lcd.display(img)        #屏幕刷新
+        img=sensor.snapshot()   #Enables screen refresh
+        lcd.display(img)        #Enables screen refresh
         if btnAValue():
-            colorCalibrate()        #顏色校正
+            colorCalibrate()        #Color Calibration
             time.sleep(0.1)
         elif btnBValue():
-            blob_prop=findBlob()        #追蹤色塊   
+            blob_prop=findBlob()        # Finds Color Blob  
             print(blob_prop[0])
             time.sleep(0.1)
         elif btnAValue() and btnBValue():
-            line_prop=findLinearRegress()       #追蹤巡線
+            line_prop=findLinearRegress()       #Finds Line
             print(line_prop[0])
             time.sleep(0.1)
             
-## 條碼識別
+## Barcode and QR code Recognition
 
-### QR Code識別
+### QR Code Recognition
 
     findQRCode()
 
-識別畫面裡的QR Code。
+Finds QR code, returns content of QR code.
 
-### Barcode識別
+### Barcode Recognition
 
     findBarcode()
 
-識別畫面裡的Barcode。
+Finds Barcode, returns content of barcode.
 
-### AprilTag識別
+### AprilTag Recognition
 
     findAprilTag()
 
-識別畫面裡的AprilTag。
+Finds Apriltag, returns content of Apriltag.
 
-### 示範程式
+### Sample Program
 
     from koi import *
 
@@ -298,192 +296,204 @@ KOI也支援使用MicroPython編程，可以實現純文字的編程。
     lcd.rotation(2)
     
     while True:
-        img=sensor.snapshot()   #屏幕刷新
-        lcd.display(img)        #屏幕刷新
+        img=sensor.snapshot()   #Enables screen refresh
+        lcd.display(img)        #Enables screen refresh
         if btnAValue():
-            barcode=findBarCode()       #Barcode識別
+            barcode=findBarCode()       #Barcode
             print(barcode[0][4])
             time.sleep(0.1)
         if btnBValue():
-            qrcode=findQRCode()     #QR Code識別
+            qrcode=findQRCode()     #QR Code
             print(qrcode[0][4])
             time.sleep(0.1)
         if btnAValue() and btnBValue():
-            april=findAprilTag()        #AprilTag識別
+            april=findAprilTag()        #AprilTag
             print(april[0])
             time.sleep(0.1)
             
-## 語音辨識
+## Voice Recognition
 
-### 錄音與播放
+### Record and Play
 
     speech.recordWav('hi.wav')
     speech.playWav('hi.wav')
     
-錄製與播放wav音頻檔。
+Records and plays a wav file.
 
-### 設立噪音基準
+### Calibrates Noise Level
 
     speech.noiseTap()
 
-設立噪音基準，語音辨識前必須運行。
+Calibrates the noise level, mandatory before voice recognition.
 
-### 增加命令詞
+### Adds Voice Command
 
     speech.addCommand('hi')
     
-增加語音辨識命令詞。
+Adds a voice command.
 
-### 運行語音辨識
+### Recognizes Voice Command
 
     speech.getCommand()
     
-運行語音辨識，返回命令詞。
+Recognizes and returns the command.
 
-### 參考程式
+### Saves Voice Model
 
-    # 錄音與播放
+    speech.saveClass('name.json')
+
+Saves the voice model.
+
+### Loads Voice Model
+
+    speech.loadClass('name.json')
+
+Loads the voice model.
+
+### Sample Program
+
+    # Rec and Play
     from koi import *
 
     x=0
 
     while True:
-        img=sensor.snapshot()   #屏幕刷新
-        lcd.display(img)        #屏幕刷新
+        img=sensor.snapshot()   #Enables screen refresh
+        lcd.display(img)        #Enables screen refresh
         if btnAValue():
-            speech.recordWav('hi.wav')      #錄製wav音頻檔
+            speech.recordWav('hi.wav')      #Record
             time.sleep(0.1)
         if btnBValue():
-            speech.playWav('hi.wav')        #播放wav音頻檔
+            speech.playWav('hi.wav')        #Play
             time.sleep(0.1)
             
 ---    
     
-    #語音辨識
+    #Voice Recognition
     from koi import *
     
     x=0
     
-    speech.noiseTap()       #設立噪音基準
+    speech.noiseTap()       #Calibrate
     
     while True:
-        img=sensor.snapshot()   #屏幕刷新
-        lcd.display(img)        #屏幕刷新
+        img=sensor.snapshot()   #Enables screen refresh
+        lcd.display(img)        #Enables screen refresh
         if btnAValue():
-            speech.addCommand("hello")      #增加命令詞
+            speech.addCommand("hello")      #Add command
             time.sleep(0.1)
         if btnBValue():
-            speech.addCommand("bye")    #增加命令詞
+            speech.addCommand("bye")    #Add command
             time.sleep(0.1)
         if btnAValue() and btnBValue():
-            print(speech.getCommand())      #運行語音辨識
+            print(speech.getCommand())      #Recognize
             time.sleep(0.1)
             
-## 物聯網
+## IoT
 
-### 連接網絡
+### Connecting to WiFi
 
     wifi.joinap(str("apname"),str("password"))
     
-連接WiFi網絡。
+Connects to WiFi.
     
-### IP地址
+### IP Address
 
     wifi.ipaddr()
     
-獲取IP地址。
+Return IP address.
 
-### 連接MQTT伺服器
+### Connects to MQTT Broker.
 
     wifi.mqtthost(host)
     
-連接MQTT伺服器。
+Connects to MQTT Broker.
 
-- host代表伺服器地址。
+- host: MQTT host address
 
-### 訂閱話題
+### Subscribes Topic
 
     wifi.mqttsub(topic)
 
-訂閱MQTT話題。
+Subscribes a topic on MQTT.
   
-- topic代表話題。
+- topic: topic to subscribe
 
-### 發佈信息
+### Publishes Message to Topic
 
     wifi.mqttsub(topic, message)
     
-發佈信息到話題。
+Publishes a message to topic.
 
-- topic代表話題。
-- message代表信息。
+- topic: topic to publish.
+- message: message to publish.
 
-### 讀取訊息
+### Reads MQTT message
 
     wifi.mqttread(topic)
-    
-讀取話題信息。
 
-- topic代表話題。
+Reads topic message.
 
-### 參考程式
+- topic: topic to read from, returns a list.
+
+### Sample Program
 
     from koi import *
     
-    wifi.joinap(str("apname"),str("password"))      #連接網絡
+    wifi.joinap(str("apname"),str("password"))      #WiFi
     time.sleep(2)
-    print(wifi.ipaddr())    #獲取IP地址
+    print(wifi.ipaddr())    #IP
     time.sleep(2)
-    wifi.mqtthost("127.0.0.1")      #連接MQTT伺服器
-    wifi.mqttsub("test01")      #訂閱話題
+    wifi.mqtthost("127.0.0.1")      #MQTT
+    wifi.mqttsub("test01")      #Subscribe
     
     while True:
-        img=sensor.snapshot()    #屏幕刷新
-        lcd.display(img)         #屏幕刷新
+        img=sensor.snapshot()    #Enables screen refresh
+        lcd.display(img)         #Enables screen refresh
         if btnAValue():
-            wifi.mqttpub("test01","hello world")    #發佈信息
+            wifi.mqttpub("test01","hello world")    #Publish
         if btnBValue():
-            msg=wifi.mqttread("test01")     #讀取訊息
+            msg=wifi.mqttread("test01")     #Read
             print("Message: "+msg[0])
             print("Topic: "+msg[1])
 
-## 人臉辨識
+## Face Recognition
 
-### 運行一次人臉辨識
+### Face Recognition
 
     face=baiduFace(op=1)
 
-運行一次人臉辨識。(需要網絡連線)
+Runs face recognition once.(WiFi required)
     
-### 人臉參數
+### Face Parameters
 
     face['parameter']
 
-獲取人臉辨識的參數。
+Returns result from face recognition.
 
-parameter代表參數，可以獲得的參數有：
+parameter:
 
-- face_token：人臉特徵碼
-- location: 人臉的位置信息，包括座標和大小等
-- gender：性別
-- expression：表情
-- angle：人臉傾斜角度
-- mask：人臉是否有佩戴口罩
-- age：年齡
+- face_token: unique face token for each face
+- location: coordinates, size of face
+- gender: gender of person
+- expression: emotion of person
+- angle: tilt angle of face
+- mask: true if person is wearing a mask
+- age: age of person
     
-### 添加人臉到組別
+### Adding Faces to a Group
 
     baiduFace(op=2, token=face['face_token'], group="group", name="name")
     
-將人臉的名稱添加到組別。
+Adds a face to the face group.
     
-### 在組別搜尋人臉
+### Searching Faces from a Group
 
     baiduFace(op=3, token=face['face_token'], group="group")
     
-在組別搜尋人臉，返回人臉的名字和準確度。
+Searches a face from a group, returns name and confidence.
 
-### 參考程式
+### Sample Program
 
     from koi import *
     
@@ -491,34 +501,34 @@ parameter代表參數，可以獲得的參數有：
     time.sleep(2)
     
     while True:
-        img=sensor.snapshot()   #屏幕刷新
-        lcd.display(img)        #屏幕刷新
+        img=sensor.snapshot()   #Enables screen refresh
+        lcd.display(img)        #Enables screen refresh
         if btnAValue():
             face=baiduFace(op=1)
             time.sleep(5)
-            baiduFace(op=2, token=face['face_token'], group="group", name="name")   #添加人臉到組別
+            baiduFace(op=2, token=face['face_token'], group="group", name="name")   #add face
         if btnBValue():
             face=baiduFace(op=1)
             time.sleep(5)
-            result=baiduFace(op=3, token=face['face_token'], group="name")  #在組別搜尋人臉
+            result=baiduFace(op=3, token=face['face_token'], group="name")  #search face
             print("Name: "+faceResult['result']['user_list'][0]['user_id'])
             print("Confidence: "+str(faceResult['result']['user_list'][0]['score']))
             
 ## Q&A
 
-### 問：為什麼我KOI運行時候畫面會十分卡？
+### KOI's display is laggy.
 
-#### 答：因為你沒有刷新屏幕，只需在程式無限運行的部分中加入刷新屏幕的程式就可以了。
+#### Please enable the screen refresh.
 
-### 問：為什麼我上傳程式到KOI之後，KOI沒有即時反應的呢？
+### KOI does not run the program I uploaded.
 
-#### 答：因為KOI還在運行原本的程式，只需要重啟KOI(KOI左下的按鍵)就可以了。
+#### Please restart the KOI because it was still running the original main.py.
 
-### 問：KOI的4PIN接口可以用來連接其他模組嗎？
+### Can I connect other modules using the 4-Pin Port?
 
-#### 答：不可以的，接口只是作連接Microbit之用。
+#### No, this port is for connecting to Micro:bit only.
 
-### 問：為什麼KOI的屏幕方向反了？
+### KOI's LCD is reversed.
 
-#### 答：屏幕方向不會自動歸回前置鏡頭，所以假如你之前轉變過KOI屏幕方向的話，必須重新設置方向。
+#### Please use the LCD orientation command.
 

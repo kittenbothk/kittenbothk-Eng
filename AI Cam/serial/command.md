@@ -1,18 +1,16 @@
-# KOI指令API
+# KOI Serial Command API
 
-假如你想使用KOI的指令碼，你可以參照以下列表。你只需要使用這些指令就可以與KOI溝通。
+KOI can be used alongside any MCU capable of serial communication by sending a serial command, this section contains all the command available for the KOI.
 
-此處提供了Microbit的例子，假如你使用其他主控板請自行修改程式。
+The examples provided are in micropython for the Micro:bit, please adapt for the MCU of your preference.
 
+## Get Firmware Version
 
+Command: K0
 
-## 返回版本號
+Function: Gets the firmware version of KOI
 
-指令：K0
-
-作用：獲得KOI目前的版本
-
-返回：K0  目前版本號
+Returns: K0 (Firmware Version)
 
     from microbit import *
     
@@ -31,15 +29,15 @@
     if len(ret_list)>1:
         display.scroll(ret_list[1])
 
-## 拍照與顯示圖片
+## Taking and Showing Photos
 
-指令：K1 name.jpg
+Command: K1 (name.jpg)
 
-作用：拍照將圖片儲存
+Function: Saves the picture with file name.
 
-指令：K2 name.jpg
+Command: K2 (name.jpg)
 
-作用：顯示圖片
+Function: Shows the picture with filename
 
     from microbit import *
 
@@ -53,13 +51,13 @@
         if button_b.is_pressed():
             uart.write('K1 pic.jpg\r\n')
             
-## KOI按鍵
+## KOI Button Status
 
-指令：K3
+Command: K3
 
-作用：KOI按鍵檢測
+Function: Returns the button status of the 2 buttons
 
-返回：K3  A按鍵狀態  B按鍵狀態
+Returns: K3  (Button A Status)  (Button B Status)
 
     from microbit import *
 
@@ -81,11 +79,11 @@
             display.scroll('B:')
             display.scroll(ret_list[2])
             
-## 顯示字串
+## Display String
 
-指令：K4 x y delay string
+Command: K4 x y delay string
 
-作用：在座標(x,y)顯示字串，delay代表時長
+Function: Displays sting at (x,y) with a duration determined by delay
 
     from microbit import *
 
@@ -94,11 +92,16 @@
     sleep(1000)
     uart.write('K4 0 0 1000 KOI\r\n')
     
-## 改變屏幕方向
+## Change LCD Orientation
 
-指令：K6 direction
+Command: K6 direction
 
-作用：改變屏幕方向，0代表前置；1代表橫置；2代表後置
+Function: Changes LCD orientation
+
+Direction: 
+- 0: Front Camera
+- 1: Back Camera
+
 
     from microbit import *
 
@@ -114,13 +117,13 @@
         if button_b.is_pressed():
             uart.write('K6 1\r\n')
             
-## 圓形辨認
+## Circle Tracking
 
-指令：K10 threshold
+Command: K10 threshold
 
-作用：辨認圓形，threshold代表臨界值，一般推薦2000(臨界值越高越難辨認，誤差會更少)
+Function: Tracks the circle on screen, adjust threshold to the sensitivity, the default is 4000.
 
-返回：K10  圓心X  圓心Y  半徑
+Returns: K10  (Center X)  (Center Y)  (Radius)
 
     from microbit import *
 
@@ -145,13 +148,13 @@
                 display.scroll('R:')
                 display.scroll(ret_list[3])
                 
-## 矩形辨認
+## Rectangle Tracking
 
-指令：K11 threshold
+Command: K11 threshold
 
-作用：辨認矩形，threshold代表臨界值，一般推薦6000(臨界值越高越難辨認，誤差會更少)
+Function: Tracks the rectangle on screen, adjust threshold to the sensitivity, the default is 4000.
 
-返回：K11  中心X  中心Y  長  闊
+Returns: K11  (Center X)  (Center Y)  (width)  (Height)
 
     from microbit import *
 
@@ -178,17 +181,17 @@
                 display.scroll('H:')
                 display.scroll(ret_list[4])
                 
-## 線條追蹤
+## Linear Regression
 
-指令：K16 color
+Command: K16 color
 
-作用：追蹤線條前必須要校正顏色，color代表校正的顏色，可以隨意更改
+Function: Calibrates to the color of the line, color refers to color name, the color name is just for reference.
 
-指令：K12 color
+Command: K12 color
 
-作用：追蹤線條，color代表追蹤的顏色
+Function: Tracks the line using linear regression and the given color name.
 
-返回：K12  X1座標  Y1座標  X2座標  Y2座標
+Returns: K12  (X1)  (Y1)  (X2)  (Y2)
 
     from microbit import *
 
@@ -221,17 +224,17 @@
                     display.scroll(ret_list[4])
                 sleep(2000)
 
-## 顏色追蹤
+## Color Blob Tracking
 
-指令：K16 color
+Command: K16 color
 
-作用：追蹤顏色前必須要校正顏色，color代表校正的顏色，可以隨意更改
+Function: Calibrates to the color of the blob, color refers to color name, the color name is just for reference.
 
-指令：K15 color
+Command: K15 color
 
-作用：追蹤顏色，color代表追蹤的顏色
+Function: Tracks the color blob with the given color name.
 
-返回：K5  X座標  Y座標  長  闊
+Returns: K5  (X)  (Y)  (W)  (H)
 
     from microbit import *
 
@@ -264,19 +267,19 @@
                     display.scroll(ret_list[4])
                 sleep(2000)
                 
-## 辨識二維碼，條碼
+## Read QR Code and Barcode
 
-指令：K20
+Command: K20
 
-作用：辨識二維碼
+Function: Reads a QR Code
 
-返回：K20  內容
+Returns: K20  (Content)
 
-指令：K22
+Command: K22
 
-作用：辨識條碼
+Function: Reads a Barcode
 
-返回：K22  內容
+Returns: K22 (Content)
 
     from microbit import *
     
@@ -300,23 +303,23 @@
                 display.scroll(ret_list[1])
                 ret_list=[]
 
-## 人臉追蹤
+## Face Detection
 
-指令：K30
+Command: K30
 
-作用：加載人臉模型，必須加載才可以追蹤人臉
+Function: Loads the face model for face detection.
 
-指令：K31
+Command: K31
 
-作用：人臉追蹤
+Function: Face Detection for once
 
-返回：K0  ID  人臉X  人臉Y
+Returns: K0  (ID)  (X)  (Y)
 
-指令：K32
+Command: K32
 
-作用：人臉數目
+Function: Gets the number of detected faces
 
-返回：K32  人臉數目
+Returns: K32  (faces)
 
     from microbit import *
     
@@ -341,21 +344,21 @@
                 display.scroll(ret_list[3])
                 ret_list=[]
                      
-## 分類器
+## Image Classifier
 
-指令：K40
+Command: K40
 
-作用：初始化模型分類器
+Function: Initiates the Image Classifier
 
-指令：K41 className
+Command: K41 className
 
-作用：特徵提取  className代表這物件的名字
+Function: Adds a class with className as tag
 
-指令：K42
+Command: K42
 
-作用：特徵辨認
+Function: Image Classify
 
-返回：K42  className
+Returns: K42  (className)
     
     from microbit import *
     
@@ -383,9 +386,9 @@
                 display.scroll(ret_list[1])
                 ret_list=[]
 
-指令：K43 name.json
+Command: K43 name.json
 
-作用：儲存模型分類器  可以儲存為json或bin
+Function: Saves the model to the SD Card, file extension can be json or bin.
 
     from microbit import *
     
@@ -405,9 +408,9 @@
             uart.write('K41 paper\r\n')
             sleep(500)        
             
-指令：K44 name
+Command: K44 name.json
 
-作用：載入分類器
+Function: Loads the model from the SD card.
 
     from microbit import *
     
@@ -433,15 +436,15 @@
                     display.scroll(ret_list[1])
                     ret_list=[]
                 
-## WiFi與物聯網
+## WiFi and IoT
 
-指令：K50 SSID password
+Command: K50 SSID password
 
-作用：加入wifi網絡，SSID代表網絡名稱，password代表網絡密碼
+Function: Connects to a WiFi network with the given SSID and password.(Only 2.4GHz network is supported)
 
-指令：K54
+Command: K54
 
-作用：KOI顯示IP地址
+Command: Displays the IP Address on the screen
 
     from microbit import *
     
@@ -455,25 +458,25 @@
             uart.write('K54\r\n')
             sleep(500)
 
-指令：K51 mqttHost clientID port [username] [password]
+Command: K51 mqttHost clientID port [username] [password]
 
-作用：連接MQTT伺服器，請按照平台的指示填寫資料
+Function: Connects to a MQTT Broker.
     
-    假如你使用的平台不需要username和password，則不需要輸入。
+    Username and password are only needed if the broker requires authentication.
 
-指令：K52 topic
+Command: K52 topic
 
-作用：訂閱MQTT話題
+Function: Subscribes a MQTT topic
 
-指令：K53 topic message
+Command: K53 topic message
 
-作用：對MQTT話題發布訊息
+Function: Publishes a message to a MQTT topic
 
-指令：K55 topic
+Command: K55 topic
 
-作用：讀取MQTT話題
+Function: Reads data from a MQTT topic
 
-返回：K55  話題內容
+Returns: K55  (message)
         
     from microbit import *
     
@@ -502,15 +505,15 @@
                         display.scroll(ret_list[1])
                         ret_list=[]
 
-## 錄音與播放
+## Recording and Playback
 
-指令：K61 sound.wav
+Command: K61 sound.wav
 
-作用：錄取一段大約3秒的錄音並儲存下來
+Function: Records a sound clip and saves to SD card
 
-指令：K62 sound.wav
+Command: K62 sound.wav
 
-作用：播放音頻檔
+Function: Playbacks a sound clip from SD card.
     
     from microbit import *
     
@@ -525,21 +528,21 @@
             uart.write('K62 hello.wav\r\n')
             sleep(500)
 
-## 語音辨識
+## Voice Recognition
 
-指令：K63 
+Command: K63 
 
-作用：設定噪音基準，語音辨認前必須運行
+Function: Calibrates the noise level
 
-指令：K64 id
+Command: K64 id
 
-作用：添加命令詞，id就是命令詞的名字，成功會顯示綠色
+Function: Adds a command with id as tag.
     
-指令：K65
+Command: K65
 
-作用：命令詞辨認，成功會顯示綠色
+Function: Recognizes a command.
 
-返回：K65  命令詞id
+Returns: K65  (id)
 
     from microbit import *
     
@@ -567,9 +570,9 @@
                 display.scroll(ret_list[1])
                 ret_list=[]
                 
-指令：K66 sound.json
+Command: K66 sound.json
 
-作用：儲存語音模型
+Function: Saves the model to the SD Card.
 
     from microbit import *
     
@@ -590,9 +593,9 @@
             uart.write('K64 bye\r\n')
             sleep(500)
     
-指令：K67 sound.json
+Command: K67 sound.json
 
-作用：讀取語音模型
+Function: Loads a model from SD Card.
 
     from microbit import *
     
@@ -618,23 +621,23 @@
                 ret_list=[]
 
 
-## 人臉辨識
+## Face Recognition
 
-指令：K75 
+Command: K75 
 
-作用：運行人臉辨識(需要網絡連接)
+Function: Runs face recognition. (Internet Connection Required)
 
-返回：K75  人臉token  年齡  性別  戴口罩  表情
+Returns: K75  (token)  (age)  (gender)  (masked)  (emotion)
 
-指令：K76 token groupName faceName
+Command: K76 token groupName faceName
 
-作用：將這個人臉token命名為faceName並加到人臉組別groupName(需要網絡連接)
+Function: Adds the face token into a group with a given name.
     
-指令：K77 token groupName
+Command: K77 token groupName
 
-作用：在人臉組別用人臉token在人臉組別groupName搜尋(需要網絡連接)
+Function: Searches a person in a group with a face token.
 
-返回：K77  faceName
+Returns: K77  faceName
 
     from microbit import *
     
@@ -676,11 +679,11 @@
             sleep(500)
             faceHandle('search')
                 
-## 文字轉語音
+## Text to Speech
 
-指令：K78 string
+Command: K78 string
 
-作用：將string變成語音讀出來（支援英文單字或數字，需要網絡連接）
+Function: Text to speech. (Internet Connection Required)
 
     from microbit import *
     
@@ -700,11 +703,11 @@
             uart.write('K78 9999\r\n')
             sleep(500)
             
-## 停止KPU(分類器與人面追蹤)
+## KPU Stop
 
-指令：K98
+Command: K98
 
-作用：停止KPU(分類器與人面追蹤)
+Function: Stops the KPU(Image Classifier/Face Detection)
 
     from microbit import *
     
@@ -718,11 +721,11 @@
             uart.write('K98\r\n')
             sleep(500)
 
-## KOI重啟
+## KOI Restart
 
-指令：K99
+Command: K99
 
-作用：KOI重啟
+Function: Restarts the KOI
 
     from microbit import *
     

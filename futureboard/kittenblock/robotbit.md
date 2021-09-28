@@ -6,34 +6,32 @@ The FutureBoard can be used with a Robotbit to add powered functions to your cre
 
 ![](../../functional_module/PWmodules/images/kbbanner.png)
 
-## Robotbit積木塊
+## Robotbit Blocks
 
-![](../images/robotbit.png)
+![](../images/robotbit_en.png)
 
-### 範例程式：驅動電機
+### Sample Program: Motors
 
-![](../images/robotbit_code1.png)
+![](../images/robotbit_code1en.png)
 
-### 範例程式：驅動步進電機
+### Sample Program: Stepper Motor
 
-![](../images/robotbit_code2.png)
+![](../images/robotbit_code2en.png)
 
-### 範例程式：驅動一般舵機
+### Sample Program: Servos
 
-![](../images/robotbit_code3.png)
+![](../images/robotbit_code3en.png)
 
-### 範例程式：驅動GeekServo  9G舵機
+### Sample Program: GeekServo 9G
 
-![](../images/robotbit_code4.png)
+![](../images/robotbit_code4en.png)
 
 ### 範例程式：驅動GeekServo 2KG舵機
 
-![](../images/robotbit_code5.png)
+![](../images/robotbit_code5en.png)
 
-## Robotbit注意事項
+## Note:
 
-假如程序含有Robotbit的積木但未來板又未有插進Robotbit，未來板會顯示以下警告，阻止程序運行。
-
-請將未來板插上Robotbit後重試。
+The FutureBoard will stop running any code that has Robotbit code when it is not installedon a Robotbit.
 
 ![](../images/robotbitError.jpg)

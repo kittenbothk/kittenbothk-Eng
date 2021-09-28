@@ -1,13 +1,13 @@
-# 未來板天文台API KittenBlock編程教學
+# Programming with KittenBlock: HK Observatory
 
-在Kittenblock上，未來板已經有積木讓大家能夠輕易取得香港天文台API的開放數據。(需要網絡連線)
+It is easy to get the open data from HK Observatory using the provided blocks in KittenBlock.(Internet Connection Required)
 
 ![](../functional_module/PWmodules/images/kbbanner.png)
 
-## 天文台API積木塊：
+## HKO API Blocks
 
-![](./images/hko.png)
+![](../images/hko_en.png)
 
-### 範例程式：顯示當前天氣
+### Sample Program: Getting the Current Weather
 
-![](./images/hko_code1.png)
+![](../images/hko_code1en.png)

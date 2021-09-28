@@ -1,59 +1,59 @@
-# 未來板Powerbrick魔塊 KittenBlock編程教學
+# Programming with KittenBlock: Powerbrick
 
-未來板也可以使用Powerbrick的各款魔塊，例如RFID魔塊，MP3魔塊，顏色手勢魔塊等。
+The Powerbrick modules are compatible to use with FutureBoard.
 
 ![](../../functional_module/PWmodules/images/kbbanner.png)
 
-## Powerbrick積木塊
+## Powerbrick Blocks
 
-### AB按鍵魔塊
+### AB Button Module
 
 ![](../images/pw_buttons.png)
 
-![](../images/pw_buttons_code.png)
+![](../images/pw_buttons_codeen.png)
 
-### IR巡線魔塊
+### IR Tracker Module
 
 ![](../images/pw_linefollow.png)
 
-![](../images/pw_linefollow_code.png)
+![](../images/pw_linefollow_codeen.png)
 
-### MP3魔塊
+### MP3 Module
 
 ![](../images/pw_mp3.png)
 
-![](../images/pw_mp3_code.png)
+![](../images/pw_mp3_codeen.png)
 
-### RFID魔塊
+### RFID Module
 
 ![](../images/pw_rfid.png)
 
-![](../images/pw_rfid_code.png)
+![](../images/pw_rfid_codeen.png)
 
-### 顏色手勢魔塊
+### Color&Gesture Module
 
 ![](../images/pw_colorgesture.png)
 
-![](../images/pw_colorgesture_code.png)
+![](../images/pw_colorgesture_codeen.png)
 
-### 環境溫濕度魔塊
+### Environment Temperature and Humidity Module
 
 ![](../images/pw_dht11.png)
 
-![](../images/pw_dht11_code.png)
+![](../images/pw_dht11_codeen.png)
 
-### 土壤濕度魔塊與雨滴水位魔塊
+### Soil Moisture and Water Level Sensor
 
 ![](../images/pw_soil&water.png)
 
-![](../images/pw_soil&water_code.png)
+![](../images/pw_soil&water_codeen.png)
 
-### RGB魔塊
+### RGB Module
 
 ![](../images/pw_led.png)
 
-![](../images/pw_led_code.png)
+![](../images/pw_led_codeen.png)
 
-## 注意事項
+## Note:
 
-由於未來板不能夠使用Armourbit，請使用Robotbit連接各種魔塊。
+FutureBoard is not compatible with Armourbit, please use the PowerBrick modules with a RobotBit.

@@ -4,7 +4,7 @@ KittenBlock is the main programming platform for FutureBoard.
 
 Download KittenBlock: [Installing Kittenblock](../KittenBlock/kittenblockGreen.md)
 
-![](../functional_module/PWmodules/images/kbbanner.png)
+![](../../functional_module/PWmodules/images/kbbanner.png)
 
 ## Establishing Connection with FutureBoard
 
@@ -12,23 +12,23 @@ The FutureBoard needs to be connected on KittenBlock before coding.
 
 ### 1. Connect the FutureBoard to the PC using the provided cable.
 
-![](./images/usb.png)
+![](../images/usb.png)
 
 ### 2. Select FutureBoard from the list.
 
-![](./images/kittenblock1en.png)
+![](../images/kittenblock1en.png)
 
 ### 3. Click on the exclamation mark and select the FutureBoard.
 
-![](./images/kittenblock2en.png)
+![](../images/kittenblock2en.png)
 
 The connection should be finished in a few seconds.
 
-![](./images/kittenblock3en.png)
+![](../images/kittenblock3en.png)
 
 After a few seconds, the text 'hello world' will be displayed on the screen.
 
-![](./images/kittenblock4.jpg)
+![](../images/kittenblock4.jpg)
 
 Windows 7 users may require an additional driver, please refer to the last section on this page.
 
@@ -36,63 +36,63 @@ Windows 7 users may require an additional driver, please refer to the last secti
 
 The FutureBoard should react immediately after clicking on any blocks on KittenBlock.
 
-![](./images/kittenblock5en.png)
+![](../images/kittenblock5en.png)
 
-![](./images/kittenblock6.jpg)
+![](../images/kittenblock6.jpg)
 
 You may need to update the firmware if there is no reaction.
 
-![](./images/kittenblock7en.png)
+![](../images/kittenblock7en.png)
 
 ## Kittenblock Coding Quick Start
 
 ### 1. Onboard Sensors
 
-![](./images/sensors_en.png)
+![](../images/sensors_en.png)
 
 ### 2. Buzzer
 
-![](./images/buzzer_en.png)
+![](../images/buzzer_en.png)
 
 ### 3. Display
 
-![](./images/screen_en.png)
+![](../images/screen_en.png)
 
 ### 4. Turtle
 
-![](./images/turtle_en.png)
+![](../images/turtle_en.png)
 
 ### 5. Pins
 
-![](./images/gpio_en.png)
+![](../images/gpio_en.png)
 
 ### 6. Neopixel
 
-![](./images/neopixel_en.png)
+![](../images/neopixel_en.png)
 
 ### 7. Microphone
 
-![](./images/microphone_en.png)
+![](../images/microphone_en.png)
 
 ### 8. WiFi & IoT
 
-![](./images/wifi_en.png)
+![](../images/wifi_en.png)
 
 ### 9. Wireless Radio
 
-![](./images/radio_en.png)
+![](../images/radio_en.png)
 
 ### 10. Robotbit
 
-![](./images/robotbit_en.png)
+![](../images/robotbit_en.png)
 
 ### 11. Basic Sensors
 
-![](./images/sensorkit_en.png)
+![](../images/sensorkit_en.png)
 
 ### 12. HK Observatory API
 
-![](./images/hko_en.png)
+![](../images/hko_en.png)
 
 ## Windows 7 Drivers
 

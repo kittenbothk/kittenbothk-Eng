@@ -1,14 +1,17 @@
-# 未來板KMB到站時間API KittenBlock編程教學
+# Programming with KittenBlock: KMB ETA
 
-在KittenBlock上，已經為大家準備好獲取九巴巴士到站信息的積木。(需要網絡連線)
+KMB's Estimated Time of Arrival for bus routes can be obtained via KittenBlock.(Internet Connection Required)
 
-![](../functional_module/PWmodules/images/kbbanner.png)
+![](../../functional_module/PWmodules/images/kbbanner.png)
 
-## KMB到站時間API積木塊
+## KMB ETA API Blocks
 
-![](./images/kmb.png)
+    KMB's ETA API needs to deal with a lot of data, so it may take upwards of a minute to process the data depending on the length of the route.
 
-### 範例程式：獲取到站時間
+![](../images/kmb_en.png)
 
-![](./images/kmb_code1.png)
+### Sample Program: Getting ETA of Next Bus
 
+    KMB's ETA API needs to deal with a lot of data, so it may take upwards of a minute to process the data depending on the length of the route.
+
+![](../images/kmb_code1en.png)

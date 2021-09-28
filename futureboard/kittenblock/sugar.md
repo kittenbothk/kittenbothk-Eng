@@ -1,9 +1,10 @@
-# 未來板Sugar方塊 KittenBlock編程教學
+# Programming with KittenBlock: Sugar
 
+Sugar modules are compatible to use wih FutureBoard.
 
 ![](../../functional_module/PWmodules/images/kbbanner.png)
 
-## Sugar方塊積木塊
+## Sugar Blocks
 
 ![](../images/sugar1.png)
 

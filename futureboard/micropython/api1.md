@@ -1,50 +1,48 @@
-# 未來板MicroPython編程1：屏幕
+# Programming with MicroPython: Screen and Display
 
-可以在這裡找到未來板的MicroPython編程的教學。
+## Import FutureBoard Library
 
-## 導入未來板庫
-
-需要先導入未來板的庫才可以使未來板的硬件。
+Import the Library to make use of its functions.
 
     from future import *
     
-## 01：屏幕類
+## 01: TFT
 
-### 1. 屏幕填充
+### 1. Screen fill
 
     screen.fill(color)
     
-color參數為顏色，有3種用法：
+color can be used in a few ways:
 
-1. RGB數值，0～255。例如(255,100,0)。
-2. 明度，0~255。例如100。
-3. 內置顏色，包括RED、YELLOW、PINK、WHITE、GREEN、BLUE、PURPLE、CYAN、BLACK。
+1. RGB, 0~255, for example (255,100,0).
+2. Grey scale, 0~255, for example 100.
+3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
 
-### 2. 繪製像素點
+### 2. Draw pixel
 
     screen.pixel(x,y,color)
     
-x，y參數為座標，分別為0~159和0~127。
+(x,y) refer to the coordinates, ranges from 0~159 and 0~127 respectively.
     
-color參數為顏色，有3種用法：
+color can be used in a few ways:
 
-1. RGB數值，0～255。例如(255,100,0)。
-2. 明度，0~255。例如100。
-3. 內置顏色，包括RED、YELLOW、PINK、WHITE、GREEN、BLUE、PURPLE、CYAN、BLACK。
+1. RGB, 0~255, for example (255,100,0).
+2. Grey scale, 0~255, for example 100.
+3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
 
-### 3. 繪製線條
+### 3. Draw lines
 
     screen.line(x1,y1,x2,y2,color)
     
-x1，y1，x2，y2參數為座標，x和y分別為0~159和0~127。x1，y1和x2，y2分別指線條的兩端。
+(x1,y1) and (x2, y2) are the coordinates of the line, x and y range from 0~159 and 0~127 respectively.
 
-color參數為顏色，有3種用法：
+color can be used in a few ways:
 
-1. RGB數值，0～255。例如(255,100,0)。
-2. 明度，0~255。例如100。
-3. 內置顏色，包括RED、YELLOW、PINK、WHITE、GREEN、BLUE、PURPLE、CYAN、BLACK。
+1. RGB, 0~255, for example (255,100,0).
+2. Grey scale, 0~255, for example 100.
+3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
 
-### 1~3使用範例：
+### Sample Program for 1~3
 
     from future import *
     
@@ -56,75 +54,75 @@ color參數為顏色，有3種用法：
     
 -----------------------
 
-### 4. 繪製矩形
+### 4. Draw Rectangles
 
     screen.rect(x,y,w,h,color,fill)
     
-x，y參數為座標，分別為0~159和0~127。座標為矩形的左上角。
+(x,y) is the top left corner coordinates of the rectangle, x and y range from 0~159 and 0~127 respectively.
 
-w和h分別為闊和長。
+Parameters w and h are the width and height.
     
-color參數為顏色，有3種用法：
+color can be used in a few ways:
 
-1. RGB數值，0～255。例如(255,100,0)。
-2. 明度，0~255。例如100。
-3. 內置顏色，包括RED、YELLOW、PINK、WHITE、GREEN、BLUE、PURPLE、CYAN、BLACK。
+1. RGB, 0~255, for example (255,100,0).
+2. Grey scale, 0~255, for example 100.
+3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
 
-fill為填充參數，1代表填充，0代表不填充。默認為0。
+Use fill to select whether to fill the shape with a color, 1 for true, 0 for false.
 
-### 5. 繪製圓形
+### 5. Draw Circles
 
     screen.circle(x,y,r,color,fill)
     
-x，y參數為座標，分別為0~159和0~127。座標為圓形的圓心。
+(x,y) is the center coordinates of the circle, x and y range from 0~159 and 0~127 respectively.
 
-r為半徑。
+Parameter r is the radius.
     
-color參數為顏色，有3種用法：
+color can be used in a few ways:
 
-1. RGB數值，0～255。例如(255,100,0)。
-2. 明度，0~255。例如100。
-3. 內置顏色，包括RED、YELLOW、PINK、WHITE、GREEN、BLUE、PURPLE、CYAN、BLACK。
+1. RGB, 0~255, for example (255,100,0).
+2. Grey scale, 0~255, for example 100.
+3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
 
-fill為填充參數，1代表填充，0代表不填充。默認為0。
+Use fill to select whether to fill the shape with a color, 1 for true, 0 for false.
 
-### 6. 繪製三角形
+### 6. Draw Triangles
 
     screen.triangle(x1,y1,x2,y2,x3,y3,color,fill)
     
-x1，y1，x2，y2，x3，y3參數為座標，x和y分別為0~159和0~127。x1，y1、x2，y2和x3，y3分別指三角形的三個角。
+(x1,y2), (x2,y2), (x3,y3) represent the coordinates of the three corners of a triangle, x and y range from 0~159 and 0~127 respectively.
 
-color參數為顏色，有3種用法：
+color can be used in a few ways:
 
-1. RGB數值，0～255。例如(255,100,0)。
-2. 明度，0~255。例如100。
-3. 內置顏色，包括RED、YELLOW、PINK、WHITE、GREEN、BLUE、PURPLE、CYAN、BLACK。
+1. RGB, 0~255, for example (255,100,0).
+2. Grey scale, 0~255, for example 100.
+3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
 
-fill為填充參數，1代表填充，0代表不填充。默認為0。
+Use fill to select whether to fill the shape with a color, 1 for true, 0 for false.
 
-### 7. 繪製多邊形
+### 7. Draw Polygons
 
     screen.polygon(x,y,sides,r,th,rot,color,fill)
     
-x，y參數為座標，分別為0~159和0~127。座標為多邊形的中心點。
+(x,y) is the center coordinates of the polygon, x and y range from 0~159 and 0~127 respectively.
 
-sides參數代表邊的數量，不能低於3。
+Parameter side denotes the number of sides of the polygon, cannot be lower than 3.
 
-r參數代表圖形的半徑。
+Parameter is the radius of the polygon.
 
-th代表邊的粗幼，默認為3。
+Parameter th is the thickness of the border.
 
-rot代表圖形的旋轉，默認為0。
+Parameter rot is the rotation angle of the polygon.
 
-color參數為顏色，有3種用法：
+color can be used in a few ways:
 
-1. RGB數值，0～255。例如(255,100,0)。
-2. 明度，0~255。例如100。
-3. 內置顏色，包括RED、YELLOW、PINK、WHITE、GREEN、BLUE、PURPLE、CYAN、BLACK。
+1. RGB, 0~255, for example (255,100,0).
+2. Grey scale, 0~255, for example 100.
+3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
 
-fill為填充參數，1代表填充，0代表不填充。默認為0。
+Use fill to select whether to fill the shape with a color, 1 for true, 0 for false.
 
-### 4~7使用範例
+### Sample Program for 4~7
 
     from future import *
     
@@ -136,35 +134,35 @@ fill為填充參數，1代表填充，0代表不填充。默認為0。
 
 ------------
 
-### 8. 顯示英文字串
+### 8. Show English Strings
 
     screen.text(text, x=0, y=0, ext=1, color=255)
     
-x，y參數為座標，分別為0~159和0~127。座標為文字的左上角。    
+(x,y) is the top left corner coordinates of the text, x and y range from 0~159 and 0~127 respectively.
 
-ext參數為文字大小，默認為1=8x8像素。
+Parameter ext represents the size of the text, 1 for 8x8, 2 for 16x16 and et-cetera.
 
-color參數為顏色，有3種用法：
+color can be used in a few ways:
 
-1. RGB數值，0～255。例如(255,100,0)。
-2. 明度，0~255。例如100。
-3. 內置顏色，包括RED、YELLOW、PINK、WHITE、GREEN、BLUE、PURPLE、CYAN、BLACK。
+1. RGB, 0~255, for example (255,100,0).
+2. Grey scale, 0~255, for example 100.
+3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
 
-### 9. 顯示中文字串
+### 9. Show Chinese Strings
 
     screen.textCh(text, x=0, y=0, ext=1, color=255)
-    
-x，y參數為座標，分別為0~159和0~127。座標為文字的左上角。    
 
-ext參數為文字大小，默認為1=12x12像素。
+(x,y) is the top left corner coordinates of the text, x and y range from 0~159 and 0~127 respectively.
 
-color參數為顏色，有3種用法：
+Parameter ext represents the size of the text, 1 for 8x8, 2 for 16x16 and et-cetera.
 
-1. RGB數值，0～255。例如(255,100,0)。
-2. 明度，0~255。例如100。
-3. 內置顏色，包括RED、YELLOW、PINK、WHITE、GREEN、BLUE、PURPLE、CYAN、BLACK。
+color can be used in a few ways:
 
-### 8~9 使用範例
+1. RGB, 0~255, for example (255,100,0).
+2. Grey scale, 0~255, for example 100.
+3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
+
+### Sample Program for 8~9
 
     from future import *
     
@@ -173,39 +171,40 @@ color參數為顏色，有3種用法：
     
 ----------------
 
-### 10. 顯示圖片
+### 10. Showing Images
 
     screen.loadBmp(path, x=0, y=0)
     screen.loadPng(path, x=0, y=0)
     screen.loadGif(path, x=0, y=0)
     
-x，y參數為座標，分別為0~159和0~127。座標為圖片的左上角。 
+(x,y) is the top left corner coordinates of the image, x and y range from 0~159 and 0~127 respectively.
 
-### 10 使用範例
+### Sample Program for 10
 
-    # 顯示png
+    # Showing png
     from future import *
     screen.loadPng('hmP.png')
     
-    # 顯示gif
+    # Showing gif
     from future import *
     while 1:
         screen.loadgif('hmG.gif')
         
-### 11. 屏幕同步刷新
+### 11. Screen Sync
 
     screen.sync = val
     
-val參數為狀態，0=關閉，1=開啟。默認為開啟。
+Enables or disables the screen sync, 1 for enabled and 0 for disabled.
 
-### 12. 屏幕刷新
+### 12. Screen Refresh
 
     screen.refresh()
     
-### 11~12 使用範例
+### Sample Program for 11~12
 
-    # 關閉屏幕刷新可以消除閃屏
+    # Screen flashing can be eliminated by turning off screen sync and manually refresh screen
     from future import *
+    screen.sync = 0
     x=0
     while True:
       screen.fill((0, 0, 0))

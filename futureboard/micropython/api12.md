@@ -1,25 +1,25 @@
-# 未來板MicroPython編程12：取得開放API數據
+# Programming with MicroPython: urequests & ujson
 
-未來板可以用urequests與ujson存取各款API的開放數據，詳情可以參閱urequests與ujson的官方教學。
+Please refer to official documentation for urequests and ujson for more details.
 
-## 導入未來板庫
+## Import FutureBoard Library
 
-需要先導入未來板的庫才可以使未來板的硬件。
+Import the Library to make use of its functions.
 
     from future import *
     
-## 08:  取得開放API數據
+## 08:  urequests & ujson
 
-## 導入HTTP GET庫
+## Import urequests and ujson
 
     import urequests
     import ujson
     
-### 1. 取得數據
+### 1. Get Data from API
 
     r=urequests.get(api_url)
     data=ujson.loads(r.content)
     
-請在api_url裏填入API的GET指令。
+Paste the GET request url of the API into the api_url parameter.
 
-請自行在data裡面抽出自己所要的數據。
+Extract the data from parameter data.

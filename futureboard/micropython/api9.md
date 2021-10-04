@@ -1,43 +1,43 @@
-# 未來版MicroPython編程9：I2S麥克風
+# Programming with MicroPython: I2S Microphone
 
-## 導入未來板庫
+## Import FutureBoard Library
 
-需要先導入未來板的庫才可以使未來板的硬件。
+Import the Library to make use of its functions.
 
     from future import *
     
-## 09: I2S麥克風
+## 09: I2S Microphone
 
-## 導入麥克風庫
+## Import I2S Library
 
     import audio
     
-### 1. 初始化I2S麥克風
+### 1. Initiate the Microphone
 
     au=audio.Audio()
     
-### 2. 獲取聲音強度
+### 2. Get Loudness
 
     au.loudness()
     
-返回聲音強度，範圍由0~4095。
+Returns the detected loudness, values ranges from 0~4095.
 
-### 3. 雲端語音辨識
+### 3. Voice Recognition
 
     au.recognize(sec=1,vid=1737)
 
-進行語音辨識，需要網絡連線。
+Voice Recognition requires Internet Connection.
 
-sec為語音長度，建議為1~3秒。
+Set the recognition length in seconds with parameter sec, recommended length is 1~3.
 
-vid為語言，現時支援4種語言：
+4 languages are supported currently, put the code into the vid parameter.
 
 1. 1537:普通話
 2. 1737:英文
 3. 1637:粵語
 4. 1837:四川話
 
-### 聲音強度範例程式
+### Sample Program: Loudness
 
     import time
     import audio
@@ -47,7 +47,7 @@ vid為語言，現時支援4種語言：
       time.sleep(0.1)
       print(au.loudness())
   
-### 語音辨識範例程式
+### Sample Program
 
     #/bin/python
     from future import *

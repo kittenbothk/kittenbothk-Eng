@@ -1,62 +1,62 @@
-# 未來板MicroPython編程11：RobotBit
+# Programming with MicroPython: Robotbit
 
-## 導入未來板庫
+## Import FutureBoard Library
 
-需要先導入未來板的庫才可以使未來板的硬件。
+Import the Library to make use of its functions.
 
     from future import *
     
 ## 11: RobotBit
 
-## 導入RobotBit庫
+## Import Robotbit Library
 
     import robotbit
     
-### 1. 初始化Robotbit擴展板
+### 1. Initiate a Robotbit Object
 
     rb=robotbit.RobotBit()
     
-### 2. 控制電機
+### 2. Motor Speed
 
     rb.motor(index,speed)
     
-index為電機序號，1~4。
-speed代表速度，-255~255。
+Parameter index indicates the port of motor, value range is 1~4.
+Parameter speed controls the speed, value range is -255~255.
 
-### 3. 停止所有電機
+### 3. Stop All Motors
 
     rb.motorStopAll()
     
-### 4. 控制180度舵機
+### 4. Control Servos
 
     rb.servo(index,degree)
     
-index可以填1~8代表接口S1~S8。
-degree為角度，0~180度。
+Parameter index indicates the servo port, value range is S1~S8.
+Parameter angle controls the angle, value range is 0~180.
 
-### 5. 控制GeekServo  9G舵機
+### 5. Control GeekServo 9G Servos
 
     rb.geekServo9g(index,degree)
     
-index可以填1~8代表接口S1~S8。
-degree為角度，-45~225度。
+Parameter index indicates the servo port, value range is S1~S8.
+Parameter angle controls the angle, value range is -45~225.
 
-### 6. 控制GeekServo  2K舵機
+### 6. Control GeekServo 2K Servos
 
     rb.geekServo2kg(index,degree)
     
-index可以填1~8代表接口S1~S8。
-degree為角度，0~360度。
+Parameter index indicates the servo port, value range is S1~S8.
+Parameter angle controls the angle, value range is 0~360.
 
-### 7. 轉動雙步進電機
+### 7. Twin Stepper Motors
 
     rb.stepperDual(degree1,degree2)
     
-    degree1和degree2分別代表M1和M2。
+    Parameters degree1 and degree2 control M1 and M2 respectively.
     
-### 8. 轉動步進電機
+### 8. Single Stepper Motor
 
     rb.stepperDegree(index,degree)
     
-index為電機序號，1~2。
-degree為角度。
+Use index to select the motor port, value range is 1~2.
+Parameter degree controls the angle.

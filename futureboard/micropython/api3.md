@@ -1,54 +1,54 @@
-# 未來板MicroPython編程3：蜂鳴器
+# Programming with MicroPython: Buzzer
 
-## 導入未來板庫
+## Import FutureBoard Library
 
-需要先導入未來板的庫才可以使未來板的硬件。
+Import the Library to make use of its functions.
 
     from future import *
     
-## 03: 蜂鳴器類
+## 03: Buzzer
 
-### 1. 蜂鳴器頻率發聲
+### 1. Emitting a frequency
 
     buzzer.tone(freq,d=0.5)
     
-使用頻率控制蜂鳴器。
+Emits a sound using a frequency.
 
-freq為頻率，頻率與音調對照表可以參考： <https://pages.mtu.edu/~suits/notefreqs.html>
+Refer to this document for the relation of frequencies and notes: <https://pages.mtu.edu/~suits/notefreqs.html>
 
-d為持續時間(秒)，預設為0.5秒，d=-1時會持續發聲。
+Parameter d denotes the duration in seconds, use -1 for non-stop.
 
-### 2. 蜂鳴器根據音符發聲
+### 2. Emitting a note
 
     buzzer.note(note,beats=1)
-    
-note為音調，0~130，總共12個8度，12的倍數為該8度的C音。
 
-beats為持續拍數，預設為1。
+Emits a sound using a note, value ranges from 0~130, with a total of 12 octaves, multiples of 12 are the C note of that octave.
 
-### 3. 蜂鳴器休止
+Parameter beats controls the length, default is 1.
+
+### 3. Resting
 
     buzzer.rest(beats=1)
     
-beats為持續拍數，預設為1。
+Parameter beats controls the length, default is 1.
 
-### 4. 蜂鳴器設置bpm
+### 4. Setting the bpm
 
     buzzer.bpm(bpm=120)
     
-bpm為拍速，預設為120。
+Sets the bpm(beats per minute) of the buzzer, default is 120.
 
-### 5. 蜂鳴器停止
+### 5. Stopping the buzzer
 
     buzzer.stop()
 
-### 6. 蜂鳴器播放旋律
+### 6. Playing a melody
 
     buzzer.melody(m)
     
-m為旋律，可以使用內建旋律或自訂旋律。
+Define your own melody or use the predefined melodies with m.
 
-內建旋律:
+Predefined Melodies:
 
     CORRECT = "c6:1 f6:2 "
     NOTICE = "d5:1 b4:1 "
@@ -74,9 +74,9 @@ m為旋律，可以使用內建旋律或自訂旋律。
     POWER_UP = "g4:1 c5 e g:2 e:1 g:3 "
     POWER_DOWN = "g5:1 d# c g4:2 b:1 c5:3 "
     
-自訂旋律:
+Defining Melodies:
 
-- 以c4:2為例子：
-    - C代表音調
-    - 4代表八度
-    - :2代表持續時間
+- with c4:2 as an example:
+    - C is the note
+    - 4 is the octave
+    - :2 is the length

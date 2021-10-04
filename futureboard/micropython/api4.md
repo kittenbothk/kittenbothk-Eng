@@ -1,80 +1,82 @@
-# 未來板MicroPython編程4：海龜繪圖
+# Programming with Micropython: Turtle
 
-## 導入未來板庫
+## Import FutureBoard Library
 
-需要先導入未來板的庫才可以使未來板的硬件。
+Import the Library to make use of its functions.
 
     from future import *
     
-## 04: 海龜繪圖類
+## 04: Turtle
 
-### 1. 設置海龜顏色
+### 1. Setting the Pen Color
 
     turtle.fillcolor(color)
-    
-color為RGB數值，0～255。例如(255,100,0)。
 
-### 2. 海龜前進
+Turtle accepts RGB value for color, value range is 0~255. Example: (255,100,0)
+
+### 2. Moving the Pen Forward
 
     turtle.forward(steps)
     
-steps為前進步數。
+Moves the pen forward by the number of steps.
     
-### 3. 海龜左轉／右轉
+### 3. Turning the Pen
 
     turtle.left(angle)
     turtle.right(angle)
     
-angle為角度。
+Turns the pen to the left or right by the degree of angle.
 
-### 4. 海龜設定向前角度
+### 4. Setting the Heading
 
     turtle.setheading(angle)
     
-angle為角度。
+Sets the heading to be the angle.
 
-### 5. 海龜移動到某一點
+### 5. Moves the Pen to a Point
 
     turtle.goto(x,y)
     
-x，y參數為座標，分別為0~159和0~127。
+Moves the pen to a point (x,y).
 
-### 6. 海龜設定座標
+### 6. Moves the Pen along an axis
 
     turtle.setx(x)
     turtle.sety(y)
     
-x，y參數為座標，分別為0~159和0~127。
+Moves the pen to a point on the x or y axis.
 
-### 7. 海龜繪畫點
+### 7. Draws a Dot
     
     turtle.dot(d)
     
-d參數為直徑。
+Draws a dot with the diameter of d.
 
-### 8. 海龜繪畫圓圈
+### 8. Draws a Circle
 
     turtle.circle(r,angle)
-    
-r參數為半徑。angle參數為角度，360為之一個完整的圓圈。
 
-### 9. 海龜設定填充
+Draws an arc with the given radius and angle, a 360 degree arc results in a full circle.
+
+### 9. Sets a Fill Area
 
     turtle.begin_fill()
     turtle.end_fill()
+
+Begins and ends the fill area.
+
+    Note: The screen of the FutureBoard is below the requirements for the Turtle MicroPython Library, there may be unintended results with the fill function.
     
-    #注意：由於未來板的硬件像素未達到海龜之需求，使用填充可能會有bug，無法正常填充。
-    
-### 10. 海龜落筆抬筆
+### 10. Sets the Pen Up or Down
 
     turtle.pendown()
     turtle.penup()
 
-### 11. 海龜清屏
+### 11. Clears the Screen
 
     turtle.clear()
     
-### 海龜使用範例
+### Sample Program
 
     from future import *
 

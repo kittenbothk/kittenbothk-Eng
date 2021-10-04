@@ -1,35 +1,35 @@
-# 未來版MicroPython編程8：網絡時間
+# Programming with MicroPython: Network Time Protocol
 
-## 導入未來板庫
+## Import FutureBoard Library
 
-需要先導入未來板的庫才可以使未來板的硬件。
+Import the Library to make use of its functions.
 
     from future import *
     
-## 08:  網絡時間
+## 08:  Network Time Protocol
 
-## 導入網絡時間庫
+## Import NTP Library
 
     from machine import RTC
     import ntptime
     
-### 1. 初始化時鐘
+### 1. Initiate the Real Time Clock
 
     rtc = RTC()
 
-### 2. 同步網絡時間
+### 2. Sync with Network Time
 
     ntptime.settime(zone=8)
     
-zone為時區，默認為8(北京上海香港時間)。
+Parameter zone is for GMT, default is 8.
     
-### 3. 獲取時間
+### 3. Get the current time
 
     rtc.datetime()
     
-返回一組列表，格式為年、月、日、星期、時、分、微秒。
+Returns a list containing the current time, [year, month, day, week, hour, minute, second].
 
-### 網絡時間範例程式
+### Sample Program
 
     #/bin/python
     from future import *

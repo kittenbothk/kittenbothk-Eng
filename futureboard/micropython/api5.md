@@ -1,45 +1,45 @@
-# 未來板MicroPython編程5：引腳
+# Programming with MicroPython: GPIO
 
-## 導入未來板庫
+## Import FutureBoard Library
 
-需要先導入未來板的庫才可以使未來板的硬件。
+Import the Library to make use of its functions.
 
     from future import *
     
-## 05: 引腳類
+## 05: GPIO
 
-### 1. 引腳初始化
+### 1. Initiate Pin Mode
 
     MeowPin(pin,mode)
     
-pin為引腳，例如P1，P2。
+Initiates the GPIO with a mode, use P1~P16 for parameter pin.
 
-mode為模式，有4種模式：
-1. 數位輸入：'IN'
-2. 數位輸出：'OUT' 
-3. 模擬輸入：'ANALOG'  
-4. 模擬輸出：'PWM'
+Possible values for parameter mode:
+1. Digital Input: 'IN'
+2. Digital Output: 'OUT' 
+3. Analog Input: 'ANALOG'  
+4. Analog Output: 'PWM'
 
-### 2. 數位讀取
+### 2. Read a Digital Value
 
     getDigital() 
 
-### 2使用範例
+### Sample Program
 
     from future import *
-    # 數位讀取=['P0','P1','P2','P3','P8','P9','P12','P13','P14','P15','P16']
+    # Digital Read Pins=['P0','P1','P2','P3','P8','P9','P12','P13','P14','P15','P16']
     p0 = MeowPin('P0','IN')
     print(p0.getDigital())
 
-### 3. 數位寫入
+### 3. Write a Digital Value
 
     setDigital(val)
     
-### 3使用範例
+### Sample Program
 
     from future import *
     import time
-    # 數位寫入=['P0','P1','P2','P6','P7','P8','P10','P13','P3','P9','P14','P15','P16']
+    # Digital Write Pins=['P0','P1','P2','P6','P7','P8','P10','P13','P3','P9','P14','P15','P16']
     p0 = MeowPin('P0','OUT')
     while 1:
         p0.setDigital(1)
@@ -47,32 +47,30 @@ mode為模式，有4種模式：
         p0.setDigital(0)
         time.sleep(1)
         
-### 4. 模擬讀取
+### 4. Read an Analog Value
 
     getAnalog(width)
     
-width為解像度，可以選擇10位(0~1023)或12位(0~4095)。默認為12位。
+FutureBoard has a 12-bit ADC, use 10 for 10-bit values and 12 for 12-bit values, default is 12.
 
-### 4使用範例
+### Sample Program
 
     from future import *
-    # 模擬讀取=['P0','P1','P4','P12', 'P3', 'P14', 'P15', 'P16']
+    # Analog Read Pins=['P0','P1','P4','P12', 'P3', 'P14', 'P15', 'P16']
     
     p0 = MeowPin('P0','ANALOG')
     print(p0.getAnalog())
     print(p0.getAnalog(width=10))
     
-### 5. 模擬寫入
+### 5. Write an Analog Value
 
     setAnalog(val)
-    
-可以寫入0~1023。
 
-### 5使用範例
+### Sample Program
     
     from future import *
     import time
-    # 模擬寫入=['P0','P1','P2','P3','P8','P13','P14','P15','P16']
+    # Analog Write Pins=['P0','P1','P2','P3','P8','P13','P14','P15','P16']
     
     p0 = MeowPin('P0','PWM')
     while 1:

@@ -1,34 +1,33 @@
-# 未來板MicroPython編程2：板載感應器
+# Programming with MicroPython: Onboard Sensors
 
-## 導入未來板庫
+## Import FutureBoard Library
 
-需要先導入未來板的庫才可以使未來板的硬件。
+Import the Library to make use of its functions.
 
     from future import *
 
-## 02: 板載感應器類
+## 02: Onboard Sensors
 
-### 1. 按鍵
+### 1. Buttons
 
     sensor.btnValue(btn)
     
-btn代表按鍵，a或b。返回True或False。
+Parameter btn represents A or B button, accepted values are a, b.
 
-### 2. 亮度感應器
+### 2. Light Sensor
 
     sensor.getLight()
     
-返回0~4095。
+Returns a value 0~4095.
 
-### 3. 溫度感應器
+### 3. Temperature Sensor
 
     sensor.getTemp()
     
-返回攝氏溫度，範圍由-40~85度。
+Returns a degree in Celsius, FutureBoard can measure temperatures from -40 to 80 degrees.
 
-### 1~3使用範例
-    
-    # 按A顯示亮度，按B顯示溫度
+### Sample Program for 1~3
+
     from future import *
     
     from time import sleep
@@ -44,22 +43,22 @@ btn代表按鍵，a或b。返回True或False。
 
 -----------------
 
-### 4 加速度計
+### 4. Accelerometer
 
     sensor.accX()
     sensor.accY()
     sensor.accZ()
     
-獲取加速度計3個軸的讀數，單位為G(重力加速度)。
+Returns the accelerometer value of the 3 axis with G as the unit.
 
-### 5. 姿勢角度
+### 5. Tilt Angles
 
     sensor.roll()
     sensor.pitch()
     
-分別獲取加速度計的橫滾度與旋轉度。
+Returns the roll and pitch angle of the FutureBoard.
 
-### 4~5使用範例
+### Sample Program for 4~5
 
     from future import *
 
@@ -78,29 +77,28 @@ btn代表按鍵，a或b。返回True或False。
 
 ---------------
 
-### 6. 姿勢檢測
+### 6. Gesture Detection
 
     sensor.gesture(gesture)
 
-未來板能偵測8種姿勢。返回True或False。
+8 kinds of gesture can be detected by the FutureBoard.
 
-1. 'shake' : 搖晃
-2. 'freefall' : 自由落體
-3. 'tilt_up' : 正立
-4. 'tilt_down' : 倒立
-5. 'tilt_left' : 左傾
-6. 'tilt_right' : 右傾
-7. 'face_up' : 朝上
-8. 'face_down' : 朝下
+1. 'shake'
+2. 'freefall'
+3. 'tilt_up'
+4. 'tilt_down'
+5. 'tilt_left'
+6. 'tilt_right'
+7. 'face_up'
+8. 'face_down'
 
-### 7. 姿勢檢測觸發事件
+### 7. Gesture Event Trigger
 
     sensor.gesTrig[ges] = fn
     sensor.startSchedule()
     
-### 6~7使用範例
+### Sample Program for 6~7
 
-    # 屏幕顯示姿勢的狀態，搖晃未來板更改背景顏色為白色。
     from future import *
     
     from time import sleep
@@ -121,28 +119,28 @@ btn代表按鍵，a或b。返回True或False。
 
 -----------------
 
-### 8. 磁場校正
+### 8. Compass Calibration
 
     calibrateCompass()
     
-使用磁力計或者指南針前必須要校正。
+Magnetometer and compass requires calibration before using.
 
-### 9. 獲取磁力計讀數
+### 9. Magnetic Strength
 
     sensor.magX()
     sensor.magY()
     sensor.magZ()
     sensor.magStrength()
     
-分別獲取三軸的磁力強度和平均強度。單位為uT。
+Returns the magnetic strength detected by the sensor with uT as the unit.
 
-### 10. 指南針指向
+### 10. Compass Bearing
 
     sensor.heading()
     
-獲取當前方位，範圍為0~360，0為北方。
+Returns the compass bearing.
 
-### 8~10使用範例
+### Sample Program for 8~10
 
     from future import *
     import math
@@ -153,21 +151,21 @@ btn代表按鍵，a或b。返回True或False。
         d = int(math.fabs(360-sensor.heading()))
         screen.fill(44)
         if (d<20) | (d>340):
-            ds = '北'
+            ds = 'N'
         elif (d<70):
-            ds = '東北'
+            ds = 'NE'
         elif (d<110):
-            ds = '東'
+            ds = 'E'
         elif (d<160):
-            ds = '東南'
+            ds = 'SE'
         elif (d<200):
-            ds = '南'
+            ds = 'S'
         elif (d<250):
-            ds = '西南'
+            ds = 'SW'
         elif (d<290):
-            ds = '西'
+            ds = 'W'
         else:
-            ds = '西北'
+            ds = 'NW'
         screen.text(d, 5,5)
         screen.textCh(ds,5,30)
         screen.text(str('Strength: ')+str(sensor.magStrength()),5,80)

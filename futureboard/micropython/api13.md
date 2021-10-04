@@ -1,73 +1,72 @@
-# 未來板MicroPython編程11：I2C
+# Programming with MicroPython: I2C Device
 
-## 導入未來板庫
+## Import FutureBoard Library
 
-需要先導入未來板的庫才可以使未來板的硬件。
+Import the Library to make use of its functions.
 
     from future import *
 
 ## 13: I2C
 
-## 初始化I2C
+## Initiate I2C Device
 
-    i2c = I2C(0)  # 使用預設的I2C接口
-    i2c = I2C(1, scl=Pin(5), sda=Pin(4), freq=400000) # 使用2支引腳作為I2C接口
+    i2c = I2C(0)  #Default I2C Port
+    i2c = I2C(1, scl=Pin(5), sda=Pin(4), freq=400000) #Define own i2c pins
 
-## 掃描I2C模塊位置
+## I2C Scan Address
 
     i2c.scan()
 
-## I2C讀取數據
+## I2C Read
 
     i2c.readfrom(address,nbytes)
 
-address為I2C模塊的地址。
-nbytes為所讀取數據的長度。
+Returns data from the memory address.
+Parameter nbytes define length of data.
 
-## I2C讀取數據至列表
+## I2C Read into Buffer
 
     I2C.readfrom_into(addr, buf)
 
-address為I2C模塊的地址。
-所讀取的數據會儲存到buf裡面，buf必須為bytearray。
+Reads data from the memory address.
+The data sill be stored in parameter buf, which must be a bytearray.
 
-## I2C寫入數據
+## I2C Write
 
     i2c.writeto(address,buf)
 
-address為I2C模塊的地址。
-buf為寫入的數據，數據必須為byte或bytearray類型。
+Write data to a memory address.
+The data in buf will be written to the device, buf must be a bytearray.
 
-## I2C寫入向量
+## I2C Write Vector
 
     i2c.writevto(address,vector)
 
-address為I2C模塊的地址。
-vector為寫入的向量。
+Write a vector to a memory address.
 
-## I2C從記憶體讀取
+## I2C Read from Memory
 
     I2C.readfrom_mem(address, memaddr, nbytes, *, addrsize=8)
 
-address為I2C模塊的地址。
-memaddr為記憶體的地址。
-nbytes為所讀取數據的長度。
-addrsize為記憶體的大小。
+Reads data from the I2C device address represented by address.
+Reads data from the memory address represented by memaddr.
+Parameter nbytes define length of data being read.
+Parameter addrsize define the size of the memory.
 
-## I2C從記憶體讀取至列表
+## I2C Read from Memory into Buffer
 
     I2C.readfrom_mem_into(address, memaddr, buf, *, addrsize=8)
 
-address為I2C模塊的地址。
-memaddr為記憶體的地址。
-所讀取的數據會儲存到buf裡面，buf必須為bytearray。
-addrsize為記憶體的大小。
+Reads data from the I2C device address represented by address.
+Reads data from the memory address represented by memaddr.
+The data sill be stored in parameter buf, which must be a bytearray.
+Parameter addrsize define the size of the memory.
 
-## I2C寫入數據到記憶體
+## I2 Write Buffer to Memory
 
     I2C.writeto_mem(address, memaddr, buf, *, addrsize=8)
 
-address為I2C模塊的地址。
-memaddr為記憶體的地址。
-buf為寫入的數據，數據必須為byte或bytearray類型。
-addrsize為記憶體的大小。
+Writes data to the I2C device address represented by address.
+Writes data to the memory address represented by memaddr.
+The data in buf will be written to the device, buf must be a bytearray or byte.
+Parameter addrsize define the size of the memory.

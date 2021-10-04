@@ -1,38 +1,38 @@
-# 未來板MicroPython編程10：無綫通訊
+# Programming with MicorPython: Wireless Radio
 
-## 導入未來板庫
+## Import FutureBoard Library
 
-需要先導入未來板的庫才可以使未來板的硬件。
+Import the Library to make use of its functions.
 
     from future import *
     
-## 10: 無綫通訊
+## 10: Wireless Radio
 
-## 導入無綫通訊庫
+## Import Radio Library
 
     from radio import *
     
-### 1. 初始化無綫通訊
+### 1. Initiate a Radio
 
     r=Radio(trigger)
     
-可以在括號裏呼叫函數，每當收到訊息時會自動觸發。
+Define an event trigger function and call it in the trigger parameter to automatically call the function on receiving message.
 
-### 2. 設定通訊頻道
+### 2. Set the radio channel
 
     r.channel=1
-    
-需要雙方都在同一個頻道上才能通訊。
 
-### 3. 讀取訊息
+### 3. Read the channel feed
 
     r.read()
+
+Returns the message.
     
-### 4. 發佈信息
+### 4. Publish a message to channel
 
     r.send(msg)
     
-### 範例程式1：直接讀取
+### Sample Program 1
 
     import time
     from radio import *
@@ -47,7 +47,7 @@
         if a:
             print('get', a)
             
-### 範例程式2：自動觸發
+### Sample Program 2: Event Triggers
 
     from radio import *
     
@@ -60,34 +60,34 @@
     r.send("hello world")
    
    
-### 進階範例程式：MESH無綫通訊(ESPNOW)
+### Advanced Program: MESH with ESPNOW
 
-    # 1. 啟動WiFi
+    # 1. WiFi
     import network
     w0 = network.WLAN(network.STA_IF)
     w0.active(True)
     
-    # 2. 取得自機的MAC地址
+    # 2. MAC Address
     mac = w0.config('mac')
     >>> mac
     b'\xc4O3"\xdb\x89'
     
-    # 3. 導入espnow
+    # 3. import espnow
     from esp import espnow
     e = espnow.ESPNow()
     e.init()
     
-    # 4. 加入對方的MAC地址
-    # 注意： 不是自己的MAC地址
+    # 4. Add peer MAC Address
+    # Note: Add the addess of the peer device
     e.add_peer(b'\x8c\xaa\xb5\xb9\xf8\xf0')
     
-    # 5. 信息觸發
+    # 5. Event Trigger
     def rxcb(mac, msg):
         print("Recv:", mac, msg)
     e.on_recv(rxcb)
     
-    # 6. 發佈信息
+    # 6. Publish
     e.send(b'\x8c\xaa\xb5\xb9\xf8\xf0', 'hello world')
     
-    # 在接收端可以看到
+    # Seeable on receving end
     # Recv: b'\xc4O3"\xdb\x89' b'hello world'

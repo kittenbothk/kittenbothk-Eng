@@ -1,42 +1,42 @@
-# 未來板MicroPython編程6：彩燈
+# Programming with MicroPython: NeoPixel
 
-## 導入未來板庫
+## Import FutureBoard Library
 
-需要先導入未來板的庫才可以使未來板的硬件。
+Import the Library to make use of its functions.
 
     from future import *
     
-## 06: 彩燈類
+## 06: Neopixel
 
-### 1. 初始化彩燈
+### 1. Initiate a NeoPixel Strip
 
     NeoPixel(pin, num)
     
-pin為彩燈的引腳，未來板上面的彩燈為P7。
+Initiates a NeoPixel Strip with a number of LEDs on the selected pin.
 
-num為燈的數量，未來板上的彩燈為3粒。
+Use P7 and 3 for the built-in LED Strip.
 
-### 2. 設置單顆彩燈
+### 2. Setting Color for 1 LED
 
     setColor(i, color)
     
-i為燈的序號，由0開始。
+Parameter i denotes the id of the LED.
 
-color為顏色，可以使用RGB數值或者預設顏色。
+Neopixel accepts RGB value or built-in color names.
 
-### 3. 設置全部彩燈
+### 3. Setting Color for All LED
 
     setColorAll(color)
     
-color為顏色，可以使用RGB數值或者預設顏色。
+Neopixel accepts RGB value or built-in color names.
 
-### 4. 刷新顯示
+### 4. Update Display
 
     update()
     
-所有效果需要刷新才會顯示。
+Update the display to show the effects.
 
-### 1~4使用範例
+### Sample Program
     
     from future import *
     import time
@@ -55,9 +55,9 @@ color為顏色，可以使用RGB數值或者預設顏色。
     color = [RED,GREEN,BLUE]
     for i in range(3):
         np.setColorAll(color[i])
-        np.update() # 所有效果需要刷新才會顯示
+        np.update() #Update display
         time.sleep(1)
     for i in range(3):
         np.setColor(i,BLACK)
-        np.update() # 所有效果需要刷新才會顯示
+        np.update() #Update display
         time.sleep(1)

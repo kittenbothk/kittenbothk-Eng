@@ -1,43 +1,41 @@
-# 未來版MicroPython編程7：WiFi與物聯網
+# Programming with MicroPython: WiFi & IoT
 
-## 導入未來板庫
+## Import FutureBoard Library
 
-需要先導入未來板的庫才可以使未來板的硬件。
+Import the Library to make use of its functions.
 
     from future import *
     
-## 07:  WiFi與物聯網
+## 07:  WiFi & IoT
 
-### 1. 連接WiFi
+### 1. Connect to WiFi
 
     wifi.connect('router','password')
     
-填寫WiFi網絡的登入資料，注意未來版只能連上2.4GHz的網絡。
+FutureBoard can only connect to wireless networks with 2.4GHz frequency.
 
-### 2. 獲取網絡狀態
+### 2. Get the Connection Status
 
     wifi.sta.isconnected()
     
-成功連接網絡返回1，否則返回0。
+Returns 1 if FutureBoard is connected to the network, 0 if not.
 
-### 3. 獲取網絡資料
+### 3. Get the Connection Configuration
 
     wifi.sta.ifconfig()
     
-返回一個列表，獲取連接中網絡的資訊。
-
-列表內容：IP地址，網絡遮罩，閘道，域名。
+Returns a list with the configuration including IP Address, Subnet Mask, Gateway, Domain.
     
-### 4. 獲取MAC地址
+### 4. Get the MAC Address
     
     import machine
     import ubinascii
 
     x = ubinascii.hexlify(machine.unique_id()).decode().upper()
     
-取得未來版的獨特實體地址。
+Returns the physical address of the FutureBoard.
 
-### 1~4使用範例
+### Sample Program 1~4
 
     #/bin/python
     from future import *
@@ -59,60 +57,57 @@
       screen.text(str("Gateway: ")+str(wifi.sta.ifconfig()[2]),5,75,1,(0, 119, 255))
       screen.text(str("DNS: ")+str(wifi.sta.ifconfig()[3]),5,90,1,(0, 119, 255))
 
-## 導入MQTT庫
+## Import MQTT Library
 
     import mqttsimple
     
-使用MQTT與相關的功能前必須要導入MQTT庫。
+MQTT operations require the mqttsimple library.
     
-### 5. 初始化MQTT
+### 5. Set up an MQTT object
 
     myMQTT = mqttsimple.MQTTClient(server,client_id,port=0,user=None,password=None,keepalive=0,ssl=False,ssl_params={})
 
-這裡需要建立一個MQTTclient class的object，不是直接呼叫函數。
+Creates an object with the connection to the MQTT Broker.
 
-一般用家只需要注意server,client_id。
+For most brokers, insert the host address into server and the client id into client_id.
 
-server為伺服器的地址，client_id為用戶名稱(一般可以任意填寫)。
-
-假如你的伺服器需要登入，請在user和password裏填入登入資料。
+For some brokers, please refer to the broker's documentations for the details required to connect to the server.
     
-    
-### 6. 連接MQTT伺服器
+### 6. Connect to the MQTT Server
 
     myMQTT.connect()
 
-### 7. 切斷MQTT連接
+### 7. Disconnect the MQTT Server
 
     myMQTT.disconnect()
     
-### 8. 訂閱MQTT話題
+### 8. Subscribe to a MQTT Topic
     
     myMQTT.subscribe(topic=)
     
-在topic填入話題的名稱。
+Fill in the topic name according to the documentation of the MQTT Broker.
 
-### 9. 發佈信息到MQTT話題
+### 9. Publish a Message to a MQTT Topic
 
     myMQTT.publish(topic,msg)
     
-在topic填入話題，msg填入訊息。
+Fill in the message and topic name according to the documentation of the MQTT Broker.
 
-### 10. 讀取MQTT話題訊息
+### 10. Read the Message from the MQTT Topic
 
     myMQTT.mqttRead(topic)
 
-在topic填入話題的名稱。
+Fill in the topic name according to the documentation of the MQTT Broker.
 
-### 11. 獲取已訂閱話題最後一則訊息
+### 11. Read the Last Message of the MQTT Topic
 
     myMQTT.check_msg()
     
-### 12. 等待直到已訂閱話題收到訊息
+### 12. Wait until a MQTT Message is Published
 
     myMQTT.wait_msg()
     
-### 13. 設定MQTT讀取訊息觸發函數
+### 13. Define MQTT Event Trigger Function
 
 
     def myFunction(topic,msg):
@@ -121,7 +116,7 @@ server為伺服器的地址，client_id為用戶名稱(一般可以任意填寫)
 
     myMQTT.set_callback(myFunction())
 
-### MQTT範例程序1：使用返回值獲取信息
+### Sample Program 1
     
     import mqttsimple
     if not(wifi.sta.isconnected()):
@@ -133,18 +128,18 @@ server為伺服器的地址，client_id為用戶名稱(一般可以任意填寫)
     c.subscribe('/topic1')
     
     x= 0
-    # mqttRead()會不斷讀取訊息，假如話題沒有新的信息則會返回None。
+    # mqttRead() returns None if no new message is found
     while 1:
         if sensor.btnValue('a'):
             x+=1
             c.publish('/topic1','x'+str(x))
             sleep(0.2)
-        # 假如讀取的訊息不是None，就顯示訊息。
+        # Print message if message is not None
         mqttT = c.mqttRead('/topic1')
         if mqttT:
             print(mqttT)
 
-### MQTT範例程序2：使用函數觸發使用MQTT
+### Sample Program 2
 
     import mqttsimple
     if not(wifi.sta.isconnected()):
@@ -153,7 +148,7 @@ server為伺服器的地址，client_id為用戶名稱(一般可以任意填寫)
     c = mqttsimple.MQTTClient("myServer", 'myID')
     c.connect() 
     
-    # 設置觸發函數，假如話題有信息更新就會自動觸發
+    # Automacically triggered when topic is updated
     def sub_cb(topic, msg):
         print((topic, msg))   
     c.set_callback(sub_cb)
@@ -164,8 +159,8 @@ server為伺服器的地址，client_id為用戶名稱(一般可以任意填寫)
         if sensor.btnValue('a'):
             c.publish('/ttt', 'hello')
             sleep(0.2)
-        # 獲取已訂閱話題最後一則訊息
+        # check message
         c.check_msg()
     
-    # 你亦可以試試等待直到已訂閱話題收到訊息
+    # try below for waiting until message update
     # c.wait_msg()

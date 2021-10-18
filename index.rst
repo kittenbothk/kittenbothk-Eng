@@ -80,3 +80,9 @@ Welcome to the Coding & STEM Sharing Hub of Kittenbot HK, here you will find all
     :caption: Educational Kit Sets
 
     Kits/index
+
+.. toctree::
+    :maxdepth: 1
+    :caption: 中文版Sharing Hub
+
+    https://kittenbothk.readthedocs.io/en/latest/

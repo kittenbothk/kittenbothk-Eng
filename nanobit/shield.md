@@ -57,3 +57,13 @@ Insert the Nanobit onto Nanobit Shield as shown in the picture. Align the VIN pi
     Note: The USB port on the Nanobit is for charging only, please use the the Nanobit downloader to flash programs.
 
 ![](./images/10.png)
+
+## Project Showcase
+
+### 2-Wheeled Kart
+
+![](./images/car1.jpg)
+
+### Mecanum Wheel Robotic Car
+
+![](./images/car2.jpg)

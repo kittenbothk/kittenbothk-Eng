@@ -47,6 +47,12 @@ Welcome to the Coding & STEM Sharing Hub of Kittenbot HK, here you will find all
 
 .. toctree::
     :maxdepth: 2
+    :caption: Nanobit
+
+    nanobit/index
+
+.. toctree::
+    :maxdepth: 2
     :caption: Micro:bit Expansion Boards
     
     Microbit_eboard/index

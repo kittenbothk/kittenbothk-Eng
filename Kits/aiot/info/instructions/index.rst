@@ -1,7 +1,7 @@
-AIoT Starter Kit案例
+AIoT Starter Kit Instructions
 ==========================================
 
-AIoT Starter Kit案例說明書與教學
+Building instructions for AIoT Starter Kit.
 
 .. toctree::
     :maxdepth: 1

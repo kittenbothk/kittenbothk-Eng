@@ -1,20 +1,20 @@
-# 猜拳游戲
+# Rock Paper Scissors
 
-使用機器學習，我們可以訓練電腦與我們玩游戲。本案例使用了KNN模型演算法，訓練機械人與我們玩猜拳的遊戲。
+Through machine learning, you can train a machine to play rock paper scissors with you.
 
 ![](./images/ex9.png)
 
-## 搭建說明書與參考程式資源包:
+## Building Instructions and Sample Programs
 
-[資源包下載](http://bit.ly/AIOTKit_SH_ResourcsePack)
+[Download Resource Pack](http://bit.ly/AIOTKit_SH_ResourcsePack)
 
-## 參考接線:
+## Sample Wiring:
 
 ![](./images/game_wire.png)
 
-## 加入插件:
+## Extensions Needed:
 
-視訊偵測:
+Video Capture:
 
 ![](./images/video.png)
 
@@ -22,20 +22,18 @@ Machine Learning:
 
 ![](./images/ml.png)
 
-## 參考訓練程式:
+## Sample Training Program
 
-![](./images/game_code1.png)
+![](./images/game_train_code_1.87.png)
 
-## 參考程式:
+## Sample Program
 
-![](./images/list.png)
+![](./images/game_code_1.87.png)
 
-![](./images/game_code2.png)
+## Model Procedure
 
-## 程式流程
-
-1. 使用訓練程式，訓練辨認剪刀、石頭、布的模型。
-2. 使用主程式，載入訓練好的模型。
-3. 將Micro:bit連接到Kittenblock。**不需要將程式上載到Micro:bit。**
-4. 按下1開始與機械人猜拳。
-5. 機械人會必勝地作出動作。
+1. Train the model using the training program.
+2. Open the main program and load the trained model.
+3. Connects the Micro:bit to KittenBlock.
+4. Press spacebar to start the game.
+5. In this sample program, the robot will always win.

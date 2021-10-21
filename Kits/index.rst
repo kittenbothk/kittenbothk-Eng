@@ -17,21 +17,27 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
-    :caption: Meowbit Creator Kit
+    :caption: AIoT Starter Kit
 
-    meowbit_creator/index
-
-.. toctree::
-    :maxdepth: 2
-    :caption: Circuitry Experiments Kit
-
-    paper_circuitry/index
+    aiot/index
 
 .. toctree::
     :maxdepth: 2
-    :caption: Robotbit Classroom Kit *Discontinued Item*
+    :caption: Micro:bit Inventor Education Kit
 
-    classroom/index
+    classroom_inventor/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: FutureBoard IoT Education Kit
+
+    future_inventor/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: AI/AIoT Recycling Bin Education Kit
+
+    ai_recycle/index
 
 .. toctree::
     :maxdepth: 2
@@ -56,4 +62,28 @@ Introduction and support for Kittenbot's Educational Kit Sets.
     :caption: MR STEMer Kart Lite Kit
 
     robotbit_kart/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Robotbit Robot Arm
+
+    robotic_arm/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Meowbit Creator Kit
+
+    meowbit_creator/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Circuitry Experiments Kit
+
+    paper_circuitry/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Robotbit Classroom Kit *Discontinued Item*
+
+    classroom/index
 

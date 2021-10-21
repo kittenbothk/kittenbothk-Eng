@@ -1,7 +1,7 @@
-AIoT Starter Kit組裝資料
+AIoT Starter Kit Manual
 ==========================================
 
-這裡合集了AIoT Starter Kit的模型組裝資料。
+Here are the manuals for AIoT educational kit.
 
 .. toctree::
     :maxdepth: 2

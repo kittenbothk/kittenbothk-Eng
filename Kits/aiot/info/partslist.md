@@ -1,13 +1,13 @@
-# AIoT Starter Kit積木零件清單
+# AIoT Starter Kit Building Parts List
 
-AIoT Starter Kit套件的零件清單，請核實積木包沒有缺少零件。
+Please make sure there are no missing pieces in the building bricks.
 
-## 零件清單
+## Parts List
 
 ![](partslist/1.jpg)
 
 ![](partslist/2.jpg)
 
-## 清單下載
+## Download as PDF
 
-[積木零件清單PDF下載](http://bit.ly/AIOTKit_SH_ResourcsePack)
+[PDF Download](http://bit.ly/AIOTKit_SH_ResourcsePack)

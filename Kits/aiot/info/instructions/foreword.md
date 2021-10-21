@@ -1,7 +1,7 @@
-# 前言
+# Foreword
 
-AIOT Starter Kit套件使用Kittenblock作為編程平台，請按照以下教學安裝Kittenblock。
+AIoT kit mainly uses KittenBlock as the programming platform, please follow the guideline on installing KittenBlock on your computer.
 
-## 安裝Kittenblock
+## Download Kittenblock
 
-[安裝Kittenblock](../../../../KittenBlock/index)
+[Download Kittenblock](../../../../KittenBlock/index)

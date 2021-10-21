@@ -1,23 +1,23 @@
-# 防溢垃圾桶
+# Smart Rubbish Bin
 
-每當夏天，假如垃圾桶無法及時得到清理將會造成一些不良結果，有如異味大，細菌蚊蟲滋生，影響市民正常的垃圾投放。清潔工人所管轄的地域相當廣，得不到及時的信息反饋，無法作出準確的應對。所以智能垃圾桶的優勢不僅在於它的自動開關，還實現垃圾溢出前的信號反饋。相信這樣的信息化管理是未來城市的基本構成。
+It is important to keep our rubbish bins hygienic, in order to ensure the safe and hygienic operation of refuse collection, this example simulates a smart rubbish bin that locks itself when it is too full while signaling the workers to clean up.
 
 ![](./images/ex4.png)
 
-## 搭建說明書與參考程式資源包:
+## Building Instructions and Sample Programs
 
-[資源包下載](http://bit.ly/AIOTKit_SH_ResourcsePack)
+[Download Resource Pack](http://bit.ly/AIOTKit_SH_ResourcsePack)
 
-## 參考接線:
+## Sample Wiring: 
 
-![](./images/bin_wire.png)
+![](./images/bin_wire_1.87.png)
 
-## 參考程式:
+## Sample Program:
 
-![](./images/bin_code.png)
+![](./images/bin_code_1.87.png)
 
-## 程式流程
+## Model Procedure
 
-1. 將程式上載到Micro:bit。
-2. 將手放在垃圾桶前，垃圾桶會自動打開然後關上。
-3. 當垃圾桶滿溢時會發出警告，按A打開垃圾桶，清理之後按B關上垃圾桶。
+1. Upload the program onto Micro:bit.
+2. The rubbish bin automatically opens when a hand approaches.
+3. Press A or B to open or close the rubbish bin when it is full.

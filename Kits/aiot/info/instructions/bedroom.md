@@ -1,40 +1,40 @@
-# 智能卧室
+# Smart Bedroom
 
-智能家居系統是一種現代流行的智能管理方式，主要的構成有如室內溫室控制，家電控制，安防系統等等。智能卧室的案例實現室內溫濕度檢測，外部噪聲檢測，以及卧室燈，窗，風扇設備的控制。
+Modern home appliances are able to be controlled via IoT, in this example a smart bedroom equipped with smart appliances is simulated.
 
 ![](./images/ex6.png)
 
-## 搭建說明書:
+## Building Instructions and Sample Programs
 
-[搭建說明書下載](www.google.com)
+[Download Resource Pack](http://bit.ly/AIOTKit_SH_ResourcsePack)
 
-## 參考接線:
+## Sample Wiring:
 
-![](./images/bedroom_wire.png)
+![](./images/bedroom_wire_1.87.png)
 
-## 加入插件:
+## IoT extension:
 
 IoT:
 
 ![](./images/iot.png)
 
-## Micro:bit參考程式:
+## Micro:bit Sample Program:
 
-![](./images/bedroom_code.png)
+![](./images/bedroom_code_1.87.png)
 
-[參考程式下載](www.google.com)
+[Sample Program Download](https://makecode.microbit.org/_LErLcJWgL42D)
 
-## IoT參考程式:
+## IoT Sample Program:
 
-![](./images/bedroom_code1.png)
+![](./images/bedroom_iot_code_1.87.png)
 
-## 啟動本地MQTT伺服器
+## Activating the local IoT server
 
-![](./images/mqtt.png)
+![](./images/mqtt_1.87.png)
 
-## 程式流程
+## Model Procedure
 
-1. 將Micro:bit程式上載到Micro:bit。
-1. 等待Wifibrick連上網絡。
-2. IoT程式的小貓會說出探測到的氣溫與相對濕度。
-3. 使用IoT程式控制房間的電器。1和2控制燈光，3和4控制大門，5和6控制風扇。
+1. In the IoT Program on KittenBlock, turn on the local server.
+2. Power on the model and wait for the WifiBrick to connect to the internet.
+3. The character will report the current temperature and moisture periodically after pressing A on the Micro:bit.
+3. Use the IoT program to control the appliances.

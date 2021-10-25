@@ -1,14 +1,14 @@
-# AI/AIoT 智能回收箱安裝說明書
+# AI/AIoT Recycling Building Instructions
 
-## Armourbit版
+## Armourbit Version
 
-[搭建說明書下載](https://drive.google.com/file/d/1IBUlW5PhXEalHHotNKG1V5WK1bQOPeuZ/view?usp=sharing)
+[Download Building Instructions](https://drive.google.com/file/d/1IBUlW5PhXEalHHotNKG1V5WK1bQOPeuZ/view?usp=sharing)
 
 ![](./images/armour_wire.png)
 
-## Robotbit版
+## Robotbit Version
 
-[搭建說明書下載](https://drive.google.com/file/d/1IBUlW5PhXEalHHotNKG1V5WK1bQOPeuZ/view?usp=sharing)
+[Download Building Instructions](https://drive.google.com/file/d/1IBUlW5PhXEalHHotNKG1V5WK1bQOPeuZ/view?usp=sharing)
 
 ### Robotbit Edu
 

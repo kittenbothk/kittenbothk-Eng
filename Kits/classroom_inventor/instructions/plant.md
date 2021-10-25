@@ -1,19 +1,19 @@
-# 種植小助手
+# Plant Helper
 
 ![](../images/plant.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
 
 ![](../images/plant_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/plant_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_RmuazT3u3KAD)
+[Sample Program](https://makecode.microbit.org/_RmuazT3u3KAD)
 
-## 模型玩法
+## Instructions
 
-假如泥土過於乾燥，會敲響警告。
+Insert the soil moisture sensor into the soil of the flower pot, alarm will sound when the soil moisture is too low.

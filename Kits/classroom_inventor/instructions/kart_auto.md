@@ -1,19 +1,19 @@
-# 三輪送貨車
+# Delivery Kart
 
 ![](../images/kart.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
 
 ![](../images/kart_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/kart_code1.png)
 
 [參考程式下載](https://makecode.microbit.org/_CEoC4V46mXmz)
 
-## 模型玩法
+## Instructions
 
-可以用手推開或拉近三輪車。
+The kart drives forward if the path has no obstacles and drives backwards when the path is obstructed.

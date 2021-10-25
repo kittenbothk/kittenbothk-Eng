@@ -1,7 +1,7 @@
-發明家套件Sugar模組教學
+Micro:bit Inventor Kit Modules
 ==========================================
 
-這裡合集了發明家套件不同模組的教程。
+Micro:bit Inventor Kit Modules
 
 .. toctree::
     :maxdepth: 1

@@ -1,19 +1,19 @@
-# 鋼琴拉奏
+# Piano
 
 ![](../images/piano.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
 
 ![](../images/piano_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/piano_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_WMPXPP522Fqt)
+[Sample Program](https://makecode.microbit.org/_WMPXPP522Fqt)
 
-## 模型玩法
+## Instruction
 
-利用距離控制音調的鋼琴。扭動電位器控制音高。
+Control the note by sliding the panel back and forth, turn the potentiometer to control the major.

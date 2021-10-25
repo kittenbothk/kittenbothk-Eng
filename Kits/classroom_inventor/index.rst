@@ -1,7 +1,7 @@
-Micro:bit發明家套件
+Micro:bit Inventor Education Kit
 =====================
 
-Micro:bit發明家套件的詳細介紹與教學。
+Micro:bit Inventor Education Kit
 
 .. toctree::
     :maxdepth: 1

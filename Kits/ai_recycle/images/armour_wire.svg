@@ -74,7 +74,7 @@
          id="tspan851"
          x="942.02185"
          y="76.024239"
-         style="font-size:64px">廢紙回收箱接S1</tspan></text>
+         style="font-size:64px">Paper Bin to S1</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:64px;line-height:1.25;font-family:sans-serif"
@@ -87,7 +87,7 @@
          id="tspan851-0"
          x="940.13879"
          y="207.98189"
-         style="font-size:64px">膠樽回收箱接S3</tspan></text>
+         style="font-size:64px">Plastic Bin to S3</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:64px;line-height:1.25;font-family:sans-serif"
@@ -100,7 +100,7 @@
          id="tspan851-9"
          x="940.13892"
          y="142.95479"
-         style="font-size:64px">鋁罐回收箱接S2</tspan></text>
+         style="font-size:64px">Aluminium Bin to S2</tspan></text>
     <image
        width="882"
        height="545.91156"
@@ -131,7 +131,7 @@
          id="tspan851-0-0"
          x="1216.2958"
          y="817.11914"
-         style="font-size:64px">KOI接Port 2</tspan></text>
+         style="font-size:64px">KOI to Port 2</tspan></text>
     <path
        style="fill:none;stroke:#ffbe00;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 302.03378,132.62106 531.21743,0.25301 0.97806,257.28854"

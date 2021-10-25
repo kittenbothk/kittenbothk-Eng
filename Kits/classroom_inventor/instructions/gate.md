@@ -1,19 +1,19 @@
-# 電子閘門
+# Electric
 
 ![](../images/gate.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
 
 ![](../images/gate_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/gate_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_b8s5xLE59eqC)
+[Sample Program](https://makecode.microbit.org/_b8s5xLE59eqC)
 
-## 模型玩法
+## Instructions
 
-當有人時閘門會自動關閉，等到完成檢測才打開閘門讓人前進。按下A鍵查看日間與晚間的檢測人數。
+The gate closes and the person needs to wait for a while to gain access, press A to view the number of people who passed this gate.

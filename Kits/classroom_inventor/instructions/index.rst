@@ -1,7 +1,7 @@
-Micro:bit 發明家套件模型組裝教學
+Micro:bit Inventor Kit Instructions
 =====================
 
-Micro:bit發明家套件的模型組裝教學。
+Micro:bit Inventor Kit Instructions
 
 .. toctree::
     :maxdepth: 1

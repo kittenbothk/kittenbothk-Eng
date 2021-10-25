@@ -1,27 +1,27 @@
-# 遙控三輪車
+# RC Kart
 
 ![](../images/kart.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
 
 ![](../images/kart_wire.png)
 
-## 參考程式
+## Sample Program
 
-### 遙控器參考程式
+### Remote Controller
 
 ![](../images/kart_code2.png)
 
-[參考程式下載](https://makecode.microbit.org/_WjpcefWkccgi)
+[Sample Program](https://makecode.microbit.org/_WjpcefWkccgi)
 
-### 三輪車參考程式
+### RC Kart
 
 ![](../images/kart_code3.png)
 
-[參考程式下載](https://makecode.microbit.org/_R28XdPCxb17e)
+[Sample Program](https://makecode.microbit.org/_R28XdPCxb17e)
 
-## 模型玩法
+## Instructions
 
-使用遙控器控制三輪車，向前後或左右傾斜Micro:bit，三輪車會改變方向。
+Tilt the Remote Controller to drive the RC Kart.

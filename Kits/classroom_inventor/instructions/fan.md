@@ -1,19 +1,20 @@
-# 恒温風扇
+# Swinging Fan
 
 ![](../images/fan.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
+
 
 ![](../images/fan_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/fan_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_LsLWea63oXHe)
+[Sample Program](https://makecode.microbit.org/_LsLWea63oXHe)
 
-## 模型玩法
+## Instructions
 
-按下A啟動風扇，風扇會左右擺動，速度會自動按溫度調節，按下A暫停風扇。
+Press A to turn on the fan, the fan speed will increase or decrease according to the current temperature.

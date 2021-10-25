@@ -1,41 +1,41 @@
-# AI/AIoT 智能回收箱套件
+# AI/AIoT Recycling Bin
 
-AI/AIoT智能回收箱是一套運用KOI的AI功能實現垃圾分類的套件。利用KOI的連線功能，搭配不同的物聯網平台，可以輕易地實踐AIoT的應用。
+AI/AIoT Recycling Bin is a kit set designed for Micro:bit. The kit uses the Machine Learning capabilities of the KOI to achieve garbage classifications. In addition, this kit can be upgraded to AIoT by making use of the KOI's IoT functions and IoT Platforms.
 
 KittenBot希望透過此套件，培養學生對環保與保護地球的意識，在STEM的學習的同時亦能提升學生的人文素養。
 
 ![](./images/1.png)
 
-## 套件特色
+## Special Features
 
-- 結合AI與環保課題，培養環保意識
-- 可以配合IoT平台，輕易實現AIoT的應用
-- 兼容樂高系列積木，方便搭建美觀的應用案例
-- 支援MakeCode編程
-- 提供輕巧的收納盒，方便課堂完成後收拾物資
+- Combining AI and Environmental Conservation topics, increasing the awareness of environmental protection
+- Easy implementation of AIoT
+- Compatible with plastic building bricks
+- Supports graphical programming via Microsoft MakeCode
+- Comes with a container for easy storage and clean up after each lesson
 
-## 套件內容
+## Kit Contents
 
-### 配搭Robotbit使用
+### Robotbit Version
 
 ![](./images/2.jpeg)
 
-### 配搭Armourbit使用
+### Armourbit Version
 
 ![](./images/3.jpg)
 
-### 套件內容清單
+### List of Contents
 
-- KOI AI鏡頭 連128MB SD卡 x1
-- Armourbit+電池盒 / Robotbit Edu x1
-- 18650鋰電池 x1
-- GeekServo 9G灰色舵機 x3
-- 舵機延長線 x3
-- 塑膠玩具垃圾桶 x3
-- 塑膠積木
-- 積木底板
+- KOI AI Camera with 128MB SD Card x1
+- Armourbit+ Battery Box / Robotbit Edu x1
+- 18650 Lithium Ion Battery x1
+- GeekServo 9G Servos x3
+- Servo Extension Cables x3
+- Toy Rubbish Bins x3
+- Plastic Building Blocks
+- Base Plate
 
-## 示範短片
+## Demo Video
 
 [![](images/4.png)](https://www.youtube.com/watch?v=0fLbJzQTp8I)
 

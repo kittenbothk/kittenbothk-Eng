@@ -1,7 +1,7 @@
-AIOT Starter Kit套件魔塊教學
+AIOT Starter Kit Modules List
 ==============
 
-AIOT Starter Kit套件魔塊教學
+AIOT Starter Kit Modules List
 
 .. toctree::
     :maxdepth: 1

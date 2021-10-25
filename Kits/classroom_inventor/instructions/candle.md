@@ -1,19 +1,19 @@
-# 生日蠟燭
+# Birthday Candles
 
 ![](../images/candle.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
 
 ![](../images/candle_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/candle_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_5ALf1ygV8EVU)
+[Sample Program](https://makecode.microbit.org/_5ALf1ygV8EVU)
 
-## 模型玩法
+## Instructions
 
-觸碰Micro:bit的Logo後LED會亮起，對著Micro:bit吹氣使LED熄滅。
+Press the Micro:bit V2 logo to light up the candles, blow on the microphone to blow them out.

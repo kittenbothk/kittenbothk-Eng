@@ -1,186 +1,187 @@
-# Micro:bit小發明家套件
+# Micro:bit Inventor Education Kit
 
 ![](./images/2_notext.jpg)
 
-Micro:bit小發明家套件是Kittenbot針對STEM普及教育而設計的套件。套件包含新版本的Robotbit Edu，套裝裏的傳感器亦都轉用Sugar體系的傳感器。套件包含10個應用案例，配合拼砌積木與組合紙板給予學生新穎的學習體驗，激發創客精神。
+Micro:bit Inventor Education Kit is designed for widespread STEM education, this kit comes with the new Robotbit Edu and the new sensor series Sugar. 10 Use Case Scenarios can be built with the building blocks and Cardboard to inspire the creativity and maker spirit in students.
 
-## 產品特色
+## Special Features
 
-- 配合編程與簡單的結構，提供更具體的學習體驗
-- Sugar的電子模組全方位用膠殼包圍，不怕碰撞或短路
-- 採用防反接的接口，解決課堂處理接線的麻煩
+- Combining Programming and Model Construction for a more concrete and comprehensive learning experience
+- Employs the new Sugar series of sensors, improving safety and convenience
+- Based on the new Robotbit Edu that features PH2.0 connectors for easier wiring
 
-## 產品參數
+## Specifications
 
-- 主控板：BBC Micro:bit V2
-- 套件尺寸：205 x 182 x 75 mm
+- Main Controller: BBC Micro:bit V2
+- Package Size: 205 x 182 x 75 mm
 
-## 產品內容
+## Package Contents
 
 ![](./images/1.png)
 
 ![](./images/content.png)
 
-- Micro:bit V2 x1(選配)
+- Micro:bit V2 x1(Optional)
 - Robotbit Edu x1
-- Robotbit底座 x1
-- 18650鋰電池 x1
-- Sugar LED模組 x3
-- Sugar 按鍵模組 x2
-- Sugar 光敏模組 x1
-- Sugar 電位器模組 x1
-- Sugar 人體紅外線模組 x1
-- Sugar 火焰感應模組 x1
-- Sugar 土壤濕度模組 x1
-- Sugar 雨滴水位模組 x1
-- 貓耳超聲波模組 x1
-- GeekServo 9G舵機 x1
-- GeekServo 樂高風扇 x1
-- TT電機 x2
-- 3Pin 連接線 x6
-- 3Pin轉4Pin連接線(貓耳超聲波專用) x1
-- 塑膠積木包 x1
-- 裝飾結構紙板 x1
-- 1m USB線 x1
+- Robotbit Base Adapter x1
+- 18650 Lithium-Ion Battery x1
+- Sugar LED x3
+- Sugar Buttons x2
+- Sugar Light Sensor x1
+- Sugar Potentiometer x1
+- Sugar PIR x1
+- Sugar Flame Sensor x1
+- Sugar Soil Moisture Sensor x1
+- Sugar Rain and Water Level Sensor x1
+- Neko Ultrasound x1
+- GeekServo 9G Servo x1
+- GeekServo GeekFan x1
+- TT Motors x2
+- 3Pin Wires x6
+- 3Pin to 4Pin Wire x1
+- Plastic Building Bricks x1
+- Cardboard Set x1
+- 1m USB Cable x1
 
-### 編程平台
+### Programming Platform
+
 - Microsoft Makecode
 - KittenBlock
 
-## 產品特色
+## Features
 
-### 結合編程與簡單的結構就已經可搭建出具體的教學案例。
+### Combining Programming and Model Construction for a more concrete and comprehensive learning experience
 
 ![](./images/13.png)
 
-### Sugar系列的電子模塊安全又美觀，不但防跌防碰亦都防短路以確安全。
+### Employs the new Sugar series of sensors, improving safety and convenience
 
 ![](./images/12.png)
 
-### Sugar系列的電子模塊帶有防反插設計，為課堂解決接線的煩惱。
+### Based on the new Robotbit Edu that features PH2.0 connectors for easier wiring
 
 ![](./images/14.png)
 
-## 介紹短片
+## Demo Video
 
 [![](images/video.png)](https://youtu.be/JaBa2EcIPDU)
 
-## 應用案例介紹
+## Use Case Scenarios
 
-### 防火警報
+### Fire Alarm
 
 ![](./images/firealarm.png)
 
-當火焰感應器探測到明火時就會發出警報。
+Alarm will sound when fire is detected.
 
-    注意：此案例需要配合Micro:bit V2使用。
+    Intended to use with Micro:bit V2.
 
-### 生日蠟燭
+### Birthday Candles
 
 ![](./images/candle.png)
 
-3色LED可以模擬生日蠟燭，對著Micro:bit V2的聲音傳感器吹氣可以模擬吹熄蠟燭。
+Blow on the Micro:bit V2 to blow the candles.
 
-    注意：此案例需要配合Micro:bit V2使用。
+    Intended to use with Micro:bit V2.
 
-### 電子閘門
+### Electric Gate
 
 ![](./images/gate.png)
 
-當有人時閘門會自動關閉，等到完成檢測才打開閘門讓人前進。
+Door closes and opens automatically.
 
-### 種植小助手
+### Plant Helper
 
 ![](./images/plant.png)
 
-可以監測土壤的濕度，當土壤過濕或過乾時就會敲響鑼鼓。
+Alarm will sound when soil is too wet or too dry.
 
-    注意：此案例需要配合Micro:bit V2使用。
+    Intended to use with Micro:bit V2.
 
-### 紅綠燈
+### Traffic Light
 
 ![](./images/trafficlight.png)
 
-按下按鍵，紅綠燈就會亮起紅燈，讓行人可以橫過馬路。
+Green light will be lit to allow crossing of the road.
 
-### 三輪送貨車
-
-![](./images/kart.png)
-
-能夠避開障礙物的三輪車。
-
-    注意：此案例需要配合Micro:bit V2使用。
-
-### 遙控三輪車
+### Delivery Kart
 
 ![](./images/kart.png)
 
-遙控的三輪車。
+The automatic kart can avoid obstacles.
+
+    Intended to use with Micro:bit V2.
+
+### Remote Controlled Kart
+
+![](./images/kart.png)
+
+This kart can be remotely controlled with another Micro:bit.
 
     注意：此案例需要配合Micro:bit V2使用。
 
-### 智能晾衣架
+### Smart Hanger
 
 ![](./images/hanger.png)
 
-落雨的時候，晾衣架會自動收起，以免弄濕衣服。
+Hanger automatically retracts when rain is detected.
 
-### 怕光殭屍
+### Zombie Game
 
 ![](./images/zombie.png)
 
-使用電筒照住殭屍的遊戲。
+Use a light to kill the jumping zombie.
 
-    注意：此案例需要配合Micro:bit V2使用。
+    Intended to use with Micro:bit V2.
 
-### 恒温風扇
+### Swinging Fan
 
 ![](./images/fan.png)
 
-電動風扇會左右搖擺。
+Electric Fan will swing left and right.
 
-### 小夜燈
+### Nightlight
 
 ![](./images/nightlight.png)
 
-模擬夜燈，環境黑暗時探測到有人就會點燈以防跌倒。
+Lights up when movement is detected to prevent tripping.
 
-### 模擬收音機
+### Radio
 
 ![](./images/broadcast.png)
 
-模擬一個收音器，要調校到正確頻道才可接收廣播。
+Turn the potentiometer until music can be heard.
 
-    注意：此案例需要配合Micro:bit V2使用。
+    Intended to use with Micro:bit V2.
 
-### 節拍機
+### Rhythm Machine
 
 ![](./images/rhythm.png)
 
-使用電位器調較速度，用A和B鍵選擇拍子，按下數碼按鍵啟動拍子機。
+Adjust the BPM and the beat to help you practice music.
 
-    注意：此案例需要配合Micro:bit V2使用。
+    Intended to use with Micro:bit V2.
 
-### 搶答機
+### Quiz Machine
 
 ![](./images/quiz.png)
 
-模擬搶答環節的搶答機。
+Whoever presses the button quickly can answer the question.
 
-    注意：此案例需要配合Micro:bit V2使用。
+    Intended to use with Micro:bit V2.
 
-### 保險箱
+### Safe
 
 ![](./images/safe.png)
 
-假如密碼正確就會打開夾萬。
+Enter the correct password to open to safe.
 
-    注意：此案例需要配合Micro:bit V2使用。
+    Intended to use with Micro:bit V2.
 
-### 鋼琴拉奏
+### Piano
 
 ![](./images/piano.png)
 
-利用距離控制音調的鋼琴。
+Use distance to control the notes of this musical instrument.
 
-    注意：此案例需要配合Micro:bit V2使用。
+    Intended to use with Micro:bit V2.

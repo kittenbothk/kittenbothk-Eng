@@ -1,19 +1,20 @@
-# 保險箱
+# Safe
 
 ![](../images/safe.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
 
 ![](../images/safe_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/safe_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_4Wg2cdE1g75K)
+[Sample Program](https://makecode.microbit.org/_4Wg2cdE1g75K)
 
-## 模型玩法
+## Instructions
 
+Select letters by turning the potentiometer, press A to enter the letter. Press B to confirm the password, the door will open if the password is correct.
 使用電位器選擇字母，按A輸入。輸入所有字母之後按B確認，假如密碼正確就會打開夾萬。

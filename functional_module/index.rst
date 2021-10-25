@@ -11,24 +11,23 @@ Information and tutorials related to Micro:bit compatible modules.
 
 .. toctree::
     :maxdepth: 1
+    :caption: Sugar Modules
 
-    fmradio.md
+    sugar/index
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Functional Sensors
+
+    turbidity.md
+    watertemp.md
+    airquality.md
     infratemp.md
     waterTank.md
     nekoUltrasound.md
-    KBbutton.md
     5wayLine.md
     legofan.md
-    potentialmeter.md
-    ambient.md
-    fire.md
-    soilhumid.md
-    watelevel.md
-    magnetic.md
-    slider.md
-    sound.md
-    infrared.md
-    rgb.md
+    kittenRadio.md
 
 .. toctree::
     :maxdepth: 1
@@ -48,4 +47,10 @@ Information and tutorials related to Micro:bit compatible modules.
     :glob:
 
     ../accessories/LEDMatrix/index
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Past Sensors
+
+    outdated/index
     

@@ -1,4 +1,4 @@
-AI/AIoT 智能回收箱套件
+AI/AIoT Recycling Bin
 ====================
 
 .. toctree::

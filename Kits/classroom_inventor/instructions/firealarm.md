@@ -1,19 +1,19 @@
-# 防火警報
+# Fire Alarm
 
 ![](../images/firealarm.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
 
 ![](../images/firealarm_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/firealarm_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_UTFC59a5m1Fq)
+[Sample Program](https://makecode.microbit.org/_UTFC59a5m1Fq)
 
-## 模型玩法
+## Instructions
 
-探測器會左右搖擺，探測到火焰就會發出警告。
+The fire detector will swing left and right and sound an alarm if fire is detected.

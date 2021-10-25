@@ -1,67 +1,68 @@
-# AI/AIoT 智能回收箱套件教學
+# AI/AIoT Recycling Kit Tutorial
 
-### 資源下載
+### Resource Pack
 
-[音效檔下載](https://drive.google.com/file/d/1GEJpytMGa4GYDSfpvDlvfwSC0fG-qENg/view?usp=sharing)
+[Wav Files](https://drive.google.com/file/d/1GEJpytMGa4GYDSfpvDlvfwSC0fG-qENg/view?usp=sharing)
 
-[參考圖檔下載](https://drive.google.com/drive/folders/1l27lVZQ-IEcx-_u2yh-VkV3N75coOGbE?usp=sharing)
+[Sample Pictures](https://drive.google.com/drive/folders/1l27lVZQ-IEcx-_u2yh-VkV3N75coOGbE?usp=sharing)
 
 ![](./images/a4.png)
 
-## 模型訓練參考程式
+## Model Training Program
 
 ![](./images/train_code.png)
 
-[Armourbit版參考程式](https://makecode.microbit.org/_Am5gsgJ0J6WP)
+[Armourbit Version](https://makecode.microbit.org/_Am5gsgJ0J6WP)
 
-[Robotbit版參考程式](https://makecode.microbit.org/_7WJFv0199PFv)
+[Robotbit Version](https://makecode.microbit.org/_7WJFv0199PFv)
 
-### 訓練方法
+### Training Procedure
 
-1. Micro:bit會顯示目前的分類。
-1. 按A對現時分類進行訓練。
-2. 按B跳到下一個分類。
-3. 按A+B儲存模型。
+1. Micro:bit shows the current classification.
+1. Press A to train the current classification.
+2. Press B to move on to the next classification.
+3. Press A+B to save the model.
 
-## AI智能回收箱參考程式
+## AI Recycling Sample Program
 
 ![](./images/offline_code.png)
 
-[Armourbit版參考程式](https://makecode.microbit.org/_EErK8LD3U4zr)
+[Armourbit Version](https://makecode.microbit.org/_EErK8LD3U4zr)
 
-[Robotbit版參考程式](https://makecode.microbit.org/_7x9XHo1Wpa0T)
+[Robotbit Version](https://makecode.microbit.org/_7x9XHo1Wpa0T)
 
-### 辨認方法
+### Model Procedure
 
-1. 按A啟動辨認功能。
-2. KOI會說出辨認到的垃圾類別，然後打開相應的回收箱。
+1. Press A to enable identification.
+2. The corresponding recycling bin will open after identifying the garbage.
 
-## AIoT智能回收箱參考程式
+## AIoT Recycling Sample Program
 
-### MakerCloud平台版本
+### MakerCloud Version
 
 ![](./images/online_code.png)
 
-[Armourbit版參考程式](https://makecode.microbit.org/_2FLaVKhxbEWU)
+[Armourbit Version](https://makecode.microbit.org/_2FLaVKhxbEWU)
 
-[Robotbit版參考程式](https://makecode.microbit.org/_hER07TKE3Uiz)
+[Robotbit Version](https://makecode.microbit.org/_hER07TKE3Uiz)
 
-### 辨認方法
+### Model Procedure
 
-1. 按A啟動辨認功能。
-2. 按B確認KOI已成功連接網絡，並連接MakerCloud平台。
-3. KOI會說出辨認到的垃圾類別，然後打開相應的回收箱。
+1. Press A to enable identification.
+2. Press B to connect to the IoT platform.
+3. The corresponding recycling bin will open after identifying the garbage.
 
-### ObjectBlocks平台版本
+
+### ObjectBlocks Version
 
 ![](./images/objectblock_code.png)
 
-[Armourbit版參考程式](https://makecode.microbit.org/_E28TWW0Fe46L)
+[Armourbit Version](https://makecode.microbit.org/_E28TWW0Fe46L)
 
-[Robotbit版參考程式](https://makecode.microbit.org/_0YgJR1hf7T5J)
+[Robotbit Version](https://makecode.microbit.org/_0YgJR1hf7T5J)
 
-### 辨認方法
+### Model Procedure
 
-1. 按A啟動辨認功能。
-2. 按B確認KOI已成功連接網絡，並連接ObjectBlocks平台。
-3. KOI會說出辨認到的垃圾類別，然後打開相應的回收箱。
+1. Press A to enable identification.
+2. Press B to connect to the IoT platform.
+3. The corresponding recycling bin will open after identifying the garbage.

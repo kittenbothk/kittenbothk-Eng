@@ -1,19 +1,19 @@
-# 模擬收音機
+# Radio
 
 ![](../images/broadcast.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
 
 ![](../images/broadcast_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/broadcast_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_PreDj35LFRdm)
+[Sample Program](https://makecode.microbit.org/_PreDj35LFRdm)
 
-## 模型玩法
+## Instructions
 
-調較電位器直至可以聽到音樂。
+Adjust the potentiometer until music can be heard.

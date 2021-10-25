@@ -1,19 +1,19 @@
-# 怕光殭屍
+# Zombie Game
 
 ![](../images/zombie.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
 
 ![](../images/zombie_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/zombie_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_0tMVP3EsaHLL)
+[Sample Program](https://makecode.microbit.org/_0tMVP3EsaHLL)
 
-## 模型玩法
+## Instructions
 
-使用電筒照住殭屍的遊戲。
+Use a torch to kill the jumping zombies.

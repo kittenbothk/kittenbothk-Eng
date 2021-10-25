@@ -1,19 +1,19 @@
-# 智能晾衣架
+# Smart Hanger
 
 ![](../images/hanger.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1wg_edUZFrqyUONA0FJ6vFBkGArRsfnf4?usp=sharing)
 
 ![](../images/hanger_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/hanger_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_T08TXpDpdhrL)
+[Sample Program](https://makecode.microbit.org/_T08TXpDpdhrL)
 
-## 模型玩法
+## Instructions
 
-探測到水的時候晾衣架會自動收起。
+The hanger is automatically retracted when rain is detected.

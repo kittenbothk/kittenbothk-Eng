@@ -1,7 +1,7 @@
-Sugar系列模組教學
+Sugar Modules
 ========================
 
-這裡集合了Sugar系列各款感應器模組的介紹與教學。
+Information and tutorials about modules from the Suar series can be found here.
 
 .. toctree::
     :maxdepth: 1

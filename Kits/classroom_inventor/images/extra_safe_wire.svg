@@ -66,7 +66,7 @@
          sodipodi:role="line"
          id="tspan955-4"
          x="-72.807861"
-         y="-129.1908">KOI接P2,P12</tspan></text>
+         y="-129.1908">KOI to P2, P12</tspan></text>
     <image
        width="3368"
        height="2384"
@@ -102,7 +102,7 @@
     <text
        xml:space="preserve"
        style="font-size:160px;line-height:1.25;font-family:sans-serif"
-       x="3405.4263"
+       x="3235.7207"
        y="-554.3717"
        id="text1470"
        inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\piano_wire.png"
@@ -110,8 +110,8 @@
        inkscape:export-ydpi="20.573263"><tspan
          sodipodi:role="line"
          id="tspan1468"
-         x="3405.4263"
-         y="-554.3717">舵機接S1</tspan></text>
+         x="3235.7207"
+         y="-554.3717">Servo to S1</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:160px;line-height:1.25;font-family:sans-serif"

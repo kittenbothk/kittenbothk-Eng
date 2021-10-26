@@ -66,7 +66,7 @@
        x="-3368"
        y="-2384"
        transform="scale(-1)"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\piano_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263" />
     <path
@@ -74,7 +74,7 @@
        d="M 760.85452,982.1913 C 281.77612,931.6108 325.8552,843.5441 -589.69199,849.51689"
        id="path1001"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\piano_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263" />
     <image
@@ -86,7 +86,7 @@
        x="32.758953"
        y="2618.814"
        transform="rotate(-90)"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\hanger_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263" />
     <path
@@ -94,7 +94,7 @@
        d="M 2658.7215,-729.7342 C 2138.601,-777.07483 2948.8769,940.52272 2087.3792,808.93016"
        id="path1083"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\hanger_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263" />
     <text
@@ -103,13 +103,13 @@
        x="2460.7317"
        y="-1499.0664"
        id="text1087"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\hanger_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263"><tspan
          sodipodi:role="line"
          id="tspan1085"
          x="2460.7317"
-         y="-1499.0664">舵機接S1</tspan></text>
+         y="-1499.0664">Servo to S1</tspan></text>
     <image
        width="872.80762"
        height="880.85193"
@@ -118,7 +118,7 @@
        id="image1099"
        x="-1447.5781"
        y="405.8053"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\gate_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263" />
     <text
@@ -127,33 +127,33 @@
        x="-1358.6763"
        y="371.94287"
        id="text1105"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\nightlight_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263"><tspan
          sodipodi:role="line"
          id="tspan1103"
          x="-1358.6763"
-         y="371.94287">LED接P0</tspan></text>
+         y="371.94287">LED to P</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:160px;line-height:1.25;font-family:sans-serif"
        x="-67.239258"
        y="-135.88171"
        id="text957-1"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\fan_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263"><tspan
          sodipodi:role="line"
          id="tspan955-4"
          x="-67.239258"
-         y="-135.88171">KOI接P2,P12</tspan></text>
+         y="-135.88171">KOI to P2, P12</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:160px;line-height:1.25;font-family:sans-serif"
        x="277.09766"
        y="-1126.748"
        id="text1105-1"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\nightlight_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263"><tspan
          sodipodi:role="line"
@@ -170,34 +170,39 @@
        y="-301.14478"
        transform="rotate(-90)"
        inkscape:export-xdpi="20.573263"
-       inkscape:export-ydpi="20.573263" />
+       inkscape:export-ydpi="20.573263"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png" />
     <path
        style="fill:none;stroke:#00ff00;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 1275.6135,-1612.9127 1646.4214,843.31162"
        id="path853"
        sodipodi:nodetypes="cc"
        inkscape:export-xdpi="20.573263"
-       inkscape:export-ydpi="20.573263" />
+       inkscape:export-ydpi="20.573263"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png" />
     <path
        style="fill:none;stroke:#0000ff;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 1361.8805,-1614.3269 1732.6884,841.89752"
        id="path853-3"
        sodipodi:nodetypes="cc"
        inkscape:export-xdpi="20.573263"
-       inkscape:export-ydpi="20.573263" />
+       inkscape:export-ydpi="20.573263"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 1441.253,-1611.2883 1812.0609,844.93602"
        id="path853-6"
        sodipodi:nodetypes="cc"
        inkscape:export-xdpi="20.573263"
-       inkscape:export-ydpi="20.573263" />
+       inkscape:export-ydpi="20.573263"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 1520.4488,-1611.2884 370.808,2456.22452"
        id="path853-7"
        sodipodi:nodetypes="cc"
        inkscape:export-xdpi="20.573263"
-       inkscape:export-ydpi="20.573263" />
+       inkscape:export-ydpi="20.573263"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\extra_gate_wire.png" />
   </g>
 </svg>

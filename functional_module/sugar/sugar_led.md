@@ -1,57 +1,57 @@
-# Sugar LED模組
+# Sugar LED Module
 
 ![](./images/led1.png)
 
-這是一粒LED模組。背後亦設有塑膠積木孔，可以完美配搭塑膠積木使用。
+This is a LED module in the Sugar sensor series, the pin holes on the back allow compatibility with plastic buidling bricks.
 
-## 產品參數
+## Product Specifications
 
-- 尺寸：24 x 24 x 23 mm
-- 重量：5.6g
-- 訊號：1為點亮，0為熄滅
+- Dimension: 24 x 24 x 23 mm
+- Weight: 5.6g
+- Type: Digital
 
-## 產品接線
+## Wiring
 
-用3Pin 連接線將模組與Robotbit Edu連接起來。
+Use a 3Pin cable to connect the module to Robotbit Edu
 
 ![](./images/led_wire.png)
 
-## 編程教學
+## Programming Tutorial
 
-## MakeCode編程教學
+## MakeCode Programming Tutorial
 
 ![](../PWmodules/images/mcbanner.png)
 
-### 加載Sugar插件：
+### Import Sugar Extension
 
-### 在擴展頁直接搜尋sugar (sugar已經過微軟認證，可以直接搜尋)
+### Search for sugar in the search bar (Kittenbot products has been verified by Microsoft)
 
 ![](./images/sugar_search.png)
 
-### 你亦可以用插件地址搜尋
+### Extension URL
 
-Sugar插件：https://github.com/KittenBot/pxt-sugar
+Sugar extension: https://github.com/KittenBot/pxt-sugar
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Importing Extensions](../../Makecode/powerBrickMC)
 
 ![](./images/led_mc_code.png)
 
-[參考程式](https://makecode.microbit.org/_Ap5FxKHA6EPj)
+[Sample Program](https://makecode.microbit.org/_Ap5FxKHA6EPj)
 
-### Kittenblock 編程教學
+### Kittenblock Programming Tutorial
 
 ![](../PWmodules/images/kbbanner.png)
 
 ![](./images/led3.png)
 
-### MicroPython 編程教學
+### MicroPython Programming Tutorial
 
     LED(pin)
     state(sta)
 
-- state(sta): 1為點亮，0為熄滅
+- state(sta): 1 for on, 2 for off
 
-參考程式
+Sample Program
 
     from sugar import *
     import time
@@ -68,9 +68,9 @@ Sugar插件：https://github.com/KittenBot/pxt-sugar
 
     brightness(val)
 
-brightness(val): 亮度百分比，0~100
+brightness(val): A percentage(0-100)
 
-參考程式
+Sample Program
 
     from sugar import *
     import time
@@ -80,7 +80,7 @@ brightness(val): 亮度百分比，0~100
     
     for i in range(100):
         led.brightness(i)
-        time.sleep_ms(5) # 改变延时可改变呼吸速率
+        time.sleep_ms(5) 
     for i in range(100, -1, -1):
         led.brightness(i)
         time.sleep_ms(5)

@@ -1,55 +1,55 @@
-# Sugar 火焰感應模組
+# Sugar Flame Sensor Module
 
 ![](./images/flame1.png)
 
-這是一隻火焰感應模組，可以檢測火焰的強度。背後亦設有塑膠積木孔，可以完美配搭塑膠積木使用。
+This is a flame sensor in the Sugar sensor series. The pin holes on the back allow compatibility with plastic building blocks.
 
-## 產品參數
+## Product Specifications
 
-- 尺寸：24 x 24 x 23 mm
-- 重量：6.7g
-- 訊號：模擬信號0~1023/0~4095
+- Dimensions: 24 x 24 x 23 mm
+- Weight: 6.7g
+- Type: Analog Signal
 
-## 產品接線
+## Wiring
 
-用3Pin 連接線將模組與Robotbit Edu連接起來。
+Connect the module to Robotbit Edu with a 3Pin cable.
 
 ![](./images/flame_wire.png)
 
-## 編程教學
+## Programming Tutorial
 
-## MakeCode編程教學
+## MakeCode Programming Tutorial
 
 ![](../PWmodules/images/mcbanner.png)
 
-### 加載Sugar插件：
+### Import Sugar Extension
 
-### 在擴展頁直接搜尋sugar (sugar已經過微軟認證，可以直接搜尋)
+### Search for sugar in the search bar (Kittenbot products has been verified by Microsoft)
 
 ![](./images/sugar_search.png)
 
-### 你亦可以用插件地址搜尋
+### Extension URL
 
-Sugar插件：https://github.com/KittenBot/pxt-sugar
+Sugar extension: https://github.com/KittenBot/pxt-sugar
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Importing Extensions](../../Makecode/powerBrickMC)
 
 ![](./images/flame_mc_code.png)
 
-[參考程式](https://makecode.microbit.org/_X7zfCJ3cD6rf)
+[Sample Program](https://makecode.microbit.org/_X7zfCJ3cD6rf)
 
-### Kittenblock 編程教學
+### Kittenblock Programming Tutorial
 
 ![](./images/flame3.png)
 
-### MicroPython 編程教學
+### MicroPython Programming Tutorial
 
     Flame(pin)
     value()
 
-- value(): 模擬信號0~1023/0~4095
+- value(): Returns the analog reading
 
-參考程式
+Sample Program
 
     from future import *
     

@@ -1,59 +1,59 @@
-# Sugar 溫濕度模組
+# Sugar Environment Sensor Module
 
 ![](./images/env1.png)
 
-這是一隻溫濕度模組，可以檢測溫濕度，比起DHT11這塊模組的探測精準度較高。背後亦設有塑膠積木孔，可以完美配搭塑膠積木使用。
+This is an environment sensor in the Sugar series, it has a greater degree of accuracy compared to the common DHT11 module. The pin holes on the back allow compatibility with plastic building bricks.
 
-## 產品參數
+## Product Specifications
 
-- 尺寸：24 x 24 x 23 mm
-- 重量：4.6g
-    - 訊號：I2C
-    - 溫度: -40~85°C
-    - 濕度: 0~100%
+- Dimensions: 24 x 24 x 23 mm
+- Weight: 4.6g
+- Type: I2C
+- Temperature Range: -40~85°C
+- Humidity Range: 0~100%
 
-## 產品接線
+## Wiring
 
-用4Pin 連接線將模組連接到Robotbit Edu的藍色4Pin接口。
+Use a 4Pin cable to connect the module to the 4Pin I2C Port on the Robotbit Edu.
 
 ![](./images/env_wire.png)
 
-## 編程教學
+## Programming Tutorial
 
-## MakeCode編程教學
+## MakeCode Programming Tutorial
 
 ![](../PWmodules/images/mcbanner.png)
 
-### 加載Sugar插件：
+### Import Sugar Extension:
 
-### 在擴展頁直接搜尋sugar (sugar已經過微軟認證，可以直接搜尋)
+### Search for sugar in the search bar (Kittenbot products has been verified by Microsoft)
 
 ![](./images/sugar_search.png)
 
-### 你亦可以用插件地址搜尋
+### Extension URL
 
-Sugar插件：https://github.com/KittenBot/pxt-sugar
+Sugar extension: https://github.com/KittenBot/pxt-sugar
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Importing Extensions](../../Makecode/powerBrickMC)
 
 ![](./images/env_mc_code.png)
 
-[參考程式](https://makecode.microbit.org/_AhF2rX6jyhbv)
+[Sample Program](https://makecode.microbit.org/_AhF2rX6jyhbv)
 
-### Kittenblock 編程教學
+### Kittenblock Programming Tutorial
 
 ![](../PWmodules/images/kbbanner.png)
 
 ![](./images/env3.png)
 
-### MicroPython 編程教學
+### MicroPython Programming Tutorial
 
     ENV()
     update()
 
-- update(): 返回一個元組（溫度，濕度）
+- update(): Returns a list containing the temperature nad humidity.
 
-參考程式
+Sample Program
 
     from future import *
     from sugar import *

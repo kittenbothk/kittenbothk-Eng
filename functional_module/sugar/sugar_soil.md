@@ -1,55 +1,57 @@
-# Sugar 土壤濕度模組
+# Sugar Soil Moisture Sensor Module
 
 ![](./images/soil1.png)
 
-這是一隻土壤濕度模組，可以檢測土壤的濕度。背後亦設有塑膠積木孔，可以完美配搭塑膠積木使用。
+This is a soil moisture sensor module in the Sugar sensor series, the pin holes on the back allow compatibility with plastic building bricks.
 
-## 產品參數
+## Product Specifications
 
-- 尺寸：24 x 24 x 23 mm
-- 重量：6.7g
-- 訊號：模擬信號0~1023/0~4095
+- Dimensions: 24 x 24 x 23 mm
+- Weight: 6.7g
+- Type: Analog
 
-## 產品接線
+## Wiring 
 
-用3Pin 連接線將模組與Robotbit Edu連接起來。
+Use a 3Pin cable to connect the module to Robotbit Edu.
 
 ![](./images/soil_wire.png)
 
-## MakeCode編程教學
+## Programming Tutorial
+
+## MakeCode Programming Tutorial
 
 ![](../PWmodules/images/mcbanner.png)
 
-### 加載Sugar插件：
+### Import Sugar Extension
 
-### 在擴展頁直接搜尋sugar (sugar已經過微軟認證，可以直接搜尋)
+### Search for sugar in the search bar (Kittenbot products has been verified by Microsoft)
 
 ![](./images/sugar_search.png)
 
-### 你亦可以用插件地址搜尋
+### Extension URL
 
-Sugar插件：https://github.com/KittenBot/pxt-sugar
+Sugar extension: https://github.com/KittenBot/pxt-sugar
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Importing Extensions](../../Makecode/powerBrickMC)
 
 ![](./images/soil_mc_code.png)
 
-[參考程式](https://makecode.microbit.org/_4EUXDh8qtP7X)
+[Sample Program](https://makecode.microbit.org/_4EUXDh8qtP7X)
 
-### Kittenblock 編程教學
+### Kittenblock Programming Tutorial
 
 ![](../PWmodules/images/kbbanner.png)
 
 ![](./images/soil3.png)
 
-### MicroPython 編程教學
+### MicroPython Programming Tutorial
 
     Moisture(pin)
     value()
 
-- value(): 模擬信號0~1023/0~4095
+- value(): Returns sensor value
 
-參考程式
+Sample Program
 
     from future import *
     

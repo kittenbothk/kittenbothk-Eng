@@ -1,58 +1,58 @@
-# Sugar 巡線模組
+# Sugar Line Sensor Module
 
 ![](./images/line1.png)
 
-這是一隻紅外線巡線模組，主要用來檢測黑線。背後亦設有塑膠積木孔，可以完美配搭塑膠積木使用。
+This is an infrared line sensor module in the Sugar sensor series. The holes on the back allow compatibility with plastic building bricks.
 
-## 產品參數
+## Product Specifications
 
-- 尺寸：24 x 24 x 16 mm
-- 重量：5g
-- 訊號：檢測到黑線為1，否則為0
-- 檢測距離：1~14mm
+- Dimensions: 24 x 24 x 16 mm
+- Weight: 5g
+- Type: Digital
+- Sensing Range: 1~14mm
 
-## 產品接線
+## Wiring
 
-用3Pin 連接線將模組與Robotbit Edu連接起來。
+Use a 3Pin cable to connect the module to Robotbit Edu.
 
 ![](./images/line_wire.png)
 
-## 編程教學
+## Programming Tutorial
 
-## MakeCode編程教學
+## MakeCode Programming Tutorial
 
 ![](../PWmodules/images/mcbanner.png)
 
-### 加載Sugar插件：
+### Import Sugar Extension
 
-### 在擴展頁直接搜尋sugar (sugar已經過微軟認證，可以直接搜尋)
+### Search for sugar in the search bar (Kittenbot products has been verified by Microsoft)
 
 ![](./images/sugar_search.png)
 
-### 你亦可以用插件地址搜尋
+### Extension URL
 
-Sugar插件：https://github.com/KittenBot/pxt-sugar
+Sugar extension: https://github.com/KittenBot/pxt-sugar
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Importing Extensions](../../Makecode/powerBrickMC)
 
 ![](./images/line_mc_code.png)
 
-[參考程式](https://makecode.microbit.org/_f2P0L3170A04)
+[Sample Program](https://makecode.microbit.org/_f2P0L3170A04)
 
-### Kittenblock 編程教學
+### Kittenblock Programming Tutorial
 
 ![](../PWmodules/images/kbbanner.png)
 
 ![](./images/line3.png)
 
-### MicroPython編程教學
+### MicroPython Programming Tutorial
 
     Tracker(pin)
     value()
 
-- value(): 檢測到黑線為1，否則為0
+- value(): Returns Tracker Status
 
-參考程式
+Sample Program
 
     from future import *
     from sugar import *

@@ -1,43 +1,43 @@
-# 水溫感應器
+# Water Temperature Sensor
 
-使用水溫感應器可以測量水的溫度。
+This water temperature sensor can measure the temperature of liquids.
 
 ![](./images/watertemp1.jpg)
 
-## 產品參數
+## Product Specification
 
-- 工作電壓：3V~5V
-- 接口：3pin防反插接口
-- 測量範圍：-55°C~125°C
+- Voltage: 3V~5V
+- Connector: 3Pin PH2.0
+- Measuring Range: -55°C~125°C
 
-## 接線教學
+## Wiring
 
-將感應器接口連接到Robotbit Edu的接口上面。
+Connect the module to the GPIO port of Robotbit Edu.
 
 ![](./images/watertemp_wire.png)
 
-## MakeCode 編程教學
+## MakeCode Programming Tutorial
 
 ![](./PWmodules/images/mcbanner.png)
 
-### 加載水溫感應器插件：https://github.com/kittenbothk/pxt-KittenTurbidity
+### Import Turbidity Sensor Extension for MakeCode: https://github.com/kittenbothk/pxt-KittenTurbidity
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [Importing Extensions](../Makecode/powerBrickMC)
 
-### 水溫感應器積木塊：
+### Programming Blocks for Water Temperature Sensor
 
 ![](./images/watertemp2.png)
 
-### 水溫感應器編程
+### Sample Program
 
-    使用水溫感應器必須將電阻設為上，否則會失去作用。
+    The Water Temperature Sensor pin resistance need to be set to high.
 
 ![](./images/watertemp_code.png)
 
-[參考程式網址](https://makecode.microbit.org/_CA4EcbK879x2)
+[Sample Program](https://makecode.microbit.org/_CA4EcbK879x2)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)

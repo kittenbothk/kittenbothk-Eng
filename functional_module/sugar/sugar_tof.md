@@ -1,59 +1,58 @@
-# Sugar 激光測距模組
+# Sugar TOF Distance Sensor
 
 ![](./images/tof1.png)
 
-這是一隻激光測距模組，可以檢測距離，比起超聲波測距，激光測距的精準度更加高。背後亦設有塑膠積木孔，可以完美配搭塑膠積木使用。
+This is a TOF(Time of Flight) Distance sensor in the Sugar sensor series, the pin holes on the back allow compatibility with plastic building bricks.
 
-## 產品參數
+## Product Specifications
 
-- 尺寸：24 x 24 x 23 mm
-- 重量：4.6g
-    - 訊號：I2C
-    - 距離: 20~1200mm
+- Dimensions: 24 x 24 x 23 mm
+- Weight: 4.6g
+- Type: I2C
+- Sensing Range: 20~1200mm
 
+## Wiring
 
-## 產品接線
-
-用4Pin 連接線將模組連接到Robotbit Edu的藍色4Pin接口。
+Use a 4Pin cable to connect to the I2C Port on Robotbit Edu.
 
 ![](./images/tof_wire.png)
 
-## 編程教學
+## Programming Tutorial
 
-## MakeCode編程教學
+## MakeCode Programming Tutorial
 
 ![](../PWmodules/images/mcbanner.png)
 
-### 加載Sugar插件：
+### Import Sugar Extension
 
-### 在擴展頁直接搜尋sugar (sugar已經過微軟認證，可以直接搜尋)
+### Search for sugar in the search bar (Kittenbot products has been verified by Microsoft)
 
 ![](./images/sugar_search.png)
 
-### 你亦可以用插件地址搜尋
+### Extension URL
 
-Sugar插件：https://github.com/KittenBot/pxt-sugar
+Sugar extension: https://github.com/KittenBot/pxt-sugar
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Importing Extensions](../../Makecode/powerBrickMC)
 
 ![](./images/tof_mc_code.png)
 
-[參考程式](https://makecode.microbit.org/_M6e6P78YACV5)
+[Sample Program](https://makecode.microbit.org/_M6e6P78YACV5)
 
-### Kittenblock 編程教學
+### Kittenblock Programming Tutorial
 
 ![](../PWmodules/images/kbbanner.png)
 
 ![](./images/tof3.png)
 
-### MicroPython 編程教學
+### MicroPython Programming Tutorial
   
     TOFDistance()
     value()
 
-- value(): 返回距離（20~1200mm）
+- value(): Returns distance(20-1200mm)
 
-參考程式
+Sample Program
 
     from future import *
     from sugar import *

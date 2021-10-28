@@ -7,7 +7,9 @@ Information about Micro:bit compatible Expansion Boards.
     :maxdepth: 1
     :glob:
 
+    Robotbit_edu/index
     Robotbit/index
     ../functional_module/PWmodules/Armourbit.md
-    iobit/iobit
+    sugarbox/index
     JoyFrog/index
+    iobit/iobit.md

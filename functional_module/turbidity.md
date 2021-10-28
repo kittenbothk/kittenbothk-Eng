@@ -1,57 +1,57 @@
-# 污水混濁度感應器
+# Water Turbidity Sensor
 
 ![](./images/turbidity3.jpeg)
 
-污水混濁度感應器可以感測水的混濁程度。
+This water turbidity sensor can measure water quality by measuring turbidity.
 
-## 產品參數
+## Product Specifications
 
-- 工作電壓：3V~5V
-- 接口：3pin防反插接口
-- 工作溫度：5°C~85°C
-- 重量：30g
+- Voltage: 3V~5V
+- Port: 3Pin PH2.0
+- Temperature range: 5°C~85°C
+- Weight: 30g
 
-## 接線教學
+## Wiring
 
-將感應器連接到Robotbit Edu的接口上面。
+Connect the sensor to the GPIO port of Robotbit Edu.
 
-    污水混濁度感應器建議配合水溫感應器一同使用，以下圖表忽略去水溫感應器的接線，請自行參考有關教學。
+    Water Turbidity Sensor is recommended to use with Water Temperature Sensor, the figure below omits the water temperature sensor for clarity.
 
 ![](./images/turbidity_wire.png)
 
-## MakeCode 編程教學
+## MakeCode Programming Tutorial
 
 ![](./PWmodules/images/mcbanner.png)
 
-### 加載污水混濁度感應器插件：https://github.com/kittenbothk/pxt-KittenTurbidity
+### Import MakeCode Extension for Turbidity Sensor: https://github.com/kittenbothk/pxt-KittenTurbidity
 
-### [詳細方法](../Makecode/powerBrickMC)
+### [Importing Extensions](../Makecode/powerBrickMC)
 
-### 污水混濁度感應器積木塊：
+### Programming Blocks for Turbidity Sensor:
 
 ![](./images/turbidity2.png)
 
-### 污水混濁度感應器編程
+### Sample Program
 
-    污水混濁度感應器可以配合水溫感應器作校正使讀數更加準確。
-    注意：濁度感應器的頂部沒有防水，請不要將感應器完全浸入水中。
+    Using a water temperature sensor to calibrate the turbidity sensor will result in more accurate readings.
+    Caution: The Turbidity Sensor is not waterproof, do not immerse the entire sensor into the water.
 
 ![](./images/turbidity_code.png)
 
-[參考程式網址](https://makecode.microbit.org/_WjmH6zahVTUe)
+[Sample Program](https://makecode.microbit.org/_WjmH6zahVTUe)
 
-## 示範短片
+## Extension Version and Updates
 
-### 未來板
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
+
+[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
+
+## Demonstration Video
+
+### FutureBoard
 
 [![](./images/turbidity5.png)](https://youtu.be/4ePV6fmwoAA?t=7)
 
 ### Micro:bit
 
 [![](./images/turbidity6.png)](https://youtu.be/4ePV6fmwoAA?t=77)
-
-## 插件版本與更新
-
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
-
-詳情請參考: [Makecode插件版本更換](../../Makecode/makecode_extensionUpdate)

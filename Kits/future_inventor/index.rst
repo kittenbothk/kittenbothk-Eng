@@ -1,7 +1,7 @@
-未來板 物聯未來教學套件
+FutureBoard IoT Education Kit
 ====================
 
-物聯未來教學套件的詳細介紹與教學。
+FutureBoard IoT Education Kit
 
 .. toctree::
     :maxdepth: 1

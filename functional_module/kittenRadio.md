@@ -100,4 +100,4 @@ Connect the other end of the cable to the I2C port of Amorbit.
 
 There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../Makecode/makecode_extensionUpdate)

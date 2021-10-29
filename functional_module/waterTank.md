@@ -93,7 +93,7 @@ Connect the pump module to the motor pins on the Robotbit or Armourbit.
 
 There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../Makecode/makecode_extensionUpdate)
 
 
 ## KittenBlock Coding Tutorial

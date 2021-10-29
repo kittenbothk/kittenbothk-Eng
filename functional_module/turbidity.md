@@ -44,7 +44,7 @@ Connect the sensor to the GPIO port of Robotbit Edu.
 
 There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-[Makecode Extension Update](../../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../Makecode/makecode_extensionUpdate)
 
 ## Demonstration Video
 

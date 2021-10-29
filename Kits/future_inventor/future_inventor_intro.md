@@ -1,95 +1,99 @@
-# 物聯未來教學套件
+# FutureBoard IoT Education Kit
 
 ![](./images/1.png)
 
-物聯未來教學套件是以未來板為主控的教學套件，針對IoT與智能家居與智能交通而設計的教學套件。內容貼近現實生活，充滿趣味性、實用性和知識性，幫助學生輕易理解IoT與智能城市的應用。套件包含10款IoT智慧城市的應用實例，令學生可以緊貼科技發展，激發創造力。
+FutureBoard IoT Education Kit is an education kit designed for FutureBoard with its main focus on IoT applications such as Smart Home and Smart Traffic.
 
-## 產品特色
+The topics provide grounded and concrete concepts for students to understand and learn IoT in a fun and easy manner.
 
-1. 未來板的彩屏可以引起學生興趣，在16節課程中由零開始學習編程
-2. 套件大約10種應用案例，內容全部圍繞生活原理，智能家居及物聯網等，內容緊貼時代並讓學生容易將知識與日常生活連結起來
-3. 動手搭建各種應用項目，配合簡易的編程，令學生更全面輕易地了解物聯網的概念並且激發創客精神
+10 Smart City scenarios let students be at the forefront of technological advancements and inspire their creativity.
 
-## 產品參數
+## Special Features
 
-- 套件尺寸：205 x 182 x 75 mm
-- 重量：600 g
+1. The full color TFT screen makes learning and programming more interesting
+2. 10 Use Case scenarios focusing on IoT in daily lives, students can have a more solid understanding of IoT
+3. Hands on experience of building and programming, learning the basics of IoT in a concrete and comprehensive manner
 
-## 套件內容
+## Product Specifications
 
-- 未來板 x1
-- Robotbit Edu擴展板 x1
-- Robotbit底座 x1
-- 18650鋰電池 x1
-- Sugar LED 模組 x3
-- Sugar 按鍵模組 x1
-- Sugar 光敏模組 x1
-- Sugar 巡線模組 x1
-- Sugar 磁力感應模組 x1
-- Sugar 溫濕度探測模組 x1
-- Sugar 人體紅外線模組 x1
-- Sugar 搖桿模組 x1
-- Sugar 激光測距模組 x1
-- GeekServo 2KG灰色舵機 x1
-- GeekServo 2KG紅色電機 x1
-- 塑膠積木包 x1
-- 裝飾結構紙板 x3
-- 3Pin 連接線 x6
-- 4Pin 連接線 x2
-- USB線 x1
+- Package Dimensions: 205 x 182 x 75 mm
+- Weight: 600 g
 
-## 案例介紹
+## Package Contents
 
-### 1. 天氣小助手
+- FutureBoard x1
+- Robotbit Edu x1
+- Robotbit ABS Base x1
+- 18650 Lithium Ion Battery x1
+- Sugar LED Modules x3
+- Sugar Button Module x1
+- Sugar Light Sensor Module x1
+- Sugar Line Sensor Module x1
+- Sugar Magnet Sensor Module x1
+- Sugar Environment Sensor Module x1
+- Sugar PIR Sensor Module x1
+- Sugar Joystick Module x1
+- Sugar TOF Distance Module x1
+- GeekServo 2KG Servo x1
+- GeekServo 2KG Motor x1
+- Plastic Building Bricks Set x1
+- Structural Cardboards x3
+- 3Pin Cables x6
+- 4Pin Cables x2
+- USB Cable x1
 
-可以檢測環境溫度和濕度，亦可以獲取天文台數據，出門之前用來查看天氣就最適合不過。
+## Scenario Showcase
+
+### 1. Weather Helper
+
+Obtains weather information from HKO and displays on the screen.
 
 ![](./images/weatherstation.jpg)
 
-### 2. 激光測距儀
+### 2. Laser Ruler
 
-可以用來檢測前方障礙物的距離並實時顯示在屏幕上。
+Measure distance using accurate laser.
 
 ![](./images/distance_measure.jpg)
 
-### 3. 迎賓機械人
+### 3. Welcoming Robot
 
-模擬商店歡迎顧客，當檢測到有人靠近時自動揮手並發出聲效歡迎顧客。
+Welcomes customers when they enter a shop.
 
 ![](./images/welcome.jpg)
 
-### 4. 倒數鬧鐘
+### 4. Timer
 
-模擬一個計時器，扭動電位器調較時間，倒數完成後發出聲效提醒。
+Alarm rings when the time is up.
 
 ![](./images/timer.jpg)
 
-### 5. 保險夾萬
+### 5. Safe
 
-模擬一個夾萬，用家需要扭動電位器輸入密碼，密碼正確就會開啟夾萬。另外亦模擬了強行爆開夾萬的防盜警報。
+Turn the potentiometer to enter the password, alarm will ring if safe is broken in by force.
 
 ![](./images/safe.jpg)
 
-### 6. 智能路燈
+### 6. Smart Lamp Post
 
-模擬一組智能路燈，透過物聯網控制路燈的開關，亮度會因應環境亮度自動調節。
+A smart street light that can be controlled through IoT and can adjust brightness.
 
 ![](./images/streetlamp.jpg)
 
-### 7. 智能交通燈
+### 7. Smart Traffic Light
 
-模擬一組智能交通燈。
+A smart traffi light.
 
 ![](./images/trafficlight.jpg)
 
-### 8. 智慧停車場
+### 8. Smart Parking Lot
 
-模擬智能停車場，自動打開閘門讓汽車駛進或駛出，自動檢測停車場的空位數量。
+Automatic entry and exit of vehicles.
 
 ![](./images/parking.jpg)
 
-### 9. 無人小車
+### 9. Autonomous Vehicle
 
-模擬一部小車，可以使用搖桿控制或者利用物聯網控制。
+Use joystick or IoT to drive this vehicle.
 
 ![](./images/car.jpg)

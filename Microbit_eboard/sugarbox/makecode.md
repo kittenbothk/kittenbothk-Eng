@@ -1,16 +1,24 @@
-# SugarBox在MakeCode編程教學
+# MakeCode Programming with MakeCode
 
 ![](../../functional_module/PWmodules/images/mcbanner.png)
 
-## 加載Sugar插件：https://github.com/KittenBot/pxt-sugar
+## Import Sugar Extension
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### Search for sugar in the search bar (Kittenbot products has been verified by Microsoft)
 
-### SugarBox積木塊
+![](./images/sugar_search.Png)
+
+### Extension URL
+
+Sugar extension: https://github.com/KittenBot/pxt-sugar
+
+### [Importing Extensions](../../Makecode/powerBrickMC)
+
+### Programming Blocks for SugarBox
 
 ![](./images/mc1.png)
 
-### MakeCode編程教學
+### MakeCode Programming
 
 ![](./images/mc2.png)
 
@@ -18,8 +26,8 @@
 
 ![](./images/mc4.png)
 
-## 插件版本與更新
+## Extension Version and Updates
 
-插件可能會不定時推出更新，改進功能。亦有時候我們可能需要轉用舊版插件才可使用某些功能。
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
-詳情請參考: [Makecode插件版本更換](../../Makecode/makecode_extensionUpdate)
+[Makecode Extension Update](../../Makecode/makecode_extensionUpdate)

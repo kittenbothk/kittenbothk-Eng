@@ -1,7 +1,7 @@
-SugarBox擴展盒
+SugarBox Expansion Box
 ====================
 
-SugarBox擴展盒的各種資訊
+SugarBox Expansion Box
 
 .. toctree::
     :maxdepth: 1

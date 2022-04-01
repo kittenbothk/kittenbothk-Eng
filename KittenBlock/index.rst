@@ -10,10 +10,9 @@ Kittenbot was among the first companies to develop AI software in China thus the
 .. toctree::
     :maxdepth: 1
 
-    kittenblockVScratch
-    powerBrickKB.md
-    interfaceIntro/index
     kittenblockGreen.md
+    kittenblockVScratch
+    interfaceIntro/index
     powerBrickKBMBcode.md
     scratch_function/index
     kittenbot_function/index

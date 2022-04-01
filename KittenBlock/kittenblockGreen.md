@@ -1,14 +1,14 @@
-# Kittenblock Installation
+# Installing KittenBlock
 
-KittenBlock is a programming platform developed by Kittenbot.
+KittenBlock is the programming platform developed by Kittenbot for STEM Education.
 
-## Kittenblock Download
+## Setting Up KittenBlock on your machine
 
-### Downloading Kittenblock:
+### Download Site
 
 For Windows 10:
 
-[Kittenblock 1.87 Download](http://bit.ly/KittenblockHK187)
+Download the Google Drive Folder from [Download Kittenblock 1.87](http://bit.ly/KittenblockHK187).
 
 ![](./images/187download.png)  
 
@@ -18,70 +18,32 @@ Open KittenBlock.rar.
 
 ![](./images/187install1.png)
 
-Extract the files to the desktop.
+Extract the contents to your desktop.
+
+    Beware! Please do not place the contents in another folder!
 
 ![](./images/187install2.png)
 
-Open KittenBlock by double-clicking KittenBlock.exe.
+Double-click on KittenBlock.exe to launch KittenBlock.
 
 ![](./images/187install3.png)
 
-## Installing  drivers
+## Installing the Extensions
 
-Open the setting menu, install Microbit COM and CH340.
+Open up the settings menu by clicking on the gear.
 
-It may take a few minutes to install the necessary drivers.
+Install Microbit COM and CH340 extensions. It should take less than a few minutes.
 
 ![](../functional_module/PWmodules/kbimages/an08.png)
 
-## Kittenblock Updates
+## Trouble Shooting
 
-As Kittenbot continues to improve Kittenblock, there maybe updates periodically.
+### 1. KittenBlock launches to a blue or white screen.
 
-A notice will pop up when a new update is valid.
+The permissions have to be updated.
 
-![](../functional_module/PWmodules/kbimages/update1.png)
-
-A rocket icon would appear, click this icon to begin the update.
-
-![](../functional_module/PWmodules/kbimages/update2.png)
-
-Press OK and Kittenblock will restart to complete the update.
-
-![](../functional_module/PWmodules/kbimages/update3.png)
-
-## Troubleshooting:
-
-### 1. KittenBlock displays a white or blue screen after launching.
-
-The user rights is not enough.
-
-### Right click Kittenblock and click "Properties", modify the compatibilty and rights.
+### Right-click on Kittenblock.exe and tick run as administrator.
 
 ![](../functional_module/PWmodules/kbimages/an10.png)
 
 ![](../functional_module/PWmodules/kbimages/an07.png)
-
-### 2. No response when installing drivers.
-
-Kittenblock maybe restricted by system rights.
-
-### Install the drivers manually.
-
-Navigate to Kittenblock's directory.
-
-For example: D:\Program Files (x86)\Kittenblock\drivers
-
-Double click to install the drivers.
-
-![](../functional_module/PWmodules/kbimages/an09.png)
-
-### 3. Kittenblock does not restart after updating.
-
-Kittenblock does not have the administrator rights.
-
-### Launch Kittenblock with adminstrator rights/
-
-Right click and select "Run as adminstrator".
-
-![](../functional_module/PWmodules/kbimages/update4.png)

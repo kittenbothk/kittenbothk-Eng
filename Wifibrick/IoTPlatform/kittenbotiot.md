@@ -1,22 +1,22 @@
-# Kittenbot自家IoT平台:
+# KittenBot IOT Platform
 
-為了方便大家實踐外網的IoT應用，Kittenbot現已提供一個免費的IoT物聯網平台。
+In order to allow more users to experience IoT usage, KittenBot is now providing a free IoT platform for its customers.
 
-### [Kittenbot自家IoT平台](https://iot.kittenbot.cn/)
+### [Kittenbot IOT Platform](https://iot.kittenbot.cn/)
 
-## 帳號申請
+## Applying for an Account
 
-KittenBot的自家物聯網平台是完全免費的，不過用家需要申請一個帳號。
+KittenBot IOT Platform is completely free of charge, however users will need an account to access the platform.
 
-如欲使用Kittenbot的IoT平台，請以WhatsApp聯絡Kittenbot HK。
+If you wish to gain access to KittenBot's IOT Platform, please Whatsapp KitttenBot HK.
 
-[按此WhatsApp KittenBot HK](https://api.whatsapp.com/send?phone=85296480090&text=你好,我想申請免費Kittenbot物聯網平台登入)
+[WhatsApp KittenBot HK](https://api.whatsapp.com/send?phone=85296480090&text=你好,我想申請免費Kittenbot物聯網平台登入)
 
-## 平台介紹
+## Platform Introduction
 
-KittenBot顧及到市場上的物聯網平台大多都需要付費，而且就算免費亦都有不同限制的情況，專為各位KittenBot的用家提供了一個免費的基本物聯網平台，讓大家可以輕易實現到物聯網的應用。
+KittenBot has made into consideration that most IoT platforms require a subscription, and free platforms usually come with many limitations. KittenBot is now providing a basic IOT platform for free so that users can easily implement and experience IoT applications.
 
-### 平台功能介紹：
+### Platform Functions
 
 - 可在瀏覽器存取IoT平台
 - 自訂話題名稱

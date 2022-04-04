@@ -7,7 +7,9 @@ Kittenbot has developed a Wifi module for Micro:bit called Wifibrick to enable t
     :maxdepth: 1
     :glob:
 
-    Wifibrick_intro
-    wifiUpdate.md
+    wifibrick/index.rst
     IoTPlatform/index
     MakeCode/index
+    futureboard/index
+    IFTTT/index.rst
+    AI2/ai2.md

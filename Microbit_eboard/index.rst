@@ -13,3 +13,4 @@ Information about Micro:bit compatible Expansion Boards.
     sugarbox/index
     JoyFrog/index
     iobit/iobit.md
+    arcade_shield/index.rst

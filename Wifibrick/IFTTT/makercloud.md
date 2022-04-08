@@ -1,127 +1,127 @@
-# MakerCloud x IFTTT應用教學
+# MakerCloud x IFTTT
 
-透過IFTTT，我們可以將IoT項目升級，做到更多不同的應用，例如自動發電郵，Telegram訊息等。
+We can upgrade our IoT projects by using IFTTT to achieve more functions such as emails or Telegram messages.
 
-MakerCloud平台上已經有容易使用的工具，讓大家可以快速地建立IFTTT的應用。
+MakerCloud already has built-in support for easily incorporating IFTTT into your project.
 
-## MakerCloud官方教學
+## MakerCloud Official Guides
 
-MakerCloud有提供官方教學，一切以MakerCloud官方教學為準。
+MakerCloud provides an official step-by-step tutorial on using IFTTT with MakerCloud.
 
-### 第一步：數據觸發教學
+### Step 1: Event Triggers
 
-### [數據觸發教學](https://learn.makercloud.io/en/latest/ch9_event_trigger/event_trigger/smartrack_ET/)
+### [Event Triggers](https://learn.makercloud.io/en/latest/ch9_event_trigger/event_trigger/smartrack_ET/)
 
-### 第二步：數據續發IFTTT教學
+### Step 2: Event Triggers with IFTTT
 
-### [數據觸發IFTTT教學](https://learn.makercloud.io/en/latest/ch9_event_trigger/ifttt/smartrack_IFTTT/)
+### [Event Triggers with IFTTT](https://learn.makercloud.io/en/latest/ch9_event_trigger/ifttt/smartrack_IFTTT/)
 
-## MakerCloud x IFTTT應用教學
+## MakerCloud x IFTTT Guide
 
-### 以下內容由KittenBot HK撰寫，一切以官方教學作準。
+### The following content is written by KittenBot HK, please refer to official tutorial if any differences are found.
 
-### 第一步：數據續發
+### Step 1: Event Triggers
 
-首先前往MakerCloud，建立新或者選擇一個項目，並建立一個話題。
+Create a new project on MakerCloud.
 
 ![](./images/mc1.png)
 
-前往數據觸發頁面。
+Open the tab "Event Trigger".
 
 ![](./images/mc2.png)
 
-搭建出以下數據觸發小程式。
+Build the following applet.
 
 ![](./images/mc3.png)
 
-在webhook事件和鑰匙先隨便填入資料，然後點擊創建。
+For webhook event and webhook key, we can fill in random filler for now.
 
 ![](./images/mc4.png)
 
-### 第二步：設立IFTTT
+### Step 2: Set Up IFTTT
 
-前往IFTTT並註冊或登入帳號。
+Register and log in to an IFTTT account.
 
 ![](./images/mc5.png)
 
-建立新程式。
+Create a new applet.
 
 ![](./images/mc6.png)
 
 ![](./images/mc7.png)
 
-在If This的選項裡選擇Webhooks。
+Search for webhooks in the "If this" section.
 
 ![](./images/mc8.png)
 
-選擇Receive A Web Request。
+Select "Receive A Web Request".
 
 ![](./images/mc9.png)
 
-假如之前沒有使用過Webhook的話，請點Connect。如曾使用此服務的話可以跳過這步驟。
+Press connect if prompted.
 
 ![](./images/mc10.png)
 
-在EventName裏填入一個事件名稱。
+Enter an event name.
 
 ![](./images/mc11.png)
 
-然後選擇Then That。
+Move on to "Then That" section.
 
 ![](./images/mc12.png)
 
-在這個示範會使用電郵，請選擇email。
+In this tutorial ,we will use IFTTT to send an email. But there are many other applications supported too, please feel free to explore on your own.
 
 ![](./images/mc13.png)
 
-選擇Send Me an Email。
+Select Send Me an Email.
 
 ![](./images/mc14.png)
 
-使用此服務之前需要先啟動，假如曾使用過就不用理會。
+We have to activate this service for the first time when using this service.
 
 ![](./images/mc15.png)
 
-按照指示啟動電郵服務。
+Follow the instructions to activate email service.
 
 ![](./images/MC16.png)
 
-可以更改電郵的主旨和內容，現在先全部使用預設。
+You can modify the email contents, but we will use default settings for this tutorial.
 
 ![](./images/mc17.png)
 
-完成之後就可以按Continue。
+Press Continue.
 
 ![](./images/mc18.png)
 
-然之後需要獲取個人的Webhook資料。前往帳戶的My Services。
+Go to "My services".
 
 ![](./images/mc19.png)
 
-選擇Webhooks。
+Select Webhooks.
 
 ![](./images/mc20.png)
 
-選擇Documentation。
+Choose Documentation.
 
 ![](./images/mc21.png)
 
-將Your Key複製。
+Copy the key.
 
 ![](./images/mc22.png)
 
-回到MakerCloud的頁面，將Webhook密碼貼到鑰匙一欄上。
+Paste the key into the webhook key field in MakerCloud applet.
 
 ![](./images/mc23.png)
 
-在Webhook事件裡填寫你的事件名稱。
+Enter the event name in the MakerCloud applet.
 
 ![](./images/mc24.png)
 
-完成之後點擊創建。
+Save the applet.
 
 ![](./images/mc25.png)
 
-測試一下對頻道發送訊息，假如訊息與觸發條件吻合，你應該會收到電郵。
+Try publishing "hello" to your topic, you should receive an email after a few seconds.
 
 ![](./images/mc26.png)

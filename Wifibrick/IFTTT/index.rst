@@ -1,7 +1,7 @@
-IFTTT設定教學
+IFTTT x KittenBot
 ====================
 
-各平台與IFTTT的設定教學。
+You can find guides to set up IFTTT with different IoT platforms here.
 
 .. toctree::
     :maxdepth: 1

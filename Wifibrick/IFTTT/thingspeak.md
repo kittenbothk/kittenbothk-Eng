@@ -1,129 +1,131 @@
-# ThingSpeak x IFTTT應用教學
+# ThingSpeak x IFTTT
 
-ThingSpeak亦都內建了工具讓大家可以透過平台觸發IFTTT程式。
+ThingSpeak can also be configured to use IFTTT.
 
-## ThingSpeak官方教學
+## ThingSpeak Official Tutorial
 
-ThingSpeak有提供官方教學，一切以官方教學為準。
+ThingSpeak provides an official tutorial.
 
-### [ThingSpeak官方教學](https://uk.mathworks.com/help/thingspeak/use-ifttt-to-send-text-message-notification.html?requestedDomain=)
+### [ThingSpeak Official Tutorial](https://uk.mathworks.com/help/thingspeak/use-ifttt-to-send-text-message-notification.html?requestedDomain=)
 
-## ThingSpeak x IFTTT應用教學
+## ThingSpeak x IFTTT
 
-### 以下內容由KittenBot HK撰寫，一切以官方教學作準。
+### The following content is written by KittenBot HK, please refer to official tutorial if any differences are found.
 
-前往IFTTT並註冊或登入帳號。
+### Set Up IFTTT
+
+Register and log in to an IFTTT account.
 
 ![](./images/mc5.png)
 
-建立新程式。
+Create a new applet.
 
 ![](./images/mc6.png)
 
 ![](./images/mc7.png)
 
-在If This的選項裡選擇Webhooks。
+Search for webhooks in the "If this" section.
 
 ![](./images/mc8.png)
 
-選擇Receive A Web Request。
+Select "Receive A Web Request".
 
 ![](./images/mc9.png)
 
-假如之前沒有使用過Webhook的話，請點Connect。如曾使用此服務的話可以跳過這步驟。
+Press connect if prompted.
 
 ![](./images/mc10.png)
 
-在EventName裏填入一個事件名稱。
+Enter an event name.
 
 ![](./images/mc11.png)
 
-然後選擇Then That。
+Move on to "Then That" section.
 
 ![](./images/mc12.png)
 
-在這個示範會使用電郵，請選擇email。
+In this tutorial ,we will use IFTTT to send an email. But there are many other applications supported too, please feel free to explore on your own.
 
 ![](./images/mc13.png)
 
-選擇Send Me an Email。
+Select Send Me an Email.
 
 ![](./images/mc14.png)
 
-使用此服務之前需要先啟動，假如曾使用過就不用理會。
+We have to activate this service for the first time when using this service.
 
 ![](./images/mc15.png)
 
-按照指示啟動電郵服務。
+Follow the instructions to activate email service.
 
 ![](./images/MC16.png)
 
-可以更改電郵的主旨和內容，現在先全部使用預設。
+You can modify the email contents, but we will use default settings for this tutorial.
 
 ![](./images/mc17.png)
 
-完成之後就可以按Continue。
+Press Continue.
 
 ![](./images/mc18.png)
 
-去到這一步，我們需要返回ThingSpeak設置平台。
+### Set up ThingSpeak
 
-在ThingSpeak，前往Apps這個頁面。
+Navigate to the Apps tab.
 
 ![](./images/ts1.png)
 
-在Actions選擇ThingHTTP。
+Select ThingHTTP in actions.
 
 ![](./images/ts2.png)
 
-建立新的ThingHTTP。
+Create a new ThingHTTP.
 
 ![](./images/ts3.png)
 
-首先輸入名稱。
+Enter a name for this action.
 
 ![](./images/ts4.png)
 
-然後轉換到IFTTT的頁面。
+Switch to IFTTT page.
 
-然之後需要獲取個人的Webhook資料。前往帳戶的My Services。
+Go to "My services".
 
 ![](./images/mc19.png)
 
-選擇Webhooks。
+Select Webhooks.
 
 ![](./images/mc20.png)
 
-選擇Documentation。
+Choose Documentation.
 
 ![](./images/mc21.png)
 
-在Event的欄位填入您的IFTTT程式事件名稱。
+Enter an action name.
 
 ![](./images/ts5.png)
 
 ![](./images/ts6.png)
 
-將此連結複製，然後貼上到ThingHTTP的URL一欄上。
+Copy this link and paste into the URL field.
 
 ![](./images/ts7.png)
 
-最後按Save確認並儲存ThingHTTP。
+Save the ThingHTTP.
 
 ![](./images/TS8.png)
 
-在Apps頁面選擇React。
+Choose React from the apps.
 
 ![](./images/ts9.png)
 
-建立新React。
+Create a new React.
 
 ![](./images/ts10.png)
 
-假如你的ThingSpeak頻道數據是數字格式，請選擇Numeric。在Action選擇ThingHTTP和你的React。然後剔選每次條件吻合都觸發的選項。
+Enter the conditions for this trigger and select the ThingHTTP you want, tick "Run action each time condition is met" if you want to trigger the action everytime the condition is met.
 
 ![](./images/ts11.png)
 
-試一下對ThingSpeak頻道發送數據，假如條件吻合的話你應該會收到電郵。
+Try publishing data to your ThingSpeak channel, you should receive an email if the conditions are met.
 
 ![](./images/mc26.png)

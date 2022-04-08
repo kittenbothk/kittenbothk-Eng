@@ -1,8 +1,8 @@
-# 完整移除KittenBlock
+# Removing KittenBlock Completely
 
-由於只用Windows的解除安裝功能並不能夠完整地清除所有程式的檔案，我們需要進行額外步驟來完整清除KittenBlock。
+The Windows Uninstaller may not remove all files associated with KittenBlock, thus the files must be removed manually.
 
-## 在控制台卸除安裝Kittenblock
+## 1. Removing Kittenblock via the Control Panel
 
 ![](../images/removal1.png)
 
@@ -10,12 +10,12 @@
 
 ![](../images/removal3.png)
 
-## 在搜尋欄輸入%appdata%
+## 2. Search for %appdata% in the search bar
 
 ![](../images/removal4.png)
 
 ![](../images/removal5.png)
 
-## 剷除名為KittenBlock的資料夾
+## 3. Delete the folder named Kittenblock
 
 ![](../images/removal6.png)

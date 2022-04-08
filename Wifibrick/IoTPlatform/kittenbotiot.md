@@ -18,54 +18,54 @@ KittenBot has made into consideration that most IoT platforms require a subscrip
 
 ### Platform Functions
 
-- 可在瀏覽器存取IoT平台
-- 自訂話題名稱
-- 上傳數據到話題
-- 手動發佈話題訊息
-- 圖表自動生成
+- Access the IoT Platform via a browser
+- Custom Topic Name
+- Uploading data to topic
+- Manual publishing of data
+- Auto-generation of charts
 
-## 平台介面介紹
+## User Interface
 
 ![](./iotimage/kittenbot_1.png)
 
-### 1：話題操作
+### 1: Topics Menu
 
-在左邊您可以看到與話題有關的操作。
+The menu on the left are for Topics.
 
 ![](./iotimage/kittenbot_2.png)
 
-按下添加話題就可以新增物聯網話題。
+You can add a new topic by clicking the Plus Icon.
 
-由於話題名稱是全平台唯一的，所以名稱請盡量保持獨特。例如/testing或/hello這些就可能已經被人用過了。
+As the platform is shared by many users, please choose a unique name for your topic, for example /testing or /hello may be taken already.
 
-訂閱用戶名和密碼是選擇性的，假如留空的話就是公眾話題，代表任何人都可以憑話題名稱上傳或讀取數據。假如設立用戶名和密碼，就只有知道這兩項資訊的人才可以存取了~
+Username and password is optional, the topic is set to public if username and password is blank, meaning anyone can access the topic with topic name. Setting the username and password allows only people who know the username and password to access your topic.
 
 ![](./iotimage/kittenbot_3.png)
 
-### 2：話題主要畫面
+### 2：Topic Page
 
-這是話題的主要頁面。
+This is the page for each topic.
 
 ![](./iotimage/kittenbot_4.png)
 
-您可以從這裡手動發布信息到話題。
+You can manually publish message here.
 
 ![](./iotimage/kittenbot_5.png)
 
 ![](./iotimage/kittenbot_6.png)
 
-話題收到的訊息會在這個面板顯示出來，假如沒有即時顯示，請按一下右手面的刷新按鈕。
+New topic messages are automatically updated and displayed here.
 
 ![](./iotimage/kittenbot_7.png)
 
-你亦可以切換到圖表模式，話題就會自動根據所收到的數據組成圖表。
+In the chart tab, a chart is generated based on numerical data in the topic.
 
 ![](./iotimage/kittenbot_8.png)
 
-您可以下載話題數據，數據會以csv的格式保存。
+The data can be downloaded as a CSV file.
 
 ![](./iotimage/kittenbot_9.png)
 
-## Makecode 編程與Kittenbot IoT
+## Makecode Coding with Kittenbot IoT
 
-[Makecode編程教學](../MakeCode/mc_kittenbotiot.md)
+[Makecode Coding](../MakeCode/mc_kittenbotiot.md)

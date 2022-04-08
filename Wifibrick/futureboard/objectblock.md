@@ -1,49 +1,51 @@
-# 未來板與ObjectBlocks編程教學
+# FutureBoard and ObjectBlocks
 
-未來板亦都可以支援ObjectBlocks的IoT應用。
+## Setting Up ObjectBlocks
 
-## ObjectBlocks平台設置
+Set up ObjectBlocks by following the instructions.
 
-由於在其他篇章已經有ObjectBlocks平台設置的教學，本篇章將不作重複，請參考以下篇章了解MakerCloud平台的使用方法。
+### [Using ObjectBlocks](../MakeCode/objectblock.md)
 
-### [ObjectBlocks平台使用方法](../MakeCode/objectblock.md)
+## KittenBlock Programming
 
-## 未來板KittenBlock編程教學
+### Connecting to ObjectBlocks
 
-### 連接ObjectBlocks平台
+Build the following program to connect to ObjectBlocks.
 
-搭建以下程式，連接ObjectBlocks。
-
-- 伺服器網址：hub2.objectblocks.cc
-- clientID：隨意填寫
-- username：按照ObjectBlocks
-- password：按照ObjectBlocks
+- MQTT Host: hub2.objectblocks.cc
+- clientID: Does Not Matter
+- username: Copy from ObjectBlocks
+- password: Copy from ObjectBlocks
 
 ![](./images/ob1.png)
 
-### 發佈信息到ObjectBlocks
+### Publishing to ObjectBlocks Channel
 
-搭建以下程式，按A鍵發布信息到ObjectBlocks。
+Build the following program to publish data to ObjectBlocks.
+
+Copy and paste your topic name from ObjectBlocks.
 
 ![](./images/ob2.png)
 
-發佈數字或文字訊息有少許分別需要注意。
+Please note the following differences regarding text or numeric data.
 
 ![](./images/ob3.png)
 
 ![](./images/ob4.png)
 
-測試程式，在ObjectBlocks儀錶板裡面會看到發布的信息。
+Any published data will be shown on ObjectBlocks.
 
 ![](./images/ob5.png)
 
-### 在未來板接收ObjectBlocks平台訊息
+### Subscribing to ObjectBlocks Channel
 
-搭建以下程式，讀取ObjectBlocks平台上的信息。
+Build the following program to read ObjectBlocks channel data.
+
+Copy and paste your topic name from ObjectBlocks.
 
 ![](./images/ob6.png)
 
-發佈的信息會顯示在ObjectBlocks儀錶板和未來板上。
+The data is shown on ObjectBlocks and FutureBoard.
 
 ![](./images/ob7.png)
 

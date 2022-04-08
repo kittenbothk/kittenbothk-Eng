@@ -1,7 +1,7 @@
-未來板與各IoT平台編程教學
+FutureBoard Programming for IoT Platforms
 ====================
 
-您可以在這裡找到未來板與各種IoT平台的編程教學。
+You can find guidelines for using different IoT platforms with FutureBoard and KittenBlock.
 
 .. toctree::
     :maxdepth: 1

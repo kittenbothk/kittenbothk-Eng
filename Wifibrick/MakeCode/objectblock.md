@@ -105,3 +105,9 @@ Press A to publish a random number to ObjectBlocks, the number is shown on the D
 ![](./iotimage/object20.png)
 
 [Sample Program](https://makecode.microbit.org/_3Picjj2KRChw)
+
+## Extension Version and Updates
+
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
+
+[Makecode Extension Update](../../Makecode/makecode_extensionUpdate)

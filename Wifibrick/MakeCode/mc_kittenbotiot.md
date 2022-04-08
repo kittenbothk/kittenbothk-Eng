@@ -51,3 +51,9 @@ Manually publish "happy" or "sad" on KittenBot IoT, Micro:bit will display a cor
 ![](./iotimage/kittenbot_4.png)
 
 [Sample Program](https://makecode.microbit.org/_9xm455btKcPi)
+
+## Extension Version and Updates
+
+There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
+
+[Makecode Extension Update](../../Makecode/makecode_extensionUpdate)

@@ -1,8 +1,7 @@
-(MakeCode Coding)
-
 # Makecode Coding and Thinkspeak
 
 ![](../../functional_module/PWmodules/images/mcbanner.png)
+
 
 ## Foreword
 
@@ -22,13 +21,13 @@ Navigate to MakeCode's page before continuing.
 
 [MakeCode](https://makecode.microbit.org)
 
-## Extensions Required
+### Importing Extensions
 
-Wifibrick: **https://github.com/KittenBot/pxt-kittenwifi**
+### Search for KittenBot
 
-Robotbit: **https://github.com/KittenBot/pxt-robotbit**
+### Import KittenWifi or KOI depending on your hardware
 
-Powerbrick: **https://github.com/KittenBot/pxt-powerbrick**
+![](./iotimage/wifi_search.png)
 
  [Loading Extensions](../../Makecode/powerBrickMC)
 
@@ -66,213 +65,113 @@ Before moving on, it is recommended that you run this program once to ensure the
 
 [**Demo Video**](https://youtu.be/v6yIrGqzqO4)
 
-## Publish Data to Thinkspeak
+## Registering a ThingSpeak Account
 
-### 2.1 Connecting to Thinkspeak
+Follow the instructions to register for a ThingSpeak account.
 
-------
+[ThingSpeak Introduction](../IoTPlatform/Thinkspeak.md)
 
-Connecting to IoT platforms are done with these blocks.
+## Setting Up ThingSpeak Platform
 
- ![](./iotimage/iot-40-01.png)
+### Create a new Channel
 
-Add the following code to your program to connect to the IoT Platform.
+Create a new channel.
 
-Input **mqtt.thingspeak.com** in the host field. For ClientID, just input whatever you want.
+![](../futureboard/images/1.png)
 
-![](./iotimage/iot-41.png)
+Choose a name for your channel.
 
-### 3.1.1 Publishing to ThingSpeak manually
+![](../futureboard/images/2.png)
 
-------
+Other fields can be ignored, click Save Channel.
 
-Scenario:
+![](../futureboard/images/3.png)
 
-Using the light sensor on the Micro:bit, we want to upload the brightness in our classroom to our channel.
+Open the Sharing tab.
 
-##### STEP 1
+![](../futureboard/images/4.png)
 
-Find the block used to publish data from the KittenWifi extension.
+Set the sharing settings to "Share channel view with everyone".
 
- ![](./iotimage/iot-42.png)
+![](../futureboard/images/5.png)
 
-##### STEP 2
+The Access with change to "Public".
 
-In the **Topic** field, input the details according to this format.
+![](../futureboard/images/6.png)
 
-*channels/**channel ID**/publish/**Write Key***
+### Add a new device
 
-**channel ID** is the unique ID given to your channel.
+Open the Devices menu, select MQTT.
 
-**Write Key** is the password needed to access your channel.
+![](../futureboard/images/7.png)
 
-e.g. **channels/1058604/publish/NNCQRVPVJ7ZATI1F**
+Add a new device.
 
-If you have forgotten how to find these details, please refer to:
+![](../futureboard/images/8.png)
 
-[ThingSpeak Introduction](../IoTplatform/Thinkspeak)
+![](../futureboard/images/9.png)
 
-##### STEP 3
+Select the channels accessible by this device and click Add Channel.
 
-Next, we have to prepare the data to be uploaded.
+![](../futureboard/images/10.png)
 
-ThingSpeak deals with data with the following format:
+Click Add Device.
 
-fieldNo=value
+![](../futureboard/images/11.png)
 
-    Since we are sending data in a string format, we need to use join string to create a payload that ThingSpeak can work with.
+IMPORTANT! These MQTT Credentials are used for connecting to ThingSpeak! Please save or download the credentials as they can't be seen after closing this page.
 
-Find the following block from the menu.
+![](../futureboard/images/12.png)
 
- ![](./iotimage/iot-43-01.png)
+![](../futureboard/images/13.png)
 
-In our scenario, brightness is stored in field1, so we put **field1=** and the **light level** into the "Join String" fields.
+# MakeCode Coding
 
-The created string is the payload we are going to send, so we can put it into the *Data* field. 
+### Connecting to ThingSpeak
 
- ![](./iotimage/iot-44-01.png)
+Build the following program and use these parameters to connect to ThingSpeak.
 
-After these 3 steps, our program is complete.
+- Host: mqtt3.thingspeak.com
+- ID: ThingSpeak Device Client ID
+- Username: ThingSpeak Device Username
+- Password: ThingSpeak Device Password
 
- ![](./iotimage/iot-45-01.png)
+![](./iotimage/thingspeak_mc.png)
 
-[3.1.1 Sample Code Link](https://makecode.microbit.org/_7VoDz8XvCDo0)
+### Publishing to ThingSpeak Channel
 
-    You need to input your own network and channel details before using the sample code.
+We need the Channel ID for publishing. The channel ID is displayed on the Channel page as a 7-digit number.
 
-##### STEP 4
+![](../futureboard/images/15.png)
 
-In this step, we can use the Micro:bit send data to our channel.
+Build the following program to publish a data to ThingSpeak:
 
-1. Turn on the power and wait for the Wifibrick to successfully connect to the internet.
+- MQTT Topic: channels/[Channel ID]/publish
+- Message: field[field No.]=[Numeric Data]
 
-2. Log in to ThingSpeak and navigate to your channel.
+![](./iotimage/thingspeak_code1.png)
 
-3. Press button A on your Micro:bit to publish data.
+[WiFiBrick Sample Program](https://makecode.microbit.org/_L71FkV3wkEV4)
 
-4. After a short moment, the data will be shown on your chart.
+[KOI Sample Program](https://makecode.microbit.org/_UzsL7JKtuJi6)
 
-   ![](./iotimage/iot-46-01.png)
+On the ThingSpeak page, you can see the published data.
 
-```
-Attention 1: Publishing speed maybe affected by network speed or server load, you may need to wait up to a few seconds before the chart updates.
-```
+![](../futureboard/images/17.png)
 
-```
-Attention 2: Free accounts can only publish once every 15 seconds.
-```
+### Subscribing to ThingSpeak Channel
 
+We can read the channel data by subscribing to the channel.
 
+- MQTT Topic: channels/[Channel ID]/subscribe/fields/field[field No.]
 
-### 3.1.2 Publishing to ThingSpeak automatically
+Press A to publish a message to the channel, Micro:bit will display the data received.
 
-------
+![](./iotimage/thingspeak_code2.png)
 
-By slightly modifying our program, it can now automatically upload data.
+[WiFiBrick Sample Program](https://makecode.microbit.org/_JKeC421rpUx2)
 
-![](./iotimage/iot-48-1.png)
-
-Since our free accounts can only publish once every 15 seconds, we put a 15 second pause before sending data again.
-
-[3.2.2 Sample Code Link](https://makecode.microbit.org/_ism56L9k8g9h)
-
-    You need to input your own network and channel details before using the sample code.
-
-Data will be sent every 15 second after the Wifibrick has successfully connected to the internet.
-
- ![](./iotimage/iot-47-1.png)
-
-## Subscribing to a ThingSpeak Channel
-
-By subscribing to a channel, we can read its data.
-
-First we need to change our channel to a Public channel.
-
-```
-IMPORTANT: Subscribing will not work with private channels!
-```
-
-### 2.2 Connecting to ThingSpeak
-
-------
-
-On ThinkSpeak, subscribing to a channel requires both the Channel ID and the MQTT API KEY of the owner.
-
-Because we need to provie the MQTT API KEY when connecting to ThingSpeak, we will use this block to log in.
-
- ![](./iotimage/iot-50-1.png)
-
-We also need this block to subscribe to our channels.
-
- ![](./iotimage/iot-51-1.png)
-
-Build the following program:
-
- ![](./iotimage/iot-52-1.png)
-
-Input the channel details in this format:
-
-- channels/**CHANNEL ID**/subscribe/fields/**field?**
-
-         The ? in field? refers to field number, for example field4.
-
-We are now connected to ThingSpeak and subscribed to our channel.
-
-### 3.2 Reading the Channel feed
-
-------
-
-Receiving data from your channel makes use of this block.
-
- ![](./iotimage/iot-53-1.png)
-
-- channels/**CHANNEL ID**/subscribe/fields/**field?**
-
-Every time the channel receives new data, the new data is automatically sent to us because we are subscribed to it.
-
-Our program is now complete.
-
-When data is sent to the channel, that data will be displayed on the Micro:bit.
-
- ![](./iotimage/iot-54-1.png)
-
-[3.2A Sample Code Link](https://makecode.microbit.org/_a310rxagkEyp)
-
-[3.2B Sample Code Link](https://makecode.microbit.org/_AUWFqKYWE7ow)
-
-    The 2 programs are similar, 3.2B repeats displaying the data for 3 times while 3.2A just displays the data once.
-
-### 3.3 Testing our Subscription
-
-We can now send data to our channel and display it on our Micro:bit.
-
-### 1. Using a browser
-
-Navigate to the **API Keys** section on your channel.
-
- ![](./iotimage/iot-55-1.png)
-
-   Scroll down to **Write a Chanel Feed**.
-
-   ![](./iotimage/iot-56.png)
-
-   Copy the entire field and paste it on the search bar of your browser.
-    
-   Change field number and the data value and press Enter. Here we sent a value 88 to field1 of our channel.
-
-   ![](./iotimage/iot-57.png)
-
-   88 should now be displayed on the Micro:bit.
-
-   ```
-   ThingSpeak handles data as a string, the values you input may not necessarily be a number, Try inputting "hello" and see the result.   
-   ```
-
-### 2. Using Micro:bit and Wifibrick
-
-On another set of hardware, run a publishing program.
-
-![](./iotimage/iot-58-1.png)
+[KOI Sample Program](https://makecode.microbit.org/_a0saR4h5E1Fo)
 
 ---
 

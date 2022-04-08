@@ -1,108 +1,105 @@
-# 未來板與ThingSpeak編程快速入門
+# FutureBoard and ThingSpeak 
 
-ThingSpeak作為免費的IoT平台，的確是方便大家可以實現IoT應用，不過ThingSpeak的設定可能比較繁複，對初學者來說可能比較麻煩，故此KittenBot特地為大家提供一個從0開始的教學，讓大家都可以輕易使用ThingSpeak實現IoT。
+ThingSpeak is free to use, however its settings may be difficult for beginners. This tutorial is suitable for complete beginners to start using ThingSpeak with FutureBoard.
 
-## ThingSpeak帳號申請
+## Registering a ThingSpeak Account
 
-請大家首先按照以下教學，申請一個免費的ThingSpeak帳號。
+Follow the instructions to register for a ThingSpeak account.
 
-[ThingSpeak 平台介紹](../IoTPlatform/Thinkspeak.md)
+[ThingSpeak Introduction](../IoTPlatform/Thinkspeak.md)
 
-## ThingSpeak平台設置
+## Setting Up ThingSpeak Platform
 
-申請帳號之後，我們還未可以開始編程，因為我們要先在ThingSpeak設置好平台。
+### Create a new Channel
 
-### 建立新頻道
-
-在My Channel的頁面建立新頻道。
+Create a new channel.
 
 ![](./images/1.png)
 
-除了頻道名稱之外其他可以不用理會。
+Choose a name for your channel.
 
 ![](./images/2.png)
 
-完成之後就可以按Save Channel。
+Other fields can be ignored, click Save Channel.
 
 ![](./images/3.png)
 
-進入Sharing。
+Open the Sharing tab.
 
 ![](./images/4.png)
 
-最方便和簡單地使用ThingSpeak的方法是將頻道設為公開，所以我們選擇第二個選項。
+Set the sharing settings to "Share channel view with everyone".
 
 ![](./images/5.png)
 
-當你看到Access由Private變為Public就代表頻道完成了。
+The Access with change to "Public".
 
 ![](./images/6.png)
 
-### 添加新裝置
+### Add a new device
 
-然後請前往Devices，選擇MQTT。
+Open the Devices menu, select MQTT.
 
-![](./images/7.png)
+![](../futureboard/images/7.png)
 
-添加一個新裝置。
+Add a new device.
 
-![](./images/8.png)
+![](../futureboard/images/8.png)
 
-![](./images/9.png)
+![](../futureboard/images/9.png)
 
-選擇剛才建立的頻道，點擊Add Channel。
+Select the channels accessible by this device and click Add Channel.
 
-![](./images/10.png)
+![](../futureboard/images/10.png)
 
-最後就可以點擊Add Device。
+Click Add Device.
 
-![](./images/11.png)
+![](../futureboard/images/11.png)
 
-添加裝置後，這一個頁面非常重要！這些是大家的未來板用來連接ThingSpeak的登入資料，請大家自行記下，或者下載登入資料，儲存在電腦。
+IMPORTANT! These MQTT Credentials are used for connecting to ThingSpeak! Please save or download the credentials as they can't be seen after closing this page.
 
-![](./images/12.png)
+![](../futureboard/images/12.png)
 
-![](./images/13.png)
+![](../futureboard/images/13.png)
 
-## KittenBlock編程
+## KittenBlock Coding
 
-對初學者而言，使用KittenBlock編程是最簡單的。
+KittenBlock is recommending for beginners.
 
-### 連接ThingSpeak
+### Connecting to ThingSpeak
 
-搭建出以下程式，將未來板連接上網絡，然後連接到ThingSpeak的伺服器。
+Build the following program with the following parameters to connect to ThingSpeak.
 
-- 伺服器網址: mqtt3.thingspeak.com
-- ID: 按照ThingSpeak裝置的ID
-- 用戶名: 按照ThingSpeak裝置的username
-- 密碼: 按照ThingSpeak裝置的Password
+- MQTT Host: mqtt3.thingspeak.com
+- ID: ThingSpeak Device ID
+- Username: ThingSpeak Device ClientID
+- Password: ThingSpeak Device Password
 
 ![](./images/14.png)
 
-### 發佈到ThingSpeak頻道
+### Publishing to ThingSpeak Channel
 
-在發佈上ThingSpeak頻道之前，我們需要先查看頻道的ID。
-頻道ID是一個7位的數字。
+We need the Channel ID for publishing. The channel ID is displayed on the Channel page as a 7-digit number.
 
 ![](./images/15.png)
 
-搭建出以下程式，按下A鍵發布信息20到ThingSpeak頻道。
+Build the following program to publish a data to ThingSpeak:
 
-- MQTT主題: channels/[頻道ID]/publish
-- 信息: field[欄位號碼]=[數字信息]
+- MQTT Topic: channels/[Channel ID]/publish
+- Message: field[field No.]=[Numeric Data]
 
 ![](./images/16.png)
 
-發佈成功的話，在ThingSpeak的頁面上會看到剛才發布的信息。
+On the ThingSpeak page, you can see the published data.
 
 ![](./images/17.png)
 
-### 讀取ThingSpeak頻道信息
+### Subscribing to ThingSpeak Channel
 
-使用頻道ID訂閱頻道之後，就可以收取到頻道的訊息。
+We can read the channel data by subscribing to the channel.
 
-按A鍵發布信息到頻道，未來板收到訊息之後會顯示出來。
+- MQTT Topic: channels/[Channel ID]/subscribe/fields/field[field No.]
 
-- MQTT主題: channels/[頻道ID]/subscribe/fields/field[欄位號碼]
+Press A to publish a message to the channel, FutureBoard will display the data received.
 
 ![](./images/18.png)

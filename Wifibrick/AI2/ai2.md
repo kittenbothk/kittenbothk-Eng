@@ -1,137 +1,125 @@
-# 各IoT平台與MIT AI2編程教學
+# IoT Platform x MIT AI2
 
-物聯網的應用很多時都離不開手機應用程式，透過MIT AI2，我們可以輕易地編寫手機應用程式。
+IoT use cases are usually paired with a mobile application, by using MIT AI2, we can easily build an app for using IoT use cases.
 
-## MakerCloud與MIT AI2編程教學
+## MakerCloud x MIT AI2
 
-MakerCloud創客雲有官方的AI2插件和教學，詳情請參考：
+MakerCloud has an official extension for using their platform with MIT AI2, please refer to their official documentation for details.
 
-[MakerCloud官方教學](https://learn.makercloud.io/zh_TW/latest/ch4_connect/ai2/connect_ai2/)
+[MakerCloud Official Documentation](https://learn.makercloud.io/zh_TW/latest/ch4_connect/ai2/connect_ai2/)
 
-## ThingSpeak或其他IoT平台與MIT AI2編程教學
+## Other IoT Platform x MIT AI2
 
-### 一般使用MQTT的IoT平台都可以支援MIT AI2，不過本教學會以ThingSpeak平台作為例子。
+### Most platforms supporting MQTT will support MIT AI2, ThingSpeak is used as an example in this article.
 
-由於MIT AI2沒有內建的MQTT支援，請前往以下網站下載第三方的MQTT插件。
+Download a 3rd party MQTT extension for AI2.
 
-[插件下載](https://ullisroboterseite.de/android-AI2-PahoMQTT-en.html)
+[Download Extension](https://ullisroboterseite.de/android-AI2-PahoMQTT-en.html)
 
 ![](./images/1.png)
 
-按此下載。
+Download the file from Download section.
 
 ![](./images/2.png)
 
-將aix檔案解壓出來。
+Extract the aix file.
 
 ![](./images/3.png)
 
 ![](./images/4.png)
 
-前往MIT AI2網站。
+Go to MIT AI2, open a new project.
 
 [MIT AppInventor 2](http://appinventor.mit.edu/)
 
 ![](./images/5.png)
 
-點擊”Extension”。
+Find "Import Extension" from the left hand side menu.
 
 ![](./images/6.png)
 
-選擇壓縮出來的aix檔案。
+Upload the aix file.
 
 ![](./images/7.png)
 
 ![](./images/8.png)
 
-將插件組件加入到介面。
+Drag the component into the screen.
 
 ![](./images/9.png)
 
-在Broker一欄中填入IoT平台的地址。clientID按平台要求填寫。
+In the properties of the MQTT component, enter the MQTT host in the Broker field. 
 
-由於我們現在使用ThingSpeak平台，所以請填入mqtt3.thingspeak.com。
+Fill in other parameters according to the requirements of your IoT platform.
 
-在clientID一欄裡填入ThingSpeak的client ID登入資料。
+For ThingSpeak, fill in mqtt.thingspeak.com for broker and your ThingSpeak clientID for clientID.
 
 ![](./images/10.png)
 
-按平台的需要填入username和password。由於我們使用ThingSpeak平台，請填入username和password。
+Enter UserName and UserPassword if required, for ThingSpeak, enter the user name and password here.
 
 ![](./images/11.png)
 
-## 在AI2連接到MQTT平台
+## Connecting to your chosen platform
 
-設定登入資料後並不代表已經連接IoT平台，請按下圖搭建程式。
+Build the following program to test if you can connect to the IoT platform.
 
 ![](./images/12.png)
 
-轉換到編程介面並搭建以下程式。
-
 ![](./images/13.png)
 
-測試程式，按下按鈕後文字變為true代表成功連接到IoT平台。
+After pressing the button, the text should change to "true", this indicates a connection to the IoT platform has been established.
 
 ![](./images/14.jpg)
 
-## 在AI2發佈信息到IoT平台
+## Publishing messages on AI2
 
-成功連接IoT平台之後就可以開始向IoT平台發佈信息。
-
-請在介面裡加入一個按鈕，輸入Random Num。
+Try sending a random number to the platform.
 
 ![](./images/15.png)
 
 ![](./images/16.png)
 
-切換至編程模式，搭建以下程式。
-
 ![](./images/17.png)
 
-在topic的一欄裡面填入主題名稱。本教學將會按照ThingSpeak的格式填寫。
+Enter the topic name, ThingSpeak is used as the example in this article.
 
 ![](./images/18.png)
 
-在message一欄裏面填入要發佈的信息。將隨機取數放到數據訊息裡面。
+Attach a string element to the message parameter.
 
 ![](./images/19.png)
 
-對於ThingSpeak的編程，請使用join將數據欄與數據訊息合併。
+For ThingSpeak, join the 2 strings containing the field number and the data.
 
 ![](./images/20.png)
 
-測試程式，連接IoT平台之後按下按鈕發布隨機數字到IoT平台。
-
-成功之後在ThingSpeak會看到剛發佈的數據。
+Try the program, you should be able to see the data on ThingSpeak.
 
 ![](./images/21.png)
 
-## 在AI2收取IoT平台的訊息
+## Subscribing to MQTT on AI2
 
-成功發佈數據之後，就可以試試在AI2收取數據。
+We can also subscribe and listen to MQTT data.
 
-在介面裡面新增一個文字label。
+Build the following program to read MQTT data.
 
 ![](./images/22.png)
 
-切換到編程介面，加入積木訂閱MQTT話題。
-
-在話題欄裡填入要訂閱的MQTT話題。QoS請按照平台需要填寫，ThingSpeak用戶只需要填0。
-
 ![](./images/23.png)
 
-加入積木，當訂閱話題收到訊息之後觸發事件。
+Use the following block to trigger an action after a message is received.
 
 ![](./images/24.png)
 
-測試程式，連接IoT平台後按下發布按鈕，發佈的數據會在ThingSpeak和程式裡顯示出來。
+Try the program, you should be able to see the data on ThingSpeak and on your app.
 
 ![](./images/25.png)
 
 ![](./images/26.jpg)
 
-## 下載AI2參考程式
+## Download Sample Program
 
-大家可以下載以下參考AI2程式，只要填入ThingSpeak的登入資料就可以不需任何編程試玩MIT AI2與IoT平台的互動。
+The above program is available to download.
 
-[AI2參考程式下載](https://drive.google.com/file/d/1g0Bf8zQGRk6PEBNDGzEWxrBTcfsoehhQ/view?usp=sharing)
+[AI2 Sample Program Download](https://drive.google.com/file/d/1g0Bf8zQGRk6PEBNDGzEWxrBTcfsoehhQ/view?usp=sharing)

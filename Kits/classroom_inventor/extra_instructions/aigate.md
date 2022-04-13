@@ -1,27 +1,29 @@
-# 芝麻閘門
+# AI Access Gate Control
 
 ![](../images/extra_gate_render.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1vPB1nm2KgCbI8fHl_VWVD3YiAxTgYQWc?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1vPB1nm2KgCbI8fHl_VWVD3YiAxTgYQWc?usp=sharing)
 
 ![](../images/extra_gate_wire.png)
 
-## 參考程式
+## Sample Program
 
-### 訓練程式
+### Training Program
 
 ![](../images/extra_gate_code2.png)
 
-[參考程式下載](https://makecode.microbit.org/_M1s2gMdRAhTy)
+[Sample Program](https://makecode.microbit.org/_M1s2gMdRAhTy)
 
-### 主程式
+### Main Program
 
 ![](../images/extra_gate_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_C0XAkCKt3Kcu)
+[Main Program](https://makecode.microbit.org/_C0XAkCKt3Kcu)
 
-## 模型玩法
+## Program Instructions
 
-首先用訓練程式，按A錄下開閘，按B錄下關閘。按A+B儲存模型。
+Use the training program to train the voice model, press A to record "Open", press B to record "Close", press A+B to save the model.
+
+In the main program, control the hanger by saying Open or Close.

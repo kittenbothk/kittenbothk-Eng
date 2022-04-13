@@ -1,29 +1,29 @@
-# 生物辨識保險箱
+# Biometrics Authentication Safe Locker
 
 ![](../images/extra_safe_render.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1vPB1nm2KgCbI8fHl_VWVD3YiAxTgYQWc?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1vPB1nm2KgCbI8fHl_VWVD3YiAxTgYQWc?usp=sharing)
 
 ![](../images/extra_safe_wire.png)
 
-## 參考程式
+## Sample Program
 
-### 訓練程式
+### Training Program
 
 ![](../images/extra_safe_code2.png)
 
-[參考程式下載](https://makecode.microbit.org/_Hir6kKLXcYUk)
+[Sample Program](https://makecode.microbit.org/_Hir6kKLXcYUk)
 
-### 主程式
+### Main Program
 
 ![](../images/extra_safe_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_D8jDyuUzs4pP)
+[Sample Program](https://makecode.microbit.org/_D8jDyuUzs4pP)
 
-## 模型玩法
+## Program Instructions
 
-首先使用訓練程式，按A將人臉加到資料庫。
+Use the training program to build a face database, press A to add a person named "Keung".
 
-然後用主程式，按A辨認人臉，如果人臉是在資料庫裡就打開保險箱。按B鎖上保險箱。
+In the main program, press A to recognize a face, if the face matches to "Keung", the locker will open.

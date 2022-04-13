@@ -14,7 +14,7 @@ Adding a KOI AI Camera allows more functionality for Micro:bit Inventor Kit, the
 
 [Watch On Youtube](https://youtu.be/aO9EQKJsBQI?t=28)
 
-## AI Access Control
+## AI Access Gate Control
 
 ![](../images/extra_gate.png)
 

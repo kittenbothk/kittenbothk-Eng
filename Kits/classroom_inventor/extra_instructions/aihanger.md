@@ -1,29 +1,29 @@
-# 聲控智能晾衣架
+# Voice Control AI Hanger
 
 ![](../images/extra_hanger_render.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1vPB1nm2KgCbI8fHl_VWVD3YiAxTgYQWc?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1vPB1nm2KgCbI8fHl_VWVD3YiAxTgYQWc?usp=sharing)
 
 ![](../images/extra_hanger_wire.png)
 
-## 參考程式
+## Sample Program
 
-### 訓練程式
+### Training Program
 
 ![](../images/extra_hanger_code2.png)
 
-[參考程式下載](https://makecode.microbit.org/_i6od5EPD2PT8)
+[Sample Program](https://makecode.microbit.org/_i6od5EPD2PT8)
 
-### 主程式
+### Main Program
 
 ![](../images/extra_hanger_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_5Ky879De1ebM)
+[Sample Program](https://makecode.microbit.org/_5Ky879De1ebM)
 
-## 模型玩法
+## Program Instructions
 
-首先訓練好語音模型，按A錄下晾衣，按B錄下收回，最後按A+B儲存語音模型。
+Use the training program to train the voice model, press A to record "Out", press B to record "In", press A+B to save the model.
 
-然後就可以用主程式，用語音操控晾衣架的位置。
+In the main program, control the hanger by saying In or Out.

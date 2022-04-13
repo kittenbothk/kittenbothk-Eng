@@ -1,19 +1,19 @@
-# AI人面追蹤風扇
+# AI Face Tracking Fan
 
 ![](../images/extra_fan_render.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1vPB1nm2KgCbI8fHl_VWVD3YiAxTgYQWc?usp=sharing)
+[Building Instructions](https://drive.google.com/drive/folders/1vPB1nm2KgCbI8fHl_VWVD3YiAxTgYQWc?usp=sharing)
 
 ![](../images/extra_fan_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/extra_fan_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_UPHJE8MiaM5j)
+[Sample Program](https://makecode.microbit.org/_UPHJE8MiaM5j)
 
-## 模型玩法
+## Program Instructions
 
-風扇會左右擺動，當檢測到人臉就會開動風扇。
+The fan will swing left and right and stop and turn on when KOI detects a face.

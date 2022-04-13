@@ -1,7 +1,7 @@
-物聯未來教學套件組裝說明書
+FutureBoard IoT Education Kit Instructions
 ====================
 
-物聯未來教學套件的組裝說明書。
+FutureBoard IoT Education Kit Instructions
 
 .. toctree::
     :maxdepth: 1
@@ -11,3 +11,6 @@
     timer.md
     safe.md
     streetlamp.md
+    ruler.md
+    rc_kart.md
+    parking.md

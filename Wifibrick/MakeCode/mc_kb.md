@@ -1,6 +1,4 @@
-(MakeCode 中編程)
-
-# Makecode 編程與Kittenblock內置IoT平台
+# Makecode X KittenBlock IoT
 
 ![](../../functional_module/PWmodules/images/mcbanner.png)
 

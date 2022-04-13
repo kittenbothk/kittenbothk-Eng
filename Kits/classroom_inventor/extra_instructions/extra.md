@@ -1,33 +1,33 @@
-# 發明家套件AI升級案例一覽
+# Micro:bit Inventor Kit x KOI AI Camera Use Cases
 
-在發明家套件添上一隻KOI的話，套件的玩法就會更加多了，以下數款案例使用了KOI進化成為了AI版的應用案例。
+Adding a KOI AI Camera allows more functionality for Micro:bit Inventor Kit, the following cases are upgraded by using a KOI.
 
-## 聲控智能晾衣架
+## Voice Control AI Hanger
 
 ![](../images/extra_hanger.png)
 
-[觀看Youtube影片](https://youtu.be/aO9EQKJsBQI?t=12)
+[Watch On Youtube](https://youtu.be/aO9EQKJsBQI?t=12)
 
-## AI道路管理系統
+## AI Pedestrian Crossing
 
 ![](../images/extra_trafficlight.png)
 
-[觀看Youtube影片](https://youtu.be/aO9EQKJsBQI?t=28)
+[Watch On Youtube](https://youtu.be/aO9EQKJsBQI?t=28)
 
-## 芝麻閘門
+## AI Access Control
 
 ![](../images/extra_gate.png)
 
-[觀看Youtube影片](https://youtu.be/aO9EQKJsBQI?t=75)
+[Watch On Youtube](https://youtu.be/aO9EQKJsBQI?t=75)
 
-## AI人面追蹤風扇
+## AI Face Tracking Fan
 
 ![](../images/extra_fan.png)
 
-[觀看Youtube影片](https://youtu.be/aO9EQKJsBQI?t=91)
+[Watch On Youtube](https://youtu.be/aO9EQKJsBQI?t=91)
 
-## 生物辨識保險箱
+## Biometric Authentication Safe Locker
 
 ![](../images/extra_safe.png)
 
-[觀看Youtube影片](https://youtu.be/aO9EQKJsBQI?t=125)
+[Watch On Youtube](https://youtu.be/aO9EQKJsBQI?t=125)

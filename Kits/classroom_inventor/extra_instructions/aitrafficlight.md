@@ -1,26 +1,26 @@
-# AI道路管理系統
+# AI Pedestrian Crossing
 
 ![](../images/extra_trafficlight_render.png)
 
-## 組裝說明書下載
+## Building Instructions
 
-[組裝說明書下載](https://drive.google.com/drive/folders/1vPB1nm2KgCbI8fHl_VWVD3YiAxTgYQWc?usp=sharing)
+[Download Building Instructions](https://drive.google.com/drive/folders/1vPB1nm2KgCbI8fHl_VWVD3YiAxTgYQWc?usp=sharing)
 
 ![](../images/extra_trafficlight_wire.png)
 
-## 參考程式
+## Sample Program
 
-### 訓練程式
+### AI Training
 
 ![](../images/extra_trafficlight_code2.png)
 
-[參考程式下載](https://makecode.microbit.org/_1xAgL0RtD6fy)
+[Sample Program](https://makecode.microbit.org/_1xAgL0RtD6fy)
 
-### 主程式
+### AI Recognition
 
 ![](../images/extra_trafficlight_code.png)
 
-[參考程式下載](https://makecode.microbit.org/_i0JT9q5h10oo)
+[Sample Program](https://makecode.microbit.org/_i0JT9q5h10oo)
 
 ## 模型玩法
 

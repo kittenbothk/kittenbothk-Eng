@@ -1,7 +1,7 @@
-Micro:bit 發明家套件 - AI升級案例
+Micro:bit Inventor Kit - AI Upgrade Cases
 =====================
 
-Micro:bit發明家套件的升級AI案例。
+A few use cases from the Micro:bit Inventor Kit has been chosen to incorporate a KOI AI Camera for AI upgrade.
 
 .. toctree::
     :maxdepth: 1

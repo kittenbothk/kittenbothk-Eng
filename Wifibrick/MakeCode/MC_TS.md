@@ -125,7 +125,7 @@ IMPORTANT! These MQTT Credentials are used for connecting to ThingSpeak! Please 
 
 ![](../futureboard/images/13.png)
 
-# MakeCode Coding
+## MakeCode Coding
 
 ### Connecting to ThingSpeak
 

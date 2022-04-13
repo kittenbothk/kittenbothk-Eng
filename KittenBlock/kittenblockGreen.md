@@ -14,7 +14,7 @@ Download the Google Drive Folder from [Download Kittenblock 1.87](http://bit.ly/
 
 ### Installing KittenBlock
 
-Open KittenBlock.rar.
+Open KittenBlock.zip.
 
 ![](./images/187install1.png)
 
@@ -47,3 +47,9 @@ The permissions have to be updated.
 ![](../functional_module/PWmodules/kbimages/an10.png)
 
 ![](../functional_module/PWmodules/kbimages/an07.png)
+
+### 2. No hardware is displayed in the hardware menu
+
+![](./images/nohardware.png)
+
+### Close KittenBlock and open KittenBlock again

@@ -8,21 +8,23 @@ KittenBlock is the programming platform developed by Kittenbot for STEM Educatio
 
 For Windows 10:
 
-Download the Google Drive Folder from [Download Kittenblock 1.87](http://bit.ly/KittenblockHK187).
+Download the Google Drive Folder from [Download Kittenblock 1.87](https://drive.google.com/file/d/1rM3ByEvJRCVqOo1O06LcZqTOC8nu1kZi/view?usp=sharing).
 
 ![](./images/187download.png)  
 
 ### Installing KittenBlock
 
-Open KittenBlock.zip.
+Right Click the zip file and choose open the file with Windows Explorer.
 
-![](./images/187install1.png)
+    You can also use programs such as WinRar.
+
+![](./images/green_zip_install1.png)
 
 Extract the contents to your desktop.
 
     Beware! Please do not place the contents in another folder!
 
-![](./images/187install2.png)
+![](./images/green_zip_install2.png)
 
 Double-click on KittenBlock.exe to launch KittenBlock.
 

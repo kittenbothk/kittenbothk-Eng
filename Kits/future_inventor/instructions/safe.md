@@ -1,23 +1,22 @@
-# 保險夾萬
+# Safe
 
-模擬一個夾萬，用家需要扭動電位器輸入密碼，密碼正確就會開啟夾萬。另外亦模擬了強行爆開夾萬的防盜警報。
+Use the potentiometer to select digits and enter the password to open the safe. If the safe is cracked open, the system will sound an alarm.
 
 ![](../images/safe.jpg)
 
-## 組裝說明書
+## Building Instructions
 
-[組裝說明書下載](www.google.com)
-
-## 參考接線
+[Building Instructions](www.google.com)
 
 ![](../images/safe_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/safe_code.png)
 
-[參考程式下載](www.google.com)
+[Sample Program](www.google.com)
 
-## 模型玩法
+## Program Instructions
 
-按下按鈕啟動，扭動電位器調較數字，按下按鈕確認。輸入正確4位數的密碼(預設為2021)就會打開大門。
+Press the button to begin entering password, select a digit by turning the potentiometer, press the button to confirm.
+Once 4 digits have been entered, the safe door opens if the password is correct(default: 2021).

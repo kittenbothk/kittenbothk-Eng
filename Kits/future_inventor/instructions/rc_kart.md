@@ -1,19 +1,21 @@
-# 無人小車
+# RC Kart
 
 ![](../images/car.jpg)
 
-模擬一部小車，可以使用搖桿控制或者利用物聯網控制。
+Control the kart using a Joystick sensor or via an IoT platform.
 
-## 組裝說明書
+## Building Instructions
 
-[組裝說明書下載](www.google.com)
-
-## 參考接線
+[Building Instructions](www.google.com)
 
 ![](../images/rc_kart_wire.png)
 
-## 參考程式
+## Joystick Sample Program
 
 ![](../images/rc_kart_code.png)
 
-[參考程式下載](www.google.com)
+[Building Instructions](www.google.com)
+
+## Program Instructions
+
+Push the joystick to control the rc kart. The indicators will light up.

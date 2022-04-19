@@ -1,33 +1,31 @@
-# 智能交通燈
+# Smart Traffic Light
 
-模擬一組智能交通燈。
+Simulates a smart traffic light.
 
 ![](../images/trafficlight.jpg)
 
-## 組裝說明書
+## Building Instructions
 
-[組裝說明書下載](www.google.com)
-
-## 參考接線
+[Building Instructions](www.google.com)
 
 ![](../images/streetlamp_wire.png)
 
-## 參考程式
+## Sample Program
 
-### Kittenblock控制端
+### Kittenblock Client
 
-    請在Kittenblock開啟本地IoT伺服器，並自行將伺服器的ip填入程式。
+    Enable local IoT host in KittenBlock and enter the host address into the program.
 
 ![](../images/streetlamp_code.png)
 
-### Kittenblock控制端
+### Streetlamp Program
 
-    請在Kittenblock開啟本地IoT伺服器，並自行將伺服器的ip填入程式。
+    Enable local IoT host in KittenBlock and enter the host address into the program.
 
 ![](../images/streetlamp_iot_code.png)
 
-[參考程式下載](www.google.com)
+[Sample Program](www.google.com)
 
-## 模型玩法
+## Program Instructions
 
-使用Kittenblock控制端程式控制路燈的開或關，按1關閉，按2開啟。開啟後路燈的亮度會因環境亮度作自我調節。
+Remotely turn on or off the streetlamp by using the KittenBlock Client Program, the streetlamp will adjust its brightness based on the environment brightness.

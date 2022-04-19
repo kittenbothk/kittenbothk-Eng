@@ -1,23 +1,21 @@
-# 激光測距槍
+# Laser Distance Ruler
 
 ![](../images/distance_measure.jpg)
 
-可以用來檢測前方障礙物的距離並實時顯示在屏幕上。
+A ruler using a TOF sensor.
 
-## 組裝說明書
+## Building Instructions
 
-[組裝說明書下載](www.google.com)
-
-## 參考接線
+[Building Instructions](www.google.com)
 
 ![](../images/ruler_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/ruler_code.png)
 
-[參考程式下載](www.google.com)
+[Sample Program](www.google.com)
 
-## 模型玩法
+## Program Instructions
 
-按下按鍵，未來板的屏幕就會顯示出測量到的距離。
+Press the button, the Futureboard will display the distance measured.

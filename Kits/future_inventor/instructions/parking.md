@@ -1,25 +1,23 @@
-# 智慧停車場
+# Smart Parking Lot
 
-模擬智能停車場，自動打開閘門讓汽車駛進或駛出，自動檢測停車場的空位數量。
+Simulate an autonomous parking lot, the gate opens and close automatically, number of available parking space is displayed on the FutureBoard.
 
 ![](../images/parking.jpg)
 
-## 組裝說明書
+## Building Instructions
 
-[組裝說明書下載](www.google.com)
-
-## 參考接線
+[Building Instructions](www.google.com)
 
 ![](../images/parking_wire.png)
 
-## 參考程式
+## Sample Program
 
 ![](../images/parking_code.png)
 
-[參考程式下載](www.google.com)
+[Sample Program](www.google.com)
 
-## 模型玩法
+## Program Instructions
 
-將小車放到閘門前，閘門就會打開。將小車泊到泊車位，門口的紅色LED會亮起。
+The gate opens when a car drives up to the entrance. When a car is parked in the parking spot, the red light turns on at the entrance to signify a full parking lot, the system will also refuse to let in any car.
 
-當停車位已滿，閘門就不會打開讓其他車駛入。將車子駛離泊車位，閘門就會自動打開並且計算泊車費用。
+When the car occupying the parking space drives away, the FutureBoard will display the parking fee and opens the gate.

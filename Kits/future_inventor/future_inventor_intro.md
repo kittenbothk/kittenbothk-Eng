@@ -37,7 +37,7 @@ The topics provide grounded and concrete concepts for students to understand and
 - GeekServo 2KG Servo x1
 - GeekServo 2KG Motor x1
 - Plastic Building Bricks Set x1
-- Structural Cardboards x3
+- Structural Cardboard x3
 - 3Pin Cables x6
 - 4Pin Cables x2
 - USB Cable x1
@@ -76,13 +76,13 @@ Turn the potentiometer to enter the password, alarm will ring if safe is broken 
 
 ### 6. Smart Lamp Post
 
-A smart street light that can be controlled through IoT and can adjust brightness.
+A smart streetlight that can be controlled through IoT and can adjust brightness.
 
 ![](./images/streetlamp.jpg)
 
 ### 7. Smart Traffic Light
 
-A smart traffi light.
+A smart traffic light.
 
 ![](./images/trafficlight.jpg)
 

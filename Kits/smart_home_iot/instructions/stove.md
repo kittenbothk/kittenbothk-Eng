@@ -1,33 +1,31 @@
-# 安全爐具
+# Safety Gas Stove
 
-能夠在失火時立即透過IoT平台通知用家，並且撲滅火焰。
+System will send an alert to the user when fire breaks out and will put out the fire.
 
 ![](../images/stove.jpg)
 
-## 搭建說明書
+## Building Instructions
 
-[下載搭建說明書資源包]()
-
-## 參考接線
+[Building Instructions]()
 
 ![](../images/stove_wire.png)
 
-## 參考程式
+## Sample Program
 
-### Micro:bit
+### For Micro:bit
 
 ![](../images/stove_code_mc.png)
 
-[參考程式](https://makecode.microbit.org/_Abo2V2PDdY5R)
+[Sample Program](https://makecode.microbit.org/_Abo2V2PDdY5R)
 
-### 未來板
+### For FutureBoard
 
 ![](../images/stove_code_kb.png)
 
-[參考程式資源包]()
+[Sample Program]()
 
-## 示範短片
+## Demonstration Video
 
 [![](../images/stove_video.png)](https://www.youtube.com/watch?v=n7rE02r8EJo)
 
-[示範短片](https://www.youtube.com/watch?v=n7rE02r8EJo)
+[Demonstration Video](https://www.youtube.com/watch?v=n7rE02r8EJo)

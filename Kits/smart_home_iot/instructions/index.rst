@@ -1,4 +1,4 @@
-IoT Made Easy智能家居學習套件使用說明書
+IoT Made Easy Building Instructions
 ====================
 
 .. toctree::

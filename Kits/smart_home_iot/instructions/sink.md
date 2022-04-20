@@ -1,31 +1,29 @@
-# 防浸洗手盤
+# Anti-Spilling Sink
 
-假如水位超出安全水平將會透過IoT平台通知用家。
+The system will send an alert to the user if the water level is over limit.
 
 ![](../images/sink.jpg)
 
-## 搭建說明書
+## Building Instructions
 
-[下載搭建說明書資源包]()
-
-## 參考接線
+[Building Instructions]()
 
 ![](../images/sink_wire.png)
 
-## 參考程式
+## Sample Program
 
-### Micro:bit
+### For Micro:bit
 
 ![](../images/sink_code_mc.png)
 
-[參考程式](https://makecode.microbit.org/_4iCLs6HERhci)
+[Sample Program](https://makecode.microbit.org/_4iCLs6HERhci)
 
-### 未來板
+### For FutureBoard
 
 ![](../images/sink_code_kb.png)
 
-## 示範短片
+## Demonstration Video
 
 [![](../images/sink_video.png)](https://www.youtube.com/watch?v=LwzhAub01sQ)
 
-[示範短片](https://www.youtube.com/watch?v=LwzhAub01sQ)
+[Demonstration Video](https://www.youtube.com/watch?v=LwzhAub01sQ)

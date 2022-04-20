@@ -12,7 +12,7 @@
 
 ![](../images/kart_code1.png)
 
-[參考程式下載](https://makecode.microbit.org/_CEoC4V46mXmz)
+[Sample Program](https://makecode.microbit.org/_CEoC4V46mXmz)
 
 ## Instructions
 

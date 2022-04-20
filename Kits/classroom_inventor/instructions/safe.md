@@ -17,4 +17,3 @@
 ## Instructions
 
 Select letters by turning the potentiometer, press A to enter the letter. Press B to confirm the password, the door will open if the password is correct.
-使用電位器選擇字母，按A輸入。輸入所有字母之後按B確認，假如密碼正確就會打開夾萬。

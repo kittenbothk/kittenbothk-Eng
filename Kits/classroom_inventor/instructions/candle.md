@@ -12,7 +12,7 @@
 
 ![](../images/candle_code.png)
 
-[Sample Program](https://makecode.microbit.org/_5ALf1ygV8EVU)
+[Sample Program](https://makecode.microbit.org/_465hMjiRwTXH)
 
 ## Instructions
 

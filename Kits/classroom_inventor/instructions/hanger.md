@@ -16,4 +16,4 @@
 
 ## Instructions
 
-The hanger is automatically retracted when rain is detected.
+The hanger automatically retracts when rain is detected.

@@ -4,7 +4,7 @@
 
 Make a robotic arm controlled by 4 high torque servos with this kit.
 
-## 套件內容
+## Kit Contents
 
 ![](./images/contents.png)
 

@@ -1,7 +1,7 @@
-Meowbit發明家套件魔塊教學
+Meowbit Inventor Kit Modules Tutorials
 ==========================================
 
-Meowbit發明家套件魔塊教學
+Meowbit Inventor Kit Modules Tutorials
 
 .. toctree::
     :maxdepth: 1

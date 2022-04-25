@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,9 +42,9 @@
      inkscape:window-height="1017"
      id="namedview835"
      showgrid="false"
-     inkscape:zoom="0.074111845"
-     inkscape:cx="-596.83814"
-     inkscape:cy="657.10264"
+     inkscape:zoom="0.20961995"
+     inkscape:cx="263.23105"
+     inkscape:cy="1888.227"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -63,8 +63,8 @@
        x="793.21149"
        y="-400.13428"
        style="fill:#000000;fill-opacity:0"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="15"
+       inkscape:export-ydpi="15" />
     <image
        width="2375.2649"
        height="1473.198"
@@ -74,47 +74,47 @@
        x="-391.39917"
        y="-793.21149"
        transform="rotate(90)"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="15"
+       inkscape:export-ydpi="15" />
     <path
        style="fill:none;stroke:#009700;stroke-width:37.7953;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 132.66146,1836.5701 -0.8904,409.1143 2389.23614,-2.8141 -0.8609,-1106.8913"
        id="path1470"
        sodipodi:nodetypes="cccc"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="15"
+       inkscape:export-ydpi="15" />
     <path
        style="fill:none;stroke:#0000b0;stroke-width:37.7953;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 47.716563,1839.7236 -0.7525,319.5615 2406.147637,-2.8804 3.1268,-1014.9501"
        id="path1472"
        sodipodi:nodetypes="cccc"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="15"
+       inkscape:export-ydpi="15" />
     <path
        style="fill:none;stroke:#e40000;stroke-width:37.7953;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 2361.7867,1154.9478 -0.5577,926.9796 -2390.715137,3.1729 -0.3827,-242.0035"
        id="path1474"
        sodipodi:nodetypes="cccc"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="15"
+       inkscape:export-ydpi="15" />
     <path
        style="fill:none;stroke:#000000;stroke-width:37.7953;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 2290.9478,1144.8279 -5.9096,875.0293 -2379.162337,0.477 3.5362,-177.2374"
        id="path1476"
        sodipodi:nodetypes="cccc"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="15"
+       inkscape:export-ydpi="15" />
     <text
        xml:space="preserve"
        style="font-size:192px;line-height:1.25;font-family:sans-serif"
        x="-437.58759"
        y="2605.3044"
        id="text1480"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-xdpi="15"
+       inkscape:export-ydpi="15"><tspan
          sodipodi:role="line"
          id="tspan1478"
          x="-437.58759"
-         y="2605.3044">WifiBrick接P2,P12</tspan></text>
+         y="2605.3044">WifiBrick -&gt; P2,P12</tspan></text>
   </g>
 </svg>

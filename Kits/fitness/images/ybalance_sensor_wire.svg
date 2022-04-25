@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,9 +42,9 @@
      inkscape:window-height="1017"
      id="namedview835"
      showgrid="false"
-     inkscape:zoom="0.074111845"
-     inkscape:cx="-596.83814"
-     inkscape:cy="657.10264"
+     inkscape:zoom="0.14822369"
+     inkscape:cx="282.3585"
+     inkscape:cy="-1237.0419"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -63,8 +63,8 @@
        x="0"
        y="-2384"
        style="fill:#000000;fill-opacity:0"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="15"
+       inkscape:export-ydpi="15" />
     <image
        width="1191.5468"
        height="1191.5468"
@@ -73,26 +73,26 @@
        id="image1544"
        x="-1191.5468"
        y="-1191.5468"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="15"
+       inkscape:export-ydpi="15" />
     <path
        style="fill:none;stroke:#000000;stroke-width:200;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -562.92352,-1106.7648 6.08847,-765.2909 2166.32365,9.749 7.7239,908.19903"
        id="path1548"
        sodipodi:nodetypes="cccc"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="15"
+       inkscape:export-ydpi="15" />
     <text
        xml:space="preserve"
        style="font-size:192px;line-height:1.25;font-family:sans-serif"
        x="-796.67987"
        y="-2294.6289"
        id="text1552"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-xdpi="15"
+       inkscape:export-ydpi="15"><tspan
          sodipodi:role="line"
          id="tspan1550"
          x="-796.67987"
-         y="-2294.6289">激光測距模組接I2C</tspan></text>
+         y="-2294.6289">TOF Sensor -&gt; I2C</tspan></text>
   </g>
 </svg>

@@ -41,6 +41,18 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
+    :caption: IoT Made Easy Smart Home Education
+
+    smart_home_iot/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: KittenBot Fitness Tesing Kit
+
+    fitness/index
+
+.. toctree::
+    :maxdepth: 2
     :caption: SumoBot 12-in-1
 
     12in1/index
@@ -56,6 +68,12 @@ Introduction and support for Kittenbot's Educational Kit Sets.
     :caption: Mecanum Wheels Robot Kit
 
     mecanum/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Mecanum Wheels Robot 2KG
+
+    mecanum_2kg/index
 
 .. toctree::
     :maxdepth: 2

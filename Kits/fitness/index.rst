@@ -1,4 +1,4 @@
-KittenBot Finess Testing Kit
+KittenBot Fitness Testing Kit
 ====================
 
 .. toctree::

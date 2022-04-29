@@ -47,7 +47,7 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
-    :caption: KittenBot Fitness Tesing Kit
+    :caption: KittenBot Fitness Testing Kit
 
     fitness/index
 

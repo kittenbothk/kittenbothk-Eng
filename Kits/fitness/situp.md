@@ -1,4 +1,4 @@
-### 2. Sit-Up Exercise
+# 2. Sit-Up Exercise
 
 The number of sit-ups can be uploaded to the IoT platform.
 

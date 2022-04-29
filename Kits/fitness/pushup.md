@@ -1,4 +1,4 @@
-### 1. Push-Up Exercise
+# 1. Push-Up Exercise
 
 The number of push-ups can be uploaded to the IoT platform.
 

@@ -28,6 +28,7 @@ Information and tutorials related to Micro:bit compatible modules.
     5wayLine.md
     legofan.md
     kittenRadio.md
+    ledstrip.md
 
 .. toctree::
     :maxdepth: 1

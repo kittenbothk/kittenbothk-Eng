@@ -21,7 +21,6 @@ Information and tutorials related to Micro:bit compatible modules.
 
     turbidity.md
     watertemp.md
-    airquality.md
     infratemp.md
     waterTank.md
     nekoUltrasound.md

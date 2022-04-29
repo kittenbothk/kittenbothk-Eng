@@ -11,7 +11,7 @@ This is a joystick module in the Sugar sensor series, it can detect joystick pos
 - Type: I2C
   - X: -255~255
   - Y: -255~255
-  - 按鍵: 0~1
+  - Button: 0~1
 
 ## Wiring
 
@@ -39,7 +39,7 @@ Sugar extension: https://github.com/KittenBot/pxt-sugar
 
 ![](./images/joy_mc_code.png)
 
-[Sample Program](https://makecode.microbit.org/_CcJ5YTdF2795)
+[Sample Program](https://makecode.microbit.org/_hzo7aFVv58jL)
 
 ### Kittenblock Programming Tutorial
 

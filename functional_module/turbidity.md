@@ -46,6 +46,27 @@ There may be updates to extensions periodically, please refer to the following l
 
 [Makecode Extension Update](../Makecode/makecode_extensionUpdate)
 
+## FutureBoard KittenBlock Programming Tutorial
+
+![](./PWmodules/images/kbbanner.png)
+
+### Select FutureBoard from the Hardware Menu
+
+![](./images/turbidity_kb1.png)
+
+### Programming Blocks for Turbidity Sensor
+
+![](./images/turbidity_kb2.png)
+
+### Turbidity Sensor Programming
+
+    Using a water temperature sensor to calibrate the turbidity sensor will result in more accurate readings.
+    Caution: The Turbidity Sensor is not waterproof, do not immerse the entire sensor into the water.
+
+![](./images/turbidity_kb3.png)
+
+[Sample Program(Right Click->Save As)](./images/turbidity_kittenblock1.88.sb3)
+
 ## Demonstration Video
 
 ### FutureBoard

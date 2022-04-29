@@ -41,3 +41,19 @@ Connect the module to the GPIO port of Robotbit Edu.
 There may be updates to extensions periodically, please refer to the following link to update/downgrade your extension.
 
 [Makecode Extension Update](../Makecode/makecode_extensionUpdate)
+
+## FutureBoard KittenBlock Programming Tutorial
+
+![](./PWmodules/images/kbbanner.png)
+
+### Select FutureBoard from the Hardware Menu
+
+![](./images/futureboard_ext.png)
+
+### Blocks for Water Temperature Sensor
+
+![](./images/watertemp_kb.png)
+
+### Water Temperature Sensor Programming
+
+![](./images/watertemp_code_kb.png)

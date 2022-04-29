@@ -19,121 +19,123 @@ The module is protected by a hard plastic casing to improve aesthetics as well a
 - Onboard resources: Speaker, Microphone, Red & Green LED, 3PIN Sugar LED Port, Motor Port, Servo Port, 3.7V Battery Connector
 - Supported Micro Controller: Micro:bit, FutureBoard, Arduino
 
-## 接口介紹
+## Detail Breakdown
 
 ![](./images/asr2.png)
 
-## 玩法1：免編程通電即玩
+## Usage 1: Plug-and-Play Instructions
 
-語音辨識模組可以免編程通電即用，只需要將鋰電池或電池盒連接到電池接口就可以使用。
+Th ASR Voice Recognition module can be used without any programming, simply connect a 3V battery box or 3.7V battery to use the module individually.
 
 ![](./images/asr3.png)
 
 ![](./images/asr4.png)
 
-### 操作教學
+### Operations Manual
 
-### 1. 開電後模組會讀出現時固件版本，完成之後就可以開始使用。
+### 1. The module will read out the firmware version after powering on.
 
-### 2. 使用前需要先使用喚醒指令喚醒語音模組。模組喚醒會回答Uh Huh。
+### 2. Wake up the module by saying one of these awake commands, the module replies 'Uh huh' when a wake-up command is heard.
 
-喚醒指令有3種：
+Wake-up Commands:
 1. Hey Sugar
 2. Hello KittenBot
 3. Hello Kitty
 
-### 3. 辨識命令詞後，語音模組會回答Ok。
+### 3. Say the following commands to control onboard resources, module replies 'OK' when a command is heard.
 
-以下的命令詞可以控制板載資源:
+These Commands can be used to control onboard resources:
 
-燈控類:
+Light Controls:
 1. Lamp On / Light On
-   - 控制模組的3Pin接口
+   - Controls 3Pin Sugar Port
 2. Lamp Off / Light Off
-    - 控制模組的3Pin接口
+    - Controls 3Pin Sugar Port
 3. Brighter
-    - 控制模組的3Pin接口
+    - Controls 3Pin Sugar Port
 4. Dimmer
-    - 控制模組的3Pin接口
+    - Controls 3Pin Sugar Port
 5. Red Light On
-    - 點亮模組背後的紅色LED
+    - Turns on built-in red LED
 6. Green Light On
-    - 點亮模組背後的綠色LED
+    - Turns on built-in green LED
 7. Yellow Light On
-    - 點亮模組背後的黃色LED
+    - Turns on built-in yellow LED
+8. All Light Off
+   - Turns off all lights
 
-執行類:
+Actions:
 1. Open Door / Open Window / Open Curtains / Hanger Out
-    - 控制模組的舵機接口
+    - Controls Servo Port
 2. Close Door / Close Window / Close Curtains / Hanger In
-    - 控制模組的舵機接口
+    -  Controls Servo Port
 3. Fan On
-    - 控制模組的電機接口
+    - Controls Motor Port
 4. Fan Off
-    - 控制模組的電機接口
+    - Controls Motor Port
 5. Speed Up
-    - 控制模組的電機接口
+    - Controls Motor Port
 6. Slow Down
-    - 控制模組的電機接口
+    - Controls Motor Port
     
-### 4. 模組閒置10秒之後會進入睡眠模式，進入睡眠模式之後需要再次喚醒才可使用。
+### 4. After idling for 10 seconds, the module will go into sleep mode after saying "Uh oh", use a wake-up command to wake the module
 
-## 玩法2：配合編程使用
+## Usage 2: Programming
 
-## 編程教學
+## Programming Instructions
 
-### Microbit MakeCode編程教學
+### Microbit MakeCode
 
 ![](../PWmodules/images/mcbanner.png)
 
-### 加載語音模組插件：
+### Import ASR Extension
 
-語音模組插件：https://github.com/kittenbothk/pxt-KittenASR
+ASR Extension: https://github.com/kittenbothk/pxt-KittenASR
 
-### [詳細方法](../../Makecode/powerBrickMC)
+### [Importing Extensions](../../Makecode/powerBrickMC)
 
-### 完整命令表
+### Complete Commands List
 
 ![](./images/asr_commands.png)
 
-### 語音辨識參考程式
+### Voice Recognition Sample Program
 
 ![](./images/asr_code1.png)
 
-[參考程式下載](https://makecode.microbit.org/_F68D6iWFUMvi)
+[Sample Program](https://makecode.microbit.org/_F68D6iWFUMvi)
 
-參考程式用法：
+Program Instructions:
 
-喚醒語音模組之後對語音模組說出Lamp On或Lamp Off，Micro:bit上的LED就會亮起相應的燈。
+Say Lamp On or Lamp Off, the LEDs on the Micro:bit will light up correspondingly.
 
-### 語音播報參考程式
+### TTS Sample Program
 
 ![](./images/asr_code3.png)
 
-[參考程式下載](https://makecode.microbit.org/_YzeeikHkPApz)
+[Sample Program](https://makecode.microbit.org/_YzeeikHkPApz)
 
-      注意：2個語音播報指令之間需要加等待，等待上一個語音播報完成，否則語音播報會重疊。
+      Note: Adding a pause between TTS commands will prevent the speech overlapping.
 
-參考程式用法:
+Program Instructions:
 
-按下A鍵或B鍵，語音模組就會說出相應指令。
+Press A or B to make the module speak the corresponding text.
 
-### 未來板KittenBlock編程教學
+### FutureBoard KittenBlock Programming Instructions
 
 ![](../PWmodules/images/kbbanner.png)
 
-### 語音辨識參考程式
+### Voice Recognition Sample Program
 
 ![](./images/asr_code2.png)
 
-參考程式用法：
+Program Instructions:
 
-喚醒語音模組之後對語音模組說出Lamp On或Lamp Off，Micro:bit上的LED就會亮起相應的燈。
+Say Lamp On or Lamp Off, the screen will light up correspondingly.
 
-### 語音播報參考程式
+### TTS Sample Program
 
 ![](./images/asr_code4.png)
 
-參考程式用法:
+Program Instructions:
 
-按下A鍵或B鍵，語音模組就會說出相應指令。
+Press A or B to make the module speak the corresponding text.

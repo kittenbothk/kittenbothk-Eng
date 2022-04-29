@@ -36,7 +36,7 @@ Sugar extension: https://github.com/KittenBot/pxt-sugar
 
 ![](./images/button_mc_code.png)
 
-[Sample Program](https://makecode.microbit.org/_EUeXbC8c5195)
+[Sample Program](https://makecode.microbit.org/_HmsVHVfWzADt)
 
 ### Kittenblock Programming Tutorial
 
@@ -57,7 +57,7 @@ Sugar extension: https://github.com/KittenBot/pxt-sugar
     from sugar import *
     import time
     
-    # 可用: P0、P1、P2、P3、P8、P13、P14、P15、P16
+    #Available: P0, P1, P2, P3, P8, P13, P14, P15, P16
     button = Button('P1')
     
     x = 0

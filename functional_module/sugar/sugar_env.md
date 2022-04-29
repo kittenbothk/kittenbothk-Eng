@@ -38,7 +38,7 @@ Sugar extension: https://github.com/KittenBot/pxt-sugar
 
 ![](./images/env_mc_code.png)
 
-[Sample Program](https://makecode.microbit.org/_AhF2rX6jyhbv)
+[Sample Program](https://makecode.microbit.org/_9fKT8i6wkbCX)
 
 ### Kittenblock Programming Tutorial
 

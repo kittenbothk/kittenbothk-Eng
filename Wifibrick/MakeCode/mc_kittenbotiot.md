@@ -36,7 +36,7 @@ Manually publish "happy" or "sad" on KittenBot IoT, Micro:bit will display a cor
 
 ![](./iotimage/kittenbot_3.png)
 
-[Sample Program](https://makecode.microbit.org/_D4J7wX7uRhtV)
+[Sample Program](https://makecode.microbit.org/_9omcfRLR2382)
 
 ### KOI Sample Program
 
@@ -50,7 +50,7 @@ Manually publish "happy" or "sad" on KittenBot IoT, Micro:bit will display a cor
 
 ![](./iotimage/kittenbot_4.png)
 
-[Sample Program](https://makecode.microbit.org/_9xm455btKcPi)
+[Sample Program](https://makecode.microbit.org/_A8ePehRHseDg)
 
 ## Extension Version and Updates
 

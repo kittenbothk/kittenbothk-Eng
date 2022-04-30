@@ -110,7 +110,7 @@ In this example, let's subscribe to the same topic we publish data to.
 
 ![](./iotimage/mc9.png)
 
-[Sample Code Link](https://makecode.microbit.org/_dXThEb1bxUrj)
+[Sample Code Link](https://makecode.microbit.org/_0yhUt94oTfTD)
 
 ### Sample Program for KOI
 

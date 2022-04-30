@@ -77,13 +77,37 @@ Connect Wifibrick to the Port 1(Requires turning off the buzzer) to Port 4 of th
 
 In this figure, Port 2 is used, this corresponds to P1 and P12 of the Micro:bit.
 
-![](./introimage/wifi-13-1.png)
+![](./introimage/wifibrick_armourbit.png)
 
 Wiring Details:
 
 ![](./introimage/wifi-12-1.png)
 
-### Robotbit
+In MakeCode programming, choose Armourbit Port.
+
+![](./introimage/armourbit.png)
+
+### Robotbit Edu
+
+[Robotbit Edu](../../Microbit_eboard/Robotbit_edu/robotbitedu.md)
+
+Using a PH2.0 to Dupont Cable, connect the Dupont pins to the Serial Port on Robotbit Edu.
+
+ ![](./introimage/wifi-16-1.png)
+
+![](./introimage/wifibrick_edu.png)
+
+In this figure, Pin 2 and Pin 12 is used.
+
+Select P2 as Tx and P12 as Rx in MakeCode programming.
+
+![](./introimage/edu2.png)
+
+Wiring Details:
+
+ ![](./introimage/wifi-18-1.png)
+
+### Robotbit 2.2
 
 Robotbit is a popular Micro:bit expansion board by Kittenbot, it supports a wide variety of modules including Wifibrick.
 
@@ -93,11 +117,13 @@ Using a PH2.0 to Dupont Cable, connect the Dupont pins to G, V and 2 signal pins
 
  ![](./introimage/wifi-16-1.png)
 
-In this figure, Pin 1 and Pin 2 is used.
+![](./introimage/wifibrick_robotbit.png)
 
- ![](./introimage/wifi-20-1.png)
+In this figure, Pin 2 and Pin 12 is used.
 
- ![](./introimage/wifi-19-1.png)
+Select P2 as Tx and P12 as Rx in MakeCode programming.
+
+![](./introimage/edu2.png)
 
 Wiring Details:
 
@@ -109,6 +135,23 @@ IoBit is a basic Micro:bit extension board by Kittenbot, Wifibrick is supported 
 
 The connection method is identical to Robotbit. Using a PH2.0 to Dupont Cable, connect the Dupont pins to G, V and 2 signal pins on the IoBit.
 
-In this figure, Pin 1 and Pin 2 is used.
+In this figure, Pin 2 and Pin 12 is used.
 
- ![](./introimage/wifi-21-1.png)
+ ![](./introimage/iobit.png)
+
+## Programming Tutorials
+
+WifiBrick Programming Tutorials for different platforms are available in the following segment.
+
+[MakeCode Programming](../MakeCode/index.rst)
+
+## WifiBrick Indicator
+
+1. The Red light turns on when Wifibrick is powered on.
+![](./introimage/led1.png)
+2. A Blue light will flash when connecting to the WiFi.
+![](./introimage/led2.png)
+3. All lights will turn off when the above is done.
+![](./introimage/led3.png)
+4. A green light turns on when it is connected to the MQTT platform.
+![](./introimage/led4.png)

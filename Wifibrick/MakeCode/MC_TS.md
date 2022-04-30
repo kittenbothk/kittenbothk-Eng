@@ -151,9 +151,9 @@ Build the following program to publish a data to ThingSpeak:
 
 ![](./iotimage/thingspeak_code1.png)
 
-[WiFiBrick Sample Program](https://makecode.microbit.org/_L71FkV3wkEV4)
+[WiFiBrick Sample Program](https://makecode.microbit.org/_F1XAzxR1t8zP)
 
-[KOI Sample Program](https://makecode.microbit.org/_UzsL7JKtuJi6)
+[KOI Sample Program](https://makecode.microbit.org/_dRj2H3L97Kme)
 
 On the ThingSpeak page, you can see the published data.
 
@@ -171,7 +171,7 @@ Press A to publish a message to the channel, Micro:bit will display the data rec
 
 [WiFiBrick Sample Program](https://makecode.microbit.org/_JKeC421rpUx2)
 
-[KOI Sample Program](https://makecode.microbit.org/_a0saR4h5E1Fo)
+[KOI Sample Program](https://makecode.microbit.org/_fqPA8mhjheeu)
 
 ---
 

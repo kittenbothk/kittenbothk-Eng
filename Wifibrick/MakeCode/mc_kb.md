@@ -4,88 +4,80 @@
 
 ![](../../functional_module/PWmodules/images/kbbanner.png)
 
-## 前言：
+## Foreword
 
-在這節教程，我們將會學習使用WifiBrick和KOI與Kittenblock的程式溝通。
+We will learn how to use WifiBrick and KittenBlock to develope IoT application.
 
-    KOI也支援的。
+    KOI is also supported.
 
-## 第一步：平台準備
+## Step 1: Setting Up KittenBlock
 
-### 注意：電腦需要與Wifibrick/KOI連接在同一個網絡上。
+### The computer must connect to the same network as the WifiBrick.
 
-啟動本地伺服器。
+Activate local MQTT client.
 
 ![](./iotimage/kb4.png)
 
-## 第二步：編寫程式
+## Step 2: Kittenblock Programming
 
-接下來我們會在Kittenblock編寫簡單的數據接收與發佈程式。
-
-    這個平台不只是容許與Kittenblock程式溝通的，這裡只是用作示範。
-    
-    例如：如果你有多隻Wifibrick，只要你的Wifibrick都連接到同一個網絡，所有Wifibrick都可以連接到同一個本地內聯網伺服器。
+We will write a simple script in KittenBlock to allow us to send and receive messages.
 
 ![](./iotimage/kb1.png)
 
-首先加載IoT插件。
+Import the IoT extension.
 
 ![](./iotimage/kb5.png)
 
-組合出以下程式，你本地伺服器的IP地址會自動填入。
+Build the following program, fill in the MQTT server address if it is not automaically inputted.
 
 ![](./iotimage/kb6.png)
 
-### 使用Wifibrick
+### Programming Wifibrick
 
-打開MakeCode。
+Open MakeCode, import WifiBrick extension.
 
-加載WifiBrick插件。
-
-Wifibrick插件: **https://github.com/KittenBot/pxt-kittenwifi**
+Wifibrick Extension: **https://github.com/KittenBot/pxt-kittenwifi**
 
 ![](./iotimage/iot-38.png)
 
-組合出以下程式，填入你本地伺服器的IP地址和Wifi密碼。
+Build th following program and fill in the Wifi name and password.
 
-我們在程式中廣播的話題需要與Kittenblock裏的話題一樣。
+Input the host ip and the topic name of the local IoT client from KittenBlock.
 
 ![](./iotimage/kb7.png)
 
-等待Wifibrick成功連接，然後按一下A，Kittenblock裏的小貓就會說出Micro:bit所探測到的環境亮度。
+Upload the program and wait for the WifiBrick to finish connection, press A to send the brightness value to local IoT client, the KittenBlock program will display the value.
 
 ![](./iotimage/kb8.png)
 
-接下來我們稍微修改一下程式，在Kittenblock中發佈數據。
+Return to KittenBlock and modify the program to allow it to send an IoT message to Micro:bit.
 
 ![](./iotimage/kb9.png)
 
-同樣地，在MakeCode中修改程式，使Wifibrick也能讀取IoT平台的數據。
+Modify the program in MakeCode to allow WifiBrick to read IoT messages.
 
-我們在程式中訂閱的話題需要與Kittenblock裏的話題一樣。
+Subscribe to the same topic that the KittenBlock program is publishing to.
 
 ![](./iotimage/kb10.png)
 
-現在大家可以在Kittenblock控制Micro:bit所顯示的圖案了。
+Micro:bit will now show the icon based on the message it receives.
 
-[MakeCode參考程式網址](https://makecode.microbit.org/_bi118xfRj5im)
+[MakeCode Sample Program](https://makecode.microbit.org/_bi118xfRj5im)
 
-### 使用KOI
+### Programming KOI
 
-打開MakeCode。
+Open MakeCode and import KOI extension.
 
-加載KOI插件。
-
-KOI插件: **https://github.com/KittenBot/pxt-koi**
+KOI Extension: **https://github.com/KittenBot/pxt-koi**
 
 ![](./iotimage/iot-38.png)
 
-KOI的使用方法和WifiBrick類似，分別在於KOI不會自動讀取數據，需要我們運行MQTT讀取的積木才會讀取到數據。
+KOI is programmed similarly to WifiBrick. But KOI will need a MQTT Read block for getting IoT messages whereas it is automatic on WifiBrick.
 
-組合出以下程式，填入你本地伺服器的IP地址和Wifi密碼。
+Build the following program and enter the Wifi credentials and the host address.
 
-我們在程式中廣播/訂閱的話題需要與Kittenblock裏的話題一樣。
+Use the same topics between KittenBlock and KOI.
 
 ![](./iotimage/kb11.png)
 
-[MakeCode參考程式網址](https://makecode.microbit.org/_3VA7DbDhj254)
+[MakeCode Sample Program](https://makecode.microbit.org/_3VA7DbDhj254)

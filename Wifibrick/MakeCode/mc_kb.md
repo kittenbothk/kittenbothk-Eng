@@ -62,7 +62,7 @@ Subscribe to the same topic that the KittenBlock program is publishing to.
 
 Micro:bit will now show the icon based on the message it receives.
 
-[MakeCode Sample Program](https://makecode.microbit.org/_bi118xfRj5im)
+[MakeCode Sample Program](https://makecode.microbit.org/_htm71EcY0JrK)
 
 ### Programming KOI
 
@@ -80,4 +80,4 @@ Use the same topics between KittenBlock and KOI.
 
 ![](./iotimage/kb11.png)
 
-[MakeCode Sample Program](https://makecode.microbit.org/_3VA7DbDhj254)
+[MakeCode Sample Program](https://makecode.microbit.org/_draT4U6hEJiA)

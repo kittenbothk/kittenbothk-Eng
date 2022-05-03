@@ -10,4 +10,5 @@ Each IoT platform may have slight differences in coding, let's take a look at th
     MC_TS.md
     makercloud.md
     objectblock.md
+    mc_kb.md
     mc_kittenbotiot.md

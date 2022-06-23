@@ -4,7 +4,7 @@
 
 ## Building Instructions Download
 
-[Building Instructions Download](https://bit.ly/AIHealthCareSetBuildingGuide)
+[Building Instructions Download](https://drive.google.com/drive/folders/16T0mfS0QbxXfHf4GvNz62Xd2x8dvOq4m?usp=sharing)
 
 ## Sample Wiring
 

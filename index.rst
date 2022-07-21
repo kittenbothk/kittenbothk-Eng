@@ -4,6 +4,12 @@
 Welcome to the Coding & STEM Sharing Hub of Kittenbot HK, here you will find all the knowledge and information related to Kittenbot's products, including product details, specifications, use case sharing and coding tutorials.
 
 .. toctree::
+    :maxdepth: 2
+    :caption: JacDac
+
+    jacdac/index
+
+.. toctree::
     :maxdepth: 1
     :caption: BBC micro:bit V2
 

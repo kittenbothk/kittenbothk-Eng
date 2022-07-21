@@ -1,25 +1,25 @@
-# Jacdac Button Module
+# Jacdac Kecap Button Module
 
 ![](./images/button1.png)
 
-這是一個按鍵模組，採用機械鍵盤常見的青軸按鍵，確保模組的耐用性，提高按按鍵時的觸感。
+This keycap button module uses a high quality key switch found in mechanical keyboards to improve the tactile feeling and a satisfying click.
 
-## 產品參數
+## Product Specifications
 
 ![](./images/button2.png)
 
-## 連接教學
+## Sample Wiring
 
 ![](./images/button3.png)
 
-## MakeCode編程教學
+## MakeCode Programming Tutorial
 
 ![](../functional_module/PWmodules/images/mcbanner.png)
 
-### 參考程式
+### Sample Program
 
 ![](./images/button_code.png)
 
-按下按鍵Micro:bit會顯示圖示。
+The Micro:bit will show an icon when the button is pressed.
 
-[參考程式](https://makecode.microbit.org/_Vu8ECbJU2WKE)
+[Sample Program](https://makecode.microbit.org/_Vu8ECbJU2WKE)

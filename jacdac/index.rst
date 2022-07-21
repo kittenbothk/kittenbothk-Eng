@@ -1,7 +1,7 @@
 Jacdac
 ==========================================
 
-有關Jacdac的資訊
+Tutorials related to Jacdac kits and modules.
 
 .. toctree::
     :maxdepth: 1

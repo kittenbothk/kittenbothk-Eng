@@ -1,20 +1,20 @@
-# KittenBot JacDac新手套件
+# KittenBot JacDac Starter Kit
 
 ![](./images/kit_full.png)
 
-Kittenbot作為微軟在Jacdac硬件上的合作夥伴，已推出市場上第一套支援Jacdac的硬件套件，套件已經包含合Micro:bit V2使用的Jacdapter和各類Jacdac模組，讓玩家們快速和輕易地開始Jacdac在MakeCode上的編程。
+Kittenbot has launched the first Jacdac kit in the market, this starter kit includes the Jacdapter for Micro:bit V2 as well as various sensor modules to kickstart JacDac programming.
 
-## 套件內容
+## Kit Contents
 
 1. Jacdapter *1
-2. Jacdac按鍵模組 *2
-3. Jacdac旋鈕鍵 *1
-4. Jacdac滑動電位器 *1
-5. Jacdac光敏感應器 *1
-6. Jacdac磁力感應器 *1
-7. Jacdac RGB燈圈 *1
-8. Jacdac分線器 *1
-8. Jacdac連接線 *5
+2. Jacdac Keycap Button Module *2
+3. Jacdac Rotary Button Module *1
+4. Jacdac Slider *1
+5. Jacdac Light Sensor Module *1
+6. Jacdac Magnetic Sensor Module *1
+7. Jacdac RGB LED Ring *1
+8. Jacdac Hub Splitter *1
+8. Jacdac Connection Cables *5
 
 ![](./images/modules1.png)
 ![](./images/modules2.png)

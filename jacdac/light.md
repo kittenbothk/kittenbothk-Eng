@@ -1,25 +1,25 @@
-# Jacdac光敏感應器模組
+# Jacdac Light Sensor Module
 
 ![](./images/light1.png)
 
-這是一個光敏感應器模組，可以感測環境亮度。
+This light sensor can sense the ambient light level.
 
-## 產品參數
+## Product Specifications
 
 ![](./images/light2.png)
 
-## 連接教學
+## Sample Wiring
 
 ![](./images/light3.png)
 
-## MakeCode編程教學
+## MakeCode Programming Tutorial
 
 ![](../functional_module/PWmodules/images/mcbanner.png)
 
-### 參考程式
+### Sample Program
 
 ![](./images/light_code.png)
 
-Micro:bit圖表會因應亮度調整。
+Micro:bit graph will change according to the light level.
 
-[參考程式](https://makecode.microbit.org/_JvbLuaDxr5Pp)
+[Sample Program](https://makecode.microbit.org/_JvbLuaDxr5Pp)

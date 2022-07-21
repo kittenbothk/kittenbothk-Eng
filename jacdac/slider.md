@@ -1,25 +1,25 @@
-# Jacdac滑動電位器模組
+# Jacdac Slider Module
 
 ![](./images/slider1.png)
 
-這是一個滑動電位器模組，可以透過滑動控制模組輸出的數值。
+This is a slider potentiometer, its value can be controlled by moving the slider.
 
-## 產品參數
+## Product Specifications
 
 ![](./images/slider2.png)
 
-## 連接教學
+## Sample Wiring
 
 ![](./images/slider3.png)
 
-## MakeCode編程教學
+## MakeCode Programming Tutorial
 
 ![](../functional_module/PWmodules/images/mcbanner.png)
 
-### 參考程式
+### Sample Program
 
 ![](./images/slider_code.png)
 
-使用滑動電位器控制Micro:bit顯示的圖表。
+Use the slider to control the Micro:bit graph.
 
-[參考程式](https://makecode.microbit.org/_MFx3iTJtdbdW)
+[Sample Program](https://makecode.microbit.org/_MFx3iTJtdbdW)

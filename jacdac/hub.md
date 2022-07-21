@@ -1,14 +1,14 @@
-# Jacdac分線器
+# Jacdac Splitter Hub
 
 ![](./images/hub1.png)
 
-這是一隻分線器，可以分出7組輸出接口。
+A Jacdac splitter that has 8 Jacdac connectors.
 
-## 產品參數
+## Product Specifications
 
 ![](./images/hub2.png)
 
-## 連接教學
+## Sample Wiring
 
 ![](./images/hub3.png)
 

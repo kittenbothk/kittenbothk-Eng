@@ -1,25 +1,25 @@
-# Jacdac RGB燈圈
+# Jacdac RGB LED Ring
 
 ![](./images/rgb1.png)
 
-RGB燈圈，可以顯示RGB彩色燈光。
+RGB LED ring that can displays RGB colors.
 
-## 產品參數
+## Product Specifications
 
 ![](./images/rgb2.png)
 
-## 連接教學
+## Sample Wiring
 
 ![](./images/rgb3.png)
 
-## MakeCode編程教學
+## MakeCode Programming Tutorial
 
 ![](../functional_module/PWmodules/images/mcbanner.png)
 
-### 參考程式
+### Sample Program
 
 ![](./images/rgb_code.png)
 
-燈圈亮燈數目會因應Micro:bit亮度感應調節。
+The number of LEDs lit up corresponds to the loudness value.
 
-[參考程式](https://makecode.microbit.org/_cVi3C5hrM3sx)
+[Sample Program](https://makecode.microbit.org/_cVi3C5hrM3sx)

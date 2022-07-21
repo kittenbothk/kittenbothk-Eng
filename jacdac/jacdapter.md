@@ -1,37 +1,37 @@
-# Jacdapter
+# Jacdapter for Micro:bit V2
 
 ![](./images/jacdapter1.jpg)
 
-Jacdapter是Micro:bit V2專用的Jacdac擴展板，它為Micro:bit帶來6組Jacdac接口。
+Jacdapter is the extension board for Micro:bit V2 that provides 6 Jacdac ports for Micro:bit V2.
 
-## 產品參數
+## Product Specifications
 
 ![](./images/jacdapter2.png)
 
-## 詳細介紹
+## Product Details
 
 ![](./images/jacdapter3.png)
 
-1. Micro:bit插座
-2. Jacdac標準螺絲孔
-3. Micro:bit金手指
-4. 電源掣
-5. Jacdac接頭
-6. Micro:bit引腳接口(需焊接)
-7. 產品二維碼
+1. Micro:bit Slot
+2. Jacdac Standard Through Holes
+3. Micro:bit Pin Connectors
+4. Power Switch
+5. Jacdac Connectors
+6. Micro:bit Pins(For Soldering)
+7. Product QR Code
 
-## 電源掣使用說明
+## Using the Power Switch
 
 ![](./images/jacdapterpower1.png)
 
-當電源掣撥向下，代表電源由Micro:bit供向Jacdac模組。
+When the switch is flipped down, power is supplied to the Jacdac modules from the Micro:bit.
 
 ![](./images/jacdapterpower2.png)
 
-當電源掣撥向上，代表電源由Jacdac模組供向Micro:bit。
+When the switch is flipped up, power is supplied from the Jacdac modules to the Micro:bit.
 
-## 使用教學
+## Tutorial
 
-### 將Micro:bit插在插座上
+### Insert a Micro:bit V2 onto the slot
 
 ![](./images/connection.png)

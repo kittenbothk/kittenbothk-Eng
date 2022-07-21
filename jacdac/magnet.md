@@ -1,25 +1,25 @@
-# Jacdac磁石感應器
+# Jacdac Magnetic Sensor Module
 
 ![](./images/magnet1.png)
 
-這是一個磁石感應器，它可以感應磁場的強度和極性。
+This magnetic sensor can sense the strength and polarity of the magnet.
 
-## 產品參數
+## Product Specifications
 
 ![](./images/magnet2.png)
 
-## 連接教學
+## Sample Wiring
 
 ![](./images/magnet3.png)
 
-## MakeCode編程教學
+## MakeCode Programming Tutorial
 
 ![](../functional_module/PWmodules/images/mcbanner.png)
 
-### 參考程式
+### Sample Program
 
 ![](./images/magnet_code.png)
 
-感應到磁石時Micro:bit會發出聲響。
+The Micro:bit will play a melody when a magnet is present.
 
-[參考程式](https://makecode.microbit.org/_4s2VREa3eXhc)
+[Sample Program](https://makecode.microbit.org/_4s2VREa3eXhc)

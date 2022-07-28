@@ -21,3 +21,4 @@ Information and tutorials about modules from the Suar series can be found here.
     sugar_joystick.md
     sugar_tof.md
     sugar_asr.md
+    sugar_lens.md

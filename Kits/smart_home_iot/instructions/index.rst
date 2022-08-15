@@ -1,4 +1,4 @@
-IoT Made Easy Building Instructions
+IoT Make Easy Building Instructions
 ====================
 
 .. toctree::

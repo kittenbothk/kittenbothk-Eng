@@ -1,4 +1,4 @@
-IoT Made Easy Smart Home Education Kit
+IoT Make Easy Smart Home Education Kit
 ====================
 
 .. toctree::

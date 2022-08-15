@@ -1,10 +1,10 @@
-IoT Made Easy Smart Home Education Kit
+# IoT Make Easy Smart Home Education Kit
 
-IoT Made Easy Smart Home is an education kit based around the concept of IoT and smart home. 4 example use cases is included with topics focusing on Bathroom, Kitchen and Windows.
+IoT Make Easy Smart Home is an education kit based around the concept of IoT and smart home. Four example use cases is included with topics focusing on Bathroom, Kitchen and Windows.
 
 KittenBot aims to teach students the working principles of common household IoT appliances and to increase their awareness for household safety.
 
-![](./images/door.jpg)
+![](./images/box1.jpg)
 
 ## Special Features
 
@@ -22,6 +22,8 @@ KittenBot aims to teach students the working principles of common household IoT 
     - No more wiring issues
     
 ## Kit Set Contents
+
+![](./images/box2.jpg)
 
 - Futureboard /Micro:bit x1 (Optional)
 - WifiBrick (For Micro:bit only)

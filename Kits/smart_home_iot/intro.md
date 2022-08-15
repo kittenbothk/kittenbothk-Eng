@@ -11,7 +11,7 @@ KittenBot aims to teach students the working principles of common household IoT 
 - IoT for beginners
     - Students can easily grasp the concepts of IoT
 - Hands on construction
-    - Students can understand the workding principle of common appliances
+    - Students can understand the working principle of common appliances
 - Graphical Programming Interface
     - Lowers the entry barrier for beginners
 - Supports IFTTT

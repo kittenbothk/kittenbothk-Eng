@@ -41,7 +41,7 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
-    :caption: IoT Made Easy Smart Home Education
+    :caption: IoT Make Easy Smart Home Education
 
     smart_home_iot/index
 

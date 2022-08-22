@@ -77,6 +77,12 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
+    :caption: Inventory Management System
+
+    inventor_system/index
+
+.. toctree::
+    :maxdepth: 2
     :caption: MR STEMer Kart Lite Kit
 
     robotbit_kart/index

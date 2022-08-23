@@ -1,54 +1,62 @@
-# 倉庫貨物管理系統參考程式
+# Inventory System Sample Program
 
-## MakerCloud版參考程式
+## RFID Chip Program
+
+Use this program to check the ID of the RFID chips.
+
+![](./images/rfid_code.png)
+
+[Sample Program](https://makecode.microbit.org/_7mTPaUfz5FLd)
+
+## MakerCloud Sample Program
 
 ![](./images/code_makercloud.png)
 
-[參考程式](https://makecode.microbit.org/_Ef8DP8gCThfX)
+[Sample Program](https://makecode.microbit.org/_Ef8DP8gCThfX)
 
-### 模型玩法
+### Model Instructions
 
-1. 在程式填入Wifi的登入資料和MakerCloud的主題資料
-2. 在程式裡填入與貨品相應的RFID編號
-3. 開啟電源後等待WifiBrick連接到MakerCloud
-4. 按A鍵啟動輸送帶，B鍵停止輸送帶
-5. 當RFID魔塊感應到貨物的RFID晶片後，Micro:bit會顯示RFID資訊，並且會將貨物資料上傳到MakerCloud平台
+1. Fill in Wifi login information and MakerCloud MQTT topics
+2. Fill in the corresponding RFID number for the product
+3. Download the program and turn on the power, wait for the LED to completely light up
+4. Press A to turn on the conveyor belt, B to turn if off
+5. When the RFID Sensor detects a RFID chip, Micro:bit will display the ID and uploads the information to MakerCloud.
 
-### MakerCloud平台設定教學
+### MakerCloud Set Up Tutorial
 
-在MakeCloud平台建立新主題，建立數據類型item、koi、robotbit、armourbit。(貨品參考)
+Create new MQTT topic, create data types: item, koi, robotbit, armourbit.(For Reference)
 
 ![](./images/makercloud1.png)
 
-為每個數據類型建立圖表。
+Create chart for each data type.
 
 ![](./images/makercloud3.png)
 
-建立儀表板，顯示建立的圖表。
+Create dashboard, include the charts created.
 
 ![](./images/makercloud2.png)
 
-## ObjectBlocks版參考程式
+## ObjectBlocks Sample Program
 
 ![](./images/code_objectblocks.png)
 
-[參考程式](https://makecode.microbit.org/_9UHYyzdWJM0E)
+[Sample Program](https://makecode.microbit.org/_9UHYyzdWJM0E)
 
-### 模型玩法
+### Model Instructions
 
-1. 在程式填入Wifi的登入資料和ObjectBlocks的主題資料
-2. 在程式裡填入與貨品相應的RFID編號
-3. 開啟電源後等待WifiBrick連接到ObjectBlocks
-4. 按A鍵啟動輸送帶，B鍵停止輸送帶
-5. 當RFID魔塊感應到貨物的RFID晶片後，Micro:bit會顯示RFID資訊，並且會將貨物資料上傳到ObjectBlocks平台
+1. Fill in Wifi login information and ObjectBlocks MQTT topics
+2. Fill in the corresponding RFID number for the product
+3. Download the program and turn on the power, wait for the WifiBrick to connect with ObjectBlocks
+4. Press A to turn on the conveyor belt, B to turn if off
+5. When the RFID Sensor detects a RFID chip, Micro:bit will display the ID and uploads the information to ObjectBlocks
 
-### ObjectBlocks平台設定教學
+### ObjectBlocks Set Up Tutorial
 
-建立新專案。
+Create new project.
 
 ![](./images/objectblocks1.png)
 
-建立渠道Robotbit、Armourbit、KOI、Item。(必須剔選網絡勾手選項)
+Create channels Robotbit, Armourbit, KOI, Item.(Webhook option must be selected)
 
 ![](./images/objectblocks2.png)
 
@@ -56,45 +64,45 @@
 
 ![](./images/objectblocks4.png)
 
-新增儀表板。
+Create Dashboard.
 
 ![](./images/objectblocks5.png)
 
-新增工具顯示渠道信息。
+Create new tool to display the channel data.
 
 ![](./images/objectblocks6.png)
 
-## ThingSpeak版參考程式
+## ThingSpeak Sample Program
 
 ![](./images/code_thingspeak.png)
 
-[參考程式](https://makecode.microbit.org/_RU8DYRgbm1os)
+[Sample Program](https://makecode.microbit.org/_RU8DYRgbm1os)
 
-### 模型玩法
+### Model Instructions
 
-1. 在程式填入Wifi的登入資料和ThingSpeak的主題資料
-2. 在程式裡填入與貨品相應的RFID編號
-3. 開啟電源後等待WifiBrick連接到ThingSpeak
-4. 按A鍵啟動輸送帶，B鍵停止輸送帶
-5. 當RFID魔塊感應到貨物的RFID晶片後，Micro:bit會顯示RFID資訊，並且會將貨物資料上傳到ThingSpeak平台
-    
-   
-    注意：由於ThingSpeak只支援數字，所以ThingSpeak不支援顯示貨品名稱和ID
+1. Fill in Wifi login information and ThingSpeak MQTT topics
+2. Fill in the corresponding RFID number for the product
+3. Download the program and turn on the power, wait for the WifiBrick to connect with ThingSpeak
+4. Press A to turn on the conveyor belt, B to turn if off
+5. When the RFID Sensor detects a RFID chip, Micro:bit will display the ID and uploads the information to ThingSpeak
 
-### ThingSpeak平台設定教學
 
-建立ThingSpeak頻道，設定數據欄Robotbit，KOI，Armourbit，Item。
+    Note: ThingSpeak does not allow string data, so Item Name and ID will not be supported
+
+### ThingSpeak Set Up Tutorial
+
+Create ThingSpeak Channel, create data field Robotbit, KOI, Armourbit, Item.
 
 ![](./images/thingspeak1.png)
 
-將頻道設為公開。
+Set the channel to public.
 
 ![](./images/thingspeak2.png)
 
-設定新MQTT Device。
+Set up MQTT Device.
 
 ![](./images/thingspeak3.png)
 
-請好好保管ThingSpeak存取登入密碼。
+Properly save the MQTT device credentials.
 
 ![](./images/thingspeak4.png)

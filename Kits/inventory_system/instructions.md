@@ -1,11 +1,11 @@
-# 倉庫貨物管理系統搭建說明書
+# Building Instructions
 
-## 下載搭建說明書
+## Download Building Instructions
 
 ![](./images/instruction.png)
 
-[下載搭建說明書(右鍵->另存為)](./images/belt.pdf)
+[Download PDF](https://github.com/kittenbothk/kittenbothk-Eng/raw/master/Kits/inventory_system/images/belt.pdf)
 
-## 接線教學
+## Sample Wiring
 
 ![](./images/wiring.png)

@@ -1,19 +1,21 @@
-# KittenCode快速測試
+# KittenCode Quick Demo
 
-KittenCode裏已經預載了數個示範程式，讓大家快速測試KittenCode的功能。
+Serveral demo programs are included with KittenCode so users can easily test KittenCode's features.
 
-### 1. 開啟範例
+### 1. Open examples menu
 
 ![](./images/demo1.png)
 
-### 2. 選擇範例
+### 2. Select any example
 
 ![](./images/demo2.png)
 
-### 3. 程式就會自動載入
+### 3. Import sample code
 
 ![](./images/demo3.png)
 
-### 4. 運行程式
+### 4. Run the program to see the results
+
+![](./images/demo5.png)
 
 ![](./images/demo4.png)

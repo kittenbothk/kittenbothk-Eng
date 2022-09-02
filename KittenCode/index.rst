@@ -1,11 +1,14 @@
 KittenCode
 =========================
 
-KittenCode is a Python IDE developed by KittenBot to facilitate coding education for secondary school students.
+KittenCode is Kittenbot's Python IDE intended for STEM education for secondary and tertiary educations.
 
-KittenCode not only supports normal Python programming, it also supports programming on KittenBot's products based using MicroPython.
+KittenCode can support Python programming and MicroPython specifically for KittenBot's hardware.
+
 
 .. toctree::
     :maxdepth: 1
 
     intro.md
+    interface.md
+    demo.md

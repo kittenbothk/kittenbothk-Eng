@@ -1,71 +1,67 @@
-# KittenCode操作指引
+# KittenCode 
 
-## 主介面
+## Main Interface
 
 ![](./images/interface1.png)
 
-1. 功能區：檔案命名與儲存，模式切換，選項等
-2. 文件區：專案內的文件，硬件文件系統
-3. 編程區：編寫程式
-4. 執行區：運行程式，上傳程式(硬件模式)
-5. 控制台：顯示程式的列印，負責執行REPL模式(硬件模式)
+1. General: Rename/save current project, Switch Python Mode, Options
+2. File System: View project files and hardware file system
+3. Coding Area: Python Editor
+4. Execution: Execute program, flash to board, REPL console
 
-## 功能區
+## General
 
 ![](./images/interface2.png)
 
-1. 檔案區：命名檔案，儲存檔案，打開檔案等
-2. 切換模式：切換Python與MicroPython硬件模式
-3. 功能欄：登入KZone，打開教程與示例，Python庫管理
+1. Files: Rename project, save or open projects
+2. Mode switching: Switch between Python and MicroPython
+3. Features: Settings, Python add-on manager
 
-### Python庫管理
+### Python Add-on manager
 
 ![](./images/interface3.png)
 
-1. 輸入Python庫名稱
-2. 選擇安裝源
+![](./images/pip1.png)
 
-### 硬件模式
+![](./images/pip2.png)
 
-![](./images/interface8.png)
+1. Install Python Add-on
+2. Select download source
 
-選擇硬件
+### Hardware Mode
 
-![](./images/interface9.png)
+![](./images/hardware1.png)
 
-連接硬件，切換硬件
+![](./images/hardware2.png)
 
-## 文件區
+![](./images/hardware3.png)
 
-![](./images/interface4.png)
+Choose the hardware
 
-1. 建立新文件：建立筆記(.md)，建立Python檔案(.py)，建立新資料夾
-2. 選擇檔案
+![](./images/hardware4.png)
 
-## 編程區
+![](./images/hardware5.png)
 
-![](./images/interface5.png)
+Connect the hardware to start MicroPython
 
-1. 選擇檔案
-2. 編程區
-3. 縮放與搜尋
+## Files
 
-## 執行區
+![](./images/file1.png)
 
-### Python模式
+1. Create files and folders
+2. Choose and open files
 
-![](./images/interface6.png)
+## Coding Area
 
-運行程式
+![](./images/code1.png)
 
-### 硬件模式
+1. Switch tabs
+2. Coding Area
+3. Zooming and searching
 
-![](./images/interface7.png)
+## Execcution
 
-運行程式，上傳程式到硬件，更新硬件固件
+![](./images/repl1.png)
 
-## 控制台
-
-![](./images/interface10.png)
-
-顯示程式的列印，REPL模式輸入，清空控制台資訊
+1. Execute program
+2. REPL Console

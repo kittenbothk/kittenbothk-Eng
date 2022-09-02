@@ -1,29 +1,29 @@
-# KittenCode Introduction
+# KittenCode介紹
 
 ![](./images/pythonLogo.jpg)
 
 ![](./images/kittencode1.png)
 
-KittenCode is an upcoming programming platform for Python programming designed by Kittenbot. KittenCode runs on Python3.7 and it can run imported modules, KittenCode also supports programming of Kittenbot products, including Micro:bit, Meowbit, KOI and Futureboard.
+KittenCode is Kittenbot's Python IDE intended for STEM education for secondary and tertiary educations.
 
-Python programming has been gaining importance in STEM education as the HKEDB has already designated Python as the official programming language for the HKDSE.
-
-Python has a clearer and more consise structure than other programming languages so it is easier to learn. Python is also the backbone of many AI and Deep Learning applications, it is a great time to start learning Python!
+KittenCode can support Python programming and MicroPython specifically for KittenBot's hardware.
 
 ![](./images/dse.png)
 
-## Features
+## Download KittenCode
+
+[Download KittenCode]()
+
+## Special Features
 
 - Supports REPL mode
-    - REPL allows the real time execution of code
-    
+  - Instant execution of python code
+  
 - Supports MicroPython
-    - Supports Micro:bit, Meowbit, KOI, FutureBoard
-    - Supports both real time online coding or uploading the code for offline use
+  - Supports MicroPython for Micro:bit, KOI, Futureboard, Meowbit
+  - Real-time interaction with hardware or flash the program onto the board
     
-- Supports Python Repositories
-    - Can use pip install to install python repositories
+- Supports third-party add-ons
+  - Use pip install to install any Python add-ons you like
     
-- Clean User Interface
-
-- Login to KZone and share your codes
+- Clean and Easy-to-use UI

@@ -6,26 +6,64 @@ System will send an alert to the user when fire breaks out and will put out the 
 
 ## Building Instructions
 
-[Building Instructions]()
+[Building Instructions](https://github.com/kittenbothk/kittenbothk-Eng/raw/master/Kits/smart_home_iot/images/window.pdf)
 
 ![](../images/stove_wire.png)
 
-## Sample Program
+## Sample Wiring
 
-### For Micro:bit
+![](../images/stove_wire.png)
 
-![](../images/stove_code_mc.png)
+## MakerCloud Version
 
-[Sample Program](https://makecode.microbit.org/_Abo2V2PDdY5R)
+### Micro:bit
 
-### For FutureBoard
+![](../images/stove_code_mc_makercloud.png)
 
-![](../images/stove_code_kb.png)
+[Sample Program](https://makecode.microbit.org/_3UcLxDX53MJu)
 
-[Sample Program]()
+### Futureboard
 
-## Demonstration Video
+![](../images/stove_code_kb_makercloud.png)
+
+[Sample Program](https://github.com/kittenbothk/kittenbothk-Eng/raw/master/Kits/smart_home_iot/instructions/smartStove_makercloud.sb3)
+
+[Sample Image Files](https://github.com/kittenbothk/kittenbothk-Eng/raw/master/Kits/smart_home_iot/instructions/stovepic.rar)
+
+## ObjectBlocks Version
+
+### Micro:bit
+
+![](../images/stove_code_mc_objectblocks.png)
+
+[Sample Program](https://makecode.microbit.org/_adD1DLHuChzq)
+
+### Futureboard
+
+![](../images/stove_code_kb_objectblocks.png)
+
+[Sample](https://github.com/kittenbothk/kittenbothk-Eng/raw/master/Kits/smart_home_iot/instructions/smartStove_objectblocks.sb3)
+
+[Sample Image Files](https://github.com/kittenbothk/kittenbothk-Eng/raw/master/Kits/smart_home_iot/instructions/stovepic.rar)
+
+## ThingSpeak Version
+
+### Micro:bit
+
+![](../images/stove_code_mc_thingspeak.png)
+
+[Sample Program](https://makecode.microbit.org/_FLJUbz7JUi1T)
+
+### Futureboard
+
+![](../images/stove_code_kb_thingspeak.png)
+
+[Sample Program](https://github.com/kittenbothk/kittenbothk-Eng/raw/master/Kits/smart_home_iot/instructions/smartStove_thingspeak.sb3)
+
+[Sample Image Files](https://github.com/kittenbothk/kittenbothk-Eng/raw/master/Kits/smart_home_iot/instructions/stovepic.rar)
+
+## Demo Video
 
 [![](../images/stove_video.png)](https://www.youtube.com/watch?v=n7rE02r8EJo)
 
-[Demonstration Video](https://www.youtube.com/watch?v=n7rE02r8EJo)
+[Demo Video](https://www.youtube.com/watch?v=n7rE02r8EJo)

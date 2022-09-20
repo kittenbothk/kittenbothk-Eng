@@ -23,7 +23,75 @@ The module is protected by a hard plastic casing to improve aesthetics as well a
 
 ![](./images/asr2.png)
 
-## Usage 1: Plug-and-Play Instructions
+![](./images/asr5.png)
+
+## Use 1: Programming Instructions
+
+### Wiring Instructions
+
+![](./images/asr_robotbit_edu.png)
+
+## Programming Instructions
+
+### Microbit MakeCode
+
+![](../PWmodules/images/mcbanner.png)
+
+### Import ASR Extension
+
+ASR Extension: https://github.com/kittenbothk/pxt-KittenASR
+
+### [Importing Extensions](../../Makecode/powerBrickMC)
+
+### Complete Commands List
+
+![](./images/asr_commands.png)
+
+### Voice Recognition Programming Blocks
+
+![](./images/asr_sugar_1.png)
+
+### Voice Recognition Sample Program
+
+![](./images/asr_sugar_2.png)
+
+[Sample Program](https://makecode.microbit.org/_RCWckUH0bcXe)
+
+Program Instructions:
+
+Say Lamp On or Lamp Off, the LEDs on the Micro:bit will light up correspondingly.
+
+Press A or B to make the module speak the corresponding text.
+
+      Note: Adding a pause between TTS commands will prevent the speech overlapping.
+
+### Demo Video
+
+[![](./images/asr_video.png)](https://www.youtube.com/watch?v=nvV9uM8g3gs)
+
+[Demo Video](https://www.youtube.com/watch?v=nvV9uM8g3gs)
+
+### FutureBoard KittenBlock Programming Instructions
+
+![](../PWmodules/images/kbbanner.png)
+
+### Voice Recognition Sample Program
+
+![](./images/asr_code2.png)
+
+Program Instructions:
+
+Say Lamp On or Lamp Off, the screen will light up correspondingly.
+
+### TTS Sample Program
+
+![](./images/asr_code4.png)
+
+Program Instructions:
+
+Press A or B to make the module speak the corresponding text.
+
+## Use 2: Plug-and-Play Instructions
 
 Th ASR Voice Recognition module can be used without any programming, simply connect a 3V battery box or 3.7V battery to use the module individually.
 
@@ -79,63 +147,3 @@ Actions:
     - Controls Motor Port
     
 ### 4. After idling for 10 seconds, the module will go into sleep mode after saying "Uh oh", use a wake-up command to wake the module
-
-## Usage 2: Programming
-
-## Programming Instructions
-
-### Microbit MakeCode
-
-![](../PWmodules/images/mcbanner.png)
-
-### Import ASR Extension
-
-ASR Extension: https://github.com/kittenbothk/pxt-KittenASR
-
-### [Importing Extensions](../../Makecode/powerBrickMC)
-
-### Complete Commands List
-
-![](./images/asr_commands.png)
-
-### Voice Recognition Sample Program
-
-![](./images/asr_code1.png)
-
-[Sample Program](https://makecode.microbit.org/_F68D6iWFUMvi)
-
-Program Instructions:
-
-Say Lamp On or Lamp Off, the LEDs on the Micro:bit will light up correspondingly.
-
-### TTS Sample Program
-
-![](./images/asr_code3.png)
-
-[Sample Program](https://makecode.microbit.org/_YzeeikHkPApz)
-
-      Note: Adding a pause between TTS commands will prevent the speech overlapping.
-
-Program Instructions:
-
-Press A or B to make the module speak the corresponding text.
-
-### FutureBoard KittenBlock Programming Instructions
-
-![](../PWmodules/images/kbbanner.png)
-
-### Voice Recognition Sample Program
-
-![](./images/asr_code2.png)
-
-Program Instructions:
-
-Say Lamp On or Lamp Off, the screen will light up correspondingly.
-
-### TTS Sample Program
-
-![](./images/asr_code4.png)
-
-Program Instructions:
-
-Press A or B to make the module speak the corresponding text.

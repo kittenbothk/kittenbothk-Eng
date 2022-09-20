@@ -47,6 +47,19 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
+    :caption: Book Crossing Education Set
+
+    booksharing/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Inventory Management System
+
+    inventory_system/index
+
+
+.. toctree::
+    :maxdepth: 2
     :caption: KittenBot Fitness Testing Kit
 
     fitness/index
@@ -64,6 +77,12 @@ Introduction and support for Kittenbot's Educational Kit Sets.
     3in1/index
 
 .. toctree::
+    :maxdepth: 1
+    :caption: Robotbit Basic Kart Kit
+
+    basic_kart/index
+
+.. toctree::
     :maxdepth: 2
     :caption: Mecanum Wheels Robot Kit
 
@@ -77,9 +96,9 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
-    :caption: Inventory Management System
+    :caption: All Terrain RC Tank Kit
 
-    inventor_system/index
+    rc_tank/index
 
 .. toctree::
     :maxdepth: 2

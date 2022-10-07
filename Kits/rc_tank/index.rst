@@ -1,7 +1,7 @@
-全地形越野遙控坦克
+All Terrain RC Rover Kit
 ============
 
-全地形越野遙控坦克是Kittenbot專為學校舉辦越野障礙賽而設計的遙控坦克。
+The All Terrarin RC Rover Kit is a RC Robot designed for obstacle courses.
 
 .. toctree::
     :maxdepth: 1

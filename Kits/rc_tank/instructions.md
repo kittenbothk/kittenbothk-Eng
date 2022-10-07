@@ -1,11 +1,11 @@
-# 全地形越野遙控坦克搭建說明書
+# All Terrain RC Rover Building Instructions
 
-## 下載搭建說明書
+## Download Building Instructions
 
 ![](./images/instruction.png)
 
-[下載搭建說明書](https://github.com/kittenbothk/kittenbothk/raw/master/Kits/rc_tank/images/tank.pdf)
+[Download Building Instructions](https://github.com/kittenbothk/kittenbothk/raw/master/Kits/rc_tank/images/tank.pdf)
 
-## 接線教學
+## Sample Wiring
 
 ![](./images/wiring.png)

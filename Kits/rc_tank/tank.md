@@ -1,24 +1,24 @@
-# 全地形越野遙控坦克
+# All Terrain RC Rover
 
 ![](./images/tank_2.png)
 
-全地形越野遙控坦克是Kittenbot專為學校舉辦越野障礙賽而設計的遙控坦克。配備坦克履帶與2隻2KG電機，確保坦克有足夠動力攀山越嶺。
+The All Terrarin RC Rover Kit is a RC Robot designed for obstacle courses. Powered by 2 2KG GeekMotors, ensuring the robot will have enough power to climb over obstacles.
 
-## 產品特色
+## Special Features
 
-- 基於Microbit的圖形化編程，更容易上手
-- 兼容樂高積木，擴展性高
-- 使用2KG電機，性能強勁
-- 支援MakeCode和Kittenblock編程
+- Block-based programming
+- High expandability using plastic building bricks
+- Strong power from 2KG GeekServo Motors
+- Supports MakeCode and KittenBlock programming
 
-## 套件內容
+## Kit Contents
 
-- Robotbit Edu擴展板 x1
-- 塑膠積木包 x1
-- GeekServo 2KG電機 x2
-- 18650鋰電池 x1
+- Robotbit Edu x1
+- Plastic Building Bricks Set x1
+- GeekServo 2KG Motors x2
+- 18650 Lithium Battery x1
 
-## 產品展示
+## Product Showcase
 
 ![](./images/tank.png)
 

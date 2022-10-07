@@ -47,16 +47,15 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
-    :caption: Book Crossing Education Set
-
-    booksharing/index
-
-.. toctree::
-    :maxdepth: 2
     :caption: Inventory Management System
 
     inventory_system/index
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Book Crossing Education Set
+
+    booksharing/index
 
 .. toctree::
     :maxdepth: 2
@@ -96,7 +95,7 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
-    :caption: All Terrain RC Tank Kit
+    :caption: All Terrain RC Rover Kit
 
     rc_tank/index
 

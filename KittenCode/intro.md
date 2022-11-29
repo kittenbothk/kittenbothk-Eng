@@ -1,4 +1,4 @@
-# KittenCode介紹
+# KittenCode Introduction
 
 ![](./images/pythonLogo.jpg)
 

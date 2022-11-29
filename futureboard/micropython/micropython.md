@@ -4,20 +4,28 @@ FutureBoard runs on MicroPython, KittenBot recommends KittenCode or KittenBlock 
 
 ## Using FutureBoard on KittenCode
 
-Make sure KLink is installed.
+Make sure KittenCode is installed.
 
-### 1. Select KittenCode on KLink
+## 1. Launch KittenCode and change to Hardware Interaction mode
 
-![](../images/micropython1.png)
+![](../images/kittenCode1.png)
 
-### 2. Select FutureBoard on KittenCode
+### 2. Select FutureBoard
 
-![](../images/micropython2.png)
+![](../images/kittenCode2.png)
 
-### 3. Connect to FutureBoard
+### 3. Connect the FutureBoard using the USB Cable and press the connect button
 
-![](../images/micropython3.png)
+![](../images/kittenCode3.png)
 
-### 4. Test the connection with a simple program
+### 4. Select Serial Mode
 
-![](../images/micropython4.png)
+![](../images/kittenCode4.png)
+
+### 5. The connection is established when the button turns green
+
+![](../images/kittenCode5.png)
+
+### 6. The REPL console also becomes available
+
+![](../images/kittenCode6.png)

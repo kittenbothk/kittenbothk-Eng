@@ -37,10 +37,12 @@ Neopixel accepts RGB value or built-in color names.
 Update the display to show the effects.
 
 ### Sample Program
+
+    # Lights up LEDs then turns off
     
     from future import *
     import time
-    """ 預設顏色
+    """ Available colours
     RED=(255,0,0)
     YELLOW=(255,255,0)
     PINK=(255,105,180)

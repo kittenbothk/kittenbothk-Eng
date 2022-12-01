@@ -30,6 +30,8 @@ Parameter zone is for GMT, default is 8.
 Returns a list containing the current time, [year, month, day, week, hour, minute, second].
 
 ### Sample Program
+    
+    # Displays the current time
 
     #/bin/python
     from future import *

@@ -78,6 +78,8 @@ Begins and ends the fill area.
     
 ### Sample Program
 
+    # Draws a star
+
     from future import *
 
     turtle.clear()
@@ -88,3 +90,5 @@ Begins and ends the fill area.
     for i in range(5):
         turtle.forward(40)
         turtle.right(144)
+
+![](../images/python16.png)

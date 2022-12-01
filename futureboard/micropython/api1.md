@@ -18,6 +18,11 @@ color can be used in a few ways:
 2. Grey scale, 0~255, for example 100.
 3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
 
+    
+    screen.fill((255,100,0))
+
+![](../images/python1.png)
+
 ### 2. Draw pixel
 
     screen.pixel(x,y,color)
@@ -29,6 +34,11 @@ color can be used in a few ways:
 1. RGB, 0~255, for example (255,100,0).
 2. Grey scale, 0~255, for example 100.
 3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
+
+
+    screen.pixel(50,50,(255,100,0))
+
+![](../images/python2.png)
 
 ### 3. Draw lines
 
@@ -42,6 +52,11 @@ color can be used in a few ways:
 2. Grey scale, 0~255, for example 100.
 3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
 
+
+    screen.line(50,50,100,100,(255,100,0))
+
+![](../images/python3.png)
+
 ### Sample Program for 1~3
 
     from future import *
@@ -51,6 +66,8 @@ color can be used in a few ways:
     screen.pixel(80,64,(200,200,0))
     screen.pixel(80,66,(200,200,0))
     screen.line(30,30,90,90,255)
+
+![](../images/python4.png)
     
 -----------------------
 
@@ -70,6 +87,10 @@ color can be used in a few ways:
 
 Use fill to select whether to fill the shape with a color, 1 for true, 0 for false.
 
+    screen.rect(20,20,100,50,(255,100,0),1)
+
+![](../images/python5.png)
+
 ### 5. Draw Circles
 
     screen.circle(x,y,r,color,fill)
@@ -86,6 +107,10 @@ color can be used in a few ways:
 
 Use fill to select whether to fill the shape with a color, 1 for true, 0 for false.
 
+    screen.circle(50,50,20,(255,100,0),1)
+
+![](../images/python6.png)
+
 ### 6. Draw Triangles
 
     screen.triangle(x1,y1,x2,y2,x3,y3,color,fill)
@@ -99,6 +124,10 @@ color can be used in a few ways:
 3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
 
 Use fill to select whether to fill the shape with a color, 1 for true, 0 for false.
+
+screen.triangle(50,50,10,75,90,75,(255,100,0),1)
+
+![](../images/python7.png)
 
 ### 7. Draw Polygons
 
@@ -122,6 +151,10 @@ color can be used in a few ways:
 
 Use fill to select whether to fill the shape with a color, 1 for true, 0 for false.
 
+    screen.polygon(50,50,6,40,2,225,(255,100,0),0)
+
+![](../images/python8.png)
+
 ### Sample Program for 4~7
 
     from future import *
@@ -131,6 +164,8 @@ Use fill to select whether to fill the shape with a color, 1 for true, 0 for fal
     screen.circle(50,50,20,(170, 0, 0),0)
     screen.triangle(10,50,60,100,10,100,(0, 170, 0),0)
     screen.polygon(120,50,5,30,3,0,(255, 255, 0),1)
+
+![](../images/python9.png)
 
 ------------
 
@@ -148,6 +183,11 @@ color can be used in a few ways:
 2. Grey scale, 0~255, for example 100.
 3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
 
+
+    screen.text("hello world", 10, 10, 2, (255,100,0))
+
+![](../images/python10.png)
+
 ### 9. Show Chinese Strings
 
     screen.textCh(text, x=0, y=0, ext=1, color=255)
@@ -162,12 +202,19 @@ color can be used in a few ways:
 2. Grey scale, 0~255, for example 100.
 3. Built-in color, supported colors: RED, YELLOW, PINK, WHITE, GREEN, BLUE, PURPLE, CYAN, BLACK.
 
+
+    screen.textCh("你好", 10, 10, 2, (255,100,0))
+
+![](../images/python11.png)
+
 ### Sample Program for 8~9
 
     from future import *
     
     screen.text('hello world',5,5,1,RED)
     screen.textCh('你好',5,25,2,WHITE)
+
+![](../images/python12.png)
     
 ----------------
 
@@ -181,14 +228,18 @@ color can be used in a few ways:
 
 ### Sample Program for 10
 
+[Download Testing Files(Right Click->Save As)](https://kittenbothk-eng.readthedocs.io/en/latest/futureboard/images/pics.rar)
+
     # Showing png
     from future import *
     screen.loadPng('hmP.png')
+
+![](../images/python13.png)
     
     # Showing gif
     from future import *
     while 1:
-        screen.loadgif('hmG.gif')
+        screen.loadGif('hmG.gif')
         
 ### 11. Screen Sync
 
@@ -199,6 +250,8 @@ Enables or disables the screen sync, 1 for enabled and 0 for disabled.
 ### 12. Screen Refresh
 
     screen.refresh()
+
+Redraws the frame.
     
 ### Sample Program for 11~12
 
@@ -211,5 +264,7 @@ Enables or disables the screen sync, 1 for enabled and 0 for disabled.
       screen.circle(x,50,10,(0, 255, 0),1)
       screen.refresh()
       x += 1
+
+![](../images/python14.gif)
   
 --------

@@ -41,6 +41,8 @@ Returns a degree in Celsius, FutureBoard can measure temperatures from -40 to 80
         screen.text(str("Temp: ")+str(sensor.getTemp()),5,30,1,(0, 119, 255))
         sleep(0.5)
 
+![](../images/python15.gif)
+
 -----------------
 
 ### 4. Accelerometer
@@ -59,6 +61,8 @@ Returns the accelerometer value of the 3 axis with G as the unit.
 Returns the roll and pitch angle of the FutureBoard.
 
 ### Sample Program for 4~5
+
+    #The screen displays the readings of the accelerometer.
 
     from future import *
 
@@ -98,6 +102,9 @@ Returns the roll and pitch angle of the FutureBoard.
     sensor.startSchedule()
     
 ### Sample Program for 6~7
+
+    # Futureboard plays a melody on shake.
+    # Futureboard shows the status of gestures face up and face down.
 
     from future import *
     
@@ -141,6 +148,8 @@ Returns the magnetic strength detected by the sensor with uT as the unit.
 Returns the compass bearing.
 
 ### Sample Program for 8~10
+
+    # Simulates a compass
 
     from future import *
     import math

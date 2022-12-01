@@ -32,10 +32,10 @@ Set the recognition length in seconds with parameter sec, recommended length is 
 
 4 languages are supported currently, put the code into the vid parameter.
 
-1. 1537:普通話
-2. 1737:英文
-3. 1637:粵語
-4. 1837:四川話
+1. 1537: Putonghua
+2. 1737: English
+3. 1637: Cantonese
+4. 1837: Szechuan Dialect
 
 ### Sample Program: Loudness
 

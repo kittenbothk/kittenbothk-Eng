@@ -10,7 +10,10 @@ Import the Sugar library to make use of its functions.
 
 ## PIR Sensor
 
-    # pin=['P0','P1','P2','P3','P8','P9','P12','P13','P14','P15','P16']
+[PIR Sensor Information](../../functional_module/sugar/sugar_pir.md)
+
+    # available pins
+    # 'P0','P1','P2','P3','P8','P9','P12','P13','P14','P15','P16'
 
     value=PIR(pin).value()
 
@@ -20,7 +23,10 @@ Returns a boolean value from the PIR sensor.
 
 ## IR Line Tracker
 
-    # pin=['P0','P1','P2','P3','P8','P9','P12','P13','P14','P15','P16']
+[IR Line Tracker Information](../../functional_module/sugar/sugar_line.md)
+
+    # available pins
+    # 'P0','P1','P2','P3','P8','P9','P12','P13','P14','P15','P16'
 
     value=Tracker(pin).value()
 
@@ -30,7 +36,10 @@ Returns a boolean value from the Line Tracker.
 
 ## (Hall Effect)Magnet Sensor
 
-    # pin=['P0','P1','P2','P3','P8','P9','P12','P13','P14','P15','P16']
+[Magnet Sensor Information](../../functional_module/sugar/sugar_magnet.md)
+
+    # available pins
+    # 'P0','P1','P2','P3','P8','P9','P12','P13','P14','P15','P16'
 
     value=Hall(pin).value()
 
@@ -40,7 +49,10 @@ Returns a boolean value from the Magnet sensor.
 
 ## Button Sensor
 
-    # pin=['P0','P1','P2','P3','P8','P9','P12','P13','P14','P15','P16']
+[Button Sensor Information](../../functional_module/sugar/sugar_button.md)
+
+    # available pins
+    # 'P0','P1','P2','P3','P8','P9','P12','P13','P14','P15','P16'
 
     value=Button(pin).value()
 
@@ -50,8 +62,12 @@ Returns a boolean value from the Button sensor.
 
 ## LED Module
 
-    # pin=['P0','P1','P2','P3','P8','P13','P14','P15','P16']
-    # state=['ON','OFF']
+[LED Module Information](../../functional_module/sugar/sugar_led.md)
+
+    # available pins
+    # 'P0','P1','P2','P3','P8','P13','P14','P15','P16'
+    # available states
+    # 'ON','OFF'
 
     LED(pin).state(state) #ON/OFF
 
@@ -67,7 +83,10 @@ Sets the LED brightness.
 
 ## Flame Sensor
 
-    # pin=['P0','P1','P2','P3','P12','P14','P15','P16']
+[Flame Sensor Information](../../functional_module/sugar/sugar_fire.md)
+
+    # available pins
+    # 'P0','P1','P2','P3','P12','P14','P15','P16'
 
     value=Flame(pin).value()
 
@@ -77,7 +96,10 @@ Returns an analog value from the Flame sensor.
 
 ## Potentiometer Sensor
 
-    # pin=['P0','P1','P2','P3','P12','P14','P15','P16']
+[Potentiometer Sensor Information](../../functional_module/sugar/sugar_potentialmeter.md)
+
+    # available pins
+    # 'P0','P1','P2','P3','P12','P14','P15','P16'
 
     value=Angle(pin).value()
 
@@ -87,7 +109,10 @@ Returns an analog value from the Potentiometer sensor.
 
 ## Light Sensor
 
-    # pin=['P0','P1','P2','P3','P12','P14','P15','P16']
+[Light Sensor Information](../../functional_module/sugar/sugar_light.md)
+
+    # available pins
+    # 'P0','P1','P2','P3','P12','P14','P15','P16'
 
     value=Light(pin).value()
 
@@ -97,7 +122,10 @@ Returns an analog value from the Light sensor.
 
 ## Soil Moisture Sensor
 
-    # pin=['P0','P1','P2','P3','P12','P14','P15','P16']
+[Soil Moisture Sensor Information](../../functional_module/sugar/sugar_soil.md)
+
+    # available pins
+    # 'P0','P1','P2','P3','P12','P14','P15','P16'
 
     value=Soil(pin).value()
 
@@ -107,7 +135,10 @@ Returns an analog value from the Soil Moisture sensor.
 
 ## Water Sensor
 
-    # pin=['P0','P1','P2','P3','P12','P14','P15','P16']
+[Water Sensor Information](../../functional_module/sugar/sugar_water.md)
+
+    # available pins
+    # 'P0','P1','P2','P3','P12','P14','P15','P16'
 
     value=WaterLevel(pin).value()
 
@@ -116,6 +147,8 @@ Returns an analog value from the Water sensor.
 - pin: The pin connected to the sensor.
 
 ## Environment Sensor(Sugar)
+
+[Environment Sensor Information](../../functional_module/sugar/sugar_env.md)
 
     x=ENV().update()
 
@@ -126,11 +159,15 @@ Returns a list containing the temperature and humidity readings from the Environ
 
 ## TOF Laser Distance Module
 
+[TOF Sensor Information](../../functional_module/sugar/sugar_tof.md)
+
     value=TOFDistance().value()
 
 Returns the distance in mm from the laser distance module.
 
 ## Joystick Module
+
+[Joystick Sensor Information](../../functional_module/sugar/sugar_joystick.md)
     
     # available positions
     # 'up', 'down', 'left', 'right', 'pressed'
@@ -142,6 +179,8 @@ Returns the distance in mm from the laser distance module.
 Returns the value from the Joystick module.
 
 ## RTC Clock Module
+
+[RTC CLock Module Information](../../functional_module/kittenClock.md)
 
     Clock().setTime((year,month,day,weekday,hour,min,sec))
 
@@ -165,7 +204,9 @@ Syncs the clock with UTC time.(Needs network connection)
 
 Returns a value from the clock module.
 
-## Ultrasonic Sensor
+## Ultrasound Sensor
+
+[Ultrasound Sensor Information](../../functional_module/nekoUltrasound.md)
     
     # available pins
     # 'P0','P1','P2','P3','P8','P9','P12','P13','P14','P15','P16'
@@ -177,6 +218,8 @@ Returns the distance measured by the ultrasound sensor.
 - pin: The pin connected to the sensor.
 
 ## RFID Module
+
+[RFID Module Information](../../functional_module/PWmodules/powerBrickRFID.md)
 
     RFID().probe() #without callback
     RFID().probe(probeCallback if 'probeCallback' in dir() else None) #with callback
@@ -201,6 +244,8 @@ Writes or read the data from the RFID tag.
 - DATA: The data to be written.
 
 ## Colour and Gesture Module
+
+[Colour and Gesture Module Information](../../functional_module/PWmodules/powerBrickColorGesture.md)
 
     # available type
     # 1,2,3,4
@@ -239,6 +284,8 @@ Sets the LED brightness and state when mode is set to LED.
 
 ## MP3 Module
 
+[MP3 Module Information](../../functional_module/PWmodules/powerBrickMP3.md)
+
     # available commands
     # MP3().PLAY, MP3().STOP, MP3().NEXT, MP3().PREV
 
@@ -267,6 +314,8 @@ Specify the song to play by file name. (Cannot be more than 8 characters)
 
 ## Environment Module(Powerbrick)
 
+[Environment Module Information](../../functional_module/PWmodules/powerBrickEnvironment.md)
+
     # available pin
     # 'P0','P1','P2','P3','P4','P5','P6','P7','P8','P9','P10','P11','P12','P13','P14','P15','P16'
 
@@ -286,6 +335,8 @@ Asks the sensor to measure environment data.
 Returns the temperature and humidity readings from the sensor.
 
 ## Water-proof Temperature Sensor
+
+[Water-proof Temperature Sensor Information](../../functional_module/watertemp.md)
 
     # available pins
     # 'P0','P1','P2','P3','P8','P9','P12','P13','P14','P15','P16'

@@ -8,7 +8,7 @@ KittenBlock is the programming platform developed by Kittenbot for STEM Educatio
 
 For Windows 10:
 
-Download the Google Drive Folder from [Download Kittenblock 1.87](https://drive.google.com/file/d/1rM3ByEvJRCVqOo1O06LcZqTOC8nu1kZi/view?usp=sharing).
+Download the Zipped File from [Download Kittenblock 1.88](https://bit.ly/KittenblockHK188).
 
 ![](./images/187download.png)  
 

@@ -53,6 +53,12 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
+    :caption: Robotic Arm
+
+    lego_robot_arm/index
+
+.. toctree::
+    :maxdepth: 2
     :caption: Book Crossing Education Set
 
     booksharing/index

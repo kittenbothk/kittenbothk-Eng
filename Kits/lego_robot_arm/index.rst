@@ -1,4 +1,4 @@
-Robotbit 機械臂
+Brick-Built Robot Arm
 ================
 
 .. toctree::

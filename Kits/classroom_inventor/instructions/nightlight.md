@@ -12,7 +12,7 @@
 
 ![](../images/nightlight_code.png)
 
-[Sample Program](https://makecode.microbit.org/_PW3VzdLFr5hu)
+[Sample Program](https://makecode.microbit.org/_D9X8tiDfF99a)
 
 ## Instructions
 

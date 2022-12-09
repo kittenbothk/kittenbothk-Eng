@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -45,7 +45,7 @@
      inkscape:zoom="0.125"
      inkscape:cx="1654.4604"
      inkscape:cy="557.73902"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="g841"
@@ -63,7 +63,7 @@
        x="-3368"
        y="-2384"
        transform="scale(-1)"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\piano_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\rhythm_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263" />
     <path
@@ -71,7 +71,7 @@
        d="M 756.16823,671.75061 C 333.65833,615.51329 555.77612,389.76954 592.22893,-128.25771"
        id="path1001"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\piano_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\rhythm_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263" />
     <text
@@ -96,7 +96,7 @@
        x="-886.22748"
        y="3137.3174"
        transform="rotate(-90)"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\quiz_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\rhythm_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263" />
     <path
@@ -104,7 +104,7 @@
        d="m 2066.9037,855.03707 c 714.5178,-44.9236 721.6751,-627.04911 1142.794,-641.61637"
        id="path1001-3-6"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\quiz_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\rhythm_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263" />
     <image
@@ -126,7 +126,7 @@
        id="image1440"
        x="150.21542"
        y="-923.08704"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\safe_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\rhythm_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263" />
     <text
@@ -135,20 +135,20 @@
        x="-244.0775"
        y="-971.70746"
        id="text1380-4"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\piano_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\rhythm_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263"><tspan
          sodipodi:role="line"
          id="tspan1378-6"
          x="-244.0775"
-         y="-971.70746">Potentiometer to P</tspan></text>
+         y="-971.70746">Potentiometer to P1</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:160px;line-height:1.25;font-family:sans-serif"
        x="3405.4263"
        y="-554.3717"
        id="text1470"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\piano_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\rhythm_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263"><tspan
          sodipodi:role="line"
@@ -157,10 +157,10 @@
          y="-554.3717">Servo to S1</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:160;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 978.0361,699.16165 C 1507.5262,682.92433 2225.644,425.18058 2262.0968,-92.84667"
+       d="M 986.0361,979.16165 C 1515.5262,962.92433 2225.644,425.18058 2262.0968,-92.84667"
        id="path1001-4"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\piano_wire.png"
+       inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\rhythm_wire.png"
        inkscape:export-xdpi="20.573263"
        inkscape:export-ydpi="20.573263" />
   </g>

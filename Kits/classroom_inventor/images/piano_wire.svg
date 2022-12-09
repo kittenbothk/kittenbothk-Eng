@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,10 +42,10 @@
      inkscape:window-height="1017"
      id="namedview835"
      showgrid="false"
-     inkscape:zoom="0.125"
-     inkscape:cx="1654.4604"
-     inkscape:cy="557.73902"
-     inkscape:window-x="-8"
+     inkscape:zoom="0.25"
+     inkscape:cx="1562.8735"
+     inkscape:cy="595.32867"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="g841"
@@ -102,7 +102,7 @@
          y="-110.3717">Ultrasound to P2</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:160;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 984.81508,698.16009 C 1769.5274,723.03515 1830.9385,428.32226 1837.5217,-339.08282"
+       d="M 976.81508,986.16009 C 1761.5274,1011.0352 1830.9385,428.32226 1837.5217,-339.08282"
        id="path1001-4"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\rainb\Desktop\kittenbot docs\testinghub\Kits\classroom_inventor\images\piano_wire.png"

@@ -1,4 +1,4 @@
-# Inventory System Sample Program
+# Inventory System Sample Program(MakeCode)
 
 ## RFID Chip Program
 

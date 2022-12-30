@@ -8,6 +8,6 @@ Inventory Management System simulates a factory conveyor belt transporting goods
 
     inventory.md
     instructions.md
-    futureboard_code.md
-    code.md
+    code_py.md
+    code_mc.md
     platform_setup.md

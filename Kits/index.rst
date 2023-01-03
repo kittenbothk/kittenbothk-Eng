@@ -47,7 +47,7 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
-    :caption: Inventory Management System
+    :caption: Industry 4.0 Conveyor Belt
 
     inventory_system/index
 
@@ -56,12 +56,6 @@ Introduction and support for Kittenbot's Educational Kit Sets.
     :caption: Brick-Built Robotic Arm
 
     lego_robot_arm/index
-
-.. toctree::
-    :maxdepth: 2
-    :caption: Book Crossing Education Set
-
-    booksharing/index
 
 .. toctree::
     :maxdepth: 2
@@ -80,12 +74,6 @@ Introduction and support for Kittenbot's Educational Kit Sets.
     :caption: BattleBots 3-in-1
 
     3in1/index
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Robotbit Basic Kart Kit
-
-    basic_kart/index
 
 .. toctree::
     :maxdepth: 2

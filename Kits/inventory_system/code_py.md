@@ -35,7 +35,7 @@ Use this program to check the ID of the RFID chips.
 
 ## RFID Read/Write Program
 
-Use this program to write or read data to the RFID tags.
+Use this program to write or read data to the RFID tags. Press A to write data, press B to read data.
 
     from future import *
     import sugar

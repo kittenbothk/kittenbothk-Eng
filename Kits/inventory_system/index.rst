@@ -1,7 +1,7 @@
-Inventory Management System
+Industry 4.0 Conveyor Belt
 ============
 
-Inventory Management System simulates a factory conveyor belt transporting goods, the rfid sensor detects the rfid chip on the product.
+Industry 4.0 Conveyor Belt simulates a factory conveyor belt transporting goods, the rfid sensor detects the rfid chip on the product.
 
 .. toctree::
     :maxdepth: 1

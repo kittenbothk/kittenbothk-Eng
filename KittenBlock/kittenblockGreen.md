@@ -8,27 +8,35 @@ KittenBlock is the programming platform developed by Kittenbot for STEM Educatio
 
 For Windows 10:
 
-Download the Zipped File from [Download Kittenblock 1.89](https://bit.ly/KittenblockHK18911).
+[Download Kittenblock 1.89](https://bit.ly/KittenblockHK18911)
+
+For MacOS(Intel):
+
+[Kittenblock 1.89 下載](https://bit.ly/KittenblockHK18911Mac)
 
 ![](./images/187download.png)  
 
-### Installing KittenBlock
+### Installing KittenBlock(Windows)
 
-Right Click the zip file and choose open the file with Windows Explorer.
+Unzip the rar file.
 
-    You can also use programs such as WinRar.
+    Winrar or similar programs can be used to unzip.
 
-![](./images/green_zip_install1.png)
+![](./images/189_install1.png)
 
-Extract the contents to your desktop.
+A folder named KittenBlock will be extracted from the archive.
 
-    Beware! Please do not place the contents in another folder!
+![](./images/189_install2.png)
 
-![](./images/green_zip_install2.png)
+Launch KittenBlock.exe from the folder.
 
-Double-click on KittenBlock.exe to launch KittenBlock.
+![](./images/189_install3.png)
 
-![](./images/187install3.png)
+#### Installation Demo
+
+![](./images/189_install4.png)
+
+[Windows Installation Demo](https://www.youtube.com/watch?v=sU0zmLy1aQ8)
 
 ## Installing the Extensions
 
@@ -38,7 +46,17 @@ Install Microbit COM and CH340 extensions. It should take less than a few minute
 
 ![](../functional_module/PWmodules/kbimages/an08.png)
 
-## Trouble Shooting
+## Installing KittenBlock(Mac)
+
+Unzip the KittenBlock zip file and launch the KittenBlock application.
+
+#### Installation Demo
+
+![](./images/189_mac1.png)
+
+[MacOS Installation Demo](https://youtu.be/U8nrqviWDlI)
+
+## Troubleshooting
 
 ### 1. KittenBlock launches to a blue or white screen.
 

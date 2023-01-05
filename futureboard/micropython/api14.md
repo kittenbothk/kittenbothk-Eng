@@ -234,13 +234,13 @@ Stops the RFID scanning.
 
 Returns the RFID UUID.
 
-    RFID().write(BLOCK, SECTOR, DATA)
-    RFID().read(BLOCK, SECTOR)
+    RFID().write(SECTOR, BLOCK, DATA)
+    RFID().read(SECTOR, BLOCK)
 
 Writes or read the data from the RFID tag.
 
-- BLOCK: RFID block, 1~16.
-- SECTOR: RFID sector, 0~2.
+- SECTOR: RFID sector, 1~16.
+- BLOCK: RFID block, 0~2.
 - DATA: The data to be written.
 
 ## Colour and Gesture Module

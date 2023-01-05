@@ -55,7 +55,7 @@ Set the recognition length in seconds with parameter sec, recommended length is 
     import audio
     au = audio.Audio()
 
-    wifi.connect(str("3DJollyFab"), "goodluckjf11b")
+    wifi.connect("", "")
     screen.clear()
     screen.text(au.recognize(vid=1737, sec=2),5,10,1,(0, 119, 255))
 

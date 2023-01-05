@@ -8,7 +8,7 @@ KittenBlock is the programming platform developed by Kittenbot for STEM Educatio
 
 For Windows 10:
 
-Download the Zipped File from [Download Kittenblock 1.88](https://bit.ly/KittenblockHK188).
+Download the Zipped File from [Download Kittenblock 1.89](https://bit.ly/KittenblockHK18911).
 
 ![](./images/187download.png)  
 

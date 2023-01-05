@@ -35,6 +35,12 @@ Returns a list with the configuration including IP Address, Subnet Mask, Gateway
     
 Returns the physical address of the FutureBoard.
 
+### 5. File Download
+
+    wifi.download("PASTE FILE LINK","FILE NAME")
+
+Downloads a file from a file URL and saves it to the SD card.
+
 ### Sample Program 1~4
 
     #/bin/python

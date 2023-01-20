@@ -1,4 +1,4 @@
-# Brick-Built Robotic Arm
+# Industry 4.0 Robotic Arm
 
 ![](./images/robot_arm_3.png)
 

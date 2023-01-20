@@ -53,9 +53,9 @@ Introduction and support for Kittenbot's Educational Kit Sets.
 
 .. toctree::
     :maxdepth: 2
-    :caption: Brick-Built Robotic Arm
+    :caption: Industry 4.0 Robotic Arm
 
-    lego_robot_arm/index
+    lego_robot_arm/intro
 
 .. toctree::
     :maxdepth: 2

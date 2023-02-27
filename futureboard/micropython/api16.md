@@ -461,6 +461,24 @@ Generates a speech using BaiduAI.
 
 -text: The text to be spoken.
 
+## Wifi and Baidu TTS Sample Program
+
+    from future import *
+    from futureKOI import KOI
+
+    koi.screen_mode(2, cmd='K6')
+    koi = KOI(tx='P2',rx='P12',id=1)
+    koi.connect_wifi(router="apname" ,pwd="password" ,cmd='K50')
+    while True:
+    if sensor.btnValue("a"):
+        koi.baiduAI_tts(txt='"hello"' ,cmd='K78')
+        sleep(0.2)
+    if sensor.btnValue("b"):
+        screen.clear()
+        screen.text((koi.get_ip(cmd='K54')),5,10,1,(255, 255, 255))
+        screen.refresh()
+        sleep(0.2)
+
 ## Audio
 
 ### Record Wav File

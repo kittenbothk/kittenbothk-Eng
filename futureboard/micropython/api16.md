@@ -88,6 +88,31 @@ Runs the multi face detection.
 
 Returns the number of faces detected.
 
+## Face Detection Sample Program
+
+    from future import *
+    from futureKOI import KOI
+
+    screen.sync = 0
+    koi = KOI(tx='P2',rx='P12',id=1)
+    koi.screen_mode(2, cmd='K6')
+    koi.face_yolo_load(cmd='K30')
+    while True:
+    if koi.face_detect(cmd='K31'):
+        screen.fill((0, 0, 0))
+        screen.text("Face detected:",5,10,1,(255, 255, 255))
+        screen.text("X:",5,20,2,(255, 255, 255))
+        screen.text((koi.get_re(cmd='K31')[0]),5,40,3,(255, 255, 255))
+        screen.text("Y:",5,70,2,(255, 255, 255))
+        screen.text((koi.get_re(cmd='K31')[1]),5,90,3,(255, 255, 255))
+        screen.refresh()
+    else:
+        screen.fill((0, 0, 0))
+        screen.text("No face",5,10,1,(255, 255, 255))
+        screen.refresh()
+    sleep(0.5)
+
+
 ## Machine Learning Image Classifier
 
 ### Initiate Image Classifier
@@ -95,20 +120,6 @@ Returns the number of faces detected.
     koi.init_cls()
 
 Starts image classifier mode.
-
-### Classifier Add Tag
-
-    koi.cls_add_tag(tag,cmd="K41")
-
-Add an image tag.
-
-- tag: Name of the tag.
-
-### Run Image Classifier
-
-    koi.cls_run(cmd="K42")
-
-Returns the tag for the classified object.
 
 ### Save the Classifier Model
 
@@ -125,6 +136,75 @@ Saves the model to the SD Card.
 Loads the model from the SD Card.
 
 - model: The filename on the SD card.
+
+### Classifier Add Tag
+
+    koi.cls_add_tag(tag,cmd="K41")
+
+Add an image tag.
+
+- tag: Name of the tag.
+
+### Run Image Classifier
+
+    koi.cls_run(cmd="K42")
+
+Returns the tag for the classified object.
+
+## KOI Classifier Model Training Sample Program
+
+    from future import *
+    from futureKOI import KOI
+
+    items = []
+    i = 0
+
+    items.append('rock')
+    items.append('paper')
+    items.append('scissors')
+    i = 0
+    koi = KOI(tx='P2',rx='P12',id=1)
+    koi.init_cls()                                                      # init classifier
+    koi.screen_mode(2, cmd='K6')    
+    screen.sync = 0
+    while True:
+    screen.fill((0, 0, 0))
+    if sensor.btnValue("a") and sensor.btnValue("b"):
+        koi.cls_save_model(model="model.json",cmd='K43')                # saves the classifier model
+        buzzer.melody(1)
+    else:
+        if sensor.btnValue("a"):
+        sleep(0.2)
+        if not sensor.btnValue("b"):
+            koi.cls_add_tag(id=(items[int((i % 3 + 1) - 1)]),cmd='K41') # classifier add tag
+            buzzer.melody(4)
+        else:
+        if sensor.btnValue("b"):
+            sleep(0.2)
+            buzzer.tone(440,0.2)
+            if not sensor.btnValue("a"):
+            i += 1
+    screen.text("Now training:",0,10,1,(255, 255, 255))
+    screen.text((items[int((i % 3 + 1) - 1)]),0,30,2,(255, 255, 255))
+    screen.text("Press A to add tag",0,60,1,(255, 255, 255))
+    screen.text("Press B for next tag",0,80,1,(255, 255, 255))
+    screen.text("Press A+B to save",0,100,1,(255, 255, 255))
+    screen.refresh()
+
+## KOI Image Classification Sample Program
+
+    from future import *
+    from futureKOI import KOI
+
+    koi = KOI(tx='P2',rx='P12',id=1)
+    koi.screen_mode(2, cmd='K6')
+    koi.init_cls()
+    koi.cls_load_model(model="model.json",cmd='K44')                    # loads the classifier model
+    while True:
+    if sensor.btnValue("a"):
+        screen.clear()
+        screen.text((koi.cls_run(cmd='K42')),5,10,2,(255, 255, 255))    # displays the classified tag
+        screen.refresh()
 
 ## Colour Blob and Line Tracking
 
@@ -147,12 +227,33 @@ Returns a list containing the values of the colour blob.
 
 ### Obtain Colour Blob Values
 
-    koi.get_re(cmd="K15")[1] #cx
-    koi.get_re(cmd="K15")[2] #cy
-    koi.get_re(cmd="K15")[3] #w
-    koi.get_re(cmd="K15")[4] #h
+    koi.get_re(cmd="K15")[0] #cx
+    koi.get_re(cmd="K15")[1] #cy
+    koi.get_re(cmd="K15")[2] #w
+    koi.get_re(cmd="K15")[3] #h
 
 Returns the specific value of the colour blob.
+
+## Blob Detection Sample Program
+
+    from future import *
+    from futureKOI import KOI
+
+    koi.screen_mode(2, cmd='K6')
+    koi = KOI(tx='P2',rx='P12',id=1)
+    while True:
+    if sensor.btnValue("a"):
+        koi.color_cali(name="red" ,cmd='K16')
+        sleep(0.3)
+    if sensor.btnValue("b"):
+        if koi.color_tracking(name="red", cmd='K15'):
+        screen.clear()
+        screen.text((koi.get_re(cmd='K15')[0]),5,10,1,(255, 255, 255))
+        screen.text((koi.get_re(cmd='K15')[1]),5,20,1,(255, 255, 255))
+        screen.text((koi.get_re(cmd='K15')[2]),5,30,1,(255, 255, 255))
+        screen.text((koi.get_re(cmd='K15')[3]),5,40,1,(255, 255, 255))
+        screen.refresh()
+        sleep(0.3)
 
 ### Tracks a line
 
@@ -165,12 +266,34 @@ Returns a list containing the values of the line.
 
 ### Obtain Line Values
 
-    koi.get_re(cmd="K12")[1] #x1
-    koi.get_re(cmd="K12")[2] #y1
-    koi.get_re(cmd="K12")[3] #x2
-    koi.get_re(cmd="K12")[4] #y2
+    koi.get_re(cmd="K12")[0] #x1
+    koi.get_re(cmd="K12")[1] #y1
+    koi.get_re(cmd="K12")[2] #x2
+    koi.get_re(cmd="K12")[3] #y2
 
 Returns the specific value of the line.
+
+## Line Detection Sample Program
+
+    from future import *
+    from futureKOI import KOI
+
+    koi.screen_mode(2, cmd='K6')
+    koi = KOI(tx='P2',rx='P12',id=1)
+    while True:
+    if sensor.btnValue("a"):
+        koi.color_cali(name="red" ,cmd='K16')
+        sleep(0.3)
+    if sensor.btnValue("b"):
+        if koi.line_tracking(name="red" ,cmd='K12'):
+        screen.clear()
+        screen.text((koi.get_re(cmd='K12')[0]),5,10,1,(255, 255, 255))
+        screen.text((koi.get_re(cmd='K12')[1]),5,20,1,(255, 255, 255))
+        screen.text((koi.get_re(cmd='K12')[2]),5,30,1,(255, 255, 255))
+        screen.text((koi.get_re(cmd='K12')[3]),5,40,1,(255, 255, 255))
+        screen.refresh()
+        sleep(0.3)
+
 
 ## Shape Detection
 
@@ -207,6 +330,32 @@ Runs the rectangle detection.
 
 Returns the specific value of the rectangle.
 
+## Shape Detection Sample Program
+
+    from futureKOI import KOI
+    from future import *
+
+    koi.screen_mode(2, cmd='K6')
+    koi = KOI(tx='P2',rx='P12',id=1)
+    while True:
+    if sensor.btnValue("a"):
+        if koi.circle_detect(th=4000, cmd='K10'):
+        screen.clear()
+        screen.text((koi.get_re(cmd='K10')[0]),5,10,1,(255, 255, 255))
+        screen.text((koi.get_re(cmd='K10')[0]),5,20,1,(255, 255, 255))
+        screen.text((koi.get_re(cmd='K10')[0]),5,30,1,(255, 255, 255))
+        screen.refresh()
+        sleep(0.3)
+    if sensor.btnValue("b"):
+        if koi.rectangle_detect(th=4000,cmd='K11'):
+        screen.clear()
+        screen.text((koi.get_re(cmd='K11')[0]),5,10,1,(255, 255, 255))
+        screen.text((koi.get_re(cmd='K11')[1]),5,20,1,(255, 255, 255))
+        screen.text((koi.get_re(cmd='K11')[2]),5,30,1,(255, 255, 255))
+        screen.text((koi.get_re(cmd='K11')[3]),5,40,1,(255, 255, 255))
+        screen.refresh()
+        sleep(0.3)
+
 ## Code Scanner
 
 ### QR Code Scanner
@@ -236,6 +385,22 @@ Runs the scanner for Apriltag.
     koi.get_re(cmd="K23")[4] #h
 
 Returns the specific data of the Apriltag.
+
+## Code Scanner Sample Program
+
+    from future import *
+    from futureKOI import KOI
+
+    koi = KOI(tx='P2',rx='P12',id=1)
+    koi.screen_mode(2, cmd='K6')
+    while True:
+    if sensor.btnValue("a"):
+        screen.clear()
+        screen.text((koi.scan_qrcode(cmd='K20')),5,10,2,(255, 255, 255))
+    if sensor.btnValue("b"):
+        screen.clear()
+        screen.text((koi.scan_barcode(cmd='K22')),5,10,2,(255, 255, 255))
+
 
 ## Wifi Connection
 
@@ -349,6 +514,61 @@ Saves the speech model to the SD card.
 Loads a speech model.
 
 - file: The filename.
+
+## Speech Recognition Training Sample Program
+
+    from future import *
+    from futureKOI import KOI
+
+    items = []
+    i = 0
+
+
+    items.append('rock')
+    items.append('paper')
+    items.append('scissors')
+    i = 0
+    koi = KOI(tx='P2',rx='P12',id=1)
+    koi.audio_noisetap()
+    koi.screen_mode(2, cmd='K6')
+    screen.sync = 0
+    while True:
+    screen.fill((0, 0, 0))
+    if sensor.btnValue("a") and sensor.btnValue("b"):
+        buzzer.melody(1)
+        koi.speech_save_model("speech.json")
+    else:
+        if sensor.btnValue("a"):
+        sleep(0.2)
+        if not sensor.btnValue("b"):
+            koi.speech_add_tag((items[int((i % 3 + 1) - 1)]))
+        else:
+        if sensor.btnValue("b"):
+            sleep(0.2)
+            buzzer.tone(440,0.2)
+            if not sensor.btnValue("a"):
+            i += 1
+    screen.text("Now training:",0,10,1,(255, 255, 255))
+    screen.text((items[int((i % 3 + 1) - 1)]),0,30,2,(255, 255, 255))
+    screen.text("Press A to add tag",0,60,1,(255, 255, 255))
+    screen.text("Press B for next tag",0,80,1,(255, 255, 255))
+    screen.text("Press A+B to save",0,100,1,(255, 255, 255))
+    screen.refresh()
+
+## Speech Recognition Sample Program
+
+    from future import *
+    from futureKOI import KOI
+
+
+    koi = KOI(tx='P2',rx='P12',id=1)
+    koi.audio_noisetap()
+    koi.speech_load_model("speech.json")
+    while True:
+    if sensor.btnValue("a"):
+        screen.clear()
+        screen.text((koi.speech_run(cmd='K65')),5,10,2,(255, 255, 255))
+        screen.refresh()
 
 ## Miscellaneous
 

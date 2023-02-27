@@ -170,3 +170,16 @@ Fill in the topic name according to the documentation of the MQTT Broker.
     
     # try below for waiting until message update
     # c.wait_msg()
+
+## urequests and ujson Libraries
+
+urequests and ujson libraries are also available to use. Please visit their official documentation for details.
+
+[urequests API documentation](https://makeblock-micropython-api.readthedocs.io/en/latest/public_library/Third-party-libraries/urequests.html)
+
+[ujson API Documentation](https://github.com/ultrajson/ultrajson)
+
+### Import urequests and ujson Libraries
+
+    import urequests
+    import json

@@ -101,7 +101,7 @@ Fill in the message and topic name according to the documentation of the MQTT Br
 
 ### 10. Read the Message from the MQTT Topic
 
-    myMQTT.mqttRead(topic)
+    myMQTT.read(topic)
 
 Fill in the topic name according to the documentation of the MQTT Broker.
 
@@ -141,7 +141,7 @@ Fill in the topic name according to the documentation of the MQTT Broker.
             c.publish('/topic1','x'+str(x))
             sleep(0.2)
         # Print message if message is not None
-        mqttT = c.mqttRead('/topic1')
+        mqttT = c.read('/topic1')
         if mqttT:
             print(mqttT)
 

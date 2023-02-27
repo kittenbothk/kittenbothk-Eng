@@ -2,7 +2,7 @@
 
 ## Import KOI Library
 
-Import SugarASR library to make use of its functions.
+Import KOI library to make use of its functions.
 
     from futureKOI import KOI
 
@@ -466,8 +466,8 @@ Generates a speech using BaiduAI.
     from future import *
     from futureKOI import KOI
 
-    koi.screen_mode(2, cmd='K6')
     koi = KOI(tx='P2',rx='P12',id=1)
+    koi.screen_mode(2, cmd='K6')
     koi.connect_wifi(router="apname" ,pwd="password" ,cmd='K50')
     while True:
     if sensor.btnValue("a"):

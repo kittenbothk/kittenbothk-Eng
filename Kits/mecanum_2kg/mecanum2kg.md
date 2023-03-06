@@ -19,8 +19,9 @@ Mecanum Wheel Robot is the upgraded version of the Mecannum Wheel Robot, this ve
 - GeekServo 2KG Motor x4
 - Mecanum Wheel x4
 - GeekServo O360 Motor x1
-- Turret Expansion Set x1
 - 18650 Lithium Ion Battery x1
+- Turret Expansion Set x1 (Optional)
+- Joyfrog Controller (Optional)
 
 ## Product Showcase
 

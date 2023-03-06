@@ -12,7 +12,7 @@ KittenCode can support Python programming and MicroPython specifically for Kitte
 
 ## Download KittenCode
 
-[Download KittenCode for Windows](https://drive.google.com/file/d/1OLzysWMt-g3vS1zrfxcEtUYx0pS-NtBl/view?usp=share_link
+[Download KittenCode for Windows](https://drive.google.com/file/d/1OLzysWMt-g3vS1zrfxcEtUYx0pS-NtBl/view?usp=share_link)
 
 [Download KittenCode for Mac(Intel)](https://drive.google.com/file/d/1_FXt2yvbp8iXSf8e5zIaXO6B-S9gxJ1d/view?usp=share_link)
 

@@ -1,10 +1,10 @@
-# Armourbit Expansion Box
+# Armourbit Extension Box
 
-Armourbit Expansion Box (HKBD9006A)
+Armourbit Extension Box (HKBD9006A)
 
 ![](./images/01_03.png)
 
-Similar to robotbit, Armourbit is an expansion module for Micro:bit, due to its boxy shape, it is called an expansion box.
+Similar to robotbit, Armourbit is an Extension module for Micro:bit, due to its boxy shape, it is called an Extension box.
 
 Armourbit is the main control hub for the Powerbrick system, connecting the Micro:bit with various "bricks".
 
